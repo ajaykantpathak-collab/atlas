@@ -1,0 +1,549 @@
+{
+ "generated": "2026-09-27",
+ "sources": {
+  "corpora": [
+   "D:/platform/deploy/content/enhanced_nodes_md",
+   "D:/platform/deploy/content/cisce_nodes_v2"
+  ],
+  "note": "CBSE socsci nodes (c6-c12 geo/civ/his/soc) in enhanced_nodes_md + ICSE/ISC socsci (c6-c10 geo/histciv icse, c11-c12 geo/hist/soc isc) in cisce_nodes_v2."
+ },
+ "classes": {
+  "6": {
+   "books": [
+    {
+     "subject": "civics",
+     "board": "cbse",
+     "chapters": 5,
+     "nodes": 27
+    },
+    {
+     "subject": "geo",
+     "board": "icse",
+     "chapters": 6,
+     "nodes": 88
+    },
+    {
+     "subject": "geography",
+     "board": "cbse",
+     "chapters": 7,
+     "nodes": 34
+    },
+    {
+     "subject": "histciv",
+     "board": "icse",
+     "chapters": 8,
+     "nodes": 64
+    },
+    {
+     "subject": "history",
+     "board": "cbse",
+     "chapters": 11,
+     "nodes": 59
+    }
+   ],
+   "solver_classification": [
+    {
+     "topic": "globe: latitudes/longitudes, grid references",
+     "solver_able": false,
+     "covered": false,
+     "reason": "locational/conceptual; corpus teaches coordinates qualitatively (c6_geography_ch06/ch07), no taught local-time computation at this level"
+    },
+    {
+     "topic": "map scale distance conversion (1 cm = X km)",
+     "solver_able": true,
+     "covered": true,
+     "family": "MAP_SCALE",
+     "reason": "maps chapter teaches scale; conversion arithmetic grounded by class-11 scale nodes (c11_geo_cbse_22_001/22_003) that restate the same 1 cm = X km / RF 1:N rules"
+    },
+    {
+     "topic": "rotation/day-night, seasons",
+     "solver_able": false,
+     "covered": false,
+     "reason": "conceptual earth-motions content (c6_geography_ch02); no closed-form computation taught at class 6"
+    },
+    {
+     "topic": "history: kingdoms, dates of emperors",
+     "solver_able": false,
+     "covered": false,
+     "reason": "event dating is factual recall; only chronology intervals between corpus-dated national events are solver-able (class 8-10 corpus dates)"
+    },
+    {
+     "topic": "civics: local government, diversity",
+     "solver_able": false,
+     "covered": false,
+     "reason": "descriptive civics; no numeric core in corpus"
+    }
+   ]
+  },
+  "7": {
+   "books": [
+    {
+     "subject": "civ",
+     "board": "cbse",
+     "chapters": 3,
+     "nodes": 33
+    },
+    {
+     "subject": "geo",
+     "board": "cbse",
+     "chapters": 5,
+     "nodes": 54
+    },
+    {
+     "subject": "geo",
+     "board": "icse",
+     "chapters": 7,
+     "nodes": 91
+    },
+    {
+     "subject": "histciv",
+     "board": "icse",
+     "chapters": 8,
+     "nodes": 62
+    }
+   ],
+   "solver_classification": [
+    {
+     "topic": "environment (natural/human), air/water",
+     "solver_able": false,
+     "covered": false,
+     "reason": "descriptive geography; corpus nodes are conceptual"
+    },
+    {
+     "topic": "time-zone arithmetic (longitude -> local time, 1 deg = 4 min)",
+     "solver_able": true,
+     "covered": true,
+     "family": "TIME_ZONE_LONGITUDE",
+     "reason": "c7_geo_ch01_001 teaches 360 deg/24 h = 4 min per degree (approx 30 deg = 2 h); full local-time family grounded at c11_geo_cbse_08_006 and c9_geo_icse_01_007"
+    },
+    {
+     "topic": "medieval/medieval-India chronology intervals",
+     "solver_able": true,
+     "covered": true,
+     "family": "CHRONO_INTERVAL",
+     "reason": "years-between arithmetic applied to corpus-dated events (c7_histciv_icse constitution dates and later national-movement dates); ruler-specific dates not tabled (honest decline)"
+    },
+    {
+     "topic": "civics: markets, media, advertising",
+     "solver_able": false,
+     "covered": false,
+     "reason": "descriptive; no numeric core in corpus"
+    },
+    {
+     "topic": "tribes/nomads/bhakti essay topics",
+     "solver_able": false,
+     "covered": false,
+     "reason": "narrative history; cause-explain asks are not solver-able"
+    }
+   ]
+  },
+  "8": {
+   "books": [
+    {
+     "subject": "civ",
+     "board": "cbse",
+     "chapters": 4,
+     "nodes": 46
+    },
+    {
+     "subject": "geo",
+     "board": "cbse",
+     "chapters": 2,
+     "nodes": 24
+    },
+    {
+     "subject": "geo",
+     "board": "icse",
+     "chapters": 7,
+     "nodes": 83
+    },
+    {
+     "subject": "histciv",
+     "board": "icse",
+     "chapters": 10,
+     "nodes": 82
+    }
+   ],
+   "solver_classification": [
+    {
+     "topic": "resources, agriculture, industries (class-8 geography)",
+     "solver_able": false,
+     "covered": false,
+     "reason": "descriptive; corpus worked examples are case analyses, not closed-form"
+    },
+    {
+     "topic": "India location: longitudinal extent -> time spread (IST)",
+     "solver_able": true,
+     "covered": true,
+     "family": "TIME_ZONE_LONGITUDE",
+     "reason": "c8_geo_icse_06_001 works 68 deg 7'E vs standard meridian: 14.38 deg x 4 min = 57.5 min behind; east-add/west-subtract rule"
+    },
+    {
+     "topic": "colonialism timeline: 1757 Plassey -> 1857 -> 1947 intervals",
+     "solver_able": true,
+     "covered": true,
+     "family": "CHRONO_INTERVAL",
+     "reason": "corpus dates 1857 Revolt (c10_histciv_icse_04_010), 1885 INC (c10_histciv_icse_05_001), 1947 Independence (c10_civ_cbse_02_003); intervals between corpus events are closed-form"
+    },
+    {
+     "topic": "parliament: Lok Sabha strength, quorum, majority",
+     "solver_able": true,
+     "covered": true,
+     "family": "MAJORITY_COUNT",
+     "reason": "c8_histciv_icse_09_001 works quorum = one-tenth of 552 = 55 members; c10_histciv_icse_01_003/004 teach simple vs special majority counting"
+    },
+    {
+     "topic": "secularism/understanding marginalisation essays",
+     "solver_able": false,
+     "covered": false,
+     "reason": "normative civics; not numeric"
+    }
+   ]
+  },
+  "9": {
+   "books": [
+    {
+     "subject": "civ",
+     "board": "cbse",
+     "chapters": 3,
+     "nodes": 29
+    },
+    {
+     "subject": "geo",
+     "board": "cbse",
+     "chapters": 4,
+     "nodes": 36
+    },
+    {
+     "subject": "geo",
+     "board": "icse",
+     "chapters": 7,
+     "nodes": 54
+    },
+    {
+     "subject": "histciv",
+     "board": "icse",
+     "chapters": 11,
+     "nodes": 104
+    }
+   ],
+   "solver_classification": [
+    {
+     "topic": "India size and location (extent 68deg7'E-97deg25'E)",
+     "solver_able": true,
+     "covered": true,
+     "family": "TIME_ZONE_LONGITUDE",
+     "reason": "c11_geo_cbse_08_008 works the 29deg18' extent x 4 min = 117.2 min approx 1 h 57 min spread; IST = UTC+5:30 at 82deg30'E (c11_geo_cbse_08_003)"
+    },
+    {
+     "topic": "climate: station data reading (rainiest/driest month, annual totals)",
+     "solver_able": true,
+     "covered": true,
+     "family": "CLIMATE_TABLE",
+     "reason": "c11_geo_cbse_10_005 mastery criteria: read a climatological table (12 months x temp + rainfall) and identify driest/wettest month and annual totals; worked examples included"
+    },
+    {
+     "topic": "electoral politics: FPTP winner/vote-counting",
+     "solver_able": true,
+     "covered": true,
+     "family": "FPTP_WINNER",
+     "reason": "c8_civ_ch1_5 worked example: 1,000,000 votes, A 350k/B 300k/C 200k/D 150k -> plurality winner with 35%, no absolute majority"
+    },
+    {
+     "topic": "drainage/physical features of India",
+     "solver_able": false,
+     "covered": false,
+     "reason": "physiography is descriptive"
+    },
+    {
+     "topic": "French/Russian revolution essays",
+     "solver_able": true,
+     "covered": true,
+     "family": "CHRONO_INTERVAL",
+     "reason": "chronology intervals only (French Revolution 1789-1799 in c8_histciv_icse_02_001); cause-effect essays refused"
+    },
+    {
+     "topic": "food security / poverty line (economics ch 3-4)",
+     "solver_able": false,
+     "covered": false,
+     "reason": "owned by the economics subject module; socsci does not double-fire"
+    }
+   ]
+  },
+  "10": {
+   "books": [
+    {
+     "subject": "civ",
+     "board": "cbse",
+     "chapters": 5,
+     "nodes": 41
+    },
+    {
+     "subject": "geo",
+     "board": "cbse",
+     "chapters": 7,
+     "nodes": 61
+    },
+    {
+     "subject": "geo",
+     "board": "icse",
+     "chapters": 11,
+     "nodes": 88
+    },
+    {
+     "subject": "histciv",
+     "board": "icse",
+     "chapters": 14,
+     "nodes": 138
+    }
+   ],
+   "solver_classification": [
+    {
+     "topic": "resources/land-use percentage arithmetic",
+     "solver_able": false,
+     "covered": false,
+     "reason": "corpus works these as case analyses (c10_geo_cbse_01_009); percentage arithmetic is the maths engine's territory"
+    },
+    {
+     "topic": "nationalism in India: movement chronology (1919-1942)",
+     "solver_able": true,
+     "covered": true,
+     "family": "CHRONO_INTERVAL",
+     "reason": "corpus dates: Rowlatt/Jallianwala 1919, Non-Cooperation 1920-22, Lahore 1929, Civil Disobedience 1930-34, Quit India Aug 1942 (c10_histciv_icse_07_001..006, c6_history_ch11_047/048)"
+    },
+    {
+     "topic": "century/decade placement of corpus-dated events",
+     "solver_able": true,
+     "covered": true,
+     "family": "CENTURY_DECADE",
+     "reason": "corpus uses 19th-century framing for 1885-era events (c10_histciv_icse_05_001); standard 1801-1900 = 19th century conversion is closed-form"
+    },
+    {
+     "topic": "timeline ordering of national-movement events",
+     "solver_able": true,
+     "covered": true,
+     "family": "TIMELINE_ORDER",
+     "reason": "ordering validated against the corpus-dated movement table (relay-race framing in c10_histciv_icse_07_001)"
+    },
+    {
+     "topic": "power sharing / federalism essays",
+     "solver_able": false,
+     "covered": false,
+     "reason": "normative civics"
+    },
+    {
+     "topic": "party system: seat share vs vote share",
+     "solver_able": true,
+     "covered": true,
+     "family": "SEAT_VOTE_SHARE",
+     "reason": "c12_soc_cbse_10_008: 303 seats with 37.4% votes; State B 22/25 seats with 55% votes -> 88% seat share; seat-vs-vote gap arithmetic taught"
+    },
+    {
+     "topic": "coalition government post-poll arithmetic",
+     "solver_able": true,
+     "covered": true,
+     "family": "COALITION_COUNT",
+     "reason": "c9_civ_ch2_10: Lok Sabha 543, majority mark 272; 240 largest party short by 32; Karnataka 104 + 80 + 37 = 117 post-poll coalition"
+    }
+   ]
+  },
+  "11": {
+   "books": [
+    {
+     "subject": "geo",
+     "board": "cbse",
+     "chapters": 26,
+     "nodes": 223
+    },
+    {
+     "subject": "geo",
+     "board": "isc",
+     "chapters": 7,
+     "nodes": 68
+    },
+    {
+     "subject": "soc",
+     "board": "cbse",
+     "chapters": 10,
+     "nodes": 106
+    },
+    {
+     "subject": "soc",
+     "board": "isc",
+     "chapters": 12,
+     "nodes": 104
+    }
+   ],
+   "solver_classification": [
+    {
+     "topic": "India location: standard meridian, IST = UTC+5:30",
+     "solver_able": true,
+     "covered": true,
+     "family": "TIME_ZONE_LONGITUDE",
+     "reason": "c11_geo_cbse_08_003 (82deg30'E, Mirzapur, UTC+5:30), 08_006 (1 deg = 4 min rule mastery criterion), 22_006 (noon IST -> local mean time at 68 deg E / 97 deg E)"
+    },
+    {
+     "topic": "map scale: RF 1:N and statement scale conversions",
+     "solver_able": true,
+     "covered": true,
+     "family": "MAP_SCALE",
+     "reason": "c11_geo_cbse_22_001: RF 1:50,000 -> 3.5 cm = 1.75 km; 22_003: 1:250,000 = 2.5 km; 08_002/08_007: 1 cm = 150 km / 200 km conversions"
+    },
+    {
+     "topic": "population composition: sex ratio (females per 1000 males)",
+     "solver_able": true,
+     "covered": true,
+     "family": "SEX_RATIO_LITERACY",
+     "reason": "c11_geo_cbse_16_003 teaches the formula and India 2011 = 943"
+    },
+    {
+     "topic": "population composition: literacy rate",
+     "solver_able": true,
+     "covered": true,
+     "family": "SEX_RATIO_LITERACY",
+     "reason": "c11_geo_cbse_16_003 (literacy-rate percentage of population); computed from literates/population counts"
+    },
+    {
+     "topic": "population growth: decadal growth rate",
+     "solver_able": true,
+     "covered": true,
+     "family": "POP_GROWTH",
+     "reason": "c12_geo_cbse_09_005 FORMULA: growth = (P2-P1)/P1 x 100; corpus figures 17.7% (2001-11), -0.31% (1911-21) in c11_geo_cbse_16_002/c12_geo_cbse_09_004"
+    },
+    {
+     "topic": "population doubling time (rule of 70)",
+     "solver_able": true,
+     "covered": true,
+     "family": "POP_GROWTH",
+     "reason": "c12_geo_cbse_09_005 FORMULA: doubling time approx 70 / annual growth rate; c11_geo_cbse_16_006 works 70/1.63 = approx 43 years"
+    },
+    {
+     "topic": "vital statistics: CBR/CDR/natural growth",
+     "solver_able": true,
+     "covered": true,
+     "family": "VITAL_STATS",
+     "reason": "c12_geo_cbse_02_005 teaches CBR/CDR formulas and natural vs actual growth; c12_geo_cbse_09_005: natural growth = CBR - CDR; c12_soc_cbse_02_004 defines per-1000 rates"
+    },
+    {
+     "topic": "population density (persons per sq km)",
+     "solver_able": true,
+     "covered": true,
+     "family": "POP_DENSITY",
+     "reason": "c12_geo_cbse_09_002: density = population / land area; India 2011 = 382; worked 82,998,509 / 94,163 = 881 in c12_geo_cbse_09_004"
+    },
+    {
+     "topic": "physical geography: earth interior, landforms, atmosphere",
+     "solver_able": false,
+     "covered": false,
+     "reason": "corpus has physics-flavoured worked examples (wave velocities, geothermal gradients) - owned by physics/maths engines, not socsci"
+    },
+    {
+     "topic": "constitution: why/philosophy essays",
+     "solver_able": false,
+     "covered": false,
+     "reason": "normative"
+    }
+   ]
+  },
+  "12": {
+   "books": [
+    {
+     "subject": "geo",
+     "board": "cbse",
+     "chapters": 21,
+     "nodes": 229
+    },
+    {
+     "subject": "geo",
+     "board": "isc",
+     "chapters": 7,
+     "nodes": 95
+    },
+    {
+     "subject": "soc",
+     "board": "cbse",
+     "chapters": 15,
+     "nodes": 163
+    },
+    {
+     "subject": "soc",
+     "board": "isc",
+     "chapters": 10,
+     "nodes": 109
+    }
+   ],
+   "solver_classification": [
+    {
+     "topic": "human geography: population distribution/migration",
+     "solver_able": false,
+     "covered": false,
+     "reason": "push-pull analysis is qualitative; only density/growth arithmetic is solver-able (covered in class-11 families, reused for class 12)"
+    },
+    {
+     "topic": "human development: HDI/composition comparisons",
+     "solver_able": false,
+     "covered": false,
+     "reason": "index construction beyond corpus teaching; corpus works comparisons narratively (c12_geo_cbse_03_001)"
+    },
+    {
+     "topic": "sex-ratio/literacy/growth/density arithmetic (class-12 census)",
+     "solver_able": true,
+     "covered": true,
+     "family": "SEX_RATIO_LITERACY/POP_GROWTH/POP_DENSITY",
+     "reason": "same corpus formulas as class 11 (c12_geo_cbse_02_005/02_007/09_002/09_004/09_005); solver serves class 11-12 probes identically"
+    },
+    {
+     "topic": "special majority / Art 368 vote counting",
+     "solver_able": true,
+     "covered": true,
+     "family": "MAJORITY_COUNT",
+     "reason": "c10_histciv_icse_01_003/004: special majority = two-thirds of present-and-voting AND majority of total membership; joint sitting simple majority worked (300 v 250)"
+    },
+    {
+     "topic": "contemporary world politics essays",
+     "solver_able": false,
+     "covered": false,
+     "reason": "analytical civics; no numeric core"
+    },
+    {
+     "topic": "history themes (Harappa, Bhakti, colonial cities)",
+     "solver_able": false,
+     "covered": false,
+     "reason": "source-based interpretation; chronology table does not extend to these (honest decline rather than invented dates)"
+    },
+    {
+     "topic": "sociology (Indian Society: demography, Malthus)",
+     "solver_able": false,
+     "covered": false,
+     "reason": "c12_soc_cbse demographic nodes define rates but worked computations belong to the socsci geo families; Malthus series arithmetic is maths"
+    }
+   ]
+  }
+ },
+ "solver_classification_note": "every solver topic checked against the socsci corpus; solver_able only where a closed-form, corpus-grounded computation exists (dates, census figures, taught formulas). Corpus evidence node ids are cited per topic. Essay/cause-explain asks, physics-flavoured density work, and economics topics are refused - no pseudo-solvers.",
+ "families_module": "deploy/backend/its/solver/socsci_families.py (+ root mirror), 14 families, batch-19",
+ "family_ids": [
+  "TIME_ZONE_LONGITUDE",
+  "POP_DENSITY",
+  "VITAL_STATS",
+  "POP_GROWTH",
+  "SEX_RATIO_LITERACY",
+  "CLIMATE_TABLE",
+  "MAP_SCALE",
+  "FPTP_WINNER",
+  "SEAT_VOTE_SHARE",
+  "MAJORITY_COUNT",
+  "COALITION_COUNT",
+  "CHRONO_INTERVAL",
+  "CENTURY_DECADE",
+  "TIMELINE_ORDER"
+ ],
+ "summary": {
+  "corpus_socsci_nodes": 2395,
+  "corpus_socsci_books": 29,
+  "topics_listed": 45,
+  "solver_able": 25,
+  "covered": 25,
+  "not_solver_able": 20
+ }
+}

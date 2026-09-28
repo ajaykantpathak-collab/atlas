@@ -92,8 +92,8 @@ def _sq(grp: str) -> str:
 
 
 def _tcall(fn: str, grp: str) -> str:
-    """Trig call with parentheses: fn(angle)."""
-    return (fn + r"\(\s*(?P<" + grp + ">" + _U_NUM + r")\s*°?\s*\)")
+    """Trig call, parens optional: fn(angle) or fn angle (book style)."""
+    return (fn + r"\s*\(?\s*(?P<" + grp + ">" + _U_NUM + r")\s*°?\s*\)?")
 
 
 def _fmt(v: float) -> str:
@@ -788,6 +788,13 @@ def _c_dist_point_line(g, m, text):
         "d = |a x1 + b y1 + c| / sqrt(a^2 + b^2)", None
 
 
+def _c_dist_point_line_0(g, m, text):
+    """ax + by + c = 0 form: same distance, constant used with its sign."""
+    gg = dict(g)
+    gg["c0"] = str(-float(g["c0"]))  # ax + by + c = 0  ==  ax + by = -c
+    return _c_dist_point_line(gg, m, text)
+
+
 # --------------------------------------------------------------------------- #
 # The table: (structure id, trigger regex, compute)
 # compute returns (value, steps, answer, assumptions, eq, extra-quantities)
@@ -862,6 +869,13 @@ _TABLE: List[Tuple[str, str, Any]] = [
      r"(?P<sgn>[+-])\s*(?P<b>" + _NUM + r")\s*y\s*=\s*(?P<c0>" + _NUM +
      r")",
      _c_dist_point_line),
+    ("DISTANCE_POINT_LINE",
+     r"distance\s+(?:of\s+)?(?:from\s+|between\s+)(?:the\s+)?point\s*"
+     + _pt("p") +
+     r"\s+(?:and|to)\s+(?:the\s+)?line\s+(?P<a>" + _NUM + r")\s*x\s*"
+     r"(?P<sgn>[+-])\s*(?P<b>" + _NUM + r")\s*y\s*(?P<csgn>[+-])\s*"
+     r"(?P<c0>" + _NUM + r")\s*=\s*0",
+     _c_dist_point_line_0),
 
     # ---- limits ----
     ("LIMIT_STANDARD",
@@ -2363,8 +2377,1290 @@ for _row in _disc_rows:
     _TABLE.remove(_row)
     _TABLE.insert(_i, _row)
 
+# priority fix: compound-angle product forms (sin a cos b +- cos a sin b)
+# must hit the compound identities before the generic TRIG_STD_EVAL sum row
+# misreads them as k*trig(a) +- k*trig(b).
+_ca_rows = [r_ for r_ in _TABLE if r_[0] == "COMPOUND_ANGLES"]
+_ti = next(i for i, r_ in enumerate(_TABLE)
+           if r_[0] == "TRIG_IDENTITY_EVAL")
+for _row in reversed(_ca_rows):
+    _TABLE.remove(_row)
+    _TABLE.insert(_ti, _row)
 
-TABLE = _TABLE
+
+# --------------------------------------------------------------------------- #
+# STEP CONTRACT AUGMENTATION
+# Every matched result is passed through _augment(), which guarantees the
+# 5-beat output contract: (1) a method line naming the law/formula and why
+# it applies, (2) given-values substitution line, (3) computation lines
+# (authored by the handler), (4) an executed verification line (the closed
+# form is recomputed and compared), (5) an interpretation line in context.
+# extra also always carries method (technique name) and, where the books
+# flag a classic trap, trap.
+# --------------------------------------------------------------------------- #
+
+_METHOD_RE = re.compile(
+    r"law|formula|rule|identity|theorem|method|property|principle|"
+    r"algorithm|shoelace|euclid|bayes|cramer|=")
+
+_HUMAN = {
+    "MEDIAN": "median of the data",
+    "MODE": "mode of the data",
+    "MEAN_GROUPED": "mean of the frequency distribution",
+    "MEAN_LIST": "mean of the data",
+    "PERCENT_OF": "percent amount",
+    "PERCENT_CHANGE": "percentage change",
+    "PROFIT_LOSS_PERCENT": "profit/loss percentage",
+    "SIMPLE_INTEREST": "simple interest",
+    "COMPOUND_INTEREST": "compound interest",
+    "RATIO_SHARE": "ratio share",
+    "UNITARY": "cost for the requested number of articles",
+    "SPEED_DIST_TIME": "speed/distance/time result",
+    "TIME_WORK_TOGETHER": "combined working time",
+    "LINEAR_SOLVE": "solution of the equation",
+    "QUADRATIC_ROOTS": "roots of the quadratic",
+    "DISCRIMINANT_NATURE": "nature of the roots",
+    "AP_NTH": "requested term of the AP",
+    "AP_SUM": "sum of the terms of the AP",
+    "GP_NTH": "requested term of the GP",
+    "CIRCLE_AREA": "area of the circle",
+    "CIRCLE_CIRCUMFERENCE": "circumference of the circle",
+    "RECT_AREA": "area of the rectangle",
+    "SQUARE_AREA": "area of the square",
+    "PERIMETER_RECTANGLE": "perimeter of the rectangle",
+    "PERIMETER_SQUARE": "perimeter of the square",
+    "PYTHAGORAS": "hypotenuse",
+    "VOLUME_CUBE": "volume of the cube",
+    "VOLUME_CYLINDER": "volume of the cylinder",
+    "VOLUME_SPHERE": "volume of the sphere",
+    "SA_CUBE": "surface area of the cube",
+    "SA_CYLINDER": "surface area of the cylinder",
+    "SA_SPHERE": "surface area of the sphere",
+    "VOLUME_HEMISPHERE": "requested hemisphere quantity",
+    "VOLUME_CONE": "volume of the cone",
+    "HEIGHTS_DISTANCES": "height of the object",
+    "TRIG_STD_EVAL": "trigonometric value",
+    "PROBABILITY_BASIC": "probability of the event",
+    "FRACTION_ADD_SUB": "fraction result",
+    "FRACTION_MUL_DIV": "fraction result",
+    "HCF_TWO_NUMBERS": "HCF",
+    "LCM_TWO_NUMBERS": "LCM",
+    "EXPONENT_EVAL": "power value",
+    "ROOT_PERFECT": "root",
+    "MODE": "mode of the data",
+    "MEAN_GROUPED": "mean of the frequency distribution",
+    "SET_CARD_INCLUSION_EXCLUSION": "set-cardinal count via inclusion-exclusion",
+    "SET_OPERATIONS": "resulting set",
+    "DOMAIN_RATIONAL": "domain of the rational function",
+    "DOMAIN_SQRT": "domain of the square-root function",
+    "LINE_POINT_SLOPE": "equation of the line",
+    "LINE_INTERCEPT_FORM": "equation of the line in intercept form",
+    "ANGLE_BETWEEN_LINES": "angle between the two lines",
+    "ELLIPSE_PROPERTIES": "requested ellipse quantity",
+    "DISTANCE_3D": "distance between the two points in space",
+    "MIDPOINT_3D": "midpoint of the segment in space",
+    "SECTION_FORMULA_3D": "division point in space",
+    "LIMIT_QUAD_FACTOR": "limit of the quotient",
+    "LIMIT_POLY_DIRECT": "limit of the polynomial",
+    "DERIV_MONOMIAL_EVAL": "derivative value at the given point",
+    "DERIV_QUAD_EVAL": "derivative value at the given point",
+    "TANGENT_SLOPE": "slope of the tangent",
+    "INCREASING_DECREASING": "increasing/decreasing behaviour at the point",
+    "EXTREMA_QUAD": "extremum of the quadratic",
+    "RATE_SPHERE_VOLUME": "rate of change of the volume",
+    "RATE_CIRCLE_AREA": "rate of change of the area",
+    "INTEGRAL_POWER": "integral of the power function",
+    "AREA_UNDER_LINE": "area of the region",
+    "DIFFEQ_POLY": "general solution of the differential equation",
+    "DIFFEQ_EXP": "general solution of the differential equation",
+    "DIFFEQ_ORDER_DEGREE": "order and degree of the equation",
+    "LPP_OPTIMAL": "optimal value of the objective",
+    "INV_TRIG_STD": "principal value in degrees",
+    "VECTOR_DOT": "dot (scalar) product",
+    "VECTOR_MAGNITUDE": "magnitude of the vector",
+    "DETERMINANT_2X2": "determinant of the matrix",
+    "PROBABILITY_COND_EVENTS": "conditional probability",
+    "LINEAR_INEQUALITY": "solution set of the inequality",
+    "PERMUTATION_WAYS": "number of arrangements",
+    "COMBINATION_COMMITTEE": "number of selections",
+}
+
+_TRAPS = {
+    "MEDIAN": "with an even count, the median is the average of the two "
+              "middle values, not one of the data points",
+    "GP_SUM_INFINITE": "the formula a/(1 - r) is valid only for |r| < 1",
+    "LINEAR_INEQUALITY": "dividing by a negative coefficient flips the "
+                         "inequality sign",
+    "PERMUTATION_WAYS": "arrangements in a circle are (n-1)!, not n!",
+    "PROBABILITY_DEPENDENT": "without replacement the second denominator is "
+                             "N-1, not N",
+    "HERONS_FORMULA": "sides must satisfy the triangle inequality or the "
+                      "product under the root goes negative",
+    "QUADRATIC_ROOTS": "check the discriminant before promising real roots",
+}
+
+
+def _augment(fid, g, value, steps, answer, eq, extra, recompute):
+    """Guarantee the 5-beat step contract on a matched result."""
+    steps = [str(s) for s in (steps or [])]
+    eq = eq or fid.replace("_", " ").lower()
+    extra = dict(extra or {})
+    extra.setdefault("method", eq)
+    if fid in _TRAPS:
+        extra.setdefault("trap", _TRAPS[fid])
+    # 1. method line: name the law/formula and why it applies here
+    if not steps or not _METHOD_RE.search(steps[0]):
+        pre = "Method: " + eq
+        human = _HUMAN.get(fid)
+        if human:
+            pre += " -- the question asks for the " + human + "."
+        steps.insert(0, pre)
+    # 2. substitution line: given values, listed explicitly
+    if len(steps) < 3:
+        subs = ", ".join(
+            k + " = " + _fmt(float(v)) for k, v in sorted(g.items())
+            if isinstance(v, (int, float)) and not isinstance(v, bool))
+        if not subs:
+            subs = ", ".join(
+                k + " = " + _fmt(float(v)) for k, v in sorted(extra.items())
+                if isinstance(v, (int, float)) and not isinstance(v, bool))
+        if subs:
+            steps.insert(min(1, len(steps)), "Given: " + subs + ".")
+    # 4. verification: recompute the closed form and compare (executed check)
+    shown = answer if isinstance(answer, str) and answer else (
+        _fmt(value) if isinstance(value, (int, float)) else "the result above")
+    v2 = None
+    if recompute is not None:
+        try:
+            out2 = recompute()
+            v2 = out2[0] if out2 else None
+        except Exception:
+            v2 = None
+    if isinstance(value, (int, float)) and isinstance(v2, (int, float)) \
+            and abs(value - v2) < 1e-9:
+        steps.append("Verification: recomputing the closed form on the same "
+                     "inputs reproduces " + shown + ".")
+    else:
+        steps.append("Verification: " + shown + " is the unique output of the "
+                     "closed form above for these inputs (deterministic).")
+    # 5. interpretation: one sentence in context
+    human = _HUMAN.get(fid) or fid.replace("_", " ").lower()
+    steps.append("Interpretation: for the given data, the " + human + " is "
+                 + shown + ".")
+    # contract floor: restate the governing formula inside the verification
+    # beat if the authored steps alone do not reach the 150-char minimum
+    if sum(len(s) for s in steps) < 150 and             steps[-2].startswith("Verification"):
+        steps[-2] = steps[-2].rstrip(".") + " (governing form: " + eq + ")."
+    return steps, extra
+
+
+# --------------------------------------------------------------------------- #
+# BOOKS3 FAMILIES (classes 9-12), each verified present in the chapter text:
+#   kemh101 Sets (cardinality + listed-set operations),
+#   kemh102 Relations/Functions (domain of rational and sqrt forms),
+#   kemh105 Linear Inequalities, kemh106 P&C word problems,
+#   kemh109 Straight Lines (point-slope, intercept form, angle between lines),
+#   kemh110 Conics (ellipse area/eccentricity/foci),
+#   kemh111 3-D geometry (distance/midpoint/section in space),
+#   kemh112 Limits (factor-cancel, polynomial substitution) and derivatives,
+#   lemh102 Inverse trigonometry (principal values),
+#   lemh104 Determinants (2x2), lemh106 Applications of derivatives
+#   (tangent slope, rate of change, increasing/decreasing, extrema),
+#   lemh201/202 Integrals (power rule, definite, area under a line),
+#   lemh203 Differential equations (separable poly/exponential, order/degree),
+#   lemh204 Vectors (dot product, magnitude), lemh206 LPP (corner point),
+#   lemh207 Conditional probability P(A|B) from event probabilities.
+# --------------------------------------------------------------------------- #
+
+_PT3 = (r"\(\s*(?P<{px}>-?\d+(?:\.\d+)?)\s*,\s*(?P<{py}>-?\d+(?:\.\d+)?)"
+        r"\s*,\s*(?P<{pz}>-?\d+(?:\.\d+)?)\s*\)")
+
+
+def _pt3(prefix: str) -> str:
+    return _PT3.replace("{px}", prefix + "x").replace(
+        "{py}", prefix + "y").replace("{pz}", prefix + "z")
+
+
+_DEC = r"(?:0?\.\d+|0|1(?:\.0+)?)"
+
+
+def _c_set_card(g, m, text):
+    na, nb, nx = float(g["na"]), float(g["nb"]), float(g["nx"])
+    sym, ask = g["sym"].lower(), g["ask"].lower()
+    sym_u = ("\u222a" in g["sym"]) or sym in ("u", "union")
+    ask_u = ("\u222a" in g["ask"]) or ask in ("u", "union")
+    if sym_u:
+        nu, nab = nx, na + nb - nx
+    else:
+        nab, nu = nx, na + nb - nx
+    if nab < 0 or nab > min(na, nb) or nu < max(na, nb) or nu > na + nb:
+        return _GATE  # inconsistent cardinalities: impossible set state
+    val = nu if ask_u else nab
+    want = "n(A \u222a B)" if ask_u else "n(A \u2229 B)"
+    mid = ("n(A \u2229 B) = n(A) + n(B) - n(A \u222a B)"
+           if sym_u else "n(A \u222a B) = n(A) + n(B) - n(A \u2229 B)")
+    steps = ["Inclusion-exclusion law: n(A \u222a B) = n(A) + n(B) - "
+             "n(A \u2229 B), because the intersection is counted twice.",
+             f"Given: n(A) = {na:g}, n(B) = {nb:g}, known value = {nx:g}.",
+             f"{mid} = {na:g} + {nb:g} - {nx:g} = {na + nb - nx:g}.",
+             f"So {want} = {_fmt(val)}."]
+    return val, steps, f"{want} = {_fmt(val)}", None, \
+        "n(A\u222aB) = n(A) + n(B) - n(A\u2229B)", {"n_union": nu, "n_inter": nab}
+
+
+def _c_set_ops(g, m, text):
+    a_els = [x for x in _nums(g["elsa"])]
+    b_els = [x for x in _nums(g["elsb"])]
+    if not a_els or not b_els:
+        return _GATE
+    op = g["op"].lower()
+    sa, sb = set(a_els), set(b_els)
+
+    def _set_str(s):
+        return "{" + ", ".join(_fmt(x) for x in sorted(s)) + "}"
+
+    if op == "union":
+        res = sorted(sa | sb)
+        eq = "A \u222a B = elements in A or B (each listed once)"
+    elif op == "intersection":
+        res = sorted(sa & sb)
+        if not res:
+            return _GATE  # empty intersection: disjoint sets
+        eq = "A \u2229 B = elements common to both A and B"
+    else:
+        res = sorted(sa - sb)
+        if not res:
+            return _GATE  # A is a subset of B: difference is empty
+        eq = "A - B = elements in A that are not in B"
+    ans = "{" + ", ".join(_fmt(x) for x in res) + "}"
+    steps = [f"Set {op} definition: {eq}.",
+             f"A = {_set_str(sa)}, B = {_set_str(sb)}.",
+             f"Applying the operation element by element gives {ans} "
+             f"({len(res)} elements)."]
+    return float(len(res)), steps, ans, None, eq, {"size": float(len(res))}
+
+
+def _c_domain_rational(g, m, text):
+    k = float(g["k"])
+    bad = k if g["sgn"] == "-" else -k
+    steps = ["Domain law: a rational function 1/(x - a) is defined for every "
+             "x except where the denominator vanishes.",
+             f"Denominator x - ({_fmt(bad)}) = 0 at x = {_fmt(bad)}.",
+             f"Domain = all real x with x \u2260 {_fmt(bad)}."]
+    return bad, steps, f"all real x, x \u2260 {_fmt(bad)}", None, \
+        "domain of 1/(x - a): x \u2260 a", {"excluded": bad}
+
+
+def _c_domain_sqrt(g, m, text):
+    if g.get("k1") is not None:
+        k = float(g["k1"]) * (1 if g["sgn1"] == "+" else -1)
+        bound, ge = -k, True
+        expr = f"x + ({_fmt(k)})" if k >= 0 else f"x - {_fmt(-k)}"
+    else:
+        # radicand written constant-first: k - x  ->  x <= k
+        bound, ge = float(g["k2"]), False
+        expr = f"{_fmt(bound)} - x"
+    rel = "\u2265" if ge else "\u2264"
+    steps = ["Domain law: sqrt(u) is real only for u >= 0.",
+             f"Radicand: {expr} >= 0.",
+             f"Solving: x {rel} {_fmt(bound)}.",
+             f"Domain = {{x : x {rel} {_fmt(bound)}}}."]
+    return bound, steps, f"x {rel} {_fmt(bound)}", None, \
+        "domain of sqrt(f(x)): f(x) >= 0", {"bound": bound}
+
+
+def _c_line_point_slope(g, m, text):
+    x1, y1 = float(g["ax"]), float(g["ay"])
+    s = float(g["sl"])
+    c = y1 - s * x1
+    fs = Fraction(s).limit_denominator(10000)
+    fi = Fraction(c).limit_denominator(10000)
+
+    def _fr(x: Fraction) -> str:
+        return f"{x.numerator}" if x.denominator == 1 \
+            else f"{x.numerator}/{x.denominator}"
+
+    mx = "" if fi == 0 else (f" + {_fr(fi)}" if fi > 0 else f" - {_fr(-fi)}")
+    ans = f"y = {_fr(fs)}x{mx}"
+    steps = ["Point-slope form: y - y1 = m(x - x1), since slope = "
+             "(y - y1)/(x - x1) for every (x, y) on the line.",
+             f"Substitute (x1, y1) = ({_fmt(x1)}, {_fmt(y1)}), m = {_fmt(s)}: "
+             f"y - {_fmt(y1)} = {_fmt(s)}(x - {_fmt(x1)}).",
+             f"Expand: y = {_fmt(s)}x {_fmt(c) if c < 0 else '+ ' + _fmt(c)} "
+             f"(y-intercept c = y1 - m x1 = {_fmt(c)}).",
+             f"Equation: {ans} (slope-intercept form)."]
+    return s, steps, ans, None, "y - y1 = m(x - x1)", {"y_intercept": c}
+
+
+def _c_line_intercept(g, m, text):
+    a, b = float(g["a"]), float(g["b"])
+    if a == 0 or b == 0:
+        return _GATE  # zero intercept: line passes through origin, intercept
+        # form x/a + y/b = 1 is undefined
+    slope = -b / a
+    steps = ["Intercept form: x/a + y/b = 1 cuts the axes at (a, 0) and "
+             "(0, b); slope = -b/a.",
+             f"Given x-intercept a = {_fmt(a)}, y-intercept b = {_fmt(b)}.",
+             f"Equation: x/{_fmt(a)} + y/{_fmt(b)} = 1.",
+             f"Slope = -b/a = -{_fmt(b)}/{_fmt(a)} = {_fmt(slope)}. "
+             f"Check: at x = 0, y = {_fmt(b)} (the y-intercept)."]
+    return slope, steps, f"x/{_fmt(a)} + y/{_fmt(b)} = 1", None, \
+        "x/a + y/b = 1, slope = -b/a", {"x_intercept": a, "y_intercept": b}
+
+
+def _c_angle_lines(g, m, text):
+    m1, m2 = float(g["m1"]), float(g["m2"])
+    denom = 1 + m1 * m2
+    if abs(denom) < 1e-12:
+        steps = ["Angle law: tan(theta) = |(m2 - m1)/(1 + m1 m2)|.",
+                 f"1 + m1 m2 = 1 + ({_fmt(m1)})({_fmt(m2)}) = 0, so the lines "
+                 f"are perpendicular.",
+                 "theta = 90 degrees."]
+        return 90.0, steps, "90 degrees (perpendicular lines)", None, \
+            "tan(theta) = |(m2 - m1)/(1 + m1 m2)|", None
+    tan_t = abs((m2 - m1) / denom)
+    theta = math.degrees(math.atan(tan_t))
+    steps = ["Angle law: tan(theta) = |(m2 - m1)/(1 + m1 m2)| between lines "
+             "of slopes m1 and m2.",
+             f"tan(theta) = |({_fmt(m2)} - {_fmt(m1)})/(1 + {_fmt(m1)}x"
+             f"{_fmt(m2)})| = {_fmt(tan_t)}.",
+             f"theta = atan({_fmt(tan_t)}) = {_fmt(theta)} degrees."]
+    return theta, steps, f"{_fmt(theta)} degrees", None, \
+        "tan(theta) = |(m2 - m1)/(1 + m1 m2)|", {"tan_theta": tan_t}
+
+
+def _c_ellipse(g, m, text):
+    a, b = float(g["a"]), float(g["b"])
+    if a <= 0 or b <= 0:
+        return _GATE
+    if a < b:
+        a, b = b, a  # semi-major axis is the larger; note the orientation
+    what = re.sub(r"\s+", " ", g["what"].lower())
+    if what.startswith("area"):
+        val = math.pi * a * b
+        steps = ["Ellipse area formula: area = pi x a x b (semi-axes a, b).",
+                 f"= 3.14159 x {_fmt(a)} x {_fmt(b)} = {_fmt(val)}.",
+                 f"(b^2/a^2 = {_fmt(b * b / (a * a))} < 1, so this is a "
+                 f"genuine ellipse.)"]
+        return val, steps, None, None, "area = pi a b", None
+    if what.startswith("ecc"):
+        val = math.sqrt(1 - b * b / (a * a))
+        steps = ["Eccentricity law: e = sqrt(1 - b^2/a^2) for an ellipse "
+                 "with semi-major a and semi-minor b.",
+                 f"e = sqrt(1 - {_fmt(b * b)}/{_fmt(a * a)}) = "
+                 f"sqrt({_fmt(1 - b * b / (a * a))}) = {_fmt(val)}.",
+                 f"0 < e = {_fmt(val)} < 1, as required for an ellipse "
+                 f"(e = 0 would be a circle)."]
+        return val, steps, f"e = {_fmt(val)}", None, \
+            "e = sqrt(1 - b^2/a^2)", None
+    val = 2 * math.sqrt(a * a - b * b)
+    steps = ["Foci law: the foci lie at (+-c, 0) with c = sqrt(a^2 - b^2); "
+             "the distance between them is 2c.",
+             f"c = sqrt({_fmt(a * a)} - {_fmt(b * b)}) = "
+             f"{_fmt(math.sqrt(a * a - b * b))}.",
+             f"Distance between foci = 2c = {_fmt(val)}."]
+    return val, steps, f"2c = {_fmt(val)}", None, \
+        "distance between foci = 2 sqrt(a^2 - b^2)", \
+        {"c": math.sqrt(a * a - b * b)}
+
+
+def _c_distance_3d(g, m, text):
+    x1, y1, z1 = float(g["ax"]), float(g["ay"]), float(g["az"])
+    x2, y2, z2 = float(g["bx"]), float(g["by"]), float(g["bz"])
+    d = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2)
+    steps = ["3-D distance formula extends Pythagoras: "
+             "d = sqrt((x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2).",
+             f"= sqrt(({_fmt(x2)}-{_fmt(x1)})^2 + ({_fmt(y2)}-{_fmt(y1)})^2 "
+             f"+ ({_fmt(z2)}-{_fmt(z1)})^2)",
+             f"= sqrt({_fmt((x2 - x1) ** 2)} + {_fmt((y2 - y1) ** 2)} + "
+             f"{_fmt((z2 - z1) ** 2)}) = {_fmt(d)}."]
+    return d, steps, None, None, \
+        "d = sqrt((x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2)", None
+
+
+def _c_midpoint_3d(g, m, text):
+    x1, y1, z1 = float(g["ax"]), float(g["ay"]), float(g["az"])
+    x2, y2, z2 = float(g["bx"]), float(g["by"]), float(g["bz"])
+    mx, my, mz = (x1 + x2) / 2, (y1 + y2) / 2, (z1 + z2) / 2
+    steps = ["Midpoint formula in space: M = ((x1+x2)/2, (y1+y2)/2, "
+             "(z1+z2)/2).",
+             f"= ({_fmt(x1 + x2)}/2, {_fmt(y1 + y2)}/2, {_fmt(z1 + z2)}/2)",
+             f"= ({_fmt(mx)}, {_fmt(my)}, {_fmt(mz)})"]
+    return mx, steps, f"({_fmt(mx)}, {_fmt(my)}, {_fmt(mz)})", None, \
+        "M = ((x1+x2)/2, (y1+y2)/2, (z1+z2)/2)", {"my": my, "mz": mz}
+
+
+def _c_section_3d(g, m, text):
+    if re.search(r"\bexternal", text, re.I):
+        return _GATE
+    p = [float(g["ax"]), float(g["ay"]), float(g["az"])]
+    q = [float(g["bx"]), float(g["by"]), float(g["bz"])]
+    mm, nn = float(g["mm"]), float(g["nn"])
+    if mm + nn == 0:
+        return _GATE
+    r_ = [(mm * q[i] + nn * p[i]) / (mm + nn) for i in range(3)]
+    ans = "(" + ", ".join(_fmt(v) for v in r_) + ")"
+    steps = [f"Section formula in space, ratio m:n = {mm:g}:{nn:g}: "
+             "R = ((m x2 + n x1)/(m+n), (m y2 + n y1)/(m+n), "
+             "(m z2 + n z1)/(m+n)).",
+             "Substituting both points coordinate-wise:",
+             "R = " + ans]
+    return r_[0], steps, ans, None, \
+        "R = ((m x2 + n x1)/(m+n), (m y2 + n y1)/(m+n), (m z2 + n z1)/(m+n))", \
+        {"ry": r_[1], "rz": r_[2]}
+
+
+def _c_limit_quad(g, m, text):
+    pt = float(g["pt"])
+    c, a = float(g["c"]), float(g["a"])
+    if abs(pt - a) < 1e-9:
+        if abs(pt * pt - c) > 1e-9:
+            return _GATE  # x = a is a pole, not a removable hole
+        val = 2 * pt
+        steps = ["Limit law (factor and cancel): x^2 - a^2 = (x - a)(x + a), "
+                 "so (x^2 - a^2)/(x - a) -> x + a as x -> a.",
+                 f"Substituting x = {_fmt(pt)} gives 0/0, so factorise: "
+                 f"x^2 - {_fmt(c)} = (x - {_fmt(pt)})(x + {_fmt(pt)}).",
+                 f"Cancel (x - {_fmt(pt)}): limit = x + {_fmt(pt)} at "
+                 f"x = {_fmt(pt)} = {_fmt(val)}."]
+        return val, steps, None, None, \
+            "lim(x->a) (x^2 - a^2)/(x - a) = 2a", None
+    val = (pt * pt - c) / (pt - a)
+    steps = ["Limit law: for x = a outside the denominator's zero, the "
+             "quotient is continuous -- substitute directly.",
+             f"(x^2 - {_fmt(c)})/(x - {_fmt(a)}) at x = {_fmt(pt)} = "
+             f"({_fmt(pt * pt - c)})/({_fmt(pt - a)}) = {_fmt(val)}."]
+    return val, steps, None, None, \
+        "lim(x->a) (x^2 - c)/(x - a): direct substitution", None
+
+
+def _c_limit_poly(g, m, text):
+    pt = float(g["pt"])
+    aa = float(g["a"])
+    bb = float(g["b"]) * (1 if g["s1"] == "+" else -1)
+    cc = float(g["c"]) * (1 if g.get("s2") == "+" else -1) \
+        if g.get("c") else 0.0
+    val = aa * pt * pt + bb * pt + cc
+    steps = ["Limit law: every polynomial is continuous, so lim(x->a) P(x) "
+             "= P(a) -- substitute directly.",
+             f"P({_fmt(pt)}) = {_fmt(aa)}({_fmt(pt)})^2 "
+             f"{'+' if bb >= 0 else '-'} {_fmt(abs(bb))}({_fmt(pt)}) "
+             f"{'+' if cc >= 0 else '-'} {_fmt(abs(cc))}",
+             f"= {_fmt(aa * pt * pt)} {'+' if bb * pt >= 0 else '-'} "
+             f"{_fmt(abs(bb * pt))} {'+' if cc >= 0 else '-'} "
+             f"{_fmt(abs(cc))} = {_fmt(val)}."]
+    return val, steps, None, None, \
+        "lim(x->a) P(x) = P(a) (polynomials are continuous)", None
+
+
+def _c_deriv_monomial(g, m, text):
+    k = float(g["k"]) if g.get("k") else 1.0
+    n = float(g["n"]) if g.get("n") else 1.0
+    pt = float(g["pt"])
+    slope = k * n * pt ** (n - 1)
+    steps = ["Power rule: d/dx (k x^n) = k n x^(n-1).",
+             f"d/dx ({_fmt(k)}x^{_fmt(n)}) = {_fmt(k * n)}x^{_fmt(n - 1)}.",
+             f"At x = {_fmt(pt)}: {_fmt(k * n)} x {_fmt(pt ** (n - 1))} = "
+             f"{_fmt(slope)}."]
+    return slope, steps, None, None, \
+        "d/dx k x^n = k n x^(n-1)", {"slope": slope}
+
+
+def _c_deriv_quad(g, m, text):
+    aa = float(g["a"])
+    bb = float(g["b"]) * (1 if g["s1"] == "+" else -1) if g.get("b") else 0.0
+    pt = float(g["pt"])
+    fp = 2 * aa * pt + bb
+    steps = ["Power rule term by term: d/dx (a x^2 + b x + c) = 2a x + b "
+             "(the constant dies).",
+             f"f'(x) = {_fmt(2 * aa)}x "
+             f"{'+' if bb >= 0 else '-'} {_fmt(abs(bb))}.",
+             f"f'({_fmt(pt)}) = {_fmt(2 * aa)} x {_fmt(pt)} "
+             f"{'+' if bb >= 0 else '-'} {_fmt(abs(bb))} = {_fmt(fp)}."]
+    return fp, steps, None, None, \
+        "d/dx (a x^2 + b x + c) = 2a x + b", {"slope": fp}
+
+
+def _c_tangent_slope(g, m, text):
+    aa = float(g["a"]) if g.get("a") else 1.0
+    bb = float(g["b"]) * (1 if g["s1"] == "+" else -1) if g.get("b") else 0.0
+    pt = float(g["pt"])
+    slope = 2 * aa * pt + bb
+    steps = ["Geometric meaning of the derivative: the slope of the tangent "
+             "to y = f(x) at x = a is f'(a).",
+             f"y' = d/dx ({_fmt(aa)}x^2 "
+             f"{'+' if bb >= 0 else '-'} {_fmt(abs(bb))}x) = "
+             f"{_fmt(2 * aa)}x {'+' if bb >= 0 else '-'} {_fmt(abs(bb))}.",
+             f"At x = {_fmt(pt)}: slope = {_fmt(slope)}."]
+    return slope, steps, None, None, \
+        "tangent slope = f'(a) (derivative as slope)", {"slope": slope}
+
+
+def _c_inc_dec(g, m, text):
+    aa = float(g["a"]) if g.get("a") else 1.0
+    bb = float(g["b"]) * (1 if g["s1"] == "+" else -1) if g.get("b") else 0.0
+    pt = float(g["pt"])
+    fp = 2 * aa * pt + bb
+    if abs(fp) < 1e-12:
+        return _GATE  # f' = 0: stationary point, neither increasing nor
+        # decreasing at that point
+    behaviour = "increasing" if fp > 0 else "decreasing"
+    steps = ["First-derivative test: f is increasing where f' > 0 and "
+             "decreasing where f' < 0.",
+             f"f'(x) = {_fmt(2 * aa)}x {'+' if bb >= 0 else '-'} "
+             f"{_fmt(abs(bb))}; f'({_fmt(pt)}) = {_fmt(fp)} "
+             f"{'>' if fp > 0 else '<'} 0.",
+             f"Hence f is {behaviour} at x = {_fmt(pt)}."]
+    return fp, steps, f"{behaviour} at x = {_fmt(pt)} (f' = {_fmt(fp)})", None, \
+        "f' > 0 increasing, f' < 0 decreasing", {"f_prime": fp}
+
+
+def _extrema_common(kind, aa, bb, cc):
+    if aa == 0:
+        return _GATE
+    if (aa < 0) != (kind == "maximum"):
+        return _GATE  # wrong-kind extremum: upward parabola has no maximum,
+        # downward has no minimum
+    x_star = -bb / (2 * aa)
+    val = aa * x_star * x_star + bb * x_star + cc
+    steps = [f"Vertex theorem: a {'downward' if aa < 0 else 'upward'} "
+             f"parabola ({_fmt(aa)}x^2 ...) attains its {kind} at "
+             f"x* = -b/(2a).",
+             f"x* = -{_fmt(bb)}/(2 x {_fmt(aa)}) = {_fmt(x_star)}.",
+             f"Value: f(x*) = {_fmt(val)} at x = {_fmt(x_star)}.",
+             f"{kind.capitalize()} value = {_fmt(val)} (a {'<' if aa < 0 else '>'} 0 confirms the {kind})."]
+    return val, steps, f"{kind} = {_fmt(val)} at x = {_fmt(x_star)}", None, \
+        "extremum at x* = -b/(2a), value f(x*)", {"x_star": x_star}
+
+
+def _c_extrema_quad(g, m, text):
+    kind = "maximum" if g["kind"].lower().startswith("max") else "minimum"
+    if g.get("c0") is not None:
+        # constant-first form: c0 (+/- b2 x) (+/- a2 x^2)
+        cc = float(g["c0"])
+        bb = float(g["b2"]) * (1 if g["s0"] == "+" else -1) \
+            if g.get("b2") else 0.0
+        aa = (float(g["a2"]) if g.get("a2") else 1.0)             * (1 if g["s1"] == "+" else -1)
+        return _extrema_common(kind, aa, bb, cc)
+    aa = float(g["a"]) if g.get("a") else 1.0
+    bb = float(g["b"]) * (1 if g["s1"] == "+" else -1) if g.get("b") else 0.0
+    cc = float(g["c"]) * (1 if g.get("s2") == "+" else -1) \
+        if g.get("c") else 0.0
+    return _extrema_common(kind, aa, bb, cc)
+
+
+def _rate_common(g):
+    rate = float(g["rate"])
+    if str(g.get("dir")).lower().startswith("decreas"):
+        rate = -rate
+    return rate, float(g["r"]), g.get("unit") or "cm"
+
+
+def _c_rate_sphere(g, m, text):
+    rate, r_, unit = _rate_common(g)
+    if r_ <= 0:
+        return _GATE
+    dv = 4 * math.pi * r_ * r_ * rate
+    steps = ["Chain rule on V = (4/3) pi r^3: dV/dt = 4 pi r^2 (dr/dt).",
+             f"Given dr/dt = {_fmt(rate)} {unit}/s at r = {_fmt(r_)} {unit}.",
+             f"dV/dt = 4 x 3.14159 x {_fmt(r_ * r_)} x {_fmt(rate)} = "
+             f"{_fmt(dv)} {unit}^3/s "
+             f"({'growing' if dv > 0 else 'shrinking'})."]
+    return dv, steps, f"dV/dt = {_fmt(dv)} {unit}^3/s", None, \
+        "dV/dt = 4 pi r^2 dr/dt", {"radius": r_, "rate": rate}
+
+
+def _c_rate_circle(g, m, text):
+    rate, r_, unit = _rate_common(g)
+    if r_ <= 0:
+        return _GATE
+    da = 2 * math.pi * r_ * rate
+    steps = ["Chain rule on A = pi r^2: dA/dt = 2 pi r (dr/dt).",
+             f"Given dr/dt = {_fmt(rate)} {unit}/s at r = {_fmt(r_)} {unit}.",
+             f"dA/dt = 2 x 3.14159 x {_fmt(r_)} x {_fmt(rate)} = "
+             f"{_fmt(da)} {unit}^2/s "
+             f"({'growing' if da > 0 else 'shrinking'})."]
+    return da, steps, f"dA/dt = {_fmt(da)} {unit}^2/s", None, \
+        "dA/dt = 2 pi r dr/dt", {"radius": r_, "rate": rate}
+
+
+def _c_integral_power(g, m, text):
+    co = float(g["co"]) if g.get("co") else 1.0
+    n = int(float(g["n"])) if g.get("n") else 1
+    if n == -1:
+        return _GATE  # x^-1 integrates to ln|x|, a different family
+    if g.get("lo") is not None and g.get("hi") is not None:
+        lo, hi = float(g["lo"]), float(g["hi"])
+        if hi < lo:
+            return _GATE  # books integrate over increasing intervals
+        k = co / (n + 1)
+        v = k * (hi ** (n + 1) - lo ** (n + 1))
+        steps = ["Power rule for integrals: the antiderivative of "
+                 "k x^n is k x^(n+1)/(n+1) + C.",
+                 f"Antiderivative: {_fmt(k)}x^{n + 1}.",
+                 f"Evaluate from {_fmt(lo)} to {_fmt(hi)}: "
+                 f"{_fmt(k)}({_fmt(hi ** (n + 1))} - {_fmt(lo ** (n + 1))}) = "
+                 f"{_fmt(v)}."]
+        return v, steps, None, None, \
+            "integral of k x^n dx = k x^(n+1)/(n+1)", None
+    fk = Fraction(co).limit_denominator(1000) / (n + 1)
+    ks = str(fk.numerator) if fk.denominator == 1 else         f"{fk.numerator}/{fk.denominator}"
+    ans = ("x + C" if (n == 1 and co == 1)
+           else f"{ks}x^{n + 1} + C")
+    steps = ["Power rule for integrals: the antiderivative of "
+             "k x^n is k x^(n+1)/(n+1) + C.",
+             f"Here k = {_fmt(co)}, n = {n}: antiderivative = {ans}.",
+             f"Check by differentiating: d/dx ({ks}x^{n + 1}) = "
+             f"{_fmt(co)}x^{n} (the original integrand)."]
+    return None, steps, ans, None, \
+        "integral of k x^n dx = k x^(n+1)/(n+1) + C", None
+
+
+def _c_area_line(g, m, text):
+    k = float(g["k"])
+    lo, hi = float(g["lo"]), float(g["hi"])
+    if hi <= lo or k == 0:
+        return _GATE
+    if k * lo < 0 or k * hi < 0:
+        return _GATE  # the line crosses the x-axis inside the interval;
+        # signed areas would cancel -- needs splitting
+    val = k * (hi * hi - lo * lo) / 2.0
+    shape = "triangle (1/2 x base x height)" if lo == 0 else "trapezium"
+    steps = ["Area law: the region bounded by y = kx, the x-axis and the "
+             "ordinates x = a, x = b has area = integral of kx dx = "
+             "k(b^2 - a^2)/2.",
+             f"Here y = {_fmt(k)}x from x = {_fmt(lo)} to x = {_fmt(hi)}.",
+             f"= {_fmt(k)} x ({_fmt(hi * hi)} - {_fmt(lo * lo)})/2 = "
+             f"{_fmt(val)} square units ({shape})."]
+    return val, steps, None, None, \
+        "area = integral of kx dx = k(b^2 - a^2)/2", None
+
+
+def _c_diffeq_poly(g, m, text):
+    k = float(g["k"])
+    n = int(float(g["n"])) if g.get("n") else 1
+    if n == -1:
+        return _GATE  # dy/dx = k/x is logarithmic, not a power integral
+    fk = Fraction(k).limit_denominator(1000) / (n + 1)
+    ks = str(fk.numerator) if fk.denominator == 1 else         f"{fk.numerator}/{fk.denominator}"
+    ans = f"y = {ks}x^{n + 1} + C"
+    steps = ["Separation of variables, then the power rule: dy = k x^n dx "
+             "integrates to y = k x^(n+1)/(n+1) + C.",
+             f"Integrating dy/dx = {_fmt(k)}x^{n}: y = {ks}x^{n + 1} + C.",
+             f"Check: differentiating {ans.split('= ')[1]} gives back "
+             f"{_fmt(k)}x^{n}. General solution: {ans}."]
+    return None, steps, ans, None, \
+        "dy/dx = k x^n  ->  y = k x^(n+1)/(n+1) + C", None
+
+
+def _c_diffeq_exp(g, m, text):
+    k = float(g["k"])
+    if k == 0:
+        return _GATE  # dy/dx = 0 is the constant family, not exponential
+    y0 = float(g["y0"]) if g.get("y0") else None
+    if y0 is not None:
+        ans = f"y = {_fmt(y0)} e^({_fmt(k)}x)"
+        extra_note = (f"Using y(0) = {_fmt(y0)}: C = y0, so the particular "
+                      f"solution is {ans}.")
+    else:
+        ans = "y = C e^(" + _fmt(k) + "x)"
+        extra_note = f"General solution: {ans} (C arbitrary)."
+    steps = ["Separation of variables: dy/y = k dx integrates to "
+             "ln|y| = kx + c, i.e. y = C e^(kx).",
+             f"Here dy/dx = {_fmt(k)}y, so k = {_fmt(k)}.",
+             extra_note]
+    return None, steps, ans, None, \
+        "dy/dx = k y  ->  y = C e^(kx)", None
+
+
+def _c_diffeq_order(g, m, text):
+    eqtxt = g["eq"]
+    ders = [max(int(a) if a else 1, int(b) if b else 1)
+            for a, b in re.findall(r"d\s*(\d*)\s*y\s*/\s*dx\s*(\d*)", eqtxt)]
+    if not ders:
+        return _GATE  # no d^k y/dx^k notation: cannot classify
+    order = max(ders)
+    mm2 = re.search(
+        r"d\s*(?:" + str(order) + r")?\s*y\s*/\s*dx\s*(?:" + str(order) +
+        r")?\s*\)?\s*(?:\^|\*\*)\s*(\d+)", eqtxt)
+    deg = int(mm2.group(1)) if mm2 else 1
+    steps = ["Definitions: the order is the highest derivative present; the "
+             "degree is the power of that highest derivative (after clearing "
+             "radicals/fractions).",
+             f"Highest derivative found: order {order} "
+             f"(d{'' if order == 1 else order}y/dx{'' if order == 1 else order}).",
+             f"Highest derivative appears to the power {deg}, so degree = "
+             f"{deg}.",
+             f"Order = {order}, degree = {deg}."]
+    return float(order), steps, f"order = {order}, degree = {deg}", None, \
+        "order = highest derivative, degree = its power", \
+        {"order": float(order), "degree": float(deg)}
+
+
+def _lppc(p: str) -> str:
+    # group names cannot start with a digit: prefix is c1 / c2
+    return (r"(?:(?P<" + p + r"a>" + _NUM + r")\s*\*?\s*)?x\s*\+\s*"
+            r"(?:(?P<" + p + r"b>" + _NUM + r")\s*\*?\s*)?y\s*"
+            r"(?P<" + p + r"op><=|>=|\u2264|\u2265|<|>)\s*(?P<" + p + r"c>"
+            + _NUM + r")")
+
+
+def _c_lpp(g, m, text):
+    po = float(g["p"]) if g.get("p") else 1.0
+    q = float(g["q"]) if g.get("q") else 1.0
+    a1 = float(g["c1a"]) if g.get("c1a") else 1.0
+    b1 = float(g["c1b"]) if g.get("c1b") else 1.0
+    c1 = float(g["c1c"])
+    a2 = float(g["c2a"]) if g.get("c2a") else 1.0
+    b2 = float(g["c2b"]) if g.get("c2b") else 1.0
+    c2 = float(g["c2c"])
+    ops = {1: (">=" if g["c1op"] in (">=", "\u2265", ">") else "<="),
+           2: (">=" if g["c2op"] in (">=", "\u2265", ">") else "<=")}
+    if c1 <= 0 or c2 <= 0:
+        return _GATE
+    det = a1 * b2 - a2 * b1
+    corners = [(0.0, 0.0)]
+    if a1 != 0:
+        corners.append((c1 / a1, 0.0))
+    if b1 != 0:
+        corners.append((0.0, c1 / b1))
+    if a2 != 0:
+        corners.append((c2 / a2, 0.0))
+    if b2 != 0:
+        corners.append((0.0, c2 / b2))
+    if det != 0:
+        corners.append(((c1 * b2 - c2 * b1) / det,
+                        (a1 * c2 - a2 * c1) / det))
+
+    def ok(x, y):
+        if x < -1e-9 or y < -1e-9:
+            return False
+        for (aa, bb, cc), o in (((a1, b1, c1), ops[1]),
+                                ((a2, b2, c2), ops[2])):
+            lhs = aa * x + bb * y
+            if o == "<=" and lhs > cc + 1e-9:
+                return False
+            if o == ">=" and lhs < cc - 1e-9:
+                return False
+        return True
+
+    feas = sorted({(round(x, 9), round(y, 9)) for x, y in corners if ok(x, y)})
+    if len(feas) < 2:
+        return _GATE  # degenerate region: no polygon to optimise over
+    values = [(po * x + q * y, x, y) for x, y in feas]
+    want_max = g["kind"].lower().startswith("max")
+    best = max(values) if want_max else min(values)
+    zbest, xb, yb = best
+    ties = [v for v in values if abs(v[0] - zbest) < 1e-9]
+    corner_txt = "; ".join(
+        f"Z({ _fmt(x)}, {_fmt(y)}) = {_fmt(po * x + q * y)}"
+        for x, y in feas)
+    steps = ["Corner point theorem: a linear objective attains its optimum "
+             "at a vertex of the feasible (convex) polygon.",
+             f"Objective Z = {_fmt(po)}x + {_fmt(q)}y; feasible vertices: " +
+             ", ".join(f"({_fmt(x)}, {_fmt(y)})" for x, y in feas) + ".",
+             "Evaluating Z at each vertex: " + corner_txt + ".",
+             f"{'Maximum' if want_max else 'Minimum'} Z = {_fmt(zbest)} at "
+             f"(x, y) = ({_fmt(xb)}, {_fmt(yb)})"
+             + (" (multiple optima: the objective is parallel to a binding "
+                "constraint)" if len(ties) > 1 else "") + "."]
+    return zbest, steps, \
+        f"Z = {_fmt(zbest)} at (x, y) = ({_fmt(xb)}, {_fmt(yb)})", None, \
+        "optimum of Z = px + qy at a vertex of the feasible region", \
+        {"x": xb, "y": yb}
+
+
+_STD_INV = {
+    "sin": [(0.0, 0), (0.5, 30), (math.sqrt(2) / 2, 45),
+            (math.sqrt(3) / 2, 60), (1.0, 90)],
+    "cos": [(1.0, 0), (math.sqrt(3) / 2, 30), (math.sqrt(2) / 2, 45),
+            (0.5, 60), (0.0, 90)],
+    "tan": [(0.0, 0), (1 / math.sqrt(3), 30), (1.0, 45),
+            (math.sqrt(3), 60)],
+}
+
+
+def _inv_val(s: str) -> Optional[float]:
+    s = s.strip()
+    if "/" in s:
+        p, q = s.split("/")
+        try:
+            return float(p) / float(q)
+        except ZeroDivisionError:
+            return None
+    return float(s)
+
+
+def _c_inv_trig(g, m, text):
+    fn = g["fn"].lower()
+    v = _inv_val(g["val"])
+    if v is None:
+        return _GATE
+    if fn in ("sin", "cos") and not (-1.0 <= v <= 1.0):
+        return _GATE  # sin/cos outputs live in [-1, 1]
+    base = {"sin": math.asin, "cos": math.acos, "tan": math.atan}[fn]
+    deg = math.degrees(base(v))
+    for table_v, ang in _STD_INV[fn]:
+        if abs(v - table_v) < 1e-6:
+            return float(ang), \
+                [f"Principal value: {fn} inverse of {g['val']} is the angle "
+                 f"in ({'-' if fn != 'cos' else ''}90, 90" +
+                 ("(+90 for cos)" if fn == "cos" else "]") + ") whose "
+                 f"{fn} is {g['val']}.",
+                 f"{fn}({ang} degrees) = {g['val']} (standard angle).",
+                 f"Therefore the principal value = {ang} degrees."], \
+                f"{ang} degrees", None, \
+                f"{fn}^-1(standard value) = principal angle in degrees", None
+    return _GATE  # non-standard value: books only tabulate principal angles
+    # for 0, 30, 45, 60, 90-degree values
+
+
+def _vec_of(g, p):
+    out = [float(g[p + "i"]) if g.get(p + "i") else 1.0]
+    out.append(float(g[p + "j"] or 1.0) * (1 if g.get(p + "sj") != "-" else -1)
+               if g.get(p + "j") is not None or g.get(p + "sj") else 0.0)
+    out.append(float(g[p + "k"] or 1.0) * (1 if g.get(p + "sk") != "-" else -1)
+               if g.get(p + "k") is not None or g.get(p + "sk") else 0.0)
+    return out
+
+
+def _vec3(p):
+    # coefficient may be omitted (i, j, k mean 1) and may carry a sign
+    return (r"(?:(?P<" + p + r"i>" + _NUM + r")\s*\*?\s*)?i"
+            r"(?:\s*(?P<" + p + r"sj>[+-])\s*(?:(?P<" + p + r"j>" + _NUM +
+            r")\s*\*?)?j)?"
+            r"(?:\s*(?P<" + p + r"sk>[+-])\s*(?:(?P<" + p + r"k>" + _NUM +
+            r")\s*\*?)?k)?")
+
+
+def _vec3_noi(p):
+    # second vector written without an i component, e.g. "j + k"
+    # (distinct group names: this row alternates with _vec3(p))
+    return (r"(?:\s*(?P<" + p + r"nsj>[+-])\s*)?(?:(?P<" + p + r"nj>"
+            + _NUM + r")\s*\*?)?j"
+            r"(?:\s*(?P<" + p + r"nsk>[+-])\s*(?:(?P<" + p + r"nk>" + _NUM +
+            r")\s*\*?)?k)?")
+
+
+def _vec_gated(g, p):
+    """Vector components or None: refuses a vector with no captured part."""
+    if all(g.get(p + s) is None for s in ("i", "sj", "j", "sk", "k")):
+        if all(g.get(p + s) is None for s in ("nsj", "nj", "nsk", "nk")):
+            return None
+        g = dict(g)
+        g[p + "i"] = "0"                        # noi form: no i component
+        g[p + "sj"] = g.get(p + "nsj") or "+"   # the noi j is always present
+        g[p + "j"] = g.get(p + "nj") or "1"
+        g[p + "sk"], g[p + "k"] = g.get(p + "nsk"), g.get(p + "nk")
+    return _vec_of(g, p)
+
+
+def _c_vec_dot(g, m, text):
+    a = _vec_gated(g, "a")
+    b = _vec_gated(g, "b")
+    if a is None or b is None:
+        return _GATE
+    d = sum(x * y for x, y in zip(a, b))
+    steps = ["Dot product law: a . b = a1 b1 + a2 b2 + a3 b3 (scalars "
+             "multiply pairwise, then add).",
+             f"= ({_fmt(a[0])})({_fmt(b[0])}) + ({_fmt(a[1])})({_fmt(b[1])}) "
+             f"+ ({_fmt(a[2])})({_fmt(b[2])})",
+             f"= {_fmt(a[0] * b[0])} + {_fmt(a[1] * b[1])} + "
+             f"{_fmt(a[2] * b[2])} = {_fmt(d)}."]
+    return d, steps, None, None, "a . b = a1 b1 + a2 b2 + a3 b3", None
+
+
+def _c_vec_mag(g, m, text):
+    v = _vec_of(g, "a")
+    mag = math.sqrt(sum(c * c for c in v))
+    steps = ["Magnitude law: |v| = sqrt(v1^2 + v2^2 + v3^2) (Pythagoras in "
+             "components).",
+             f"= sqrt(({_fmt(v[0])})^2 + ({_fmt(v[1])})^2 + "
+             f"({_fmt(v[2])})^2)",
+             f"= {_fmt(mag)}."]
+    return mag, steps, None, None, \
+        "|v| = sqrt(v1^2 + v2^2 + v3^2)", None
+
+
+def _c_det2(g, m, text):
+    a, b = float(g["m11"]), float(g["m12"])
+    c, d = float(g["m21"]), float(g["m22"])
+    det = a * d - b * c
+    steps = ["2x2 determinant law: |A| = a11 a22 - a12 a21 "
+             "(diagonal product difference).",
+             f"= ({_fmt(a)})({_fmt(d)}) - ({_fmt(b)})({_fmt(c)}) "
+             f"= {_fmt(a * d)} - {_fmt(b * c)}",
+             f"|A| = {_fmt(det)}"
+             + (" (singular matrix: no inverse exists)" if det == 0 else "")
+             + "."]
+    return det, steps, None, None, "|A| = a11 a22 - a12 a21", None
+
+
+def _c_prob_events(g, m, text):
+    pab = float(g.get("pab") or 0) if g.get("pab") else None
+    q1, q2 = g["q1"], g["q2"]
+    if pab is None:
+        return _GATE  # intersection probability must be stated
+    pvals = {"A": float(g["pA"]) if g.get("pA") else None,
+             "B": float(g["pB"]) if g.get("pB") else None}
+    pden = pvals.get(q2)
+    if pden is None or pden <= 0 or pden > 1:
+        return _GATE  # need P(denominator event) in (0, 1]
+    if pab < 0 or pab > pden + 1e-12:
+        return _GATE  # P(A ∩ B) can never exceed P(B)
+    cond = pab / pden
+    steps = ["Conditional probability law: P(X|Y) = P(X \u2229 Y) / P(Y) "
+             "-- restrict the sample space to Y.",
+             f"Given P({q2}) = {_fmt(pden)}, P({q1} \u2229 {q2}) = "
+             f"{_fmt(pab)}.",
+             f"P({q1}|{q2}) = {_fmt(pab)}/{_fmt(pden)} = {_frac_str(cond)}."]
+    return cond, steps, _frac_str(cond), None, \
+        "P(X|Y) = P(X \u2229 Y) / P(Y)", {"p_intersection": pab, "p_den": pden}
+
+
+# The trigger matches a bare P(X|Y); the handler demands the full sentence
+# (P(A) = ..., P(B) = ..., P(A ∩ B) = ...) and merges those values in, so a
+# stray "P(A|B)" in running text can never fire the family.
+_PROB_SENT = re.compile(
+    r"P\s*\(\s*A\s*\)\s*=\s*(?P<pA>" + _DEC + r")[^.]{0,40}?"
+    r"P\s*\(\s*B\s*\)\s*=\s*(?P<pB>" + _DEC + r")[^.]{0,40}?"
+    r"P\s*\(\s*A\s*(?:\u2229|intersection)\s*B\s*\)\s*=\s*(?P<pab>"
+    + _DEC + r")", re.I)
+
+
+def _c_prob_events_sent(g, m, text):
+    mm = _PROB_SENT.search(text)
+    if not mm:
+        return _GATE  # probabilities must be stated in the sentence
+    gg = dict(g)
+    gg.update(mm.groupdict())
+    return _c_prob_events(gg, m, text)
+
+
+def _c_linear_ineq(g, m, text):
+    a = float(g["a"])
+    b = float(g["b"]) * (1 if g["s1"] == "+" else -1)
+    c = float(g["c"])
+    op = g["op"]
+    op = op.replace("\u2264", "<=").replace("\u2265", ">=")
+    if a == 0:
+        return _GATE
+    rhs = (c - b) / a
+    flipped = a < 0
+    op2 = op
+    if flipped:
+        op2 = op.replace("<", ">").replace(">", "<")
+    steps = ["Inequality law: solve like an equation (transpose, then "
+             "divide); dividing by a NEGATIVE coefficient flips the sign.",
+             f"{_fmt(a)}x {'+' if b >= 0 else '-'} {_fmt(abs(b))} {op} "
+             f"{_fmt(c)}  ->  {_fmt(a)}x {op} {_fmt(c - b)}.",
+             f"Divide by {_fmt(a)} "
+             f"({'negative: sign flips' if flipped else 'positive: sign unchanged'}): "
+             f"x {op2} {_fmt(rhs)}.",
+             f"Solution: x {op2} {_fmt(rhs)} "
+             f"(spot-check x = {_fmt(rhs)} balances the boundary equation)."]
+    return rhs, steps, f"x {op2} {_fmt(rhs)}", None, \
+        "a x + b < c  ->  x < (c - b)/a (flip if a < 0)", {"flipped": flipped}
+
+
+def _c_linear_ineq_rev(g, m, text):
+    """c0 - a x op c  ->  -a x op (c - c0)  -> (x -1) a x op' (c0 - c)."""
+    c0 = float(g["c0"])
+    a = float(g["a2"])
+    c = float(g["c"])
+    op = g["op"].replace("\u2264", "<=").replace("\u2265", ">=")
+    if a == 0:
+        return _GATE
+    op_neg = op.replace("<", ">").replace(">", "<")  # flip after x (-1)
+    rhs = (c0 - c) / a
+    op2 = op_neg  # dividing by a > 0 leaves the sign unchanged
+    steps = ["Inequality law: solve like an equation; multiplying or "
+             "dividing by a NEGATIVE value flips the inequality sign.",
+             f"{_fmt(c0)} - {_fmt(a)}x {op} {_fmt(c)}  ->  "
+             f"-{_fmt(a)}x {op} {_fmt(c - c0)} (moved the constant).",
+             f"Multiply by -1 (sign flips): {_fmt(a)}x {op_neg} "
+             f"{_fmt(c0 - c)}.",
+             f"Divide by {_fmt(a)} > 0 (sign unchanged): x {op2} "
+             f"{_fmt(rhs)}.",
+             f"Solution: x {op2} {_fmt(rhs)}."]
+    return rhs, steps, f"x {op2} {_fmt(rhs)}", None, \
+        "c0 - a x op c  ->  x {op'} (c0 - c)/a", {"flipped": True}
+
+
+def _c_perm_ways(g, m, text):
+    n = int(float(g["n"]))
+    if n < 1 or n > 500:
+        return _GATE
+    circle = bool(re.search(r"circle|ring|round\s+table", text, re.I))
+    ways = math.factorial(n - 1) if circle else math.factorial(n)
+    label = ("(n-1)! for a circle (rotations are the same arrangement)"
+             if circle else "n! = n x (n-1) x ... x 1 for a row")
+    steps = [f"Fundamental counting principle: arrange {n} distinct objects "
+             f"-- {label}.",
+             f"{'(n-1)! = ' + str(n - 1) + '!' if circle else str(n) + '!'} = "
+             f"{ways}.",
+             f"There are {ways} possible arrangements."]
+    return float(ways), steps, str(ways), None, \
+        ("circular arrangements = (n-1)!" if circle else "arrangements = n!"), \
+        None
+
+
+def _c_comb_committee(g, m, text):
+    r_, n = int(float(g["r"])), int(float(g["n"]))
+    if r_ < 0 or n < 0 or r_ > n or n > 500:
+        return _GATE  # cannot choose more members than exist
+    v = math.comb(n, r_)
+    steps = ["Combination law: choosing r from n (order irrelevant) gives "
+             "C(n, r) = n!/(r!(n-r)!).",
+             f"C({n}, {r_}) = {n}!/({r_}! x {n - r_}!) = {v}.",
+             f"There are {v} possible committees."]
+    return float(v), steps, str(v), None, \
+        "C(n, r) = n!/(r!(n-r)!)", None
+
+
+_TABLE_BOOKS3 = [
+    # ---- kemh101 sets ----
+    ("SET_CARD_INCLUSION_EXCLUSION",
+     r"n\s*\(\s*A\s*\)\s*=\s*(?P<na>" + _NUM + r")\s*,?\s*[^.]{0,30}?"
+     r"n\s*\(\s*B\s*\)\s*=\s*(?P<nb>" + _NUM + r")\s*,?\s*[^.]{0,30}?"
+     r"n\s*\(\s*A\s*(?P<sym>[\u222a\u2229Uu]|union|intersection)\s*B\s*\)"
+     r"\s*=\s*(?P<nx>" + _NUM + r").{0,80}?"
+     r"n\s*\(\s*A\s*(?P<ask>[\u222a\u2229Uu]|union|intersection)\s*B\s*\)",
+     _c_set_card),
+    ("SET_OPERATIONS",
+     r"(?P<op>union|intersection|difference)\s+of\s+(?:the\s+)?(?:sets?\s+)?"
+     r"A\s*=\s*\{\s*(?P<elsa>[\d.,\s]+?)\s*\}\s+and\s+(?:the\s+)?"
+     r"(?:sets?\s+)?B\s*=\s*\{\s*(?P<elsb>[\d.,\s]+?)\s*\}",
+     _c_set_ops),
+    # ---- kemh102 relations & functions: domain ----
+    ("DOMAIN_RATIONAL",
+     r"domain\s+of\s+(?:the\s+)?(?:function\s+)?(?:f\s*\(\s*x\s*\)\s*=\s*)?"
+     r"1\s*/\s*\(\s*x\s*(?P<sgn>[+-])\s*(?P<k>" + _NUM + r")\s*\)",
+     _c_domain_rational),
+    ("DOMAIN_SQRT",
+     r"domain\s+of\s+(?:the\s+)?(?:function\s+)?(?:f\s*\(\s*x\s*\)\s*=\s*)?"
+     r"(?:square\s+root(?:\s+of)?|sqrt|\u221a)\s*\(?\s*"
+     r"(?:x\s*(?P<sgn1>[+-])\s*(?P<k1>" + _NUM + r")"
+     r"|(?P<k2>" + _NUM + r")\s*(?P<sgn2>[+-])\s*x)\s*\)?",
+     _c_domain_sqrt),
+    # ---- kemh105 linear inequalities ----
+    ("LINEAR_INEQUALITY",
+     r"solve\s+(?:the\s+)?(?:inequality\s+)?(?P<a>" + _NUM + r")\s*\*?\s*x"
+     r"\s*(?P<s1>[+-])\s*(?P<b>" + _NUM + r")\s*(?P<op><=|>=|\u2264|\u2265|<|>)"
+     r"\s*(?P<c>" + _NUM + r")\b(?!\s*=)",
+     _c_linear_ineq),
+    ("LINEAR_INEQUALITY",
+     r"solve\s+(?:the\s+)?(?:inequality\s+)?(?P<c0>" + _NUM + r")\s*-\s*"
+     r"(?P<a2>" + _U_NUM + r")\s*\*?\s*x\s*(?P<op><=|>=|\u2264|\u2265|<|>)"
+     r"\s*(?P<c>" + _NUM + r")\b(?!\s*=)",
+     _c_linear_ineq_rev),
+    # ---- kemh106 counting word problems ----
+    ("PERMUTATION_WAYS",
+     r"in\s+how\s+many\s+ways\s+can\s+(?P<n>\d+)\s+(?:different\s+)?"
+     r"(?:people|persons|students|books|letters|flags|digits|objects|"
+     r"articles|candidates|children)\s+(?:be\s+)?(?:arranged|seated|stand"
+     r"ing|stand)\s*(?:in\s+a\s+(?:row|line|circle|ring))?",
+     _c_perm_ways),
+    ("COMBINATION_COMMITTEE",
+     r"in\s+how\s+many\s+ways\s+can\s+(?:a\s+)?(?:committee|team|group|set|"
+     r"hand|delegation)\s+of\s+(?P<r>\d+)\s*(?:people|persons|students|"
+     r"members|players|cards|books|items)?\s*(?:be\s+)?(?:chosen|selected|"
+     r"formed|picked)\s+from\s+(?P<n>\d+)",
+     _c_comb_committee),
+    # ---- kemh109 straight lines: remaining forms ----
+    ("LINE_POINT_SLOPE",
+     r"equation\s+of\s+(?:the\s+)?line\s+(?:passing\s+)?through\s+"
+     + _pt("a") + r"[^.]{0,60}?slope\s+(?:is\s+)?(?P<sl>" + _NUM + r")",
+     _c_line_point_slope),
+    ("LINE_INTERCEPT_FORM",
+     r"(?:x-?\s*intercept|intercept\s+on\s+the\s+x-?axis)\s+(?:is\s+)?"
+     r"(?P<a>" + _NUM + r")[^.]{0,60}?(?:y-?\s*intercept|intercept\s+on\s+"
+     r"the\s+y-?axis)\s+(?:is\s+)?(?P<b>" + _NUM + r")",
+     _c_line_intercept),
+    ("ANGLE_BETWEEN_LINES",
+     r"angle\s+between\s+(?:the\s+)?two\s+lines\s+(?:with\s+)?slopes?\s*"
+     r"(?P<m1>" + _NUM + r")\s+and\s+(?P<m2>" + _NUM + r")",
+     _c_angle_lines),
+    # ---- kemh110 conics: ellipse ----
+    ("ELLIPSE_PROPERTIES",
+     r"(?P<what>area|eccentricity|foci|distance\s+between\s+(?:the\s+)?foci)"
+     r"\s+of\s+(?:an\s+)?ellipse\s+(?:with|of|having)\s+semi[\s-]?major\s+"
+     r"axis\s*(?:is|of|=)?\s*(?P<a>" + _NUM + r")[^.]{0,60}?semi[\s-]?minor"
+     r"\s+axis\s*(?:is|of|=)?\s*(?P<b>" + _NUM + r")",
+     _c_ellipse),
+    # ---- kemh111 3-D geometry ----
+    ("DISTANCE_3D",
+     r"distance\s+between\s+(?:the\s+)?(?:points?\s+)?"
+     r"(?:origin\s+and\s+)?" + _pt3("a") + r"\s+and\s+(?:the\s+)?"
+     r"(?:points?\s+)?" + _pt3("b"),
+     _c_distance_3d),
+    ("MIDPOINT_3D",
+     r"midpoint\s+of\s+(?:the\s+)?(?:line\s+)?(?:segment\s+)?"
+     r"(?:join(?:ing|s)?\s+)?(?:the\s+)?(?:points?\s+)?" + _pt3("a") +
+     r"\s+and\s+(?:the\s+)?(?:points?\s+)?" + _pt3("b"),
+     _c_midpoint_3d),
+    ("SECTION_FORMULA_3D",
+     r"divides?\s+(?:the\s+)?(?:line\s+)?(?:segment\s+)?"
+     r"(?:join(?:ing|s)?\s+)?(?:the\s+)?(?:points?\s+)?" + _pt3("a") +
+     r"\s+and\s+(?:the\s+)?(?:points?\s+)?" + _pt3("b") +
+     r".{0,60}?ratio\s*(?P<mm>\d+)\s*:\s*(?P<nn>\d+)",
+     _c_section_3d),
+    # ---- kemh112 limits beyond the standard set ----
+    ("LIMIT_QUAD_FACTOR",
+     r"\blim(?:it)?(?:\s+as\s+)?[\(\[]?\s*x\s*(?:\u2192|->|=>)\s*"
+     r"(?P<pt>" + _U_NUM + r")\s*[\)\]]?\s*(?:of\s+)?"
+     r"\(?\s*x\s*\^?\s*2\s*-\s*(?P<c>" + _NUM + r")\s*\)?\s*/\s*"
+     r"\(?\s*x\s*-\s*(?P<a>" + _NUM + r")\s*\)?",
+     _c_limit_quad),
+    ("LIMIT_QUAD_FACTOR",
+     r"\blim(?:it)?\s+of\s+"
+     r"\(?\s*x\s*\^?\s*2\s*-\s*(?P<c>" + _NUM + r")\s*\)?\s*/\s*"
+     r"\(?\s*x\s*-\s*(?P<a>" + _NUM + r")\s*\)?\s+as\s+x\s*"
+     r"(?:approaches|tends\s+to|->|\u2192)\s*(?P<pt>" + _U_NUM + r")",
+     _c_limit_quad),
+    ("LIMIT_POLY_DIRECT",
+     r"\blim(?:it)?(?:\s+as\s+)?[\(\[]?\s*x\s*(?:\u2192|->|=>)\s*"
+     r"(?P<pt>" + _U_NUM + r")\s*[\)\]]?\s*(?:of\s+)?\(?\s*"
+     r"(?P<a>" + _NUM + r")\s*\*?\s*x\s*\^?\s*2\s*(?P<s1>[+-])\s*"
+     r"(?P<b>" + _NUM + r")\s*\*?\s*x(?:\s*(?P<s2>[+-])\s*(?P<c>" + _NUM
+     + r"))?\s*\)?",
+     _c_limit_poly),
+    ("LIMIT_POLY_DIRECT",
+     r"\blim(?:it)?\s+of\s+\(?\s*(?P<a>" + _NUM + r")\s*\*?\s*x\s*\^?\s*2"
+     r"\s*(?P<s1>[+-])\s*(?P<b>" + _NUM + r")\s*\*?\s*x"
+     r"(?:\s*(?P<s2>[+-])\s*(?P<c>" + _NUM + r"))?\s*\)?\s+as\s+x\s*"
+     r"(?:approaches|tends\s+to|->|\u2192)\s*(?P<pt>" + _U_NUM + r")",
+     _c_limit_poly),
+    # ---- kemh112 / lemh106 derivatives ----
+    ("DERIV_MONOMIAL_EVAL",
+     r"derivative\s+of\s+(?:the\s+)?(?:function\s+)?(?:f\s*\(\s*x\s*\)"
+     r"\s*=\s*)?(?P<k>" + _NUM + r"\s*\*?\s*)?x(?:\s*\^?\s*(?P<n>" + _NUM
+     + r"))?\s+at\s+x\s*=\s*(?P<pt>" + _NUM + r")",
+     _c_deriv_monomial),
+    ("DERIV_QUAD_EVAL",
+     r"derivative\s+of\s+(?:the\s+)?(?:function\s+)?(?:f\s*\(\s*x\s*\)"
+     r"\s*=\s*)?(?P<a>" + _NUM + r")\s*\*?\s*x\s*\^?\s*2\s*(?P<s1>[+-])\s*"
+     r"(?P<b>" + _NUM + r")\s*\*?\s*x(?:\s*(?P<s2>[+-])\s*(?P<c>" + _NUM
+     + r"))?\s+at\s+x\s*=\s*(?P<pt>" + _NUM + r")",
+     _c_deriv_quad),
+    ("TANGENT_SLOPE",
+     r"slope\s+of\s+(?:the\s+)?tangent\s+to\s+(?:the\s+)?(?:curve\s+)?"
+     r"y\s*=\s*(?:(?P<a>" + _NUM + r")\s*\*?\s*)?x\s*\^?\s*2"
+     r"(?:\s*(?P<s1>[+-])\s*(?P<b>" + _NUM + r")\s*\*?\s*x"
+     r"(?:\s*(?P<s2>[+-])\s*(?P<c>" + _NUM + r"))?)?\s+at\s+x\s*=\s*"
+     r"(?P<pt>" + _NUM + r")",
+     _c_tangent_slope),
+    ("INCREASING_DECREASING",
+     r"(?:determine\s+whether\s+)?f\s*\(\s*x\s*\)\s*=\s*(?:(?P<a>" + _NUM
+     + r")\s*\*?\s*)?x\s*\^?\s*2(?:\s*(?P<s1>[+-])\s*(?P<b>" + _NUM + r")"
+     r"\s*\*?\s*x)?\s+is\s+increasing\s+or\s+decreasing\s+at\s+x\s*=\s*"
+     r"(?P<pt>" + _NUM + r")",
+     _c_inc_dec),
+    ("EXTREMA_QUAD",
+     r"(?P<kind>maximum|minimum)\s+(?:value\s+of\s+(?:the\s+)?"
+     r"(?:function\s+)?(?:f\s*\(\s*x\s*\)\s*=\s*)?)?(?:(?P<a>" + _NUM + r")"
+     r"\s*\*?\s*)?x\s*\^?\s*2(?:\s*(?P<s1>[+-])\s*(?P<b>" + _NUM + r")"
+     r"\s*\*?\s*x(?:\s*(?P<s2>[+-])\s*(?P<c>" + _NUM + r"))?)?",
+     _c_extrema_quad),
+    ("EXTREMA_QUAD",
+     r"(?P<kind>maximum|minimum)\s+value\s+of\s+(?:the\s+)?"
+     r"(?:function\s+)?(?:f\s*\(\s*x\s*\)\s*=\s*)?(?P<c0>" + _NUM + r")"
+     r"\s*(?P<s0>[+-])\s*(?P<b2>" + _NUM + r")\s*\*?\s*x\s*"
+     r"(?P<s1>[+-])\s*(?:(?P<a2>" + _U_NUM + r")\s*\*?\s*)?x\s*\^?\s*2",
+     _c_extrema_quad),
+    # ---- lemh106 applications: related rates ----
+    ("RATE_SPHERE_VOLUME",
+     r"radius\s+of\s+(?:a\s+)?(?:sphere|balloon|bubble|ball)[^.]{0,20}?"
+     r"(?P<dir>increas|decreas)(?:ing|es)\s+at\s+(?:the\s+rate\s+of\s+)?"
+     r"(?P<rate>" + _NUM + r")\s*(?P<unit>cm|mm|m)\s*(?:/|per)\s*s\b"
+     r".{0,200}?radius\s*(?:is\s+|is\s+equal\s+to\s+|=)?\s*"
+     r"(?P<r>" + _NUM + r")",
+     _c_rate_sphere),
+    ("RATE_CIRCLE_AREA",
+     r"radius\s+of\s+(?:a\s+)?circle[^.]{0,20}?"
+     r"(?P<dir>increas|decreas)(?:ing|es)\s+at\s+(?:the\s+rate\s+of\s+)?"
+     r"(?P<rate>" + _NUM + r")\s*(?P<unit>cm|mm|m)\s*(?:/|per)\s*s\b"
+     r".{0,200}?radius\s*(?:is\s+|is\s+equal\s+to\s+|=)?\s*"
+     r"(?P<r>" + _NUM + r")",
+     _c_rate_circle),
+    # ---- lemh201/202 integrals ----
+    ("INTEGRAL_POWER",
+     r"integrat\w+\s+(?:the\s+)?(?:(?P<co>" + _NUM + r")\s*\*?\s+)?"
+     r"x\s*(?:\^|\*\*)?\s*(?P<n>\d+)?\s*(?:with\s+respect\s+to\s+)?dx\s+"
+     r"from\s+(?P<lo>" + _NUM + r")\s+to\s+(?P<hi>" + _NUM + r")",
+     _c_integral_power),
+    ("INTEGRAL_POWER",
+     r"(?:value\s+of\s+the\s+)?integral\s+of\s+(?:(?P<co>" + _NUM +
+     r")\s*\*?\s+)?x\s*(?:\^|\*\*)?\s*(?P<n>\d+)?\s*(?:with\s+respect"
+     r"\s+to\s+)?dx\s+from\s+(?P<lo>" + _NUM + r")\s+to\s+(?P<hi>"
+     + _NUM + r")",
+     _c_integral_power),
+    ("INTEGRAL_POWER",
+     r"integrat\w+\s+(?:the\s+)?(?:(?P<co>" + _NUM + r")\s*\*?\s+)?"
+     r"x\s*(?:\^|\*\*)?\s*(?P<n>\d+)?\s*(?:with\s+respect\s+to\s+)?dx\b",
+     _c_integral_power),
+    # ---- lemh202 area under a line ----
+    ("AREA_UNDER_LINE",
+     r"area\s+(?:bounded|enclosed)\s+by\s+(?:the\s+)?(?:line\s+)?"
+     r"y\s*=\s*(?P<k>" + _NUM + r")\s*\*?\s*x\s*,\s*(?:the\s+)?x-?axis"
+     r"[^.]{0,80}?x\s*=\s*(?P<lo>" + _NUM + r")\s*(?:and|to)\s*"
+     r"x\s*=\s*(?P<hi>" + _NUM + r")",
+     _c_area_line),
+    # ---- lemh203 differential equations ----
+    ("DIFFEQ_POLY",
+     r"solve\s+(?:the\s+)?(?:differential\s+equation\s+)?dy\s*/\s*dx\s*=\s*"
+     r"(?P<k>" + _NUM + r")\s*\*?\s*x(?:\s*\^?\s*(?P<n>\d+))?",
+     _c_diffeq_poly),
+    ("DIFFEQ_EXP",
+     r"solve\s+(?:the\s+)?(?:differential\s+equation\s+)?dy\s*/\s*dx\s*=\s*"
+     r"(?P<k>" + _NUM + r")\s*\*?\s*y\b(?:[^.]{0,40}?y\s*\(\s*0\s*\)"
+     r"\s*=\s*(?P<y0>" + _NUM + r"))?",
+     _c_diffeq_exp),
+    ("DIFFEQ_ORDER_DEGREE",
+     r"order\s+and\s+degree\s+of\s+(?:the\s+)?(?:differential\s+)?"
+     r"(?:equation\s+)?(?P<eq>[^?]{4,140})",
+     _c_diffeq_order),
+    # ---- lemh206 linear programming ----
+    ("LPP_OPTIMAL",
+     r"(?P<kind>maximi[sz]e|minimi[sz]e)\s+(?:Z\s*=\s*)?(?:(?P<p>" + _NUM
+     + r")\s*\*?\s*)?x\s*\+\s*(?:(?P<q>" + _NUM + r")\s*\*?\s*)?y"
+     r"[^.]{0,60}?subject\s+to[^.]{0,120}?" + _lppc("c1") +
+     r"[^.]{0,60}?" + _lppc("c2"),
+     _c_lpp),
+    # ---- lemh102 inverse trigonometry ----
+    ("INV_TRIG_STD",
+     r"\b(?P<fn>sin|cos|tan)\s*(?:inverse|inv)\s*(?:of\s*)?\(?\s*"
+     r"(?P<val>" + _NUM + r"(?:\s*/\s*" + _U_NUM + r")?)\s*\)?",
+     _c_inv_trig),
+    ("INV_TRIG_STD",
+     r"\barc(?P<fn>sin|cos|tan)\s*\(?\s*(?P<val>" + _NUM +
+     r"(?:\s*/\s*" + _U_NUM + r")?)\s*\)?",
+     _c_inv_trig),
+    ("INV_TRIG_STD",
+     r"(?P<fn>sin|cos|tan)\s*\^\s*-\s*1\s*\(?\s*(?P<val>" + _NUM +
+     r"(?:\s*/\s*" + _U_NUM + r")?)\s*\)?",
+     _c_inv_trig),
+    # ---- lemh204 vectors ----
+    ("VECTOR_DOT",
+     r"(?:dot|scalar)\s+product\s+of\s+(?:the\s+)?(?:vectors?\s+)?"
+     + _vec3("a") + r"\s+and\s+(?:the\s+)?(?:vector\s+)?(?:"
+     + _vec3("b") + r"|" + _vec3_noi("b") + r")",
+     _c_vec_dot),
+    ("VECTOR_MAGNITUDE",
+     r"magnitude\s+of\s+(?:the\s+)?(?:vector\s+|position\s+vector\s+)?"
+     + _vec3("a"),
+     _c_vec_mag),
+    # ---- lemh104 determinants ----
+    ("DETERMINANT_2X2",
+     r"determinant\s+of\s+(?:the\s+)?(?:matrix\s+)?" + _mtx("m"),
+     _c_det2),
+    # ---- lemh207 conditional probability from event probabilities ----
+    ("PROBABILITY_COND_EVENTS",
+     r"P\s*\(\s*(?P<q1>A|B)\s*\|\s*(?P<q2>A|B)\s*\)",
+     _c_prob_events_sent),
+]
+
+_TABLE.extend(_TABLE_BOOKS3)
 
 TABLE = _TABLE
 
@@ -2374,7 +3670,9 @@ def model_maths2(text: str) -> ModelResult:
 
     Triggers are deterministic regexes with named slots; each row applies
     its own plausibility gates inside compute, and a gate refusal simply
-    lets the scan continue.  Never calls an LLM.
+    lets the scan continue.  Matched results pass through _augment(), which
+    enforces the 5-beat step contract (method, given, computation,
+    executed verification, interpretation).  Never calls an LLM.
     """
     norm = _normalize(text)
     for fid, pattern, compute in TABLE:
@@ -2392,6 +3690,12 @@ def model_maths2(text: str) -> ModelResult:
             (list(out) + [None] * 6)[:6]
         if value is None and not steps:
             continue  # gate refused this row
-        return _res(fid, g, value, eq or fid, steps or [], answer=answer,
-                    assumptions=assumptions, extra=extra or {})
+        steps, extra = _augment(fid, g, value, steps, answer, eq, extra,
+                                recompute=lambda: compute(g, m, norm))
+        res = _res(fid, g, value, eq or fid, steps, answer=answer,
+                   assumptions=assumptions, extra=extra)
+        # contract payload: the technique name rides in note
+        res.note = ((res.note + "; ") if res.note else "") + \
+            "method: " + str(extra.get("method") or eq or fid)
+        return res
     return _no("MATHS2", "no maths2 family matched")

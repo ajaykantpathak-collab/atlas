@@ -36,6 +36,7 @@ SUBJECTS = [
     ("hindi", "test_hindi_families.py"),
     ("compapp", "test_compapp_families.py"),
     ("socsci", "test_socsci_families.py"),
+    ("commerce", "test_commerce_families.py"),
 ]
 
 METHOD_RE = re.compile(

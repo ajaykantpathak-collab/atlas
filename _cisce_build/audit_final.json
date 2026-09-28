@@ -1,0 +1,190 @@
+{
+ "maths": {
+  "modules": [
+   "applied_maths_families.model_applied_maths",
+   "maths2_families.model_maths2"
+  ],
+  "probes_fired": 306,
+  "matched": 81,
+  "hard": [],
+  "warn": [
+   "[maths] 'A machine worth 50000 depreciates at 10% per annum. Find its value aft' -> no method beat in step 1",
+   "[maths] 'The value of a car 800000 depreciates at 12% per annum. Find its value' -> no method beat in step 1",
+   "[maths] 'For a binomial distribution with n = 10 and p = 0.3, find the mean and' -> no method beat in step 1",
+   "[maths] 'Find the value of log base 2 of 32' -> no method beat in step 1",
+   "[maths] 'Find the transpose of the matrix [[1, 2], [3, 4]]' -> no method beat in step 1",
+   "[maths] 'Find the cross product of 2i + 3j + 4k and 5i + 6j + 7k' -> no method beat in step 1",
+   "[maths] 'Find the slope and y-intercept of the line 3x + 2y = 12' -> no method beat in step 1",
+   "[maths] 'Find the distance from the point (1, 2) to the line 3x + 4y + 5 = 0' -> no method beat in step 1",
+   "[maths] 'Find the mean of the following frequency distribution: x = 2, 4, 6, f ' -> no method beat in step 1",
+   "[maths] 'A bag contains 5 red and 3 blue balls. Two balls are drawn without rep' -> no method beat in step 1",
+   "[maths] 'A bag contains 5 red and 3 blue balls. Given that the second ball is b' -> no method beat in step 1",
+   "[maths] 'Find the mean of 2, 4, 6, 8' -> no method beat in step 1",
+   "[maths] 'Find the perimeter of a rectangle with length 12 and breadth 8' -> no method beat in step 1",
+   "[maths] 'Find the perimeter of a square of side 9' -> no method beat in step 1",
+   "[maths] 'Find the area of a triangle with base 10 and height 6' -> no method beat in step 1",
+   "[maths] 'Two angles of a triangle are 60 and 70. Find the third angle' -> no method beat in step 1",
+   "[maths] 'Find the area of a triangle with sides 13, 14 and 15' -> no method beat in step 1",
+   "[maths] 'The marked price of an article is 800 and the discount is 15%. Find th' -> no method beat in step 1",
+   "[maths] 'Successive discounts of 20% and 10% are given on an item of 1000. Find' -> no method beat in step 1",
+   "[maths] 'GST of 18% is charged on an item priced 2500. Find the bill amount' -> no method beat in step 1",
+   "[maths] 'If the cost of 8 m of cloth is 240, find the cost of 15 m of cloth' -> no method beat in step 1",
+   "[maths] 'If 12 workers can complete a work in 20 days, how long will 16 workers' -> no method beat in step 1",
+   "[maths] 'Find the surface area of a cube of edge 6' -> no method beat in step 1",
+   "[maths] 'Find the total surface area of a cylinder of radius 7 and height 10' -> no method beat in step 1",
+   "[maths] 'Find the surface area of a sphere of radius 7' -> no method beat in step 1",
+   "[maths] 'Find the volume of a hemisphere of radius 3' -> no method beat in step 1",
+   "[maths] 'Find the volume of a cone of radius 3 and height 4' -> no method beat in step 1",
+   "[maths] 'From a point 30 m away from the foot of a tower the angle of elevation' -> no method beat in step 1",
+   "[maths] 'Find the sum of zeroes of 2 x^2 - 4 x + 6' -> no method beat in step 1",
+   "[maths] 'Find the product of zeroes of 2 x^2 - 4 x + 6' -> no method beat in step 1",
+   "[maths] 'Solve 3 x + y = 10 and 2 x - y = 5' -> no method beat in step 1",
+   "[maths] 'Find the nature of the roots of 2 x^2 - 4 x + 3 = 0' -> no method beat in step 1",
+   "[maths] 'Find the distance between (1, 2) and (4, 6)' -> no method beat in step 1",
+   "[maths] 'Find the midpoint of (1, 2) and (4, 6)' -> no method beat in step 1",
+   "[maths] 'Find the value of sin 30 + cos 60' -> no method beat in step 1",
+   "[maths] 'Evaluate 2 tan 45 + sin 30' -> no method beat in step 1",
+   "[maths] 'Find the value of tan 45' -> no method beat in step 1",
+   "[maths] 'Find the area of a sector of a circle of radius 7 with angle 90' -> no method beat in step 1",
+   "[maths] 'Find the length of the arc of a circle of radius 7 with angle 90' -> no method beat in step 1",
+   "[maths] 'Find the median of the following grouped data: class 0-10 10-20 20-30 ' -> no method beat in step 1",
+   "[maths] 'Find the mode of the following frequency distribution: class 0-10, 10-' -> no method beat in step 1",
+   "[maths] 'What is the probability of getting a king from a well shuffled deck of' -> no method beat in step 1",
+   "[maths] 'Find the probability of getting an even number when a die is thrown' -> no method beat in step 1",
+   "[maths] 'Find the probability of getting two heads when two coins are tossed' -> no method beat in step 1",
+   "[maths] 'Find the sum of the first 6 terms of the GP with first term 3 and comm' -> no method beat in step 1",
+   "[maths] 'Find the sum of the infinite GP with first term 8 and common ratio 0.5' -> no method beat in step 1",
+   "[maths] 'Find the arithmetic mean of 4 and 10' -> no method beat in step 1",
+   "[maths] 'Find the geometric mean of 4 and 9' -> no method beat in step 1",
+   "[maths] 'Intersection of A = {1, 2, 3} and B = {3, 4, 5}' -> no method beat in step 1",
+   "[maths] 'Difference of A = {1, 2, 3} and B = {3, 4, 5}' -> no method beat in step 1",
+   "[maths] 'Solve the differential equation dy/dx = 2y given y(0) = 5' -> no method beat in step 1"
+  ],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ },
+ "physics": {
+  "modules": [
+   "physics_families.model_physics_families",
+   "physics2_families.model_physics2",
+   "physics3_families.model_physics3"
+  ],
+  "probes_fired": 579,
+  "matched": 27,
+  "hard": [],
+  "warn": [],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ },
+ "chemistry": {
+  "modules": [
+   "chemistry_families.model_chemistry_families"
+  ],
+  "probes_fired": 217,
+  "matched": 69,
+  "hard": [],
+  "warn": [],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ },
+ "biology": {
+  "modules": [
+   "biology_families.model_biology"
+  ],
+  "probes_fired": 61,
+  "matched": 36,
+  "hard": [],
+  "warn": [],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ },
+ "accountancy": {
+  "modules": [
+   "accountancy_families.model_accountancy_families"
+  ],
+  "probes_fired": 166,
+  "matched": 24,
+  "hard": [],
+  "warn": [],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ },
+ "economics": {
+  "modules": [
+   "economics_families.model_economics_families"
+  ],
+  "probes_fired": 98,
+  "matched": 49,
+  "hard": [],
+  "warn": [],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ },
+ "english": {
+  "modules": [
+   "english_families.model_english"
+  ],
+  "probes_fired": 31,
+  "matched": 6,
+  "hard": [],
+  "warn": [],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ },
+ "hindi": {
+  "modules": [
+   "hindi_families.model_hindi"
+  ],
+  "probes_fired": 28,
+  "matched": 5,
+  "hard": [],
+  "warn": [],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ },
+ "compapp": {
+  "modules": [
+   "compapp_families.model_compapp"
+  ],
+  "probes_fired": 80,
+  "matched": 24,
+  "hard": [],
+  "warn": [],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ },
+ "socsci": {
+  "modules": [
+   "socsci_families.model_socsci"
+  ],
+  "probes_fired": 101,
+  "matched": 37,
+  "hard": [],
+  "warn": [],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ },
+ "commerce": {
+  "modules": [
+   "commerce_families.model_commerce_families",
+   "commerce_families2.model_commerce2"
+  ],
+  "probes_fired": 112,
+  "matched": 21,
+  "hard": [],
+  "warn": [],
+  "import_errors": [],
+  "drift": [],
+  "errors": []
+ }
+}

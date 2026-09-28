@@ -1,0 +1,1259 @@
+{
+  "generated": "2026-09-27",
+  "note": "Chemistry inventory class 6-12: NCERT/Curiosity book chapters + ICSE corpus nodes (cisce_nodes_v2 c{n}_chem_icse). ICSE is the corpus board.",
+  "classes": {
+    "class_6": {
+      "book_source": "ncert_curiosity_class6",
+      "book_chapters": [
+        {
+          "file": "fecu106",
+          "num": 6,
+          "title": "Materials Around Us",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_6\\misc\\fecu106.txt",
+          "verified": true,
+          "size_chars": 29059,
+          "corpus_chapter": {
+            "node_count": 4,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 4,
+            "nodes_with_worked_example": 4,
+            "chapter_overview": "Matter is everything around you that has weight and takes up space — like a steel tiffin box, a glass of nimbu pani, or the air you blow into a balloon. In class we learn to write down what we see in a neat table: name o"
+          }
+        },
+        {
+          "file": "fecu108",
+          "num": 8,
+          "title": "A Journey through States of Water",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_6\\misc\\fecu108.txt",
+          "verified": true,
+          "size_chars": 30177
+        },
+        {
+          "file": "fecu109",
+          "num": 9,
+          "title": "Methods of Separation in Everyday Life",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_6\\misc\\fecu109.txt",
+          "verified": true,
+          "size_chars": 28093
+        },
+        {
+          "file": "fecu111",
+          "num": 11,
+          "title": "Nature's Treasures (air, water, soil, minerals)",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_6\\misc\\fecu111.txt",
+          "verified": true,
+          "size_chars": 32973
+        }
+      ],
+      "corpus_only_chapters": [
+        {
+          "num": 1,
+          "source": "corpus_only",
+          "chapter_overview": "Chemistry is the science of what things are made of and how they change. Milk turning into curd, an iron nail rusting, and a cracker bursting with light and sound are all examples of chemistry at work. Chemistry matters",
+          "corpus_chapter": {
+            "node_count": 11,
+            "nodes_with_formula": 11,
+            "nodes_with_misconception": 11
+          }
+        },
+        {
+          "num": 2,
+          "source": "corpus_only",
+          "chapter_overview": "Everything around you — your iron nail, the gold in Ma's ring, the oxygen you just breathed — is built from simple building blocks called elements. An element is a substance made of only one kind of building block and ca",
+          "corpus_chapter": {
+            "node_count": 18,
+            "nodes_with_formula": 17,
+            "nodes_with_misconception": 18
+          }
+        },
+        {
+          "num": 3,
+          "source": "corpus_only",
+          "chapter_overview": "Everything around you — your school bag, the water in your bottle, the air in a balloon — is made of *matter*, because matter is simply anything that has weight and takes up room. Matter comes in three \"avatars\": solid (",
+          "corpus_chapter": {
+            "node_count": 18,
+            "nodes_with_formula": 0,
+            "nodes_with_misconception": 18
+          }
+        },
+        {
+          "num": 4,
+          "source": "corpus_only",
+          "chapter_overview": "Water is the helper that works in every corner of an Indian home from the moment you wake up: you drink it, brush with it, bathe with it, cook rice and dal in it, wash your uniform in it and clean the floor with it. Your",
+          "corpus_chapter": {
+            "node_count": 18,
+            "nodes_with_formula": 0,
+            "nodes_with_misconception": 18
+          }
+        },
+        {
+          "num": 5,
+          "source": "corpus_only",
+          "chapter_overview": "Hold out your hand and wave it — you just pushed something invisible. That something is air, and it is everywhere: in the classroom, inside a sealed bottle, hidden in the soil of the garden, even dissolved in the water f",
+          "corpus_chapter": {
+            "node_count": 4,
+            "nodes_with_formula": 0,
+            "nodes_with_misconception": 4
+          }
+        }
+      ]
+    },
+    "class_7": {
+      "book_source": "ncert_curiosity_class7",
+      "book_chapters": [
+        {
+          "file": "gecu102",
+          "num": 2,
+          "title": "Exploring Substances: Acidic, Basic and Neutral",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_7\\misc\\gecu102.txt",
+          "verified": true,
+          "size_chars": 25731,
+          "corpus_chapter": {
+            "node_count": 18,
+            "nodes_with_formula": 3,
+            "nodes_with_misconception": 18,
+            "nodes_with_worked_example": 18,
+            "chapter_overview": ""
+          }
+        },
+        {
+          "file": "gecu104",
+          "num": 4,
+          "title": "The World of Metals and Non-Metals",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_7\\misc\\gecu104.txt",
+          "verified": true,
+          "size_chars": 28254,
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 8,
+            "nodes_with_worked_example": 8,
+            "chapter_overview": ""
+          }
+        },
+        {
+          "file": "gecu105",
+          "num": 5,
+          "title": "Changes Around Us: Physical and Chemical",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_7\\misc\\gecu105.txt",
+          "verified": true,
+          "size_chars": 25427,
+          "corpus_chapter": {
+            "node_count": 18,
+            "nodes_with_formula": 2,
+            "nodes_with_misconception": 18,
+            "nodes_with_worked_example": 18,
+            "chapter_overview": "Metals are like the shiny steel spoon you use to eat dal — they shine, conduct heat, can be hammered into sheets, and make a ringing sound when dropped. Non‑metals are like the coal piece in the kitchen stove — they are"
+          }
+        }
+      ],
+      "corpus_only_chapters": [
+        {
+          "num": 1,
+          "source": "corpus_only",
+          "chapter_overview": "Imagine you have a bar of chocolate. If you break it into pieces, it’s still chocolate — that’s a physical change. If you melt it in a pan, it becomes liquid but still chocolate, so still physical. Now, if you burn a pie",
+          "corpus_chapter": {
+            "node_count": 16,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 16
+          }
+        },
+        {
+          "num": 3,
+          "source": "corpus_only",
+          "chapter_overview": "Imagine a grain of sugar. You can keep breaking it into smaller pieces until you get a tiny piece that still tastes sweet and is still sugar. That smallest piece is like an atom — the smallest particle of an element that",
+          "corpus_chapter": {
+            "node_count": 14,
+            "nodes_with_formula": 0,
+            "nodes_with_misconception": 14
+          }
+        },
+        {
+          "num": 6,
+          "source": "corpus_only",
+          "chapter_overview": "",
+          "corpus_chapter": {
+            "node_count": 4,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 4
+          }
+        },
+        {
+          "num": 7,
+          "source": "corpus_only",
+          "chapter_overview": "Everything you can touch — your book, the water in your bottle, the air you breathe — is made of unimaginably tiny particles that never stop moving. This chapter is the story of those particles: how they are packed tight",
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 5,
+            "nodes_with_misconception": 8
+          }
+        }
+      ]
+    },
+    "class_8": {
+      "book_source": "ncert_curiosity_class8",
+      "book_chapters": [
+        {
+          "file": "hecu107",
+          "num": 7,
+          "title": "Particulate Nature of Matter",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_8\\misc\\hecu107.txt",
+          "verified": true,
+          "size_chars": 31066,
+          "corpus_chapter": {
+            "node_count": 15,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 15,
+            "nodes_with_worked_example": 15,
+            "chapter_overview": ""
+          }
+        },
+        {
+          "file": "hecu108",
+          "num": 8,
+          "title": "Nature of Matter: Elements, Compounds and Mixtures",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_8\\misc\\hecu108.txt",
+          "verified": true,
+          "size_chars": 34790,
+          "corpus_chapter": {
+            "node_count": 18,
+            "nodes_with_formula": 7,
+            "nodes_with_misconception": 18,
+            "nodes_with_worked_example": 18,
+            "chapter_overview": "Allotropes are different forms of the same element, like how carbon can be a hard diamond, a soft graphite in pencils, or black coal. Think of it like the same Lego bricks built into a castle, a car, or a flat wall — eac"
+          }
+        },
+        {
+          "file": "hecu109",
+          "num": 9,
+          "title": "The Amazing World of Solutes, Solvents and Solutions",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_8\\misc\\hecu109.txt",
+          "verified": true,
+          "size_chars": 35822,
+          "corpus_chapter": {
+            "node_count": 15,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 15,
+            "nodes_with_worked_example": 15,
+            "chapter_overview": "A leaf is the plant's kitchen, and like every kitchen it is built to work. Hold a mango leaf: the thin stalk that joins it to the twig is the PETIOLE — the kitchen's handle; the broad green flat part is the LAMINA — the"
+          }
+        }
+      ],
+      "corpus_only_chapters": [
+        {
+          "num": 1,
+          "source": "corpus_only",
+          "chapter_overview": "Imagine you have a piece of chalk. If you snap it, it’s still chalk — that’s a physical change. If you burn it, it turns into ash and smoke — that’s a chemical change. This chapter teaches you how to spot the difference",
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 0,
+            "nodes_with_misconception": 8
+          }
+        },
+        {
+          "num": 2,
+          "source": "corpus_only",
+          "chapter_overview": "",
+          "corpus_chapter": {
+            "node_count": 11,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 11
+          }
+        },
+        {
+          "num": 3,
+          "source": "corpus_only",
+          "chapter_overview": "Imagine a tiny, invisible bead that whizzes around the centre of an atom, just like fireflies dance around a lamp at night. This bead is called an electron. It carries a negative charge, so it is attracted to the positiv",
+          "corpus_chapter": {
+            "node_count": 7,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 7
+          }
+        },
+        {
+          "num": 4,
+          "source": "corpus_only",
+          "chapter_overview": "Chemists never write long names inside an equation — they use a short code called a symbol. Sodium becomes Na, oxygen becomes O, gold becomes Au. Learn the code and a whole page of chemistry shrinks into a few letters, e",
+          "corpus_chapter": {
+            "node_count": 14,
+            "nodes_with_formula": 4,
+            "nodes_with_misconception": 14
+          }
+        },
+        {
+          "num": 5,
+          "source": "corpus_only",
+          "chapter_overview": "Not all metals fight equally. Potassium and sodium react with water so fiercely they dance on the surface; iron rusts slowly; gold sits in rivers for centuries unchanged. Arranging metals from the fiercest to the laziest",
+          "corpus_chapter": {
+            "node_count": 4,
+            "nodes_with_formula": 2,
+            "nodes_with_misconception": 4
+          }
+        },
+        {
+          "num": 6,
+          "source": "corpus_only",
+          "chapter_overview": "",
+          "corpus_chapter": {
+            "node_count": 13,
+            "nodes_with_formula": 4,
+            "nodes_with_misconception": 13
+          }
+        }
+      ]
+    },
+    "class_9": {
+      "book_source": "ncert_science_class9",
+      "book_chapters": [
+        {
+          "file": "iesc102",
+          "num": 2,
+          "title": "Matter around us (nature of matter)",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_9\\misc\\iesc102.txt",
+          "verified": true,
+          "size_chars": 51735,
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 4,
+            "nodes_with_misconception": 8,
+            "nodes_with_worked_example": 8,
+            "chapter_overview": ""
+          }
+        },
+        {
+          "file": "iesc105",
+          "num": 5,
+          "title": "Exploring Mixtures and their Separation",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_9\\misc\\iesc105.txt",
+          "verified": true,
+          "size_chars": 52183,
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 8,
+            "nodes_with_worked_example": 8,
+            "chapter_overview": ""
+          }
+        },
+        {
+          "file": "iesc108",
+          "num": 8,
+          "title": "Journey Inside the Atom",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_9\\misc\\iesc108.txt",
+          "verified": true,
+          "size_chars": 50840,
+          "corpus_chapter": {
+            "node_count": 4,
+            "nodes_with_formula": 0,
+            "nodes_with_misconception": 4,
+            "nodes_with_worked_example": 4,
+            "chapter_overview": ""
+          }
+        },
+        {
+          "file": "iesc109",
+          "num": 9,
+          "title": "Atomic Foundations of Matter",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_9\\misc\\iesc109.txt",
+          "verified": true,
+          "size_chars": 49778
+        }
+      ],
+      "corpus_only_chapters": [
+        {
+          "num": 1,
+          "source": "corpus_only",
+          "chapter_overview": "Think of chemistry like a recipe book for making things such as medicines, fertilizers, or clean water. Symbols are the short codes for each ingredient (like “H” for hydrogen), valency tells how many spoons of each ingre",
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 8
+          }
+        },
+        {
+          "num": 3,
+          "source": "corpus_only",
+          "chapter_overview": "Water is the busiest liquid in your home — it makes your chai, washes your clothes, boils your rice, and even hides inside the blue crystals of copper sulfate on a lab shelf. This chapter asks five simple questions about",
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 4,
+            "nodes_with_misconception": 8
+          }
+        },
+        {
+          "num": 4,
+          "source": "corpus_only",
+          "chapter_overview": "Think of an atom like a tiny Lego set. This chapter shows how the pieces (protons, neutrons, electrons) fit together, why some atoms are heavier (mass number), why some have twins (isotopes), and how atoms hold hands to",
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 8
+          }
+        },
+        {
+          "num": 6,
+          "source": "corpus_only",
+          "chapter_overview": "Hydrogen can be made from water by splitting it using electricity (electrolysis) or by passing steam over hot iron. Think of water as a locked box; electricity or heat acts like a key that opens it, releasing hydrogen ga",
+          "corpus_chapter": {
+            "node_count": 6,
+            "nodes_with_formula": 2,
+            "nodes_with_misconception": 6
+          }
+        },
+        {
+          "num": 7,
+          "source": "corpus_only",
+          "chapter_overview": "Gases are the moody members of the matter family: squeeze them and they shrink, warm them and they expand, and they always fill whatever you put them in. A pressure cooker whistles because heated steam pushes harder; a c",
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 5,
+            "nodes_with_misconception": 8
+          }
+        }
+      ]
+    },
+    "class_10": {
+      "book_source": "ncert_science_class10",
+      "book_chapters": [
+        {
+          "file": "jesc101",
+          "num": 1,
+          "title": "Chemical Reactions and Equations",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_10\\misc\\jesc101.txt",
+          "verified": true,
+          "size_chars": 33653,
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 2,
+            "nodes_with_misconception": 8,
+            "nodes_with_worked_example": 8,
+            "chapter_overview": "Just like a school timetable repeats subjects every week, the periodic table arranges elements so their properties repeat at regular intervals. This chapter shows why elements in the same group behave alike — think of al"
+          }
+        },
+        {
+          "file": "jesc102",
+          "num": 2,
+          "title": "Acids, Bases and Salts",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_10\\misc\\jesc102.txt",
+          "verified": true,
+          "size_chars": 40785,
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 8,
+            "nodes_with_worked_example": 8,
+            "chapter_overview": "Chemical bonds are formed when atoms share or transfer electrons to become stable, just like friends sharing snacks to feel happy, where some give a whole biscuit away (electrovalent), some split and share pieces (covale"
+          }
+        },
+        {
+          "file": "jesc103",
+          "num": 3,
+          "title": "Metals and Non-metals",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_10\\misc\\jesc103.txt",
+          "verified": true,
+          "size_chars": 44955,
+          "corpus_chapter": {
+            "node_count": 7,
+            "nodes_with_formula": 0,
+            "nodes_with_misconception": 7,
+            "nodes_with_worked_example": 7,
+            "chapter_overview": ""
+          }
+        },
+        {
+          "file": "jesc104",
+          "num": 4,
+          "title": "Carbon and its Compounds",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_10\\misc\\jesc104.txt",
+          "verified": true,
+          "size_chars": 48114,
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 8,
+            "nodes_with_worked_example": 8,
+            "chapter_overview": "Analytical chemistry provides a detective kit of three special liquids—ammonium hydroxide, sodium hydroxide, and potassium hydroxide—to systematically identify unknown metals in mystery powders through coloured precipita"
+          }
+        }
+      ],
+      "corpus_only_chapters": [
+        {
+          "num": 5,
+          "source": "corpus_only",
+          "chapter_overview": "",
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 2,
+            "nodes_with_misconception": 8
+          }
+        },
+        {
+          "num": 6,
+          "source": "corpus_only",
+          "chapter_overview": "",
+          "corpus_chapter": {
+            "node_count": 7,
+            "nodes_with_formula": 1,
+            "nodes_with_misconception": 7
+          }
+        },
+        {
+          "num": 7,
+          "source": "corpus_only",
+          "chapter_overview": "",
+          "corpus_chapter": {
+            "node_count": 6,
+            "nodes_with_formula": 3,
+            "nodes_with_misconception": 6
+          }
+        },
+        {
+          "num": 8,
+          "source": "corpus_only",
+          "chapter_overview": "",
+          "corpus_chapter": {
+            "node_count": 8,
+            "nodes_with_formula": 3,
+            "nodes_with_misconception": 8
+          }
+        },
+        {
+          "num": 9,
+          "source": "corpus_only",
+          "chapter_overview": "Organic chemistry is the study of carbon compounds. Carbon is like a master builder that can link to itself in long chains, branched chains, and rings — just like linking paper clips to make a necklace. In daily Indian l",
+          "corpus_chapter": {
+            "node_count": 6,
+            "nodes_with_formula": 0,
+            "nodes_with_misconception": 6
+          }
+        }
+      ]
+    },
+    "class_11": {
+      "book_source": "ncert_chemistry_class11",
+      "book_chapters": [
+        {
+          "file": "kech101",
+          "num": 1,
+          "title": "Some Basic Concepts of Chemistry",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_11\\misc\\kech101.txt",
+          "verified": true,
+          "size_chars": 85913
+        },
+        {
+          "file": "kech102",
+          "num": 2,
+          "title": "Structure of Atom",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_11\\misc\\kech102.txt",
+          "verified": true,
+          "size_chars": 140034
+        },
+        {
+          "file": "kech103",
+          "num": 3,
+          "title": "Classification of Elements and Periodicity",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_11\\misc\\kech103.txt",
+          "verified": true,
+          "size_chars": 72897
+        },
+        {
+          "file": "kech104",
+          "num": 4,
+          "title": "Chemical Bonding and Molecular Structure",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_11\\misc\\kech104.txt",
+          "verified": true,
+          "size_chars": 93659
+        },
+        {
+          "file": "kech105",
+          "num": 5,
+          "title": "Thermodynamics",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_11\\misc\\kech105.txt",
+          "verified": true,
+          "size_chars": 93114
+        },
+        {
+          "file": "kech106",
+          "num": 6,
+          "title": "Equilibrium",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_11\\misc\\kech106.txt",
+          "verified": true,
+          "size_chars": 171411
+        },
+        {
+          "file": "kech201",
+          "num": 7,
+          "title": "Redox Reactions",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_11\\misc\\kech201.txt",
+          "verified": true,
+          "size_chars": 68298
+        },
+        {
+          "file": "kech202",
+          "num": 8,
+          "title": "Organic Chemistry: Some Basic Principles and Techniques",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_11\\misc\\kech202.txt",
+          "verified": true,
+          "size_chars": 100365
+        },
+        {
+          "file": "kech203",
+          "num": 9,
+          "title": "Hydrocarbons",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_11\\misc\\kech203.txt",
+          "verified": true,
+          "size_chars": 84334
+        }
+      ],
+      "corpus_only_chapters": [],
+      "enhanced_nodes_md_corpus": {
+        "total_nodes": 124,
+        "chapters": {
+          "1": 15,
+          "2": 17,
+          "3": 13,
+          "4": 12,
+          "5": 13,
+          "6": 10,
+          "7": 15,
+          "8": 8,
+          "9": 12,
+          "10": 5,
+          "11": 4
+        }
+      }
+    },
+    "class_12": {
+      "book_source": "ncert_chemistry_class12",
+      "book_chapters": [
+        {
+          "file": "lech101",
+          "num": 1,
+          "title": "Solutions",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_12\\misc\\lech101.txt",
+          "verified": true,
+          "size_chars": 75098
+        },
+        {
+          "file": "lech102",
+          "num": 2,
+          "title": "Electrochemistry",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_12\\misc\\lech102.txt",
+          "verified": true,
+          "size_chars": 73665
+        },
+        {
+          "file": "lech103",
+          "num": 3,
+          "title": "Chemical Kinetics",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_12\\misc\\lech103.txt",
+          "verified": true,
+          "size_chars": 57845
+        },
+        {
+          "file": "lech104",
+          "num": 4,
+          "title": "The d- and f-Block Elements",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_12\\misc\\lech104.txt",
+          "verified": true,
+          "size_chars": 80457
+        },
+        {
+          "file": "lech105",
+          "num": 5,
+          "title": "Coordination Compounds",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_12\\misc\\lech105.txt",
+          "verified": true,
+          "size_chars": 61349
+        },
+        {
+          "file": "lech201",
+          "num": 6,
+          "title": "Haloalkanes and Haloarenes",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_12\\misc\\lech201.txt",
+          "verified": true,
+          "size_chars": 63341
+        },
+        {
+          "file": "lech202",
+          "num": 7,
+          "title": "Alcohols, Phenols and Ethers",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_12\\misc\\lech202.txt",
+          "verified": true,
+          "size_chars": 54848
+        },
+        {
+          "file": "lech203",
+          "num": 8,
+          "title": "Aldehydes, Ketones and Carboxylic Acids",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_12\\misc\\lech203.txt",
+          "verified": true,
+          "size_chars": 54806
+        },
+        {
+          "file": "lech204",
+          "num": 9,
+          "title": "Amines",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_12\\misc\\lech204.txt",
+          "verified": true,
+          "size_chars": 40984
+        },
+        {
+          "file": "lech205",
+          "num": 10,
+          "title": "Biomolecules",
+          "path": "D:\\platform\\ncert_books\\text_cache_new\\class_12\\misc\\lech205.txt",
+          "verified": true,
+          "size_chars": 46852
+        }
+      ],
+      "corpus_only_chapters": [],
+      "enhanced_nodes_md_corpus": {
+        "total_nodes": 200,
+        "chapters": {
+          "1": 22,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 18,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        }
+      }
+    }
+  },
+  "summary": {
+    "corpus_chem_nodes_total": 388,
+    "corpus_chem_chapters": 39,
+    "book_chem_chapters": 37,
+    "enhanced_nodes_md_chem_total": 324
+  },
+  "solver_classification": {
+    "generated": "2026-09-29",
+    "method": "every chapter topic (book + corpus-only) checked against the books (ncert_books/text_cache_new/class_9..12/misc) and the CISCE corpus (deploy/content/cisce_nodes_md); topics are solver_able only where a closed-form, book-grounded computation exists. Candidates the books do not support are honestly refused - no pseudo-solvers invented.",
+    "families_module": "deploy/backend/its/solver/chemistry_families.py (+ root mirror), 39 rows / 39 families: 19 TABLE (batch-15) + 20 TABLE_BOOKS2 (batch-16, book-grounded completions)",
+    "classes": {
+      "6": [
+        {
+          "topic": "Materials Around Us",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative observation/classification; Curiosity 6 poses no numeric exercises"
+        },
+        {
+          "topic": "A Journey through States of Water",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative evaporation/condensation; no computation"
+        },
+        {
+          "topic": "Methods of Separation in Everyday Life",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative methods; no computation"
+        },
+        {
+          "topic": "Nature's Treasures",
+          "solver_able": false,
+          "covered": false,
+          "reason": "environmental awareness; no computation"
+        },
+        {
+          "topic": "corpus: Matter (ICSE ch1)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative introduction; no numeric exercises"
+        },
+        {
+          "topic": "corpus: Elements, Compounds and Mixtures (ICSE ch2)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "classification/naming; book and corpus pose no numeric exercises"
+        },
+        {
+          "topic": "corpus: States of Matter (ICSE ch3)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative"
+        },
+        {
+          "topic": "corpus: Water (ICSE ch4)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative; hardness arithmetic first appears in class 9"
+        },
+        {
+          "topic": "corpus: Air (ICSE ch5)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative"
+        }
+      ],
+      "7": [
+        {
+          "topic": "Exploring Substances: Acidic, Basic and Neutral",
+          "solver_able": false,
+          "covered": false,
+          "reason": "indicator-based qualitative; numeric pH/[OH-] arithmetic is not posed by the Curiosity book"
+        },
+        {
+          "topic": "The World of Metals and Non-Metals",
+          "solver_able": false,
+          "covered": false,
+          "reason": "reaction observations; no deterministic computation in the book"
+        },
+        {
+          "topic": "Changes Around Us: Physical and Chemical",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative"
+        },
+        {
+          "topic": "corpus: Physical and Chemical Changes (ICSE ch1)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative"
+        },
+        {
+          "topic": "corpus: Elements, Compounds and Mixtures (ICSE ch2)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "classification; no numeric exercises"
+        },
+        {
+          "topic": "corpus: Atoms, Molecules and Ions (ICSE ch3)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "conceptual; book poses no numeric work"
+        },
+        {
+          "topic": "corpus: ICSE ch6 (4 nodes)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "small corpus-only chapter; no book text and no grounded computation"
+        },
+        {
+          "topic": "corpus: Particulate Nature of Matter (ICSE ch7)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative kinetic picture"
+        }
+      ],
+      "8": [
+        {
+          "topic": "Particulate Nature of Matter",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative kinetic model"
+        },
+        {
+          "topic": "Nature of Matter: Elements, Compounds and Mixtures",
+          "solver_able": false,
+          "covered": false,
+          "reason": "allotropes/classification qualitative"
+        },
+        {
+          "topic": "Solutes, Solvents and Solutions",
+          "solver_able": false,
+          "covered": false,
+          "reason": "Curiosity 8 keeps concentration qualitative (dilute/concentrated); mass-percent arithmetic enters class 9"
+        },
+        {
+          "topic": "corpus: Physical and Chemical Changes (ICSE ch1)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative"
+        },
+        {
+          "topic": "corpus: Elements, Compounds and Mixtures (ICSE ch2)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "classification"
+        },
+        {
+          "topic": "corpus: Atomic Structure (ICSE ch3)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "conceptual"
+        },
+        {
+          "topic": "corpus: Language of Chemistry (ICSE ch4)",
+          "solver_able": true,
+          "covered": true,
+          "family": "VALENCY_FROM_FORMULA + CROSSOVER_NAMED + CROSSOVER_STATED"
+        },
+        {
+          "topic": "corpus: Reactivity Series (ICSE ch5)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "qualitative displacement series"
+        },
+        {
+          "topic": "corpus: Hydrogen (ICSE ch6)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "preparation/properties qualitative"
+        }
+      ],
+      "9": [
+        {
+          "topic": "Matter around us (iesc102: solutions/concentration)",
+          "solver_able": true,
+          "covered": true,
+          "family": "CONC_MASS_PERCENT"
+        },
+        {
+          "topic": "Exploring Mixtures and their Separation (iesc105)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "separation methods qualitative"
+        },
+        {
+          "topic": "Journey Inside the Atom (iesc108)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "structure of atom conceptual"
+        },
+        {
+          "topic": "Atomic Foundations of Matter (iesc109: atoms and molecules)",
+          "solver_able": true,
+          "covered": true,
+          "family": "MOLECULAR_MASS + ATOM_COUNT + PARTICLES_AVOGADRO"
+        },
+        {
+          "topic": "corpus: The Language of Chemistry (ICSE ch1)",
+          "solver_able": true,
+          "covered": true,
+          "family": "VALENCY_FROM_FORMULA + CROSSOVER_NAMED + CROSSOVER_STATED + EQUATION_BALANCE"
+        },
+        {
+          "topic": "corpus: Water (ICSE ch3)",
+          "solver_able": true,
+          "covered": true,
+          "family": "WATER_HARDNESS"
+        },
+        {
+          "topic": "corpus: Atomic Structure (ICSE ch4)",
+          "solver_able": true,
+          "covered": true,
+          "family": "AVG_ATOMIC_MASS"
+        },
+        {
+          "topic": "corpus: Hydrogen (ICSE ch6)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "preparation qualitative; electrolysis arithmetic starts in class 10"
+        },
+        {
+          "topic": "corpus: Study of Gas Laws (ICSE ch7)",
+          "solver_able": true,
+          "covered": true,
+          "family": "BOYLE_LAW + CHARLES_LAW + GAY_LUSSAC_LAW + COMBINED_GAS_LAW"
+        }
+      ],
+      "10": [
+        {
+          "topic": "Chemical Reactions and Equations (jesc101)",
+          "solver_able": true,
+          "covered": true,
+          "family": "EQUATION_BALANCE + EQUATION_BALANCE_CHECK"
+        },
+        {
+          "topic": "Acids, Bases and Salts (jesc102)",
+          "solver_able": true,
+          "covered": true,
+          "family": "PH_FROM_OH + PH_TO_OH"
+        },
+        {
+          "topic": "Metals and Non-metals (jesc103)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "reactivity/metallurgy qualitative"
+        },
+        {
+          "topic": "Carbon and its Compounds (jesc104)",
+          "solver_able": true,
+          "covered": true,
+          "family": "ISOMER_COUNT_ALKANE + HOMOLOG_NEXT"
+        },
+        {
+          "topic": "corpus: Mole Concept and Stoichiometry (ICSE ch5)",
+          "solver_able": true,
+          "covered": true,
+          "family": "MOLE_MASS_ANY + PARTICLES_AVOGADRO + MOLARITY_ANY + VOLUME_AT_STP + MOLECULAR_MASS + PERCENT_FROM_FORMULA + EMPIRICAL_FROM_PERCENT + MOLECULAR_FROM_EMPIRICAL + LIMITING_REAGENT + PERCENT_YIELD"
+        },
+        {
+          "topic": "corpus: Electrolysis (ICSE ch6)",
+          "solver_able": true,
+          "covered": true,
+          "family": "FARADAY_MASS"
+        },
+        {
+          "topic": "corpus: Metallurgy (ICSE ch7)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "processes qualitative"
+        },
+        {
+          "topic": "corpus: Study of Compounds (ICSE ch8)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "preparation/properties qualitative; no deterministic family"
+        },
+        {
+          "topic": "corpus: Organic Chemistry (ICSE ch9)",
+          "solver_able": true,
+          "covered": true,
+          "family": "ISOMER_COUNT_ALKANE + HOMOLOG_NEXT"
+        }
+      ],
+      "11": [
+        {
+          "topic": "Some Basic Concepts of Chemistry (kech101)",
+          "solver_able": true,
+          "covered": true,
+          "family": "MOLE_MASS_ANY + MOLECULAR_MASS + PERCENT_FROM_FORMULA + EMPIRICAL_FROM_PERCENT + MOLECULAR_FROM_EMPIRICAL + AVG_ATOMIC_MASS + CONC_MASS_PERCENT + MOLE_FRACTION + MOLALITY_ANY + LIMITING_REAGENT + PERCENT_YIELD"
+        },
+        {
+          "topic": "Structure of Atom (kech102)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "EMR/Bohr/quantum numericals (E=hv, de Broglie) are owned by physics_families; no chemistry duplicate invented"
+        },
+        {
+          "topic": "Classification of Elements and Periodicity (kech103)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "trends qualitative"
+        },
+        {
+          "topic": "Chemical Bonding and Molecular Structure (kech104)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "Lewis/VSEPR qualitative"
+        },
+        {
+          "topic": "Thermodynamics (kech105)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "thermochemistry/Hess-law arithmetic not implemented - honestly refused (physics-adjacent, no chemistry family)"
+        },
+        {
+          "topic": "Equilibrium (kech106)",
+          "solver_able": true,
+          "covered": true,
+          "family": "KP_KC_CONVERT + PH_FROM_OH + PH_TO_OH"
+        },
+        {
+          "topic": "Redox Reactions (kech201)",
+          "solver_able": true,
+          "covered": true,
+          "family": "OXIDATION_NUMBER"
+        },
+        {
+          "topic": "Organic Chemistry: Basic Principles (kech202)",
+          "solver_able": true,
+          "covered": true,
+          "family": "ISOMER_COUNT_ALKANE"
+        },
+        {
+          "topic": "Hydrocarbons (kech203)",
+          "solver_able": true,
+          "covered": true,
+          "family": "HOMOLOG_NEXT + ISOMER_COUNT_ALKANE"
+        }
+      ],
+      "12": [
+        {
+          "topic": "Solutions (lech101)",
+          "solver_able": true,
+          "covered": true,
+          "family": "MOLALITY_ANY + MOLE_FRACTION + CONC_MASS_PERCENT + MOLARITY_ANY"
+        },
+        {
+          "topic": "Electrochemistry (lech102)",
+          "solver_able": true,
+          "covered": true,
+          "family": "FARADAY_MASS + CELL_POTENTIAL"
+        },
+        {
+          "topic": "Chemical Kinetics (lech103)",
+          "solver_able": true,
+          "covered": true,
+          "family": "RATE_ORDER_FROM_DATA + HALF_LIFE_FIRST_ORDER + REMAINING_AFTER_HALFLIVES"
+        },
+        {
+          "topic": "The d- and f-Block Elements (lech104)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "trends/colours qualitative"
+        },
+        {
+          "topic": "Coordination Compounds (lech105)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "nomenclature/CFT qualitative"
+        },
+        {
+          "topic": "Haloalkanes and Haloarenes (lech201)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "reaction mechanisms qualitative"
+        },
+        {
+          "topic": "Alcohols, Phenols and Ethers (lech202)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "reaction mechanisms qualitative"
+        },
+        {
+          "topic": "Aldehydes, Ketones and Carboxylic Acids (lech203)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "reaction mechanisms qualitative"
+        },
+        {
+          "topic": "Amines (lech204)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "reaction mechanisms qualitative"
+        },
+        {
+          "topic": "Biomolecules (lech205)",
+          "solver_able": false,
+          "covered": false,
+          "reason": "structure/function qualitative"
+        }
+      ]
+    },
+    "candidates_checked_against_books": {
+      "empirical formula from % composition": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "EMPIRICAL_FROM_PERCENT (TABLE_BOOKS2)",
+        "evidence": "kech101 sec 2.9 determination of empirical/molecular formula (%-composition examples) + c10_chem_icse_05 mole-concept nodes"
+      },
+      "molecular formula from empirical formula + molar mass / vapour density": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "MOLECULAR_FROM_EMPIRICAL (TABLE_BOOKS2)",
+        "evidence": "kech101 sec 2.9 (n = molar mass / empirical-formula mass); vapour-density route is the ICSE framing (c10_chem_icse_05)"
+      },
+      "limiting reagent + percent yield": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "LIMITING_REAGENT + PERCENT_YIELD (TABLE_BOOKS2)",
+        "evidence": "kech101 secs 1.8-1.10 (limiting reagent and reaction-yield examples); c10_chem_icse_05 stoichiometry nodes"
+      },
+      "molality (molarity existed since batch-15)": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "MOLALITY_ANY (TABLE_BOOKS2)",
+        "evidence": "lech101 sec 1.3 (molality defined and exercised)"
+      },
+      "normality / n-factor conversions": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "NORMALITY_ANY (TABLE_BOOKS2)",
+        "evidence": "dropped from current NCERT but standard in the ICSE corpus (volumetric-analysis nodes c10_chem_icse_05/08 + ICSE analytical chemistry); grounded in corpus, not invented"
+      },
+      "dilution M1V1=M2V2": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "DILUTION_M1V1 (TABLE_BOOKS2)",
+        "evidence": "ICSE analytical-chemistry/lab-preparation nodes (corpus c10_chem_icse_05/08); stock-solution numericals are board staples"
+      },
+      "redox/neutralisation titration arithmetic": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "TITRATION_NORMALITY (TABLE_BOOKS2)",
+        "evidence": "ICSE titration nodes (corpus): n1 M1 V1 = n2 M2 V2 with n-factors from the book tables (Na2CO3 framework)"
+      },
+      "Kc/Kp numeric equilibrium": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "KP_KC_CONVERT (TABLE_BOOKS2)",
+        "evidence": "kech106 sec 6.6 relation between Kp and Kc with R = 0.0831 bar L mol-1 K-1"
+      },
+      "oxidation-number assignment": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "OXIDATION_NUMBER (TABLE_BOOKS2)",
+        "evidence": "kech201 (rules for assigning oxidation number; K2Cr2O7/KMnO4 worked examples)"
+      },
+      "Faraday laws of electrolysis (m = ZIt = MIt/(nF))": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "FARADAY_MASS (TABLE_BOOKS2)",
+        "evidence": "lech102 sec 2.7 (Faraday's laws; F = 96500 C/mol); c10_chem_icse_06 electrolysis nodes"
+      },
+      "electrode-potential arithmetic (Ecell = Ecathode - Eanode)": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "CELL_POTENTIAL (TABLE_BOOKS2)",
+        "evidence": "lech102 secs 2.4-2.5 (standard electrode potentials; Zn/Cu cell worked example)"
+      },
+      "rate-law order from data": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "RATE_ORDER_FROM_DATA (TABLE_BOOKS2)",
+        "evidence": "lech103 sec 3.2 (order by initial-rate comparison; doubling/tripling data)"
+      },
+      "half-life (first order)": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "HALF_LIFE_FIRST_ORDER + REMAINING_AFTER_HALFLIVES (TABLE_BOOKS2)",
+        "evidence": "lech103 sec 3.3 (t1/2 = 0.693/k; amount remaining after n half-lives)"
+      },
+      "isomer counting for simple alkanes": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "ISOMER_COUNT_ALKANE (TABLE_BOOKS2)",
+        "evidence": "jesc104 (butane 2, pentane 3 chain isomers) + kech202/kech203 structural-isomer enumerations"
+      },
+      "homologous series next member": {
+        "solver_able": true,
+        "implemented": true,
+        "family": "HOMOLOG_NEXT (TABLE_BOOKS2)",
+        "evidence": "jesc104 sec 4.2 homologous series (CH2 / 14 u increment); kech203 series formulas"
+      },
+      "Nernst-equation numericals": {
+        "solver_able": false,
+        "implemented": false,
+        "reason": "lech102 poses them, but they need log/antilog of concentration quotients with electrode conventions; no family - honestly refused beyond standard Ecell arithmetic"
+      },
+      "thermochemistry / Hess's law (kech105)": {
+        "solver_able": false,
+        "implemented": false,
+        "reason": "no chemistry thermo family implemented; calorimetry/enthalpy arithmetic left honestly uncovered rather than pseudo-solved"
+      },
+      "Bohr-model / EMR numericals (kech102)": {
+        "solver_able": false,
+        "implemented": false,
+        "reason": "E=hv, de Broglie and Rydberg arithmetic are owned by physics_families; chemistry deliberately does not duplicate"
+      },
+      "conductance / cell-constant arithmetic (lech102)": {
+        "solver_able": false,
+        "implemented": false,
+        "reason": "kappa/molar-conductivity numericals exist in lech102 but no family implements them; closed world stops here"
+      }
+    },
+    "coverage": {
+      "covered": 21,
+      "total": 63,
+      "per_class": {
+        "6": "0/9",
+        "7": "0/8",
+        "8": "1/9",
+        "9": "6/9",
+        "10": "6/9",
+        "11": "5/9",
+        "12": "3/10"
+      },
+      "note": "classes 6-8 (Curiosity) are deliberately ~0 - the books are qualitative; the solver-able spine of school chemistry is classes 9-12 (mole concept, stoichiometry, equilibrium, electrochemistry, kinetics, organic basics)"
+    }
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "version": 1,
+  "generated": "2026-09-27",
+  "owner": "compapp solver-families agent (batch-18)",
+  "corpus_roots": [
+    "deploy/content/cisce_nodes_v2/c6_compst_icse_*",
+    "deploy/content/cisce_nodes_v2/c7_compst_icse_*",
+    "deploy/content/cisce_nodes_v2/c8_compst_icse_*",
+    "deploy/content/cisce_nodes_v2/c9_compapp_icse_*",
+    "deploy/content/cisce_nodes_v2/c10_compapp_icse_*",
+    "deploy/content/enhanced_nodes_md/c11_cs_cbse_01_* (memory units)",
+    "deploy/content/enhanced_nodes_md/c11_cs_cbse_02_* (boolean algebra/gates)",
+    "deploy/content/enhanced_nodes_md/c11_ip_cbse_01_* (computer system/storage ladder)",
+    "deploy/content/enhanced_nodes_md/c12_cs_cbse_07_* (boolean algebra)"
+  ],
+  "node_totals": {
+    "c6_compst_icse": 64,
+    "c7_compst_icse": 55,
+    "c8_compst_icse": 52,
+    "c9_compapp_icse": 100,
+    "c10_compapp_icse": 80,
+    "icse_total": 351,
+    "cbse_it_cs_nodes_used": "c11_cs ch01-02, c11_ip ch01, c12_cs ch07 (gates + storage ground truth)"
+  },
+  "chapters": [
+    {
+      "id": "c6_compst_icse_01", "class": 6, "book": "Computer Studies (ICSE)",
+      "title": "Categories of Computers and Computer Languages",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "definition/classification theory (generations, language categories); no numeric or output-prediction question form in the taught diagnostics"
+    },
+    {
+      "id": "c6_compst_icse_02", "class": 6, "book": "Computer Studies (ICSE)",
+      "title": "File Management",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "file operations and extensions; KB/MB appear only as informal size talk, no taught conversion chain on the ICSE side (storage ladder is grounded on the CBSE c11_ip/c11_cs ch01 nodes instead)"
+    },
+    {
+      "id": "c6_compst_icse_03", "class": 6, "book": "Computer Studies (ICSE)",
+      "title": "Tabular Presentation (word-processor tables)",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "GUI-application skill; not deterministic-question material"
+    },
+    {
+      "id": "c6_compst_icse_04", "class": 6, "book": "Computer Studies (ICSE)",
+      "title": "Word Processor",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "GUI-application skill (ribbon, formatting); theory"
+    },
+    {
+      "id": "c6_compst_icse_05", "class": 6, "book": "Computer Studies (ICSE)",
+      "title": "Presentation (slideshows)",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "GUI-application skill; theory"
+    },
+    {
+      "id": "c6_compst_icse_06", "class": 6, "book": "Computer Studies (ICSE)",
+      "title": "Scratch (block programming)",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "visual block programs are project-based, not text-traceable in a deterministic regex-table solver; sandbox E8 code-node endpoint owns the pedagogy"
+    },
+    {
+      "id": "c6_compst_icse_07", "class": 6, "book": "Computer Studies (ICSE)",
+      "title": "HTML basics (tags, page structure, text formatting)",
+      "nodes": 8, "solver_able": true, "status": "covered",
+      "families": ["HTML_TAG_PURPOSE"],
+      "reason": "taught tag list (html/head/title/body, h1-h6, p, br, hr, b, i, u, ul/ol/li) maps to a deterministic tag-purpose table, both directions"
+    },
+    {
+      "id": "c6_compst_icse_08", "class": 6, "book": "Computer Studies (ICSE)",
+      "title": "Internet and Online services",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "conceptual/theory"
+    },
+    {
+      "id": "c7_compst_icse_01", "class": 7, "book": "Computer Studies (ICSE)",
+      "title": "Hardware (input/output, storage devices)",
+      "nodes": 7, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "device identification theory; only incidental unit mention (1 TB = 1024 GB) — the ladder family is grounded on the CBSE c11_ip/c11_cs nodes"
+    },
+    {
+      "id": "c7_compst_icse_02", "class": 7, "book": "Computer Studies (ICSE)",
+      "title": "Number Systems (base/radix, conversions, binary arithmetic)",
+      "nodes": 8, "solver_able": true, "status": "covered",
+      "families": ["BASE_CONVERT", "BASE_ARITHMETIC", "BITS_RANGE", "BIT_WEIGHT"],
+      "reason": "core solver chapter: decimal<->binary<->octal<->hex any direction, binary arithmetic, positional weights (face/place value), base definitions"
+    },
+    {
+      "id": "c7_compst_icse_03", "class": 7, "book": "Computer Studies (ICSE)",
+      "title": "Computer Virus / malware",
+      "nodes": 6, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "conceptual/theory"
+    },
+    {
+      "id": "c7_compst_icse_04", "class": 7, "book": "Computer Studies (ICSE)",
+      "title": "Digital Citizenship / plagiarism / ethics",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "ethics theory"
+    },
+    {
+      "id": "c7_compst_icse_05", "class": 7, "book": "Computer Studies (ICSE)",
+      "title": "Spreadsheets (grid, cells, formulas)",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "GUI tool skill; formula evaluation belongs to the maths kernel, not a compapp family"
+    },
+    {
+      "id": "c7_compst_icse_06", "class": 7, "book": "Computer Studies (ICSE)",
+      "title": "Databases (records, fields, keys)",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "conceptual/theory"
+    },
+    {
+      "id": "c7_compst_icse_07", "class": 7, "book": "Computer Studies (ICSE)",
+      "title": "HTML lists, images, links, tables, marquee, forms",
+      "nodes": 6, "solver_able": true, "status": "covered",
+      "families": ["HTML_TAG_PURPOSE"],
+      "reason": "extends the taught tag list (ol/ul/li, img+src, a+href, table/tr/td/th, marquee, form) — same deterministic table"
+    },
+    {
+      "id": "c8_compst_icse_01", "class": 8, "book": "Computer Studies (ICSE)",
+      "title": "Operating System and software layers",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "conceptual/theory"
+    },
+    {
+      "id": "c8_compst_icse_02", "class": 8, "book": "Computer Studies (ICSE)",
+      "title": "Spreadsheet formulas (operators, cell refs, functions)",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "spreadsheet arithmetic duplicates the maths kernel; no compapp-specific deterministic family taught"
+    },
+    {
+      "id": "c8_compst_icse_03", "class": 8, "book": "Computer Studies (ICSE)",
+      "title": "Algorithms and flowcharts",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "flowchart conventions are diagrammatic; pseudo-code tracing beyond the taught subset is gated"
+    },
+    {
+      "id": "c8_compst_icse_04", "class": 8, "book": "Computer Studies (ICSE)",
+      "title": "Programs and programming languages (BASIC-era intro)",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "language-category theory; no taught trace semantics in this chapter"
+    },
+    {
+      "id": "c8_compst_icse_05", "class": 8, "book": "Computer Studies (ICSE)",
+      "title": "App Development lifecycle",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "process/theory"
+    },
+    {
+      "id": "c8_compst_icse_06", "class": 8, "book": "Computer Studies (ICSE)",
+      "title": "Computer Networks",
+      "nodes": 8, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "network theory; data-rate units not taught as a conversion chain on this side"
+    },
+    {
+      "id": "c9_compapp_icse_01", "class": 9, "book": "Computer Applications (ICSE)",
+      "title": "Introduction to OOP",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "conceptual (object/class vocabulary); theory"
+    },
+    {
+      "id": "c9_compapp_icse_02", "class": 9, "book": "Computer Applications (ICSE)",
+      "title": "Elementary concepts: class, object, method, constructor",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "object-creation semantics are code-node (sandbox E8) territory; no numeric family taught"
+    },
+    {
+      "id": "c9_compapp_icse_03", "class": 9, "book": "Computer Applications (ICSE)",
+      "title": "Values and data types (primitives, literals, Unicode, escape sequences, casting)",
+      "nodes": 10, "solver_able": true, "status": "covered",
+      "families": ["ESCAPE_SEQ", "ASCII_UNICODE", "JAVA_TRACE"],
+      "reason": "taught: 8 primitives with sizes/ranges, char = 16-bit Unicode 0-65535, escape sequences (\\n etc.), widening/narrowing casts, default values, int/double arithmetic — all deterministic"
+    },
+    {
+      "id": "c9_compapp_icse_04", "class": 9, "book": "Computer Applications (ICSE)",
+      "title": "Operators in Java (arithmetic, relational, logical, assignment, bitwise, ++/--, ternary, precedence)",
+      "nodes": 10, "solver_able": true, "status": "covered",
+      "families": ["JAVA_TRACE", "LOGIC_GATE", "BOOL_EVAL"],
+      "reason": "taught: precedence ranking, prefix/postfix ++/--, short-circuit &&/||/!, bitwise &,|,^ — expression evaluation is deterministic; boolean expressions route to the gate/bool evaluator"
+    },
+    {
+      "id": "c9_compapp_icse_05", "class": 9, "book": "Computer Applications (ICSE)",
+      "title": "Input (Scanner) and basic I/O",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "input mechanics (next/nextInt delimiters) are interactive runtime behaviour; not a closed numeric family. println output for GIVEN values is covered inside JAVA_TRACE"
+    },
+    {
+      "id": "c9_compapp_icse_06", "class": 9, "book": "Computer Applications (ICSE)",
+      "title": "Mathematical library methods (java.lang.Math)",
+      "nodes": 10, "solver_able": true, "status": "covered",
+      "families": ["MATH_METHOD_EVAL", "JAVA_TRACE"],
+      "reason": "taught table of Math.pow/sqrt/abs/max/min/ceil/floor/round — deterministic argument->result evaluation"
+    },
+    {
+      "id": "c9_compapp_icse_07", "class": 9, "book": "Computer Applications (ICSE)",
+      "title": "Conditional constructs (if, if-else, ladder, switch, ternary)",
+      "nodes": 10, "solver_able": true, "status": "covered",
+      "families": ["JAVA_TRACE"],
+      "reason": "single if/else and switch-with-break traces are deterministic; nested-if beyond one level is gated (beyond taught trace subset)"
+    },
+    {
+      "id": "c9_compapp_icse_08", "class": 9, "book": "Computer Applications (ICSE)",
+      "title": "Iterative constructs (for, while, do-while, break, continue, loop patterns)",
+      "nodes": 10, "solver_able": true, "status": "covered",
+      "families": ["JAVA_TRACE"],
+      "reason": "core output-prediction chapter: single entry/exit-controlled loops with count/sum/product, break/continue — evaluated with an explicit trace table"
+    },
+    {
+      "id": "c9_compapp_icse_09", "class": 9, "book": "Computer Applications (ICSE)",
+      "title": "Nested for loops (pattern printing, grids)",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "per mission subset, nested loops are DECLINED by JAVA_TRACE (_GATE) — pattern/2-D output belongs to the sandbox E8 code-node endpoint, not the numeric solver"
+    },
+    {
+      "id": "c9_compapp_icse_10", "class": 9, "book": "Computer Applications (ICSE)",
+      "title": "Computing and Ethics",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "ethics theory"
+    },
+    {
+      "id": "c10_compapp_icse_01", "class": 10, "book": "Computer Applications (ICSE)",
+      "title": "Revision of Class IX syllabus",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "overview/recap node; its content is covered by the underlying Class IX chapters above"
+    },
+    {
+      "id": "c10_compapp_icse_02", "class": 10, "book": "Computer Applications (ICSE)",
+      "title": "Class as the basis of all computation (user-defined types)",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "object/reference semantics; sandbox E8 territory"
+    },
+    {
+      "id": "c10_compapp_icse_03", "class": 10, "book": "Computer Applications (ICSE)",
+      "title": "User-defined methods (signature, parameters, overloading)",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "method-call/parameter-passing traces beyond the taught single-loop subset — gated"
+    },
+    {
+      "id": "c10_compapp_icse_04", "class": 10, "book": "Computer Applications (ICSE)",
+      "title": "Constructors",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "object-instantiation semantics; sandbox E8 territory"
+    },
+    {
+      "id": "c10_compapp_icse_05", "class": 10, "book": "Computer Applications (ICSE)",
+      "title": "Library classes (String class, wrapper classes)",
+      "nodes": 10, "solver_able": true, "status": "covered",
+      "families": ["JAVA_TRACE", "ASCII_UNICODE"],
+      "reason": "taught String methods length(), charAt(), indexOf(), substring(), toUpperCase/toLowerCase, trim, equals, compareTo — deterministic single-expression/program traces; char ASCII ordering ('A'=65 < '1') taught here"
+    },
+    {
+      "id": "c10_compapp_icse_06", "class": 10, "book": "Computer Applications (ICSE)",
+      "title": "Encapsulation (private fields, getters/setters)",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "design principle; theory"
+    },
+    {
+      "id": "c10_compapp_icse_07", "class": 10, "book": "Computer Applications (ICSE)",
+      "title": "Arrays (1-D, searching, sorting)",
+      "nodes": 10, "solver_able": false, "status": "MISSING",
+      "families": [],
+      "reason": "per mission subset, array traces are DECLINED (_GATE) — beyond the taught single-variable loop subset; sandbox owns array pedagogy"
+    },
+    {
+      "id": "c10_compapp_icse_08", "class": 10, "book": "Computer Applications (ICSE)",
+      "title": "String handling (String/StringBuffer/StringBuilder methods)",
+      "nodes": 10, "solver_able": true, "status": "covered",
+      "families": ["JAVA_TRACE"],
+      "reason": "string-method output prediction (length/charAt/substring/indexOf/concat/replace/immutable reassignment) is deterministic for the taught method set; StringBuffer in-place mutations gated"
+    },
+    {
+      "id": "c11_cs_cbse_01", "class": 11, "book": "Computer Science (CBSE)",
+      "title": "Computer system and memory organisation",
+      "nodes": 12, "solver_able": true, "status": "covered",
+      "families": ["STORAGE_UNITS"],
+      "reason": "taught ladder bit -> nibble(4b) -> byte(8b) -> KB -> MB -> GB -> TB with x1024 at each level (also c11_ip_cbse_01)"
+    },
+    {
+      "id": "c11_cs_cbse_02", "class": 11, "book": "Computer Science (CBSE)",
+      "title": "Boolean algebra and logic gates",
+      "nodes": 14, "solver_able": true, "status": "covered",
+      "families": ["LOGIC_GATE", "HALF_ADDER", "BOOL_EVAL", "BOOL_SIMPLIFY"],
+      "reason": "taught: AND/OR/NOT/NAND/NOR/XOR truth tables, De Morgan, half adder (sum = A XOR B, carry = A AND B); c12_cs_cbse_07 adds SOP/POS and the same laws"
+    },
+    {
+      "id": "c11_ip_cbse_01", "class": 11, "book": "Informatics Practices (CBSE)",
+      "title": "Computer system (memory units, storage ladder)",
+      "nodes": 12, "solver_able": true, "status": "covered",
+      "families": ["STORAGE_UNITS"],
+      "reason": "same x1024 KB->MB->GB->TB chain, 'step-by-step multiplication by 1024' taught in walkthrough"
+    },
+    {
+      "id": "c12_cs_cbse_07", "class": 12, "book": "Computer Science (CBSE)",
+      "title": "Boolean Algebra (laws, SOP/POS, De Morgan)",
+      "nodes": 14, "solver_able": true, "status": "covered",
+      "families": ["LOGIC_GATE", "BOOL_SIMPLIFY", "BOOL_EVAL"],
+      "reason": "single-step boolean laws (De Morgan, absorption, idempotent, identity/null, complement, double negation) and truth-table evaluation"
+    }
+  ],
+  "summary": {
+    "solver_able_true": 13,
+    "solver_able_false": 21,
+    "covered_by_families": 13,
+    "families": [
+      "BASE_CONVERT", "BASE_ARITHMETIC", "BITS_RANGE", "BIT_WEIGHT",
+      "STORAGE_UNITS", "JAVA_TRACE", "MATH_METHOD_EVAL",
+      "LOGIC_GATE", "HALF_ADDER", "BOOL_EVAL", "BOOL_SIMPLIFY",
+      "HTML_TAG_PURPOSE", "ESCAPE_SEQ", "ASCII_UNICODE"
+    ],
+    "declined_by_gate": [
+      "nested loops / pattern printing", "arrays (1-D iteration, search, sort)",
+      "recursion", "user-defined methods/objects", "StringBuffer mutation chains",
+      "Scratch block projects", "Scanner-driven interactive traces"
+    ]
+  }
+}

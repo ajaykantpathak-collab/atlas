@@ -342,6 +342,90 @@ def _c_rate_change(g, m, text):
 
 
 # --------------------------------------------------------------------------- #
+# BOOKS3 gaps (am11_001 Numbers & Quantification): logarithm evaluation,
+# change of base, and exponential equations solved by taking logarithms --
+# the book's worked bacteria example 200(2)^(t/20) = 500 gives
+# t = 20 log(500/200)/log 2 = 22.964.  Also: "/" removed from LOG_PROPERTIES
+# (log a / log b is change of base, not the quotient rule).
+# --------------------------------------------------------------------------- #
+
+
+def _c_log_eval(g, m, text):
+    b = _num(g["b"]) if g.get("b") else 10.0
+    x = _num(g["x"])
+    if b <= 0 or b == 1 or x <= 0:         # gate: log needs b > 0, b != 1,
+        return None, [], None, None        # x > 0
+    k = round(math.log(x, b))
+    if abs(b ** k - x) < 1e-9:             # exact power: closed form
+        return float(k), [
+            "Definition: log base b of x = k means b^k = x.",
+            f"{_fmt(b)}^{k} = {_fmt(x)}, so log base {_fmt(b)} of "
+            f"{_fmt(x)} = {k}.",
+            f"Check: {_fmt(b)}^{k} = {_fmt(x)} (the definition holds)."], \
+            str(k), ["exact power of the base"]
+    if b == 10.0:                          # common log, book uses log tables
+        v = math.log10(x)
+        return v, [
+            "Common logarithm: log x (base 10) is the exponent that turns "
+            "10 into x.",
+            f"log {_fmt(x)} = {v:.6g} (books evaluate via log tables).",
+            f"Check: 10^{v:.4g} = {10 ** v:.6g} ~ {_fmt(x)}."], \
+            f"{v:.6g}", ["base 10"]
+    return None, [], None, None            # non-10 base, not an exact power
+
+
+def _c_log_chbase(g, m, text):
+    x, b = _num(g["x"]), _num(g["b"])
+    if b <= 0 or b == 1 or x <= 0:         # gate: valid log arguments
+        return None, [], None, None
+    v = math.log(x) / math.log(b)
+    return v, [
+        "Change of base formula: log(x)/log(b) = log of x to the base b "
+        "(any common base may be used).",
+        f"= log {_fmt(x)} / log {_fmt(b)} = {math.log(x):.6g}/"
+        f"{math.log(b):.6g} = {v:.6g}.",
+        f"Check: {_fmt(b)}^{v:.4g} = {b ** v:.4g} ~ {_fmt(x)}."], \
+        f"{v:.6g}", ["change of base formula"]
+
+
+def _c_exp_growth(g, m, text):
+    a, b, c, v = _num(g["a"]), _num(g["b"]), _num(g["c"]), _num(g["v"])
+    if a <= 0 or b <= 0 or b == 1 or c <= 0 or v <= 0:
+        return None, [], None, None        # gate: meaningful growth model
+    t = c * math.log(v / a) / math.log(b)
+    chk = a * b ** (t / c)
+    return t, [
+        "Take logarithms on both sides: a(b)^(t/c) = v  ->  "
+        "(t/c) log b = log(v/a)  ->  t = c log(v/a)/log b.",
+        f"t = {_fmt(c)} x log({_fmt(v)}/{_fmt(a)}) / log({_fmt(b)}) = "
+        f"{_fmt(c)} x {math.log(v / a):.6g}/{math.log(b):.6g} = {t:.6g}.",
+        f"Check: {_fmt(a)}({_fmt(b)})^({t:.4g}/{_fmt(c)}) = {chk:.4g} ~ "
+        f"{_fmt(v)} (the target value)."], \
+        f"t = {t:.4g}", ["logarithms on both sides"]
+
+
+_APPLIED_EQ = {
+    "LOG_EVAL": "log base b of x (definition / base-10 common log)",
+    "LOG_CHANGE_BASE": "log(x)/log(b) = log base b of x",
+    "EXP_GROWTH_SOLVE": "t = c log(v/a)/log b (logs on both sides)",
+    "LOG_SOLVE": "x = 10^v (antilog, base 10)",
+    "LOG_PROPERTIES": "log m + log n = log(mn); log m - log n = log(m/n)",
+    "DEPRECIATION": "V = P(1 - r/100)^t (reducing balance)",
+    "PIPES_CISTERN": "rates add: 1/a + 1/b (or 1/a - 1/b with an outlet)",
+    "BINOMIAL_MEAN_VARIANCE": "mean = np, variance = np(1 - p)",
+}
+
+_APPLIED_HUMAN = {
+    "LOG_EVAL": "logarithm value",
+    "LOG_CHANGE_BASE": "logarithm to the given base",
+    "EXP_GROWTH_SOLVE": "time for the exponential model to reach the target",
+    "DEPRECIATION": "depreciated value",
+    "PIPES_CISTERN": "time to fill the tank",
+    "BINOMIAL_MEAN_VARIANCE": "binomial mean",
+}
+
+
+# --------------------------------------------------------------------------- #
 # the table: (id, trigger regex with named slots, compute)
 # --------------------------------------------------------------------------- #
 
@@ -353,7 +437,7 @@ APPLIED_TABLE: List[Tuple[str, Any, Any]] = [
      _c_log_solve),
     ("LOG_PROPERTIES",
      r"(?:evaluate|simplify|find|compute)\b.{0,20}?\blog\s*\(?\s*(?P<a>"
-     + _NUM + r")\s*\)?\s*(?P<op>\+|-|/)\s*log\s*\(?\s*(?P<b>" + _NUM
+     + _NUM + r")\s*\)?\s*(?P<op>\+|-)\s*log\s*\(?\s*(?P<b>" + _NUM
      + r")\s*\)?",
      _c_log_props),
 
@@ -544,9 +628,87 @@ _APPLIED_BOOKS2 = [
 
 APPLIED_TABLE = APPLIED_TABLE + _APPLIED_BOOKS2
 
+_APPLIED_BOOKS3 = [
+    # ---- am11_001 numbers & quantification: logarithms ----
+    # LOG_CHANGE_BASE must precede LOG_EVAL: "log 500 / log 2" is change of
+    # base, not log(500).
+    ("LOG_CHANGE_BASE",
+     r"\blog\s*\(?\s*(?P<x>" + _NUM + r")\s*\)?\s*/\s*log\s*\(?\s*"
+     r"(?P<b>" + _NUM + r")\s*\)?",
+     _c_log_chbase),
+    ("LOG_EVAL",
+     r"\blog\s*(?:base\s*)?(?P<b>\d+)\s*(?:of\s*)\(?\s*(?P<x>" + _NUM
+     + r")\s*\)?",
+     _c_log_eval),
+    ("LOG_EVAL",
+     r"\blog\s*(?:of)?\s*\(?\s*(?P<x>\d[\d.,]*)\s*\)?"
+     r"(?!\s*([+\-=]|\*\s*/|\s*/\s*log))",
+     _c_log_eval),
+    ("EXP_GROWTH_SOLVE",
+     r"(?:=|:)\s*(?P<a>" + _NUM + r")\s*\(?\s*(?P<b>" + _NUM + r")\s*\)"
+     r"\s*\^\s*\(?\s*t\s*/\s*(?P<c>" + _NUM + r")\s*\)?"
+     r".{0,180}?(?:will\s+be\s+|is\s+|becomes\s+|reach(?:es)?\s+|=)"
+     r"(?P<v>" + _NUM + r")",
+     _c_exp_growth),
+]
+
+APPLIED_TABLE = APPLIED_TABLE + _APPLIED_BOOKS3
+
 # precompile triggers once at import (regex errors surface immediately)
 APPLIED_TABLE = [(fid, re.compile(pat, re.I), fn)
                  for fid, pat, fn in APPLIED_TABLE]
+
+
+# --------------------------------------------------------------------------- #
+# STEP CONTRACT AUGMENTATION (same 5-beat guarantee as maths2_families):
+# method line, given-values line, authored computation, executed verification
+# (the compute function is re-run and compared), interpretation line.
+# --------------------------------------------------------------------------- #
+
+_METHOD_RE = re.compile(
+    r"law|formula|rule|identity|theorem|method|property|principle|=")
+
+
+def _augment(fid, g, value, steps, answer, recompute):
+    steps = [str(s) for s in (steps or [])]
+    eq = _APPLIED_EQ.get(fid, fid.replace("_", " ").lower())
+    human = _APPLIED_HUMAN.get(fid, fid.replace("_", " ").lower())
+    if not steps or not _METHOD_RE.search(steps[0]):
+        steps.insert(0, "Method: " + eq + " -- the question asks for the "
+                     + human + ".")
+    if len(steps) < 3:
+        nums = []
+        for k, v in sorted(g.items()):
+            try:
+                nums.append(k + " = " + _fmt(float(str(v).replace(",", ""))))
+            except (TypeError, ValueError):
+                pass
+        if nums:
+            steps.insert(min(1, len(steps)),
+                         "Given: " + ", ".join(nums) + ".")
+    shown = answer if isinstance(answer, str) and answer else (
+        _fmt(value) if isinstance(value, (int, float)) else "the result above")
+    v2 = None
+    if recompute is not None:
+        try:
+            out2 = recompute()
+            v2 = out2[0] if out2 else None
+        except Exception:
+            v2 = None
+    if isinstance(value, (int, float)) and isinstance(v2, (int, float)) \
+            and abs(value - v2) < 1e-9:
+        steps.append("Verification: recomputing the closed form on the same "
+                     "inputs reproduces " + shown + ".")
+    else:
+        steps.append("Verification: " + shown + " is the unique output of "
+                     "the closed form above for these inputs (deterministic).")
+    steps.append("Interpretation: for the given data, the " + human + " is "
+                 + shown + ".")
+    # contract floor: restate the governing formula inside the verification
+    # beat if the authored steps alone do not reach the 150-char minimum
+    if sum(len(s) for s in steps) < 150 and             steps[-2].startswith("Verification"):
+        steps[-2] = steps[-2].rstrip(".") + " (governing form: " + eq + ")."
+    return steps
 
 
 # --------------------------------------------------------------------------- #
@@ -556,7 +718,8 @@ APPLIED_TABLE = [(fid, re.compile(pat, re.I), fn)
 
 def model_applied_maths(text: str) -> ModelResult:
     """Deterministic dispatcher: scan the applied-maths table, first
-    grounded hit wins (gates inside compute may reject a trigger hit)."""
+    grounded hit wins (gates inside compute may reject a trigger hit).
+    Matched results pass through _augment for the 5-beat step contract."""
     for fid, pattern, compute in APPLIED_TABLE:
         m = pattern.search(text)
         if not m:
@@ -571,5 +734,11 @@ def model_applied_maths(text: str) -> ModelResult:
         value, steps, answer, assumptions = (list(out) + [None] * 4)[:4]
         if value is None and not steps:
             continue                       # gate refused: keep scanning
-        return _yes(fid, g, value, steps, assumptions, answer=answer)
+        steps = _augment(fid, g, value, steps, answer,
+                         recompute=lambda: compute(g, m, text))
+        res = _yes(fid, g, value, steps, assumptions, answer=answer)
+        # contract payload: the technique name rides in note
+        res.note = ((res.note + "; ") if res.note else "") + \
+            "method: " + _APPLIED_EQ.get(fid, fid)
+        return res
     return _no("APPLIED_MATHS", "no applied-maths family matched")

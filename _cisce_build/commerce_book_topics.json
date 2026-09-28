@@ -1,0 +1,97 @@
+{
+ "meta": {
+  "generated": "2026-09-27",
+  "by": "commerce solver-families agent (Phase 1 task 2)",
+  "rule": "solver_able = the chapter's canonical NUMERIC asks can be answered deterministically from one parsed sentence set by a commerce family (BEP/contribution/margin-of-safety/target-profit/cost-plus/cash-projection/working-capital/market-share/retained-earnings/operating-cycle/GST/partnership-share/ratio/interest-on-capital). Theory, classification and case-study asks are solver_able=false with the blocking reason. NCERT BST 11/12 books are qualitative (verified: break-even appears only as a controlling technique in lebs108 ch Control; working capital as a concept in lebs201 ch Financial Management) - the numeric teaching lives in the ISC commerce corpus, which is the closed-world source for the formulas.",
+  "sources": [
+   "D:/platform/ncert_books/text_cache_new/class_11/misc/kebs101..kebs111 (NCERT Business Studies XI)",
+   "D:/platform/ncert_books/text_cache_new/class_12/misc/lebs101..lebs108, lebs201..lebs203 (NCERT Business Studies XII)",
+   "D:/platform/deploy/content/cisce_nodes_v2/c10_comst_icse_* (68 nodes, 7 ch)",
+   "D:/platform/deploy/content/cisce_nodes_v2/c11_comm_isc_* (109 nodes, 10 ch)",
+   "D:/platform/deploy/content/cisce_nodes_v2/c12_comm_isc_* (89 nodes, 9 ch)",
+   "D:/platform/deploy/content/cisce_nodes_v2/c11_bst_isc_* (144 nodes, 14 ch)",
+   "D:/platform/deploy/content/cisce_nodes_v2/c12_bst_isc_* (185 nodes, 22 ch)"
+  ],
+  "entrepreneurship_note": "No NCERT Entrepreneurship textbook exists in text_cache_new (verified by grep across class_9..class_12); the Entrepreneurship-style business-arithmetic set (break-even, unit economics, cash-flow projection) is grounded in the ISC commerce/commercial-studies corpus nodes listed below."
+ },
+ "families_before": {
+  "commerce_families.read_commerce": ["closing_capital (accountancy-owned)", "slm_depreciation (accountancy-owned)", "roi", "nnpfc (economics-owned)", "budget_deficit (economics-owned)"],
+  "commerce_families2.model_commerce2": ["GST (exclusive only)", "cash_flow CFO (accountancy-owned duplicate)", "partnership (capital-ratio default bug)", "current_ratio (rupee-unit bug)", "interest_on_capital (period-blind, declined valid probes)"],
+  "audit_findings": [
+   "0 crashes on valid probes (fired all 11 entry functions with 10 hand-built valid probes); 5 misfires/defects catalogued",
+   "read_commerce dispatcher SHORT-CIRCUITED on refusals: an SLM-depreciation refusal blocked read_nnpfc on a valid GDP probe (returned GUIDED refusal instead of continuing)",
+   "partnership shared profit by CAPITAL ratio by default (wrong rule: absent an agreement profits are shared equally) and rendered steps in scientific notation (1.5e+04)",
+   "current_ratio shipped the ratio wearing a rupee sign (answer Rs 2)",
+   "interest_on_capital declined a valid probe (allowed at 6% ... for 6 months) and ignored the time period",
+   "GST had no inclusive extraction and no CGST/SGST/IGST split in the families lane (commerce_readers.GST_CHAIN owned them on the narrative lane only)"
+  ]
+ },
+ "families_after": [
+  "commerce_families (11): BEP_UNITS, BEP_SALES, MARGIN_OF_SAFETY, CONTRIBUTION, TARGET_PROFIT_UNITS, COST_PLUS_PRICE, CASH_PROJECTION, WORKING_CAPITAL, MARKET_SHARE, RETAINED_EARNINGS, OPERATING_CYCLE (cash conversion cycle + average collection period)",
+  "commerce_families2 (5 rows): GST (exclusive / inclusive extraction / CGST-SGST intra-state / IGST inter-state), PARTNERSHIP_SHARE (stated ratio / capital ratio on request / equal-split no-deed default), CURRENT_RATIO, LIQUID_RATIO, INTEREST_ON_CAPITAL (period-aware)",
+  "removed as other-subject-owned: closing_capital, slm_depreciation, roi (accountancy_families), nnpfc, budget_deficit (economics_families), crude CFO duplicate (accountancy CASH_FLOW_OPERATING)"
+ ],
+ "classification": {
+  "class10_comst_icse": [
+   {"id": "c10_comst_icse_01", "solver_able": false, "status": "not_solver_able", "reason": "business environment basics (theory)"},
+   {"id": "c10_comst_icse_02", "solver_able": true, "status": "covered", "families": ["COST_PLUS_PRICE", "MARKET_SHARE", "GST"], "note": "worked cost-plus bakery example in node 02_005 (fixed allocation Rs 60000/5000 packs = Rs 12, unit cost Rs 42, 40% markup) with the authored markup-on-variable-cost misconception"},
+   {"id": "c10_comst_icse_03", "solver_able": false, "status": "not_solver_able", "reason": "capital-market theory"},
+   {"id": "c10_comst_icse_04", "solver_able": false, "status": "not_solver_able", "reason": "HR functions (theory)"},
+   {"id": "c10_comst_icse_05", "solver_able": false, "status": "not_solver_able", "reason": "logistics/warehousing: stock levels and reorder points are qualitative; no taught EOQ/reorder formula in corpus (checked nodes 05_002/05_005/05_006)"},
+   {"id": "c10_comst_icse_06", "solver_able": false, "status": "not_solver_able", "reason": "banking/RBI (theory); SI/CI interest prose handled by commerce_readers interest family"},
+   {"id": "c10_comst_icse_07", "solver_able": false, "status": "not_solver_able", "reason": "regulation/redressal (theory)"}
+  ],
+  "class11_comm_isc": [
+   {"id": "c11_comm_isc_01", "solver_able": false, "status": "not_solver_able", "reason": "business/economic-activity concepts"},
+   {"id": "c11_comm_isc_02", "solver_able": false, "status": "not_solver_able", "reason": "sole trader / Hindu joint family features (theory)"},
+   {"id": "c11_comm_isc_03", "solver_able": false, "status": "not_solver_able", "reason": "joint-stock company features (theory)"},
+   {"id": "c11_comm_isc_04", "solver_able": false, "status": "not_solver_able", "reason": "government/departmental undertakings (theory)"},
+   {"id": "c11_comm_isc_05", "solver_able": false, "status": "not_solver_able", "reason": "social responsibility (theory)"},
+   {"id": "c11_comm_isc_06", "solver_able": true, "status": "covered", "families": ["GST"], "note": "node 06_005 works the intra-state laptop invoice (CGST=SGST=9% of Rs 12000); node 06_008 fixes IGST for inter-state; discount-then-GST order chains stay with commerce_readers.GST_CHAIN (Lane A)"},
+   {"id": "c11_comm_isc_07", "solver_able": false, "status": "not_solver_able", "reason": "stock exchange mechanics taught qualitatively; no taught price arithmetic"},
+   {"id": "c11_comm_isc_08", "solver_able": true, "status": "covered", "families": ["BEP_UNITS", "CONTRIBUTION", "TARGET_PROFIT_UNITS", "COST_PLUS_PRICE"], "note": "wholesale/retail pricing nodes 08_003/08_007/08_010 carry break-even and target-profit problems"},
+   {"id": "c11_comm_isc_09", "solver_able": false, "status": "not_solver_able", "reason": "internal vs external trade (theory)"},
+   {"id": "c11_comm_isc_10", "solver_able": false, "status": "not_solver_able", "reason": "insurance: policy/premium arithmetic not taught numerically in corpus"}
+  ],
+  "class12_comm_isc": [
+   {"id": "c12_comm_isc_01", "solver_able": true, "status": "covered", "families": ["OPERATING_CYCLE", "WORKING_CAPITAL", "GST", "MARKET_SHARE"], "note": "node 01_006 works a distributor operating-cycle case; multi-step financing-cost chains remain reader-level"},
+   {"id": "c12_comm_isc_02", "solver_able": true, "status": "covered", "families": ["WORKING_CAPITAL", "OPERATING_CYCLE"], "note": "worked CA-CL examples (26-9 = Rs 17 crore; 80-50 = Rs 30 lakh), collection period (15/120 x 365 = 45.6 days) and the CCC formula (inventory days + receivable days - payable days) are taught in nodes 02_001/02_006"},
+   {"id": "c12_comm_isc_03", "solver_able": true, "status": "covered", "families": ["RETAINED_EARNINGS"], "note": "node 03_008 works closing retained earnings (1cr + 40L - 12L - 10% transfer = Rs 1.24 crore) with the authored reserve-transfer-is-optional misconception"},
+   {"id": "c12_comm_isc_04", "solver_able": false, "status": "not_solver_able", "reason": "banking/RTGS: node 04_007 works a month-wise running-balance interest chain (opening-payment-interest-closing) but that family is instalment/HP territory (commerce_readers) and outside this batch's expected set"},
+   {"id": "c12_comm_isc_05", "solver_able": false, "status": "not_solver_able", "reason": "management concepts (theory)"},
+   {"id": "c12_comm_isc_06", "solver_able": false, "status": "not_solver_able", "reason": "planning/decision-making (theory)"},
+   {"id": "c12_comm_isc_07", "solver_able": false, "status": "not_solver_able", "reason": "market types (theory)"},
+   {"id": "c12_comm_isc_08", "solver_able": true, "status": "covered", "families": ["BEP_UNITS", "BEP_SALES", "MARGIN_OF_SAFETY", "CONTRIBUTION", "TARGET_PROFIT_UNITS", "COST_PLUS_PRICE"], "note": "node 08_009 works the subscription-app break-even case (contribution per subscriber, break-even subscribers, profit check); node 08_006 cost-plus pricing"},
+   {"id": "c12_comm_isc_09", "solver_able": false, "status": "not_solver_able", "reason": "consumer protection (theory)"}
+  ],
+  "class11_bst_isc": [
+   {"id": "c11_bst_isc_01..04", "solver_able": false, "status": "not_solver_able", "reason": "business environment/risk/SWOT/entrepreneur concepts (theory)"},
+   {"id": "c11_bst_isc_05", "solver_able": false, "status": "not_solver_able", "reason": "entrepreneurship concepts: break-even appears only as a financial KPI mention (05_013), no worked numeric in the chapter"},
+   {"id": "c11_bst_isc_06", "solver_able": false, "status": "not_solver_able", "reason": "intrapreneurship (theory)"},
+   {"id": "c11_bst_isc_07", "solver_able": false, "status": "not_solver_able", "reason": "enterprise/finance: DSCR and cost-of-capital worked examples exist (07_005) but belong to finance/accountancy families outside the commerce set"},
+   {"id": "c11_bst_isc_08..14", "solver_able": false, "status": "not_solver_able", "reason": "growth/management/authority/automation/banking services (theory)"}
+  ],
+  "class12_bst_isc": [
+   {"id": "c12_bst_isc_01..07", "solver_able": false, "status": "not_solver_able", "reason": "HRM concepts (theory)"},
+   {"id": "c12_bst_isc_08", "solver_able": true, "status": "MISSING", "families": [], "reason": "payroll/leave arithmetic IS taught with numbers (EL balance 17 days x Rs 500 = Rs 8,500 in node 08_012) but a leave-encashment family is not built in this batch (outside the expected commerce set) - candidate for the next batch"},
+   {"id": "c12_bst_isc_09..16", "solver_able": false, "status": "not_solver_able", "reason": "leadership/controlling/communication/correspondence/sole trader (theory)"},
+   {"id": "c12_bst_isc_17", "solver_able": false, "status": "not_solver_able", "reason": "sources of finance/dividend policy (qualitative; the worked retained-earnings arithmetic lives in c12_comm_isc_03 and is covered there)"},
+   {"id": "c12_bst_isc_18..22", "solver_able": false, "status": "not_solver_able", "reason": "international business/e-business/outsourcing/regulation (theory; the break-even mention in 18_004 is qualitative)"}
+  ],
+  "ncert_books": [
+   {"id": "BST-11 kebs101..111", "solver_able": false, "status": "not_solver_able", "reason": "all 11 chapters conceptual (foundations of business, trade, business services, internal trade with GST-as-tax descriptions in ch 10; no numeric mechanics)"},
+   {"id": "BST-12 lebs101..108", "solver_able": false, "status": "not_solver_able", "reason": "management chapters; break-even appears only as a controlling TECHNIQUE (lebs108), no formula taught"},
+   {"id": "BST-12 lebs201..203", "solver_able": false, "status": "not_solver_able", "reason": "financial management/marketing/consumer protection: working capital and operating cycle taught as concepts (lebs201); the CA-CL and CCC arithmetic is worked in the ISC corpus (c12_comm_isc_02) and covered there"}
+  ],
+  "demand_forecast": {"solver_able": false, "reason": "forecasting is taught qualitatively (AI demand forecasting in c11_comm_isc_06_009, sales-forecasting mentions); NO simple/moving-average formula appears in the closed world, so the family is deliberately not invented"},
+  "stock_ex_stock": {"solver_able": false, "reason": "stock-exchange chapters are qualitative; ex-stock delivery and reorder/EOQ formulas are absent from both books and corpus, so there is nothing deterministic to solve"}
+ },
+ "summary": {
+  "chapters_total": 62,
+  "solver_able_true": 9,
+  "covered": 8,
+  "missing_this_batch": 1,
+  "not_solver_able": 53,
+  "family_rows_final": 16
+ }
+}

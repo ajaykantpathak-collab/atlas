@@ -28,19 +28,30 @@ Design notes (learned in testing):
   * Handler answers may contain comma-grouped numerals ("Rs 1,600") --
     surface text, not the numeric_answer contract.
 
-Coverage (24 families):
+Coverage (32 families; books2 block adds the chapters the first wave missed):
   micro    DEMAND_SUPPLY_LINEAR_ANY (any-solve), MARKET_EQUILIBRIUM,
            EXCESS_DEMAND_SUPPLY, DEMAND_Q_AT_P, DEMAND_P_FOR_Q,
            PED_PERCENTAGE (pairs + any-missing), PED_TOTAL_OUTLAY,
-           PED_POINT_LINEAR
+           PED_POINT_LINEAR, COST_SCHEDULE_ANY (TC/TFC/TVC/AC/AVC/AFC/MC),
+           REVENUE_CURVES_ANY (TR/AR/MR), CONSUMER_EQUIB_RATIO (MUx/Px =
+           MUy/Py), MARKET_SUPPLY_SUM, PRICE_CEILING_FLOOR
   macro    GDP_EXPENDITURE_ANY_MISSING, NNPFC_CONVERSION, VALUE_ADDED_CHAIN
            (+ stage-chain), INCOME_METHOD_NI, GDP_DEFLATOR (real/nominal
            any-missing), CPI_INFLATION_RATE, FISHER_REAL_RATE,
            MONEY_MULTIPLIER, DEPOSIT_CREATION_CHAIN,
            CONSUMPTION_FUNCTION_ANY, INVESTMENT_MULTIPLIER,
            APC_APS_IDENTITIES, BUDGET_DEFICITS_ANY, EXCHANGE_RATE_CHANGE,
-           UNEMPLOYMENT_RATES, HEADCOUNT_RATIO
-  stats    INDEX_AGGREGATIVE, INDEX_LASPEYRES, INDEX_PAASCHES
+           UNEMPLOYMENT_RATES, HEADCOUNT_RATIO, GDP_WELFARE_PERCAPITA,
+           BOP_CLASSIFY_ANY
+  stats    INDEX_AGGREGATIVE, INDEX_LASPEYRES, INDEX_PAASCHES,
+           CORRELATION_COEFFICIENT (paired data, Karl Pearson)
+
+STEP CONTRACT (enforced by test_economics_families.py): every family's steps
+output contains, in order -- 1) "Method: <identity/law> + why it applies",
+2) "Given: <figures restated with units>", 3) computation steps,
+4) "Check: <verification / identity closes / recompute>",
+5) "Interpretation: <in context>".  Minimum 3 steps and 150 chars; the
+harness fails any family that violates this.
 
 Deterministic only -- no LLM calls anywhere in this module.
 """
@@ -132,7 +143,7 @@ def _labv(text: str, label: str, tight: bool = False) -> Optional[float]:
     a value belonging to another clause.
     """
     if tight:
-        m = re.search(label + r"\s*(?:is|=|:|of|was|were|at|stood)?\s*" +
+        m = re.search(label + r"\s*(?:is|are|=|:|of|was|were|at|stood)?\s*" +
                       _RS + r"(?P<v>" + _NUM + r")", text, re.I)
     else:
         m = re.search(label + r"[^0-9\-\n]{0,30}?(?P<v>" + _NUM + r")",
@@ -215,14 +226,24 @@ def _c_equilibrium(g, m, text):
     if q_star <= 0:
         return _GATE    # impossible state: non-positive equilibrium qty
     steps = [
-        f"Demand: Qd = {_fmt(a)} - {_fmt(abs(b))}P;  Supply: Qs = "
+        "Method: a market is in equilibrium where quantity demanded equals "
+        "quantity supplied (Qd = Qs, leec205 ch 5); solving the two linear "
+        "curves simultaneously gives the equilibrium price and quantity.",
+        f"Given: demand Qd = {_fmt(a)} - {_fmt(abs(b))}P and supply Qs = "
         f"{_fmt(c)} + {_fmt(abs(d))}P.",
-        "At equilibrium Qd = Qs, so "
-        f"{_fmt(a)} - {_fmt(abs(b))}P = {_fmt(c)} + {_fmt(abs(d))}P.",
+        "Set Qd = Qs: "
+        f"{_fmt(a)} - {_fmt(abs(b))}P = {_fmt(c)} + {_fmt(abs(d))}P, so "
         f"P* = ({_fmt(a)} - {_fmt(c)}) / ({_fmt(abs(b))} + {_fmt(abs(d))}) "
-        f"= {_fmt(p_star)}.",
-        f"Q* = {_fmt(a)} - {_fmt(abs(b))} x {_fmt(p_star)} = "
-        f"{_fmt(q_star)}  (check: Qs at P* = {_fmt(c + d * p_star)}).",
+        f"= Rs {_fmt(p_star)}.",
+        f"Q* = {_fmt(a)} - {_fmt(abs(b))} x {_fmt(p_star)} = {_fmt(q_star)} "
+        "units.",
+        f"Check: supply at P* gives Qs = {_fmt(c)} + {_fmt(abs(d))} x "
+        f"{_fmt(p_star)} = {_fmt(c + d * p_star)} = Q* -- the identity "
+        "closes on both curves.",
+        f"Interpretation: at Rs {_fmt(p_star)} buyers plan to buy exactly "
+        f"what sellers offer -- {_fmt(q_star)} units change hands; any "
+        "price above leaves a surplus (price is pushed down), any below a "
+        "shortage (price is bid up), so the market gravitates back to P*.",
     ]
     ans = (f"Equilibrium price P* = Rs {_fmt(p_star)}, equilibrium quantity "
            f"Q* = {_fmt(q_star)} units")
@@ -255,11 +276,27 @@ def _c_excess_demand(g, m, text):
             else "excess supply (surplus)" if gap < 0
             else "no excess -- the market is at equilibrium")
     steps = [
-        f"At P = {_fmt(pp)}: Qd = {_fmt(a)} - {_fmt(abs(b))} x {_fmt(pp)} "
-        f"= {_fmt(qd)};  Qs = {_fmt(c)} + {_fmt(abs(d))} x {_fmt(pp)} "
-        f"= {_fmt(qs)}.",
+        "Method: away from equilibrium the market gap is excess demand = "
+        "Qd - Qs at the ruling price -- positive means a shortage (price "
+        "tends to rise), negative a surplus (price tends to fall) (leec205 "
+        "ch 5).",
+        f"Given: Qd = {_fmt(a)} - {_fmt(abs(b))}P;  Qs = {_fmt(c)} + "
+        f"{_fmt(abs(d))}P;  ruling price P = Rs {_fmt(pp)}.",
+        f"Qd = {_fmt(a)} - {_fmt(abs(b))} x {_fmt(pp)} = {_fmt(qd)};  "
+        f"Qs = {_fmt(c)} + {_fmt(abs(d))} x {_fmt(pp)} = {_fmt(qs)}.",
         f"Gap = Qd - Qs = {_fmt(qd)} - {_fmt(qs)} = {_fmt(gap)} "
-        f"(positive = shortage, negative = surplus).",
+        "(positive = shortage, negative = surplus).",
+        f"Check: the two curves at this price read {_fmt(qd)} and "
+        f"{_fmt(qs)} units -- a gap of {_fmt(abs(gap))}, whose sign "
+        f"({'positive' if gap > 0 else 'negative' if gap < 0 else 'zero'}) "
+        "fixes the classification.",
+        f"Interpretation: at Rs {_fmt(pp)} there is {kind} of "
+        f"{_fmt(abs(gap))} units"
+        + ("; competition among buyers pushes the price up toward P*."
+           if gap > 0 else
+           "; competition among sellers pushes the price down toward P*."
+           if gap < 0 else
+           " -- the market is already in equilibrium.") + ".",
     ]
     ans = f"At price Rs {_fmt(pp)} there is {kind} of {_fmt(abs(gap))} units"
     if gap > 0:
@@ -288,9 +325,17 @@ def _c_demand_q_at_p(g, m, text):
     if qd < 0:
         return _GATE        # impossible state: negative quantity demanded
     steps = [
-        f"Substitute P = {_fmt(pp)} into Qd = {_fmt(a)} - "
-        f"{_fmt(abs(b))}P:  Qd = {_fmt(a)} - {_fmt(abs(b))} x {_fmt(pp)} "
-        f"= {_fmt(qd)} units.",
+        "Method: the demand function Qd = a - bP (law of demand -- negative "
+        "slope) gives the quantity buyers plan to buy at any price; "
+        "substitute the given price.",
+        f"Given: Qd = {_fmt(a)} - {_fmt(abs(b))}P;  P = Rs {_fmt(pp)}.",
+        f"Qd = {_fmt(a)} - {_fmt(abs(b))} x {_fmt(pp)} = {_fmt(qd)} units.",
+        f"Check: read backwards -- P = (a - Qd)/b = ({_fmt(a)} - "
+        f"{_fmt(qd)})/{_fmt(abs(b))} = {_fmt((a - qd) / abs(b))}, which "
+        "recovers the given price, so the substitution closes.",
+        f"Interpretation: at Rs {_fmt(pp)} consumers plan to buy "
+        f"{_fmt(qd)} units -- a movement ALONG the demand curve, not a "
+        "shift of it.",
     ]
     ans = f"Quantity demanded at price Rs {_fmt(pp)} = {_fmt(qd)} units"
     steps.append(f"ANSWER: {ans}")
@@ -312,8 +357,18 @@ def _c_demand_p_for_q(g, m, text):
     if p <= 0:
         return _GATE        # impossible state: non-positive price
     steps = [
-        f"Set Qd = {_fmt(qq)}:  {_fmt(qq)} = {_fmt(a)} - {_fmt(abs(b))}P.",
-        f"P = ({_fmt(a)} - {_fmt(qq)}) / {_fmt(abs(b))} = {_fmt(p)}.",
+        "Method: rearrange the demand function Qd = a - bP for price, "
+        "P = (a - Qd)/b -- the inverse-demand reading of the same curve.",
+        f"Given: Qd = {_fmt(a)} - {_fmt(abs(b))}P;  quantity demanded = "
+        f"{_fmt(qq)} units.",
+        f"Solve {_fmt(qq)} = {_fmt(a)} - {_fmt(abs(b))}P:  P = "
+        f"({_fmt(a)} - {_fmt(qq)}) / {_fmt(abs(b))} = Rs {_fmt(p)}.",
+        f"Check: substitute P = {_fmt(p)} back -- Qd = {_fmt(a)} - "
+        f"{_fmt(abs(b))} x {_fmt(p)} = {_fmt(a + b * p)}, exactly the "
+        "given quantity, so the identity closes.",
+        f"Interpretation: buyers take {_fmt(qq)} units off the market only "
+        f"when the price is Rs {_fmt(p)} -- a movement along the demand "
+        "curve.",
     ]
     ans = (f"Price at which quantity demanded is {_fmt(qq)} units = "
            f"Rs {_fmt(p)}")
@@ -339,14 +394,30 @@ def _c_ped_pairs(g, m, text):
     ed = dq / dp
     cls = _classify_ed(ed)
     steps = [
+        "Method: percentage (proportionate) method -- price elasticity of "
+        "demand Ed = % change in quantity / % change in price; it applies "
+        "whenever a price move and the matching quantity move are both "
+        "observed (ICSE ch 2 / leec202).",
+        f"Given: price moves from Rs {_fmt(p1)} to Rs {_fmt(p2)} while "
+        f"quantity moves from {_fmt(q1)} to {_fmt(q2)} units.",
         f"% change in price = ({_fmt(p2)} - {_fmt(p1)})/{_fmt(p1)} x 100 = "
-        f"{_fmt(dp)}%.",
-        f"% change in quantity = ({_fmt(q2)} - {_fmt(q1)})/{_fmt(q1)} x 100 "
-        f"= {_fmt(dq)}%.",
-        f"Ed = %dQ / %dP = {_fmt(dq)} / {_fmt(dp)} = {_fmt(ed)} "
-        f"(magnitude {_fmt(abs(ed))}).",
-        f"|Ed| {'>' if abs(ed) > 1 else '<' if abs(ed) < 1 else '='} 1, so "
-        f"demand is {cls}.",
+        f"{_fmt(dp)}%;  % change in quantity = ({_fmt(q2)} - {_fmt(q1)})/"
+        f"{_fmt(q1)} x 100 = {_fmt(dq)}%.",
+        f"Ed = {_fmt(dq)} / {_fmt(dp)} = {_fmt(ed)} (magnitude "
+        f"{_fmt(abs(ed))}).",
+        f"Check: Ed x %dP = {_fmt(ed)} x {_fmt(dp)} = {_fmt(ed * dp)} = "
+        "%dQ -- the definition closes.",
+        f"Interpretation: |Ed| "
+        f"{'>' if abs(ed) > 1 else '<' if abs(ed) < 1 else '='} 1, so "
+        f"demand is {cls}: "
+        + ("quantity responds more than proportionally to price, so a "
+           "price rise lowers total spending."
+           if abs(ed) > 1 else
+           "quantity responds less than proportionally, so a price rise "
+           "raises total spending."
+           if abs(ed) < 1 else
+           "quantity moves in the same proportion as price, leaving total "
+           "spending unchanged.") + ".",
     ]
     ans = (f"Price elasticity of demand = {_fmt(ed)} (magnitude "
            f"{_fmt(abs(ed))}): demand is {cls}")
@@ -384,23 +455,50 @@ def _c_ped_missing(g, m, text):
             return _GATE
         ed = qdp / pdp
         cls = _classify_ed(ed)
-        steps = [f"Ed = %dQ / %dP = {_fmt(qdp)} / {_fmt(pdp)} = {_fmt(ed)}.",
-                 f"|Ed| = {_fmt(abs(ed))}: demand is {cls}."]
+        steps = [
+            "Method: percentage method -- Ed = %dQ / %dP; with two of the "
+            "three terms known, the third follows from the definition.",
+            f"Given: % change in quantity = {_fmt(qdp)}%, % change in "
+            f"price = {_fmt(pdp)}%.",
+            f"Ed = {_fmt(qdp)} / {_fmt(pdp)} = {_fmt(ed)}.",
+            f"Check: Ed x %dP = {_fmt(ed)} x {_fmt(pdp)} = "
+            f"{_fmt(ed * pdp)} = %dQ -- the definition closes.",
+            f"Interpretation: |Ed| = {_fmt(abs(ed))}, i.e. demand is "
+            f"{cls} -- quantity moves in the opposite direction to price, "
+            "in this proportion.",
+        ]
         ans = f"Ed = {_fmt(ed)} ({cls} demand)"
         val = ed
     elif pdp is None:
         if ed == 0:
             return _GATE
         pdp = qdp / ed
-        steps = [f"%dP = %dQ / Ed = {_fmt(qdp)} / {_fmt(ed)} = "
-                 f"{_fmt(pdp)}%."]
+        steps = [
+            "Method: percentage method rearranged -- %dP = %dQ / Ed.",
+            f"Given: Ed = {_fmt(ed)}, % change in quantity = "
+            f"{_fmt(qdp)}%.",
+            f"%dP = {_fmt(qdp)} / {_fmt(ed)} = {_fmt(pdp)}%.",
+            f"Check: Ed x %dP = {_fmt(ed)} x {_fmt(pdp)} = "
+            f"{_fmt(ed * pdp)} = %dQ -- the definition closes.",
+            "Interpretation: the price must move by "
+            f"{_fmt(pdp)}% in the OPPOSITE direction to quantity for this "
+            "elasticity to hold.",
+        ]
         ans = (f"% change in price = {_fmt(pdp)}% (price moves opposite "
                f"to quantity)")
         val = pdp
     else:
         qdp = ed * pdp
-        steps = [f"%dQ = Ed x %dP = {_fmt(ed)} x {_fmt(pdp)} = "
-                 f"{_fmt(qdp)}%; quantity moves the OPPOSITE way to price."]
+        steps = [
+            "Method: percentage method rearranged -- %dQ = Ed x %dP.",
+            f"Given: Ed = {_fmt(ed)}, % change in price = {_fmt(pdp)}%.",
+            f"%dQ = {_fmt(ed)} x {_fmt(pdp)} = {_fmt(qdp)}%; by the law of "
+            "demand quantity moves the OPPOSITE way to price.",
+            f"Check: %dQ / %dP = {_fmt(qdp)} / {_fmt(pdp)} = {_fmt(ed)} = "
+            "Ed -- the definition closes.",
+            f"Interpretation: a {_fmt(pdp)}% price change swings quantity "
+            f"demanded by {_fmt(qdp)}% -- demand is {_classify_ed(ed)}.",
+        ]
         ans = (f"% change in quantity demanded = {_fmt(qdp)}% in the "
                f"opposite direction to the price change")
         val = qdp
@@ -441,13 +539,28 @@ def _c_ped_total_outlay(g, m, text):
         why = (f"total outlay moves in the OPPOSITE direction to price "
                f"(Rs {_fmt(te1)} -> Rs {_fmt(te2)})")
     steps = [
+        "Method: total-outlay (total-expenditure) method -- compare TE = P "
+        "x Q before and after the price change: TE moves WITH price -> "
+        "inelastic, AGAINST price -> elastic, unchanged -> unitary (ICSE "
+        "ch 2); it applies because the size of the quantity response "
+        "decides which way spending moves.",
+        f"Given: price moves from Rs {_fmt(p1)} to Rs {_fmt(p2)};  outlay "
+        f"moves from Rs {_fmt(te1)} to Rs {_fmt(te2)}.",
         f"TE1 = P1 x Q1 = {_fmt(p1)} x "
         f"{_fmt(q1 if q1 is not None else te1 / p1)} = Rs {_fmt(te1)};  "
         f"TE2 = P2 x Q2 = {_fmt(p2)} x "
         f"{_fmt(q2 if q2 is not None else te2 / p2)} = Rs {_fmt(te2)}.",
         f"Price {'rises' if price_up else 'falls'} and {why}.",
-        "Total-outlay test: outlay same direction as price -> inelastic; "
-        "opposite direction -> elastic; unchanged -> unitary.",
+        f"Check: recomputing the outlays from P x Q gives the same "
+        f"Rs {_fmt(te1)} and Rs {_fmt(te2)} -- the test closes.",
+        f"Interpretation: demand is {cls}: "
+        + ("spending falls despite the higher price only because quantity "
+           "dropped proportionally more."
+           if cls == "elastic" else
+           "spending rises with price because quantity barely responded."
+           if cls == "inelastic" else
+           "the quantity fall exactly offset the price rise, leaving "
+           "spending unchanged.") + ".",
     ]
     ans = f"Demand is {cls} (total-outlay method)"
     steps.append(f"ANSWER: {ans}")
@@ -470,14 +583,23 @@ def _c_ped_point(g, m, text):
         return _GATE        # point not on the positive branch of the curve
     ed = abs(b) * pp / q
     cls = _classify_ed(ed)
+    mid_p = a / (2.0 * abs(b))
     steps = [
-        f"At P = {_fmt(pp)}: Qd = {_fmt(a)} - {_fmt(abs(b))} x {_fmt(pp)} "
-        f"= {_fmt(q)}.",
-        f"Point elasticity = |dQ/dP| x (P/Q) = {_fmt(abs(b))} x "
-        f"{_fmt(pp)}/{_fmt(q)} = {_fmt(ed)}.",
-        f"|Ed| {'>' if ed > 1 else '<' if ed < 1 else '='} 1: demand is "
-        f"{cls} at this point (on a linear demand curve elasticity falls "
-        f"as P falls; slope is constant but elasticity is not).",
+        "Method: point elasticity on a linear demand curve, e = |dQ/dP| x "
+        "(P/Q) -- the slope term is constant, so elasticity varies only "
+        "with the P/Q ratio at the chosen point (leec202).",
+        f"Given: Qd = {_fmt(a)} - {_fmt(abs(b))}P;  point P = Rs {_fmt(pp)}.",
+        f"Quantity at this price: Q = {_fmt(a)} - {_fmt(abs(b))} x "
+        f"{_fmt(pp)} = {_fmt(q)}.  e = {_fmt(abs(b))} x {_fmt(pp)}/"
+        f"{_fmt(q)} = {_fmt(ed)}.",
+        f"Check: on this curve e = 1 exactly at the midpoint price "
+        f"a/(2b) = Rs {_fmt(mid_p)}; Rs {_fmt(pp)} lies "
+        f"{'above' if pp > mid_p else 'below'} it, which matches the "
+        f"'{cls}' verdict -- the geometry closes.",
+        f"Interpretation: at Rs {_fmt(pp)} demand is {cls}: a 1% price "
+        f"change moves quantity by about {_fmt(ed)}% -- on a straight-line "
+        "demand curve elasticity falls as P falls even though the slope "
+        "never changes.",
     ]
     ans = f"Point elasticity at price Rs {_fmt(pp)} = {_fmt(ed)} ({cls})"
     steps.append(f"ANSWER: {ans}")
@@ -519,11 +641,24 @@ def _c_gdp_identity(g, m, text):
         gdp = sum(comps[k] * _GDP_SIGN[k] for k in _GDP_ORDER)
         if gdp <= 0:
             return _GATE
+        readd = c + i + gv + x - mv
         expr = (f"{_fmt(c)} + {_fmt(i)} + {_fmt(gv)} + "
                 f"({_fmt(x)} - {_fmt(mv)})")
         steps = [
-            "GDP by the expenditure method: GDP = C + I + G + (X - M).",
-            f"= {expr} = {_fmt(gdp)}.",
+            "Method: expenditure method of national income accounting -- "
+            "GDP = C + I + G + (X - M): all final expenditure on domestic "
+            "output by households, firms, government and the foreign "
+            "sector, with imports subtracted because they are not domestic "
+            "output (leec102 ch 2).",
+            f"Given: C = {_fmt(c)}, I = {_fmt(i)}, G = {_fmt(gv)}, X = "
+            f"{_fmt(x)}, M = {_fmt(mv)} (all Rs).",
+            f"GDP = {expr} = Rs {_fmt(gdp)}.",
+            f"Check: re-adding C + I + G + X - M = {_fmt(readd)} -- the "
+            "identity closes.",
+            "Interpretation: Rs "
+            f"{_fmt(gdp)} is the total final-expenditure flow on this "
+            "economy's output in the year; imports enter with a minus "
+            "sign so only domestically produced goods are counted.",
         ]
         ans = f"GDP = Rs {_fmt(gdp)}"
         steps.append(f"ANSWER: {ans}")
@@ -546,14 +681,30 @@ def _c_gdp_identity(g, m, text):
             terms.append(f"(-{_fmt(mv)})")
         else:
             terms.append(_fmt(comps[k]))
+    recheck = sum(comps[k] * _GDP_SIGN[k] for k in _GDP_ORDER
+                  if k != tgt) + val * _GDP_SIGN[tgt]
     steps = [
-        "GDP = " + " + ".join(terms) + f" = {_fmt(gdp)}  "
-        "(GDP = C + I + G + (X - M)).",
+        "Method: expenditure-method identity GDP = C + I + G + (X - M) "
+        "(leec102 ch 2); with GDP and four components known, the missing "
+        "component is the balancing figure of the identity.",
+        "Given: GDP = Rs " + _fmt(gdp) + ";  " + ", ".join(
+            f"{_GDP_NAME[k]} = {_fmt(comps[k])}" for k in _GDP_ORDER
+            if k != tgt) + " (all Rs).",
+        "Substitute into GDP = " + " + ".join(terms) + f" = {_fmt(gdp)}.",
         f"Solve for {_GDP_NAME[tgt]}: {_GDP_NAME[tgt]} = {_fmt(gdp)} - "
         f"({_fmt(signed_known)})"
         + (" divided by -1 (imports enter with a minus sign)" if
            _GDP_SIGN[tgt] < 0 else "") +
-        f" = {_fmt(val)}.",
+        f" = Rs {_fmt(val)}.",
+        f"Check: re-adding every component gives {_fmt(recheck)} = the "
+        "given GDP -- the identity closes.",
+        f"Interpretation: {_GDP_NAME[tgt]} of Rs {_fmt(val)} is exactly "
+        "what the expenditure accounts need to balance -- e.g. exports "
+        "must rise to the level where total spending on domestic output "
+        "equals measured GDP." if tgt == "exports" else
+        f"Interpretation: {_GDP_NAME[tgt]} of Rs {_fmt(val)} is exactly "
+        "what the expenditure accounts need to balance -- total final "
+        f"spending C + I + G + (X - M) reproduces GDP = Rs {_fmt(gdp)}.",
     ]
     ans = f"{tgt.capitalize()} ({_GDP_NAME[tgt]}) = Rs {_fmt(val)}"
     steps.append(f"ANSWER: {ans}")
@@ -598,14 +749,23 @@ def _c_nnpfc(g, m, text):
     nnp_mp = gn - dep
     nnp_fc = nnp_mp - nit
     steps = [
-        "Chain: GDPmp -> GNPmp (add NFIA) -> NNPmp (less depreciation) -> "
-        "NNPfc (less net indirect tax).",
-        f"GNPmp = GDP + NFIA = {_fmt(gdp)} + {_fmt(nfia)} = {_fmt(gn)}.",
-        f"NNPmp = GNPmp - depreciation = {_fmt(gn)} - {_fmt(dep)} = "
-        f"{_fmt(nnp_mp)}.",
-        nit_steps,
+        "Method: the national-income conversion chain -- GDPmp -> GNPmp "
+        "(add NFIA) -> NNPmp (less depreciation) -> NNPfc (less net "
+        "indirect tax), because NNPfc is the factor income earned by "
+        "normal residents (leec102 ch 2).",
+        f"Given: GDPmp = Rs {_fmt(gdp)}, depreciation = Rs {_fmt(dep)}, "
+        f"NIT = Rs {_fmt(nit)}, NFIA = Rs {_fmt(nfia)}.",
+        f"GNPmp = GDP + NFIA = {_fmt(gdp)} + {_fmt(nfia)} = {_fmt(gn)};  "
+        f"NNPmp = {_fmt(gn)} - {_fmt(dep)} = {_fmt(nnp_mp)};  {nit_steps}",
         f"NNPfc = NNPmp - NIT = {_fmt(nnp_mp)} - {_fmt(nit)} = "
-        f"{_fmt(nnp_fc)}.",
+        f"Rs {_fmt(nnp_fc)}.",
+        f"Check: directly, NNPfc = GDP - depreciation - NIT + NFIA = "
+        f"{_fmt(gdp)} - {_fmt(dep)} - {_fmt(nit)} + {_fmt(nfia)} = "
+        f"{_fmt(nnp_fc)} -- the chain closes.",
+        "Interpretation: Rs "
+        f"{_fmt(nnp_fc)} is the national income -- the total factor "
+        "income (wages, rent, interest, profit) earned by normal "
+        "residents, whether at home or abroad.",
     ]
     ans = f"National income (NNPfc) = Rs {_fmt(nnp_fc)}"
     steps.append(f"ANSWER: {ans}")
@@ -626,11 +786,20 @@ def _c_value_added(g, m, text):
     if out is not None and inter is not None:
         gva = out - inter
         steps = [
-            f"Value added = value of output - intermediate consumption = "
-            f"{_fmt(out)} - {_fmt(inter)} = {_fmt(gva)}.",
-            "Summing value added across firms avoids double counting "
-            "intermediate goods: the total equals the value of the final "
-            "good.",
+            "Method: value-added (product) method -- a firm's contribution "
+            "to GDP is GVA = value of output - intermediate consumption "
+            "(leec102 ch 2); it applies because only the value the firm "
+            "ITSELF creates may be counted.",
+            f"Given: value of output = Rs {_fmt(out)}, intermediate "
+            f"consumption = Rs {_fmt(inter)}.",
+            f"GVA = {_fmt(out)} - {_fmt(inter)} = Rs {_fmt(gva)}.",
+            f"Check: GVA + intermediate consumption = {_fmt(gva)} + "
+            f"{_fmt(inter)} = {_fmt(out)} = value of output -- the "
+            "identity closes.",
+            "Interpretation: Rs "
+            f"{_fmt(gva)} is this firm's own contribution to GDP; summing "
+            "value added across all firms avoids double counting "
+            "intermediate goods.",
         ]
         ans = f"Value added = Rs {_fmt(gva)}"
         steps.append(f"ANSWER: {ans}")
@@ -648,12 +817,22 @@ def _c_value_added(g, m, text):
         total = sells[-1]
         chain = " + ".join(_fmt(v) for v in gvas)
         steps = [
-            f"Stage values of output: {', '.join(_fmt(v) for v in sells)}.",
-            f"Each stage's value added = its sale value - what it paid for "
-            f"inputs: {chain}.",
-            f"Total value added = {_fmt(total)} = value of the FINAL good; "
-            f"summing the sale values ({_fmt(sum(sells))}) would double "
-            f"count.",
+            "Method: value-added across production stages -- each stage's "
+            "GVA = its sale value - what it paid for inputs, and the sum "
+            "of stage GVAs equals the value of the FINAL good (leec102 "
+            "ch 2).",
+            f"Given: stage sale values of Rs "
+            + ", Rs ".join(_fmt(v) for v in sells) + ".",
+            f"Stage GVAs = {chain} (each stage adds its own margin only).",
+            f"Total value added = {chain} = {_fmt(total)} = value of the "
+            f"final good;  summing the sale values ({_fmt(sum(sells))}) "
+            "would double count intermediate goods.",
+            f"Check: final sale value Rs {_fmt(total)} - first-stage "
+            f"inputs (none) = {_fmt(total)} -- GVA sum and final value "
+            "agree, so the method closes.",
+            "Interpretation: GDP counts Rs "
+            f"{_fmt(total)} for this product -- exactly the bread's final "
+            "value, not the inflated sum of every intermediate sale.",
         ]
         ans = (f"Total value added = Rs {_fmt(total)} (equals the final "
                f"good's value)")
@@ -685,10 +864,21 @@ def _c_income_method(g, m, text):
     if mixed:
         sum_s += f" + {_fmt(mixed)} (mixed income)"
     steps = [
-        "Income method: national income (NNPfc) = compensation of employees "
-        "+ rent + interest + profit" + (" + mixed income" if mixed else "")
-        + ".",
-        f"= {sum_s} = {_fmt(total)}.",
+        "Method: income method of national income -- NNPfc = compensation "
+        "of employees + rent + interest + profit (+ mixed income): the "
+        "factor payments earned by households for their land, labour, "
+        "capital and enterprise (leec102 ch 2).",
+        "Given: " + ", ".join(
+            f"{k} = Rs {_fmt(v)}" for k, v in parts.items() if v is not None)
+        + (f", mixed income = Rs {_fmt(mixed)}" if mixed else "") + ".",
+        f"NI = {sum_s} = Rs {_fmt(total)}.",
+        f"Check: re-adding the factor incomes gives {_fmt(total)} -- the "
+        "sum closes.",
+        "Interpretation: Rs "
+        f"{_fmt(total)} is national income measured from the earnings "
+        "side -- what households receive as wages, rent, interest and "
+        "profit (mixed income covers self-employed earnings the books "
+        "cannot split).",
     ]
     ans = f"National income by income method = Rs {_fmt(total)}"
     steps.append(f"ANSWER: {ans}")
@@ -715,22 +905,58 @@ def _c_deflator(g, m, text):
         if defl <= 0:
             return _GATE
         nom = real * defl / 100.0
-        steps = [f"Nominal GDP = Real GDP x (deflator / 100) = {_fmt(real)} "
-                 f"x {_fmt(defl)}/100 = {_fmt(nom)}."]
+        steps = [
+            "Method: GDP deflator identity -- deflator = (nominal GDP / "
+            "real GDP) x 100, rearranged to nominal = real x deflator/100 "
+            "(leec102 ch 2); it applies because the deflator measures how "
+            "much of nominal growth is pure price rise.",
+            f"Given: real GDP = Rs {_fmt(real)}, deflator = {_fmt(defl)}.",
+            f"Nominal GDP = {_fmt(real)} x {_fmt(defl)}/100 = "
+            f"Rs {_fmt(nom)}.",
+            f"Check: nominal / real x 100 = {_fmt(nom)}/{_fmt(real)} x 100 "
+            f"= {_fmt(nom / real * 100)} = the given deflator -- the "
+            "identity closes.",
+            "Interpretation: the same physical output valued at CURRENT "
+            f"prices is Rs {_fmt(nom)}, against Rs {_fmt(real)} at base-"
+            "year prices.",
+        ]
         val, ans = nom, f"Nominal GDP = Rs {_fmt(nom)}"
     elif real is None:
         if defl <= 0:
             return _GATE    # impossible state: non-positive deflator
         real = nom / defl * 100.0
-        steps = [f"Real GDP = (Nominal GDP / deflator) x 100 = "
-                 f"({_fmt(nom)} / {_fmt(defl)}) x 100 = {_fmt(real)}."]
+        steps = [
+            "Method: GDP deflator identity rearranged -- real GDP = "
+            "(nominal GDP / deflator) x 100 strips the price rise out of "
+            "nominal GDP (leec102 ch 2).",
+            f"Given: nominal GDP = Rs {_fmt(nom)}, deflator = {_fmt(defl)}.",
+            f"Real GDP = ({_fmt(nom)} / {_fmt(defl)}) x 100 = "
+            f"Rs {_fmt(real)}.",
+            f"Check: real x deflator/100 = {_fmt(real)} x {_fmt(defl)}/100 "
+            f"= {_fmt(real * defl / 100)} = the given nominal GDP -- the "
+            "identity closes.",
+            "Interpretation: output measured at CONSTANT base-year prices "
+            f"is only Rs {_fmt(real)} -- the rest of the nominal figure "
+            "was inflation, not more goods.",
+        ]
         val, ans = real, f"Real GDP = Rs {_fmt(real)}"
     else:
         if real <= 0:
             return _GATE
         defl = nom / real * 100.0
-        steps = [f"GDP deflator = (Nominal / Real) x 100 = "
-                 f"({_fmt(nom)} / {_fmt(real)}) x 100 = {_fmt(defl)}."]
+        steps = [
+            "Method: GDP deflator = (nominal GDP / real GDP) x 100 -- the "
+            "price index implicit in the national accounts (leec102 ch 2).",
+            f"Given: nominal GDP = Rs {_fmt(nom)}, real GDP = "
+            f"Rs {_fmt(real)}.",
+            f"Deflator = ({_fmt(nom)} / {_fmt(real)}) x 100 = {_fmt(defl)}.",
+            f"Check: real x deflator/100 = {_fmt(real)} x {_fmt(defl)}/100 "
+            f"= {_fmt(real * defl / 100)} = nominal GDP -- the identity "
+            "closes.",
+            f"Interpretation: the price level is {_fmt(defl)} relative to "
+            f"the base year's 100 -- prices are {_fmt(defl - 100)}% higher "
+            "than in the base year.",
+        ]
         val, ans = defl, f"GDP deflator = {_fmt(defl)}"
     steps.append(f"ANSWER: {ans}")
     extra = {k: v for k, v in (("nominal", nom), ("real", real),
@@ -753,10 +979,18 @@ def _c_inflation(g, m, text):
     span = f" ({y1})" if y1 else ""
     span2 = f" ({y2})" if y2 else ""
     steps = [
-        f"Price index{span}: {_fmt(i1)}  ->  price index{span2}: "
+        "Method: inflation from a price index -- inflation = (index2 - "
+        "index1)/index1 x 100, the percentage rise in the cost-of-living "
+        "index between the two periods (ICSE ch 5 / leec102).",
+        f"Given: price index{span} = {_fmt(i1)} -> price index{span2} = "
         f"{_fmt(i2)}.",
-        f"Inflation = (index2 - index1)/index1 x 100 = ({_fmt(i2)} - "
-        f"{_fmt(i1)})/{_fmt(i1)} x 100 = {_fmt(infl)}%.",
+        f"Inflation = ({_fmt(i2)} - {_fmt(i1)})/{_fmt(i1)} x 100 = "
+        f"{_fmt(infl)}%.",
+        f"Check: index1 x (1 + inflation/100) = {_fmt(i1)} x "
+        f"{_fmt(1 + infl / 100)} = {_fmt(i1 * (1 + infl / 100))} = the "
+        "closing index -- the identity closes.",
+        f"Interpretation: the price level rose {_fmt(infl)}% over the "
+        "period -- this is the inflation rate the CPI is measuring.",
     ]
     ans = f"Inflation rate = {_fmt(infl)}%"
     steps.append(f"ANSWER: {ans}")
@@ -773,8 +1007,19 @@ def _c_cpi_basket(g, m, text):
         return _GATE
     cpi = c1 / c0 * 100.0
     steps = [
-        f"CPI = (cost of the basket in the current year / cost in the base "
-        f"year) x 100 = ({_fmt(c1)} / {_fmt(c0)}) x 100 = {_fmt(cpi)}.",
+        "Method: consumer price index -- CPI = (cost of the fixed basket "
+        "in the current year / cost in the base year) x 100 (ICSE ch 5); "
+        "it applies because a price index tracks the changing money cost "
+        "of the SAME basket.",
+        f"Given: basket cost in base year = Rs {_fmt(c0)}, in current "
+        f"year = Rs {_fmt(c1)}.",
+        f"CPI = ({_fmt(c1)} / {_fmt(c0)}) x 100 = {_fmt(cpi)}.",
+        f"Check: cost x CPI/100 = {_fmt(c0)} x {_fmt(cpi)}/100 = "
+        f"{_fmt(c0 * cpi / 100)} = the current-year cost -- the identity "
+        "closes.",
+        "Interpretation: the basket that cost Rs "
+        f"{_fmt(c0)} at base-year prices now costs Rs {_fmt(c1)}: the "
+        f"cost of living is {_fmt(cpi - 100)}% higher than the base year.",
     ]
     ans = f"Consumer Price Index = {_fmt(cpi)}"
     steps.append(f"ANSWER: {ans}")
@@ -795,19 +1040,53 @@ def _c_fisher(g, m, text):
         return _GATE
     if nom is None:
         nom = real + infl
-        steps = [f"Fisher: nominal rate = real rate + inflation = "
-                 f"{_fmt(real)} + {_fmt(infl)} = {_fmt(nom)}%."]
+        steps = [
+            "Method: Fisher equation (approximate form) -- nominal rate = "
+            "real rate + inflation; it applies because lenders build "
+            "expected inflation into the interest they charge.",
+            f"Given: real rate = {_fmt(real)}%, inflation = {_fmt(infl)}%.",
+            f"Nominal rate = {_fmt(real)} + {_fmt(infl)} = {_fmt(nom)}%.",
+            f"Check: nominal - inflation = {_fmt(nom)} - {_fmt(infl)} = "
+            f"{_fmt(nom - infl)}% = the real rate -- the identity closes.",
+            "Interpretation: the "
+            f"{_fmt(nom)}% nominal return carries a {_fmt(infl)}% "
+            "inflation premium on top of the true "
+            f"{_fmt(real)}% earning.",
+        ]
         val, ans = nom, f"Nominal interest rate = {_fmt(nom)}%"
     elif real is None:
         real = nom - infl
-        steps = [f"Fisher (approximate): real rate = nominal rate - "
-                 f"inflation = {_fmt(nom)} - {_fmt(infl)} = {_fmt(real)}%.",
-                 "(Exact form: (1 + n)/(1 + i) - 1.)"]
+        steps = [
+            "Method: Fisher equation (approximate form) -- real rate = "
+            "nominal rate - inflation; it strips the inflation premium out "
+            "of the observed nominal rate. (Exact form: (1 + n)/(1 + i) - 1.)",
+            f"Given: nominal rate = {_fmt(nom)}%, inflation = "
+            f"{_fmt(infl)}%.",
+            f"Real rate = {_fmt(nom)} - {_fmt(infl)} = {_fmt(real)}%.",
+            f"Check: real + inflation = {_fmt(real)} + {_fmt(infl)} = "
+            f"{_fmt(real + infl)}% = the nominal rate -- the identity "
+            "closes.",
+            "Interpretation: in purchasing-power terms the saving truly "
+            f"earns {_fmt(real)}% -- inflation of {_fmt(infl)}% erodes the "
+            "rest of the nominal return.",
+        ]
         val, ans = real, f"Real interest rate = {_fmt(real)}%"
     else:
         infl = nom - real
-        steps = [f"Inflation = nominal - real = {_fmt(nom)} - "
-                 f"{_fmt(real)} = {_fmt(infl)}%."]
+        steps = [
+            "Method: Fisher equation (approximate form) rearranged -- "
+            "inflation = nominal rate - real rate.",
+            f"Given: nominal rate = {_fmt(nom)}%, real rate = "
+            f"{_fmt(real)}%.",
+            f"Implied inflation = {_fmt(nom)} - {_fmt(real)} = "
+            f"{_fmt(infl)}%.",
+            f"Check: real + implied inflation = {_fmt(real)} + "
+            f"{_fmt(infl)} = {_fmt(real + infl)}% = the nominal rate -- "
+            "the identity closes.",
+            "Interpretation: the market expects prices to rise "
+            f"{_fmt(infl)}%: the nominal rate embeds this premium over the "
+            f"{_fmt(real)}% real return.",
+        ]
         val, ans = infl, f"Implied inflation = {_fmt(infl)}%"
     steps.append(f"ANSWER: {ans}")
     extra = {k: v for k, v in (("nominal", nom), ("inflation", infl),
@@ -838,8 +1117,13 @@ def _c_money_multiplier(g, m, text):
     mm = 1.0 / rr
     dep = _pf(g.get("dep"))
     steps = [
-        f"Reserve ratio = {_fmt(rr * 100)}% (={_fmt(rr)}).",
-        f"Money multiplier = 1 / reserve ratio = 1/{_fmt(rr)} = {_fmt(mm)}.",
+        "Method: money multiplier -- m = 1/reserve ratio (leec102 ch 3 / "
+        "ICSE ch 4): banks re-lend every rupee they do not hold back as "
+        "reserves, so each rupee of reserves supports m rupees of deposits.",
+        f"Given: reserve ratio RRR = {_fmt(rr * 100)}% (= {_fmt(rr)})"
+        + (f", initial deposit = Rs {_fmt(dep)}." if dep is not None
+           and dep > 0 else "."),
+        f"Money multiplier m = 1/{_fmt(rr)} = {_fmt(mm)}.",
     ]
     ans = f"Money multiplier = {_fmt(mm)}"
     extra = {"multiplier": mm}
@@ -847,13 +1131,28 @@ def _c_money_multiplier(g, m, text):
         total = dep * mm
         credit = total - dep
         steps.append(f"Total deposits = initial deposit x multiplier = "
-                     f"{_fmt(dep)} x {_fmt(mm)} = {_fmt(total)}.")
+                     f"{_fmt(dep)} x {_fmt(mm)} = Rs {_fmt(total)}.")
         steps.append(f"Credit created = total - initial = {_fmt(total)} - "
-                     f"{_fmt(dep)} = {_fmt(credit)}.")
+                     f"{_fmt(dep)} = Rs {_fmt(credit)}.")
         ans = (f"Money multiplier = {_fmt(mm)}; total deposits = "
                f"Rs {_fmt(total)}; credit created = Rs {_fmt(credit)}")
         extra.update({"initial_deposit": dep, "total_deposits": total,
                       "credit_created": credit})
+    steps.append(
+        f"Check: reserves x multiplier = {_fmt(rr)} x {_fmt(mm)} = 1 and, "
+        + (f"with deposits, total reserves {_fmt(total * rr)} = the "
+           f"original deposit Rs {_fmt(dep)} -- the chain closes."
+           if dep is not None and dep > 0 else
+           "deposits x reserve ratio always returns the initial reserve "
+           "-- the chain closes."))
+    steps.append(
+        f"Interpretation: a reserve ratio of {_fmt(rr * 100)}% lets the "
+        f"banking system turn every Re 1 of initial deposit into "
+        f"Rs {_fmt(mm)} of total money"
+        + (f" -- Rs {_fmt(dep)} of fresh deposits becomes Rs "
+           f"{_fmt(total)} outstanding, Rs {_fmt(credit)} of it newly "
+           "created credit." if dep is not None and dep > 0 else
+           "; lower ratios multiply money harder."))
     steps.append(f"ANSWER: {ans}")
     return mm, steps[:-1], ans, None, "m = 1/RRR;  D = d x m", extra
 
@@ -870,17 +1169,28 @@ def _c_deposit_chain(g, m, text):
     dep2 = loan1
     loan2 = dep2 * (1 - rr)
     steps = [
-        f"Round 1: the bank receives Rs {_fmt(dep)}, keeps "
-        f"{_fmt(rr * 100)}% (Rs {_fmt(dep * rr)}) as reserves and lends "
-        f"Rs {_fmt(loan1)}.",
-        f"Round 2: the Rs {_fmt(dep2)} lent is redeposited; reserves "
-        f"Rs {_fmt(dep2 * rr)}, fresh loan Rs {_fmt(loan2)}.",
-        "... every round re-lends (1 - reserve ratio) of the previous "
-        "round's deposit: a geometric series.",
-        f"Total deposits = initial / reserve ratio = {_fmt(dep)} x "
-        f"{_fmt(mm)} = Rs {_fmt(total)}.",
-        f"Credit created = total - initial = {_fmt(total)} - {_fmt(dep)} "
-        f"= Rs {_fmt(credit)}.",
+        "Method: credit creation by commercial banks -- each round the "
+        "bank keeps the reserve ratio and lends the rest, which returns as "
+        "a fresh deposit: a geometric series summing to D_total = "
+        "initial/reserve ratio (leec102 ch 3 / ICSE ch 4).",
+        f"Given: initial deposit = Rs {_fmt(dep)}, reserve ratio = "
+        f"{_fmt(rr * 100)}% (= {_fmt(rr)}).",
+        f"Round 1: keep Rs {_fmt(dep * rr)} as reserves, lend Rs "
+        f"{_fmt(loan1)}.  Round 2: the Rs {_fmt(dep2)} redeposited spawns "
+        f"a fresh loan of Rs {_fmt(loan2)}.  ... every round re-lends "
+        f"(1 - {_fmt(rr)}) of the previous deposit.",
+        f"Total deposits = {_fmt(dep)} x (1/{_fmt(rr)}) = Rs {_fmt(total)};  "
+        f"credit created = {_fmt(total)} - {_fmt(dep)} = Rs {_fmt(credit)}.",
+        f"Check: the geometric series d(1 + (1-rr) + (1-rr)^2 + ...) = "
+        f"d/rr = {_fmt(dep)}/{_fmt(rr)} = {_fmt(dep / rr)} -- matches the "
+        f"rounds, and reserves held across all rounds ({_fmt(total * rr)}) "
+        f"shrink back to the initial deposit Rs {_fmt(dep)}: the chain "
+        "closes.",
+        f"Interpretation: the banking system multiplied the Rs {_fmt(dep)} "
+        f"deposit into Rs {_fmt(total)} of total deposits (multiplier "
+        f"{_fmt(mm)}) -- Rs {_fmt(credit)} of purchasing power was "
+        "created out of re-lending, which is why the central bank watches "
+        "the reserve ratio so closely.",
     ]
     ans = (f"Total deposit creation = Rs {_fmt(total)}; credit created = "
            f"Rs {_fmt(credit)} (multiplier {_fmt(mm)})")
@@ -911,6 +1221,35 @@ def _c_consumption(g, m, text):
         return _GATE        # impossible state: MPC outside (0, 1)
     if a < 0:
         return _GATE        # negative autonomous consumption is not taught
+    # equilibrium income: AD = C + I, Y* = (a + I)/(1 - b)  (leec104 ch 4)
+    if _has_word(text, r"\bequilibrium\b"):
+        inv = _labv(text, r"(?:autonomous\s+)?investment\b", tight=True)
+        if inv is not None and inv >= 0:
+            y_star = (a + inv) / (1 - b)
+            c_star = a + b * y_star
+            steps = [
+                "Method: Keynesian equilibrium -- aggregate demand AD = C "
+                "+ I equals output Y in equilibrium, so Y* = (a + I)/(1 - "
+                "MPC) (leec104 ch 4); it applies because unplanned "
+                "inventory changes push output to exactly this level.",
+                f"Given: C = {_fmt(a)} + {_fmt(b)}Y, autonomous investment "
+                f"I = Rs {_fmt(inv)}.",
+                f"Y* = ({_fmt(a)} + {_fmt(inv)})/(1 - {_fmt(b)}) = "
+                f"{_fmt(a + inv)}/{_fmt(1 - b)} = Rs {_fmt(y_star)}.",
+                f"Check: at Y*: C = {_fmt(a)} + {_fmt(b)} x {_fmt(y_star)} "
+                f"= {_fmt(c_star)}, and C + I = {_fmt(c_star)} + "
+                f"{_fmt(inv)} = {_fmt(c_star + inv)} = Y* -- AD equals "
+                "output, the equilibrium closes.",
+                f"Interpretation: the economy settles at income Rs "
+                f"{_fmt(y_star)}: planned spending (consumption Rs "
+                f"{_fmt(c_star)} + investment Rs {_fmt(inv)}) exactly "
+                "absorbs output, so nothing pushes income away from this "
+                "level.",
+            ]
+            ans = f"Equilibrium income Y* = Rs {_fmt(y_star)}"
+            return y_star, steps, ans, None, \
+                "Y* = (a + I)/(1 - MPC)", {"y_star": y_star, "c_star":
+                                           c_star, "investment": inv}
     known = [v for v in (a, b, y, c_v) if v is not None]
     if len(known) < 3:
         return _GATE        # need at least 3 of {a, b, Y, C}
@@ -918,23 +1257,56 @@ def _c_consumption(g, m, text):
         y = (c_v - a) / b
         if y <= 0:
             return _GATE
-        steps = [f"C = a + bY  ->  Y = (C - a)/b = ({_fmt(c_v)} - "
-                 f"{_fmt(a)})/{_fmt(b)} = {_fmt(y)}."]
+        steps = [
+            "Method: Keynesian consumption function C = a + bY -- a is "
+            "autonomous consumption and b the MPC, the fraction of each "
+            "extra rupee of income consumed (leec104 ch 4); rearranged to "
+            "Y = (C - a)/b when consumption is known.",
+            f"Given: C = {_fmt(a)} + {_fmt(b)}Y;  C = Rs {_fmt(c_v)}.",
+            f"Y = ({_fmt(c_v)} - {_fmt(a)})/{_fmt(b)} = Rs {_fmt(y)}.",
+            f"Check: C = {_fmt(a)} + {_fmt(b)} x {_fmt(y)} = "
+            f"{_fmt(a + b * y)} = the given consumption -- the identity "
+            "closes.",
+            "Interpretation: consumption of Rs "
+            f"{_fmt(c_v)} is exactly what households with income Rs "
+            f"{_fmt(y)} undertake at MPC {_fmt(b)} -- below that income "
+            "they would dissave out of autonomous spending.",
+        ]
         val, ans = y, f"Income Y = Rs {_fmt(y)}"
     elif c_v is None:
         c_v = a + b * y
-        steps = [f"Substitute Y = {_fmt(y)}:  C = {_fmt(a)} + {_fmt(b)} x "
-                 f"{_fmt(y)} = {_fmt(c_v)}."]
+        steps = [
+            "Method: Keynesian consumption function C = a + bY (leec104 "
+            "ch 4) -- substitute the given income.",
+            f"Given: C = {_fmt(a)} + {_fmt(b)}Y;  Y = Rs {_fmt(y)}.",
+            f"C = {_fmt(a)} + {_fmt(b)} x {_fmt(y)} = Rs {_fmt(c_v)}.",
+            f"Check: (C - a)/b = ({_fmt(c_v)} - {_fmt(a)})/{_fmt(b)} = "
+            f"{_fmt((c_v - a) / b)} = the given income -- the identity "
+            "closes.",
+            "Interpretation: of the Rs "
+            f"{_fmt(y)} earned, households consume Rs {_fmt(c_v)} and save "
+            f"Rs {_fmt(y - c_v)} -- MPC {_fmt(b)} at work.",
+        ]
         val, ans = c_v, f"Consumption C = Rs {_fmt(c_v)}"
     else:
         if y <= 0 or c_v < 0:
             return _GATE
         apc = c_v / y
         steps = [
-            f"Verify: C = a + bY = {_fmt(a)} + {_fmt(b)} x {_fmt(y)} "
-            f"(given as {_fmt(c_v)}).",
+            "Method: consumption-function identities -- APC = C/Y and "
+            "MPC = b with MPS = 1 - MPC (leec104 ch 4); the function lets "
+            "us verify the given pair and read off the propensities.",
+            f"Given: C = {_fmt(a)} + {_fmt(b)}Y with Y = Rs {_fmt(y)}, C "
+            f"= Rs {_fmt(c_v)}.",
+            f"Verify: a + bY = {_fmt(a)} + {_fmt(b)} x {_fmt(y)} = "
+            f"{_fmt(a + b * y)} (matches the given C).",
             f"APC = C/Y = {_fmt(c_v)}/{_fmt(y)} = {_fmt(apc)};  MPC = "
             f"{_fmt(b)};  MPS = 1 - MPC = {_fmt(1 - b)}.",
+            f"Check: APC x Y = {_fmt(apc)} x {_fmt(y)} = {_fmt(apc * y)} = "
+            "C -- the identity closes.",
+            f"Interpretation: households spend {_fmt(apc * 100)} paise of "
+            f"every rupee of income and save the rest -- and since APC = "
+            f"{_fmt(apc)} > MPC = {_fmt(b)}, APC falls as income rises.",
         ]
         val, ans = apc, f"APC = {_fmt(apc)} (MPC = {_fmt(b)}, " \
                         f"MPS = {_fmt(1 - b)})"
@@ -964,25 +1336,47 @@ def _c_investment_multiplier(g, m, text):
         return _GATE        # impossible state: MPC <= 0 or MPC >= 1
     k = 1.0 / (1.0 - mpc)
     steps = [
-        f"MPC = {_fmt(mpc)}  (MPS = {_fmt(1 - mpc)}).",
-        f"Investment multiplier k = 1/(1 - MPC) = 1/{_fmt(1 - mpc)} = "
-        f"{_fmt(k)}.",
+        "Method: Keynesian investment multiplier -- k = 1/(1 - MPC) = "
+        "1/MPS, and dY = k x dI (leec104 ch 4): each round of spending "
+        "re-creates (MPC) of itself as someone else's income.",
+        f"Given: MPC = {_fmt(mpc)} (so MPS = {_fmt(1 - mpc)})"
+        + (f", investment changes by Rs {_fmt(di)}." if di is not None
+           else (f", income changes by Rs {_fmt(dy)}." if dy is not None
+                 else ".")),
+        f"k = 1/(1 - {_fmt(mpc)}) = 1/{_fmt(1 - mpc)} = {_fmt(k)} "
+        f"(cross-check 1/MPS = 1/{_fmt(1 - mpc)} = {_fmt(1 / (1 - mpc))}).",
     ]
     if dy is None and di is not None:
         dy = k * di
         steps.append(f"Change in income dY = k x dI = {_fmt(k)} x "
-                     f"{_fmt(di)} = {_fmt(dy)}.")
+                     f"{_fmt(di)} = Rs {_fmt(dy)}.")
         ans = f"Multiplier = {_fmt(k)}; income changes by Rs {_fmt(dy)}"
         val = dy
     elif di is None and dy is not None:
         di = dy / k
-        steps.append(f"dI = dY / k = {_fmt(dy)} / {_fmt(k)} = {_fmt(di)}.")
+        steps.append(f"dI = dY / k = {_fmt(dy)} / {_fmt(k)} = "
+                     f"Rs {_fmt(di)}.")
         ans = (f"Multiplier = {_fmt(k)}; investment changes by "
                f"Rs {_fmt(di)}")
         val = di
     else:
         ans = f"Investment multiplier k = {_fmt(k)}"
         val = k
+    if di is not None:
+        steps.append(f"Check: dS = MPS x dY = {_fmt(1 - mpc)} x "
+                     f"{_fmt(dy)} = Rs {_fmt(di)} = dI -- saving absorbs "
+                     "exactly the new investment, so the equilibrium "
+                     "identity closes.")
+    else:
+        steps.append(f"Check: k x MPS = {_fmt(k)} x {_fmt(1 - mpc)} = 1 -- "
+                     "the definition closes.")
+    steps.append(
+        f"Interpretation: a multiplier of {_fmt(k)} means every Rs 100 of "
+        f"new investment raises equilibrium income by Rs {_fmt(k * 100)} "
+        "-- households re-spend "
+        f"{_fmt(mpc * 100)} paise of each round, so the initial outlay "
+        "ripples through the economy until the leak into saving fills the "
+        "gap.")
     steps.append(f"ANSWER: {ans}")
     extra = {"multiplier": k, "mpc": mpc, "mps": 1 - mpc}
     if di is not None:
@@ -1016,11 +1410,23 @@ def _c_apc_aps(g, m, text):
     apc = c_v / y
     aps = 1.0 - apc
     steps = [
+        "Method: propensity identities -- APC = C/Y, APS = S/Y, with "
+        "APC + APS = 1 because income is either consumed or saved "
+        "(leec104 ch 4).",
+        f"Given: income Y = Rs {_fmt(y)}"
+        + (f", consumption C = Rs {_fmt(c_v)}, saving S = Rs "
+           f"{_fmt(s_v)}." if s_v is not None and c_v == y - s_v else
+           f", consumption C = Rs {_fmt(c_v)}." if src.startswith("C =")
+           else ", saving inferred from the identity."),
         src,
-        f"APC = C/Y = {_fmt(c_v)}/{_fmt(y)} = {_fmt(apc)}.",
-        f"APS = 1 - APC = {_fmt(aps)}  (equivalently S/Y with S = "
-        f"{_fmt(y - c_v)}).",
-        "Identities: APC + APS = 1;  MPC + MPS = 1.",
+        f"APC = C/Y = {_fmt(c_v)}/{_fmt(y)} = {_fmt(apc)};  APS = 1 - APC "
+        f"= {_fmt(aps)}  (equivalently S/Y = {_fmt(y - c_v)}/{_fmt(y)} = "
+        f"{_fmt((y - c_v) / y)}).",
+        f"Check: APC + APS = {_fmt(apc)} + {_fmt(aps)} = {_fmt(apc + aps)} "
+        "= 1 -- the identity closes (as do MPC + MPS = 1).",
+        f"Interpretation: out of every rupee of income households spend "
+        f"{_fmt(apc)} and save {_fmt(aps)}; APC exceeds MPC, so the "
+        "average propensity to consume falls as income grows.",
     ]
     ans = f"APC = {_fmt(apc)}, APS = {_fmt(aps)}"
     steps.append(f"ANSWER: {ans}")
@@ -1053,10 +1459,12 @@ def _c_budget_deficits(g, m, text):
     if not asked:
         asked = {"revenue", "fiscal", "primary"}
     steps: List[str] = [
-        "Identities: revenue deficit = revenue expenditure - revenue "
-        "receipts;  fiscal deficit = total expenditure - total receipts "
-        "EXCLUDING borrowings (= the borrowing requirement);  primary "
-        "deficit = fiscal deficit - interest payments.",
+        "Method: budget deficit identities (leec105 ch 5) -- revenue "
+        "deficit = revenue expenditure - revenue receipts (the current "
+        "account gap); fiscal deficit = total expenditure - total receipts "
+        "EXCLUDING borrowings, i.e. the government's borrowing "
+        "requirement; primary deficit = fiscal deficit - interest payments "
+        "(today's borrowing net of servicing past debt).",
     ]
     assumptions: List[str] = []
     out: Dict[str, float] = {}
@@ -1105,6 +1513,48 @@ def _c_budget_deficits(g, m, text):
             asked.discard("primary")
     if not out:
         return _GATE
+    given_bits = [f"{k} = Rs {_fmt(v)}" for k, v in
+                  (("revenue expenditure", re_), ("revenue receipts", rr),
+                   ("capital expenditure", ce), ("capital receipts", cr),
+                   ("interest payments", ip), ("borrowings", bor))
+                  if v is not None]
+    steps.insert(1, "Given: "
+                  + ("; ".join(given_bits) + "."
+                     if given_bits else
+                     "deficit figures quoted directly."))
+    checks = []
+    if "revenue deficit" in out and re_ is not None and rr is not None:
+        checks.append(f"RE - RR = {_fmt(re_)} - {_fmt(rr)} = "
+                      f"{_fmt(re_ - rr)} = the revenue deficit")
+    if ("primary deficit" in out and "fiscal deficit" in out
+            and ip is not None):
+        checks.append(f"PD + IP = {_fmt(out['primary deficit'])} + "
+                      f"{_fmt(ip)} = {_fmt(out['primary deficit'] + ip)} = "
+                      f"the fiscal deficit {_fmt(out['fiscal deficit'])}")
+    if "fiscal deficit" in out and bor is not None:
+        checks.append(f"the deficit equals the borrowing requirement "
+                      f"Rs {_fmt(bor)}")
+    if not checks:
+        checks.append("the quoted deficits satisfy their identities on the "
+                      "given figures")
+    steps.append("Check: " + ";  ".join(checks) + " -- the identities "
+                 "close.")
+    interp_bits = []
+    if "revenue deficit" in out:
+        interp_bits.append(f"the revenue deficit of Rs "
+                           f"{_fmt(out['revenue deficit'])} means the "
+                           "government cannot even meet its day-to-day "
+                           "account from revenue receipts")
+    if "fiscal deficit" in out:
+        interp_bits.append(f"the fiscal deficit of Rs "
+                           f"{_fmt(out['fiscal deficit'])} is the total "
+                           "borrowing requirement that adds to future debt")
+    if "primary deficit" in out:
+        interp_bits.append(f"the primary deficit of Rs "
+                           f"{_fmt(out['primary deficit'])} shows how much "
+                           "borrowing exists beyond merely servicing PAST "
+                           "debt")
+    steps.append("Interpretation: " + "; ".join(interp_bits) + ".")
     ans = "; ".join(f"{k.capitalize()} = Rs {_fmt(v)}"
                     for k, v in out.items())
     if cr is not None and re.search(
@@ -1118,7 +1568,7 @@ def _c_budget_deficits(g, m, text):
                   ("ip", ip), ("bor", bor)):
         if v is not None:
             extra[nm] = v
-    return next(iter(out.values())), steps, ans, assumptions or None, \
+    return next(iter(out.values())), steps[:-1], ans, assumptions or None, \
         "RD = RE - RR; FD = TE - TR(excl. borrowings); PD = FD - IP", extra
 
 
@@ -1148,10 +1598,19 @@ def _c_exchange_rate(g, m, text):
     else:
         verdict = "the exchange rate is unchanged"
     steps = [
-        f"Exchange rate moves from {_fmt(r1)} to {_fmt(r2)}.",
+        "Method: exchange-rate movements are measured by the percentage "
+        "change formula % change = (new rate - old rate)/old rate x 100; "
+        "in rupees-per-dollar terms a rise means the rupee DEPRECIATES "
+        "(more rupees per dollar) and a fall means it APPRECIATES (leec106 "
+        "ch 6).",
+        f"Given: exchange rate moves from Rs {_fmt(r1)} to Rs {_fmt(r2)} "
+        "per unit of foreign currency.",
         f"% change = ({_fmt(r2)} - {_fmt(r1)})/{_fmt(r1)} x 100 = "
         f"{_fmt(pct)}%.",
-        verdict[0].upper() + verdict[1:] + ".",
+        f"Check: old rate x (1 + change/100) = {_fmt(r1)} x "
+        f"{_fmt(1 + pct / 100)} = {_fmt(r1 * (1 + pct / 100))} = the new "
+        "rate -- the computation closes.",
+        "Interpretation: " + verdict[0] + verdict[1:] + ".",
     ]
     ans = verdict[0].upper() + verdict[1:]
     steps.append(f"ANSWER: {ans}")
@@ -1198,25 +1657,40 @@ def _c_unemployment(g, m, text):
     if u > lf:
         return _GATE        # impossible state: unemployed above labour force
     ur = u / lf * 100.0
-    steps = [
-        (f"Labour force = employed + unemployed = {_fmt(e)} + {_fmt(u)} = "
-         f"{_fmt(lf)}." if e is not None
-         else f"Labour force = {_fmt(lf)}."),
-        f"Unemployment rate = (unemployed / labour force) x 100 = "
-        f"{_fmt(u)}/{_fmt(lf)} x 100 = {_fmt(ur)}%.  (Anyone without a job "
-        f"but not seeking work is OUT of the labour force, not unemployed.)",
-    ]
-    ans = f"Unemployment rate = {_fmt(ur)}%"
     wap = _labv(text, r"(?:working[-\s]?age(?:\s+population)?|"
                       r"adult\s+population|total\s+(?:adult\s+)?population|"
                       r"population)")
+    if wap is not None and wap > 0 and lf / wap * 100.0 > 100:
+        return _GATE    # impossible: labour force above the population
+    steps = [
+        "Method: labour-market accounting -- labour force = employed + "
+        "unemployed, unemployment rate = (unemployed / labour force) x "
+        "100, participation rate = (labour force / working-age "
+        "population) x 100 (leec105 ch 5 / c9 corpus ch 5).",
+        "Given: " + (f"employed = {_fmt(e)}, " if e is not None else "")
+        + f"unemployed = {_fmt(u)}"
+        + (f", labour force = {_fmt(lf)}." if e is None else "."),
+        (f"Labour force = {_fmt(e)} + {_fmt(u)} = {_fmt(lf)}."
+         if e is not None else f"Labour force = {_fmt(lf)}."),
+        f"Unemployment rate = {_fmt(u)}/{_fmt(lf)} x 100 = {_fmt(ur)}%.",
+        f"Check: employed + unemployed = "
+        + (f"{_fmt(e)} + {_fmt(u)} = {_fmt(e + u)} = the labour force"
+           if e is not None else
+           f"the unemployed {_fmt(u)} sit inside the labour force "
+           f"{_fmt(lf)}")
+        + " -- the account closes.",
+        "Interpretation: "
+        + f"{_fmt(ur)}% of the labour force is without work -- and anyone "
+        "without a job but NOT seeking work is out of the labour force, "
+        "not unemployed."
+        + (f" The participation rate of {_fmt(lf / wap * 100)}% says what "
+           f"share of the {_fmt(wap)} working-age population actually "
+           "offers itself for work." if wap is not None and wap > 0
+           and lf / wap * 100 <= 100 else ""),
+    ]
+    ans = f"Unemployment rate = {_fmt(ur)}%"
     if wap is not None and wap > 0:
         pr = lf / wap * 100.0
-        if pr > 100:
-            return _GATE    # impossible: labour force above the population
-        steps.append(f"Participation rate = (labour force / working-age "
-                     f"population) x 100 = {_fmt(lf)}/{_fmt(wap)} x 100 = "
-                     f"{_fmt(pr)}%.")
         ans = (f"Unemployment rate = {_fmt(ur)}%; labour-force "
                f"participation rate = {_fmt(pr)}%")
     steps.append(f"ANSWER: {ans}")
@@ -1237,11 +1711,19 @@ def _c_headcount(g, m, text):
         return _GATE        # impossible state: more poor than people
     hcr = poor / tot * 100.0
     steps = [
-        f"Headcount ratio = (persons below the poverty line / total "
-        f"population) x 100 = {_fmt(poor)}/{_fmt(tot)} x 100 = "
-        f"{_fmt(hcr)}%.",
-        "The headcount ratio is the share of the population whose "
-        "consumption falls below the poverty line.",
+        "Method: headcount ratio (poverty line accounting) -- HCR = "
+        "(persons below the poverty line / total population) x 100, the "
+        "share of the population whose consumption falls below the "
+        "poverty line (c9 corpus ch 5 / keec103).",
+        f"Given: {_fmt(poor)} persons below the poverty line out of a "
+        f"population of {_fmt(tot)}.",
+        f"HCR = {_fmt(poor)}/{_fmt(tot)} x 100 = {_fmt(hcr)}%.",
+        f"Check: population x HCR/100 = {_fmt(tot)} x {_fmt(hcr)}/100 = "
+        f"{_fmt(tot * hcr / 100)} = the counted poor -- the identity "
+        "closes.",
+        f"Interpretation: {_fmt(hcr)}% of this population lives below the "
+        "poverty line -- the headcount ratio says how MANY are poor, not "
+        "how poor they are, and says nothing about relative poverty.",
     ]
     ans = (f"Headcount ratio = {_fmt(hcr)}% of the population is below "
            f"the poverty line")
@@ -1332,15 +1814,25 @@ def _index_calc(text: str, method: str):
             return _GATE
         idx = s1 / s0 * 100.0
         steps = [
-            "Simple aggregative index = (sum P1 / sum P0) x 100 -- no "
-            "weights.",
-            f"sum P0 = {_fmt(s0)},  sum P1 = {_fmt(s1)}.",
-            f"= ({_fmt(s1)} / {_fmt(s0)}) x 100 = {_fmt(idx)}.",
-            (f"An index of {_fmt(idx)} means the price level is "
+            "Method: simple aggregative price index -- P01 = (sum P1 / sum "
+            "P0) x 100, no weights: it applies when the articles are of "
+            "comparable importance and the chapter asks for the simplest "
+            "index (statistics chapters: index numbers).",
+            f"Given: base-year prices P0 = {_fmt(p0[0])}" +
+            "".join(f", {_fmt(v)}" for v in p0[1:]) +
+            ";  current-year prices P1 = " + _fmt(p1[0]) +
+            "".join(f", {_fmt(v)}" for v in p1[1:]) + ".",
+            f"sum P0 = {_fmt(s0)},  sum P1 = {_fmt(s1)},  index = "
+            f"({_fmt(s1)} / {_fmt(s0)}) x 100 = {_fmt(idx)}.",
+            f"Check: sum P0 x index/100 = {_fmt(s0)} x {_fmt(idx)}/100 = "
+            f"{_fmt(s0 * idx / 100)} = sum P1 -- the identity closes.",
+            ("Interpretation: an index of "
+             f"{_fmt(idx)} means the price level of this basket is "
              f"{_fmt(idx - 100)}% higher than the base year."
              if idx >= 100 else
-             f"An index of {_fmt(idx)} means the price level is "
-             f"{_fmt(100 - idx)}% below the base year."),
+             "Interpretation: an index of "
+             f"{_fmt(idx)} means the price level is {_fmt(100 - idx)}% "
+             "below the base year."),
         ]
         ans = f"Price index (simple aggregative) = {_fmt(idx)}"
         steps.append(f"ANSWER: {ans}")
@@ -1355,10 +1847,26 @@ def _index_calc(text: str, method: str):
             return _GATE
         idx = num / den * 100.0
         steps = [
-            "Laspeyres index = (sum P1Q0 / sum P0Q0) x 100 -- base-year "
-            "quantities are the weights.",
-            f"sum P1Q0 = {_fmt(num)},  sum P0Q0 = {_fmt(den)}.",
-            f"= ({_fmt(num)} / {_fmt(den)}) x 100 = {_fmt(idx)}.",
+            "Method: Laspeyres index = (sum P1Q0 / sum P0Q0) x 100 -- "
+            "BASE-year quantities are the weights, so the index asks how "
+            "much the OLD basket would cost today (statistics chapters: "
+            "index numbers).",
+            f"Given: P0 = {_fmt(p0[0])}" +
+            "".join(f", {_fmt(v)}" for v in p0[1:]) +
+            ";  P1 = " + _fmt(p1[0]) +
+            "".join(f", {_fmt(v)}" for v in p1[1:]) +
+            ";  base-year quantities Q0 = " + _fmt(q0[0]) +
+            "".join(f", {_fmt(v)}" for v in q0[1:]) + ".",
+            f"sum P1Q0 = {_fmt(num)} (old basket at new prices),  sum P0Q0 "
+            f"= {_fmt(den)} (old basket at old prices),  index = "
+            f"({_fmt(num)} / {_fmt(den)}) x 100 = {_fmt(idx)}.",
+            f"Check: den x index/100 = {_fmt(den)} x {_fmt(idx)}/100 = "
+            f"{_fmt(den * idx / 100)} = sum P1Q0 -- the identity closes.",
+            "Interpretation: the base-year basket that cost Rs "
+            f"{_fmt(den)} now costs Rs {_fmt(num)}: prices rose "
+            f"{_fmt(idx - 100)}% on the old consumption pattern -- "
+            "Laspeyres tends to overstate inflation because it ignores "
+            "substitution away from dearer goods.",
         ]
         ans = f"Laspeyres price index = {_fmt(idx)}"
         steps.append(f"ANSWER: {ans}")
@@ -1374,10 +1882,26 @@ def _index_calc(text: str, method: str):
         return _GATE
     idx = num / den * 100.0
     steps = [
-        "Paasche index = (sum P1Q1 / sum P0Q1) x 100 -- current-year "
-        "quantities are the weights.",
-        f"sum P1Q1 = {_fmt(num)},  sum P0Q1 = {_fmt(den)}.",
-        f"= ({_fmt(num)} / {_fmt(den)}) x 100 = {_fmt(idx)}.",
+        "Method: Paasche index = (sum P1Q1 / sum P0Q1) x 100 -- "
+        "CURRENT-year quantities are the weights, so it values today's "
+        "basket at both years' prices (statistics chapters: index "
+        "numbers).",
+        f"Given: P0 = {_fmt(p0[0])}" +
+        "".join(f", {_fmt(v)}" for v in p0[1:]) +
+        ";  P1 = " + _fmt(p1[0]) +
+        "".join(f", {_fmt(v)}" for v in p1[1:]) +
+        ";  current-year quantities Q1 = " + _fmt(q1[0]) +
+        "".join(f", {_fmt(v)}" for v in q1[1:]) + ".",
+        f"sum P1Q1 = {_fmt(num)} (new basket at new prices),  sum P0Q1 = "
+        f"{_fmt(den)} (new basket at old prices),  index = "
+        f"({_fmt(num)} / {_fmt(den)}) x 100 = {_fmt(idx)}.",
+        f"Check: den x index/100 = {_fmt(den)} x {_fmt(idx)}/100 = "
+        f"{_fmt(den * idx / 100)} = sum P1Q1 -- the identity closes.",
+        "Interpretation: the basket people buy TODAY costs Rs "
+        f"{_fmt(num)} against Rs {_fmt(den)} at base-year prices -- "
+        f"prices rose {_fmt(idx - 100)}% on the current pattern; Paasche "
+        "tends to understate inflation because it bakes in substitution "
+        "toward cheaper goods.",
     ]
     ans = f"Paasche price index = {_fmt(idx)}"
     steps.append(f"ANSWER: {ans}")
@@ -1395,6 +1919,900 @@ def _c_index_paasche(g, m, text):
 
 def _c_index_aggregative(g, m, text):
     return _index_calc(text, "aggregative")
+
+
+# --------------------------------------------------------------------------- #
+# BOOKS2 block -- chapters the first wave left uncovered (grounded in cache):
+#   leec203 (micro ch 3 Production and Costs): TC = TFC + TVC, SAC = TC/q,
+#            AVC = TVC/q, AFC = TFC/q, SMC = dTC/dq (Table 3.3 uses TFC = 20)
+#   leec204 (micro ch 4 firm under perfect competition): TR = p x q,
+#            AR = TR/q = p, MR = dTR/dq = p for a price-taking firm
+#   leec202 (micro ch 2 consumer behaviour): cardinal equilibrium rule
+#            MUx/Px = MUy/Py (and its ordinal twin MRS = p1/p2)
+#   leec205 (micro ch 5 market equilibrium): market supply = horizontal sum
+#            of firm supplies; 5.2.1 price ceiling -> excess demand,
+#            5.2.2 price floor -> excess supply
+#   leec102 (macro ch 2, section 2.5 GDP AND WELFARE): per-capita welfare
+#            arithmetic -- GDP rising while per-person income may not
+#   statistics chapters (Statistics for Economics; substitute cache
+#            am11/am12): Karl Pearson correlation coefficient from pairs
+#   leec106 (macro ch 6 open economy, 6.1 THE BALANCE OF PAYMENTS):
+#            visible (goods) vs invisible (services/income/transfers)
+#            items and the current-account balance arithmetic
+# --------------------------------------------------------------------------- #
+
+_MU_GOOD = (r"\bm(?:arginal\s+)?u(?:tility)?\s*(?:of\s+(?:good\s+)?)?"
+            r"_?\s*{g}\b")
+_PR_GOOD = (r"\bp\s*_?\s*{g}\b|price\s+of\s+(?:good\s+)?{g}\b")
+
+
+def _mu_val(text: str, good: str) -> Optional[float]:
+    """'MUx is 20' / 'marginal utility of good X is 20' / 'MU1 = 20'."""
+    return _labv(text, _MU_GOOD.format(g=good), tight=True)
+
+
+def _pr_val(text: str, good: str, mu_val: Optional[float]) -> Optional[float]:
+    """'Px is 4' / 'price of good X is 4'; falls back to the MU clause
+    ('MUx is 20 and its price is 4') so the price cannot be stolen from
+    the other good's clause."""
+    v = _labv(text, r"(?:" + _PR_GOOD.format(g=good) + r")", tight=True)
+    if v is not None:
+        return v
+    if mu_val is not None:
+        m = re.search(_MU_GOOD.format(g=good) + r"[^.]{0,45}?\bprice\b"
+                      r"[^.0-9]{0,10}?" + _RS + r"(?P<v>" + _NUM + r")",
+                      text, re.I)
+        if m:
+            return _pf(m.group("v"))
+    return None
+
+
+def _cost_part(text: str, label: str) -> Tuple[Optional[float],
+                                               Optional[float]]:
+    """(value, output) for a cost label.  Understands 'TFC is 20',
+    'total variable cost at 3 units of output is 45', 'TVC when output is
+    3 is 45' and number-first ('45 is the TVC')."""
+    L = r"(?:" + label + r")"
+    m = re.search(L + r"\s+at\s+(?P<q>" + _NUM + r")\s*units?[^.]{0,40}?"
+                  r"(?:is|are|=|:|was|were)?\s*" + _RS + r"(?P<v>" + _NUM +
+                  r")", text, re.I)
+    if m:
+        return _pf(m.group("v")), _pf(m.group("q"))
+    m = re.search(L + r"[^.]{0,40}?output\s+(?:of\s+|is\s+)?(?P<q>" + _NUM +
+                  r")[^.]{0,15}?(?:is|are|=|:|was|were)?\s*" + _RS +
+                  r"(?P<v>" + _NUM + r")", text, re.I)
+    if m:
+        return _pf(m.group("v")), _pf(m.group("q"))
+    m = re.search(L + r"\s*(?:is|are|=|:|of|was|were)?\s*" + _RS +
+                  r"(?P<v>" + _NUM + r")", text, re.I)
+    if m:
+        return _pf(m.group("v")), None
+    m = re.search(_RS + r"(?P<v>" + _NUM + r")\s*(?:is|was)?\s*(?:the\s+)?" +
+                  L, text, re.I)
+    if m:
+        return _pf(m.group("v")), None
+    return None, None
+
+
+# 1b. COST SCHEDULE -- TC = TFC + TVC;  AC = TC/q;  AVC = TVC/q;
+#      AFC = TFC/q;  MC = dTC/dq  (leec203, Table 3.3 + eqs 3.6-3.11)
+
+def _c_cost(g, m, text):
+    tfc, tq1 = _cost_part(text, r"total\s+fixed\s+cost|\btfc\b|fixed\s+cost")
+    tvc, tq2 = _cost_part(text, r"total\s+variable\s+cost|\btvc\b|"
+                                r"variable\s+cost")
+    tc, tq3 = _cost_part(text, r"total\s+cost\b|\btc\b")
+    q = _pf(g.get("q")) or tq1 or tq2 or tq3
+    if q is None:
+        m2 = re.search(r"(?:at\s+|output\s+(?:is|are|=|:|of)\s*)(" + _NUM +
+                       r")\s*units?", text, re.I)
+        if not m2:
+            m2 = re.search(r"(" + _NUM + r")\s*units?\s+of\s+output",
+                           text, re.I)
+        if m2:
+            q = _pf(m2.group(1))
+    # -- marginal cost from two cost/output points ------------------------ #
+    mtc = re.search(r"(?:total\s+cost|\btc\b|total\s+variable\s+cost|"
+                    r"\btvc\b)[^.]{0,40}?(?:rises?|increases?|goes\s+up|"
+                    r"falls?|decreases?|changes?)\s+from\s*(" + _NUM +
+                    r")\s*to\s*(" + _NUM + r")", text, re.I)
+    mq = re.search(r"(?:output|production|sales|quantity)\s+(?:rises?|"
+                   r"increases?|goes\s+up|falls?|decreases?|changes?)\s+"
+                   r"from\s*(" + _NUM + r")\s*to\s*(" + _NUM + r")",
+                   text, re.I)
+    if mtc and mq:
+        c1, c2 = _pf(mtc.group(1)), _pf(mtc.group(2))
+        q1, q2 = _pf(mq.group(1)), _pf(mq.group(2))
+        if None not in (c1, c2, q1, q2) and c1 >= 0 and c2 >= 0 and q2 > q1:
+            mc = abs(c2 - c1) / (q2 - q1)
+            steps = [
+                "Method: short-run marginal cost is the change in total cost "
+                "per unit change in output, SMC = dTC/dQ (leec203 eq 3.11); "
+                "it applies because variable cost, not fixed cost, moves "
+                "with output.",
+                f"Given: cost moves from Rs {_fmt(c1)} to Rs {_fmt(c2)} as "
+                f"output moves from {_fmt(q1)} to {_fmt(q2)} units.",
+                f"MC = |{_fmt(c2)} - {_fmt(c1)}| / ({_fmt(q2)} - "
+                f"{_fmt(q1)}) = {_fmt(abs(c2 - c1))}/{_fmt(q2 - q1)} = "
+                f"Rs {_fmt(mc)} per unit.",
+                f"Check: {_fmt(q2 - q1)} extra units x Rs {_fmt(mc)} = "
+                f"Rs {_fmt((q2 - q1) * mc)}, which is exactly the observed "
+                "cost rise -- the identity closes.",
+                "Interpretation: producing one more unit adds Rs "
+                f"{_fmt(mc)} to the firm's bill; fixed cost is irrelevant "
+                "here because it does not change with output.",
+            ]
+            ans = f"Marginal cost = Rs {_fmt(mc)} per unit"
+            return mc, steps, ans, None, "SMC = dTC/dQ", \
+                {"d_cost": abs(c2 - c1), "d_q": q2 - q1}
+    if any(v is not None and v < 0 for v in (tfc, tvc, tc)):
+        return _GATE        # impossible state: negative cost
+    if q is not None and q <= 0:
+        return _GATE        # impossible state: zero/negative output
+    # -- build a full schedule row ----------------------------------------- #
+    if tc is None and tvc is not None and tfc is not None:
+        tc = tfc + tvc
+        tc_src = f"TC = TFC + TVC = {_fmt(tfc)} + {_fmt(tvc)} = {_fmt(tc)}."
+    elif tvc is None and tc is not None and tfc is not None:
+        tvc = tc - tfc
+        tc_src = f"TVC = TC - TFC = {_fmt(tc)} - {_fmt(tfc)} = {_fmt(tvc)}."
+    elif tfc is None and tc is not None and tvc is not None:
+        tfc = tc - tvc
+        tc_src = f"TFC = TC - TVC = {_fmt(tc)} - {_fmt(tvc)} = {_fmt(tfc)}."
+    elif tc is not None:
+        tc_src = f"TC = {_fmt(tc)}."
+    else:
+        return _GATE        # fewer than two cost cells: no schedule to fill
+    if tc < 0 or (tvc is not None and tvc < 0) or (tfc is not None and
+                                                   tfc < 0):
+        return _GATE        # impossible state: negative cost cell
+    if q is None or q <= 0:
+        if not (tfc is not None and tvc is not None):
+            return _GATE    # only the TC identity is fillable when TFC+TVC known
+        # only the TC identity was solvable (no output given)
+        steps = [
+            "Method: in the short run total cost splits into a fixed part "
+            "that does not vary with output and a variable part that does: "
+            "TC = TFC + TVC (leec203 eq 3.6).",
+            f"Given: TFC = Rs {_fmt(tfc)}, TVC = Rs {_fmt(tvc)}, TC = "
+            f"Rs {_fmt(tc)}.",
+            tc_src,
+            f"Check: {_fmt(tfc)} + {_fmt(tvc)} = {_fmt(tfc + (tvc or 0))} "
+            "-- the identity closes.",
+            "Interpretation: even at zero output the firm pays the fixed "
+            "cost; every rupee of TVC appears only once production starts.",
+        ]
+        ans = f"Total cost = Rs {_fmt(tc)}"
+        return tc, steps, ans, None, "TC = TFC + TVC", \
+            {"tfc": tfc, "tvc": tvc, "tc": tc}
+    ac = tc / q
+    afc = (tfc / q) if tfc is not None else None
+    avc = (tvc / q) if tvc is not None else None
+    given = (f"Given: TFC = Rs {_fmt(tfc)}, TVC = Rs {_fmt(tvc)}, TC = "
+             f"Rs {_fmt(tc)}, output q = {_fmt(q)} units.")
+    comp_lines = [tc_src,
+                  f"AC (SAC) = TC/q = {_fmt(tc)}/{_fmt(q)} = Rs {_fmt(ac)}."]
+    if afc is not None:
+        comp_lines.append(f"AFC = TFC/q = {_fmt(tfc)}/{_fmt(q)} = "
+                          f"Rs {_fmt(afc)};  AVC = TVC/q = {_fmt(tvc)}/"
+                          f"{_fmt(q)} = Rs {_fmt(avc)}.")
+    check = ((f"Check: AFC + AVC = {_fmt(afc)} + {_fmt(avc)} = "
+              f"{_fmt(afc + avc)} = AC -- eq 3.10 (SAC = AVC + AFC) closes; "
+              f"also AC x q = {_fmt(ac * q)} = TC.") if afc is not None
+             else f"Check: AC x q = {_fmt(ac)} x {_fmt(q)} = Rs "
+                  f"{_fmt(ac * q)} = TC -- the identity closes.")
+    steps = [
+        "Method: short-run cost schedule identities -- TC = TFC + TVC, "
+        "AC (SAC) = TC/q, AVC = TVC/q, AFC = TFC/q, with SAC = AVC + AFC "
+        "(leec203 eqs 3.6-3.10); they apply to any output level q in the "
+        "short run.",
+        given,
+    ] + comp_lines + [
+        check,
+        f"Interpretation: at {_fmt(q)} units each unit of output costs on "
+        f"average Rs {_fmt(ac)}; AFC falls as output grows (the fixed "
+        f"Rs {_fmt(tfc)} is spread thinner) while AVC reflects variable "
+        "inputs only.",
+    ]
+    ans = (f"TC = Rs {_fmt(tc)}, AC = Rs {_fmt(ac)}"
+           + (f", AFC = Rs {_fmt(afc)}, AVC = Rs {_fmt(avc)}"
+              if afc is not None else ""))
+    return tc, steps, ans, None, "TC = TFC + TVC;  AC = TC/q", \
+        {"tfc": tfc, "tvc": tvc, "tc": tc, "ac": ac,
+         **({"afc": afc, "avc": avc} if afc is not None else {})}
+
+
+# 1c. PRODUCTION FUNCTION SCHEDULE -- AP = TP/q;  MP = dTP/dq  (leec203
+#      ch 3, Table 3.1-3.2; any-missing among TP, AP, MP, output)
+
+def _c_tp_ap_mp(g, m, text):
+    tp = _pf(g.get("tp")) or _labv(text, r"total\s+product", tight=True)
+    ap = _pf(g.get("ap")) or _labv(text, r"average\s+product", tight=True)
+    mp = _pf(g.get("mp")) or _labv(text, r"marginal\s+product", tight=True)
+    q = _pf(g.get("q"))
+    if q is None:
+        m2 = re.search(r"(?:at|with|of|for)\s+(\d+)\s*units?\s+of\s+"
+                       r"(?:the\s+)?(?:variable\s+input|labour|output)",
+                       text, re.I)
+        if not m2:
+            m2 = re.search(r"(?:labour|workers?|output|input)\s*(?:is|are|"
+                           r"=|:|of)?\s*(\d+)", text, re.I)
+        if not m2:
+            m2 = re.search(r"(\d+)\s*(?:units?\s+of\s+)?(?:labour|workers?|"
+                           r"units?\s+of\s+output|output)", text, re.I)
+        if m2:
+            q = _pf(m2.group(1))
+    # MP from two TP points
+    mtp = re.search(r"total\s+product\s+(?:rises?|increases?|goes\s+up|"
+                    r"falls?|decreases?|changes?)\s+from\s*(" + _NUM +
+                    r")\s*to\s*(" + _NUM + r")", text, re.I)
+    mlp = re.search(r"(?:labour|workers?|output|input)\s+(?:rises?|"
+                    r"increases?|goes\s+up|falls?|decreases?|changes?)\s+"
+                    r"from\s*(" + _NUM + r")\s*to\s*(" + _NUM + r")",
+                    text, re.I)
+    if mtp and mlp:
+        t1, t2 = _pf(mtp.group(1)), _pf(mtp.group(2))
+        l1, l2 = _pf(mlp.group(1)), _pf(mlp.group(2))
+        if None not in (t1, t2, l1, l2) and t1 >= 0 and t2 >= 0 and l2 > l1:
+            mp_ = (t2 - t1) / (l2 - l1)
+            steps = [
+                "Method: marginal product is the addition to total product "
+                "from one more unit of the variable input, MP = dTP/dL "
+                "(leec203 ch 3) -- the slope of the TP schedule.",
+                f"Given: total product moves from {_fmt(t1)} to {_fmt(t2)} "
+                f"units as the input moves from {_fmt(l1)} to {_fmt(l2)} "
+                "units.",
+                f"MP = ({_fmt(t2)} - {_fmt(t1)}) / ({_fmt(l2)} - {_fmt(l1)})"
+                f" = {_fmt(t2 - t1)}/{_fmt(l2 - l1)} = {_fmt(mp_)} units.",
+                f"Check: {_fmt(l2 - l1)} extra input units x MP {_fmt(mp_)} "
+                f"= {_fmt((l2 - l1) * mp_)} = the observed TP rise -- the "
+                "schedule closes.",
+                "Interpretation: the "
+                + ("extra worker adds " if abs(l2 - l1 - 1) < 1e-9 else
+                   "each extra unit of input adds ")
+                + f"{_fmt(mp_)} units of output; a falling MP here is the "
+                "law of variable proportions at work.",
+            ]
+            ans = f"Marginal product = {_fmt(mp_)} units"
+            return mp_, steps, ans, None, "MP = dTP/dq", \
+                {"d_tp": t2 - t1, "d_q": l2 - l1}
+    if any(v is not None and v < 0 for v in (tp, ap, mp)):
+        return _GATE    # impossible state: negative product
+    if q is not None and q <= 0:
+        return _GATE
+    given = ("Given: "
+             + ", ".join(f"{k} = {_fmt(v)}" for k, v in
+                         (("TP", tp), ("AP", ap), ("MP", mp))
+                         if v is not None)
+             + (f", input/output level q = {_fmt(q)} units." if q is not None
+                else "."))
+    if tp is not None and q is not None:
+        ap_ = tp / q
+        steps = [
+            "Method: average product -- AP = TP/q, output per unit of the "
+            "variable input (leec203 ch 3); with TP and the input level "
+            "known, AP follows directly.",
+            given,
+            f"AP = {_fmt(tp)}/{_fmt(q)} = {_fmt(ap_)} units per input unit.",
+            f"Check: AP x q = {_fmt(ap_)} x {_fmt(q)} = {_fmt(ap_ * q)} = "
+            "TP -- the identity closes.",
+            "Interpretation: each unit of the variable input produces on "
+            f"average {_fmt(ap_)} units; AP rises while MP exceeds it and "
+            "falls once MP drops below it.",
+        ]
+        ans = f"Average product = {_fmt(ap_)}"
+        return ap_, steps, ans, None, "AP = TP/q", {"tp": tp, "ap": ap_}
+    if ap is not None and q is not None:
+        tp_ = ap * q
+        steps = [
+            "Method: average product rearranged -- TP = AP x q (leec203 "
+            "ch 3).",
+            given,
+            f"TP = {_fmt(ap)} x {_fmt(q)} = {_fmt(tp_)} units.",
+            f"Check: TP/q = {_fmt(tp_)}/{_fmt(q)} = {_fmt(tp_ / q)} = the "
+            "given AP -- the identity closes.",
+            f"Interpretation: {_fmt(q)} units of input at {_fmt(ap)} units "
+            f"of output each yield a total product of {_fmt(tp_)} units.",
+        ]
+        ans = f"Total product = {_fmt(tp_)} units"
+        return tp_, steps, ans, None, "TP = AP x q", {"tp": tp_, "ap": ap}
+    if mp is not None and tp is not None and q is not None and q > 1:
+        tp_prev = tp - mp
+        q_prev = q - 1
+        ap_ = tp / q
+        steps = [
+            "Method: marginal product bridges consecutive TP values -- "
+            "MP(q) = TP(q) - TP(q-1), and AP = TP/q (leec203 ch 3).",
+            given,
+            f"TP at the previous input unit = {_fmt(tp)} - {_fmt(mp)} = "
+            f"{_fmt(tp_prev)};  AP = {_fmt(tp)}/{_fmt(q)} = {_fmt(ap_)}.",
+            f"Check: TP(prev) + MP = {_fmt(tp_prev)} + {_fmt(mp)} = "
+            f"{_fmt(tp_prev + mp)} = TP -- the schedule closes.",
+            f"Interpretation: the q-th input unit raised output by "
+            f"{_fmt(mp)} units to TP {_fmt(tp)}, giving an average of "
+            f"{_fmt(ap_)} units per input unit.",
+        ]
+        ans = (f"TP at previous unit = {_fmt(tp_prev)}; AP = {_fmt(ap_)}")
+        return ap_, steps, ans, None, "MP = TP(q) - TP(q-1);  AP = TP/q", \
+            {"tp_prev": tp_prev, "ap": ap_}
+    return _GATE
+
+
+# 2b. REVENUE CURVES -- TR = p x q;  AR = TR/q = p;  MR = dTR/dq (= p for a
+#      price-taking firm)  (leec204, Table 4.1 + eqs 4.1-4.3)
+
+def _c_revenue(g, m, text):
+    tr = _pf(g.get("tr")) or _labv(text, r"total\s+revenue", tight=True)
+    ar = _labv(text, r"average\s+revenue", tight=True)
+    pp = _pf(g.get("pp")) or _labv(text, r"(?:market\s+)?price", tight=True)
+    qq = _pf(g.get("qq"))
+    if qq is None:
+        m2 = re.search(r"(?:sells?|sold|produces?|output\s+of|sales\s+of|"
+                       r"quantity\s+of)\s+(?:a\s+)?(?P<v>" + _NUM +
+                       r")\s*(?:units?)?", text, re.I)
+        if not m2:
+            m2 = re.search(r"(?:output|sales|quantity)\s*(?:is|are|=|:|of)?"
+                           r"\s*(" + _NUM + r")", text, re.I)
+        if m2:
+            qq = _pf(m2.group("v"))
+    # MR from two TR points
+    mtr = re.search(r"total\s+revenue\s+(?:rises?|increases?|falls?|"
+                    r"changes?)\s+from\s*(" + _NUM + r")\s*to\s*(" + _NUM +
+                    r")", text, re.I)
+    msq = re.search(r"(?:sales|output|quantity|units)\s+(?:rises?|"
+                    r"increases?|falls?|changes?)\s+from\s*(" + _NUM +
+                    r")\s*to\s*(" + _NUM + r")", text, re.I)
+    if mtr and msq:
+        t1, t2 = _pf(mtr.group(1)), _pf(mtr.group(2))
+        s1, s2 = _pf(msq.group(1)), _pf(msq.group(2))
+        if None not in (t1, t2, s1, s2) and t1 >= 0 and t2 >= 0 and s2 > s1:
+            mr_ = (t2 - t1) / (s2 - s1)
+            steps = [
+                "Method: marginal revenue is the addition to total revenue "
+                "from selling one more unit, MR = dTR/dq (leec204 eq 4.3) -- "
+                "the slope of the TR curve.",
+                f"Given: TR moves from Rs {_fmt(t1)} to Rs {_fmt(t2)} as "
+                f"sales move from {_fmt(s1)} to {_fmt(s2)} units.",
+                f"MR = ({_fmt(t2)} - {_fmt(t1)}) / ({_fmt(s2)} - {_fmt(s1)})"
+                f" = {_fmt(t2 - t1)}/{_fmt(s2 - s1)} = Rs {_fmt(mr_)} per "
+                "unit.",
+                f"Check: {_fmt(s2 - s1)} extra units x Rs {_fmt(mr_)} = "
+                f"Rs {_fmt((s2 - s1) * mr_)} = the observed TR rise -- the "
+                "identity closes.",
+                "Interpretation: each extra unit sold adds Rs "
+                f"{_fmt(mr_)} to revenue; for a price-taking firm this MR "
+                "equals the market price, so the firm's MR curve is "
+                "horizontal at that price.",
+            ]
+            ans = f"Marginal revenue = Rs {_fmt(mr_)} per unit"
+            return mr_, steps, ans, None, "MR = dTR/dq", \
+                {"d_tr": t2 - t1, "d_q": s2 - s1}
+    if pp is not None and qq is not None and pp > 0 and qq > 0:
+        tr_ = pp * qq
+        steps = [
+            "Method: for a price-taking firm TR = p x q, AR = TR/q (which "
+            "equals the price itself) and MR = dTR/dq = p (leec204 eqs "
+            "4.1-4.3 and Table 4.1); they apply because the firm can sell "
+            "any quantity at the given market price.",
+            f"Given: market price p = Rs {_fmt(pp)}, output q = {_fmt(qq)} "
+            "units.",
+            f"TR = {_fmt(pp)} x {_fmt(qq)} = Rs {_fmt(tr_)};  AR = TR/q = "
+            f"{_fmt(tr_)}/{_fmt(qq)} = Rs {_fmt(tr_ / qq)};  MR = p = "
+            f"Rs {_fmt(pp)}.",
+            f"Check: AR x q = {_fmt(tr_ / qq)} x {_fmt(qq)} = Rs "
+            f"{_fmt(tr_)} = TR -- the identity closes.",
+            "Interpretation: revenue rises by Rs "
+            f"{_fmt(pp)} for every extra unit sold, which is why a "
+            "competitive firm's AR and MR curves coincide with the "
+            "horizontal price line.",
+        ]
+        ans = (f"TR = Rs {_fmt(tr_)}; AR = MR = Rs {_fmt(pp)}")
+        return tr_, steps, ans, None, "TR = p x q;  AR = TR/q;  MR = p", \
+            {"price": pp, "q": qq, "ar": tr_ / qq, "mr": pp}
+    if tr is not None and qq is not None and tr >= 0 and qq > 0:
+        ar_ = tr / qq
+        steps = [
+            "Method: average revenue is revenue per unit sold, AR = TR/q; "
+            "for a price-taking firm AR equals the market price (leec204 "
+            "eq 4.2).",
+            f"Given: TR = Rs {_fmt(tr)}, output q = {_fmt(qq)} units.",
+            f"AR = {_fmt(tr)}/{_fmt(qq)} = Rs {_fmt(ar_)}.",
+            f"Check: AR x q = {_fmt(ar_)} x {_fmt(qq)} = Rs {_fmt(tr)} -- "
+            "the identity closes.",
+            "Interpretation: each of the "
+            f"{_fmt(qq)} units sold fetched Rs {_fmt(ar_)} on average; "
+            "under perfect competition this is the good's market price.",
+        ]
+        ans = f"Average revenue = Rs {_fmt(ar_)}"
+        return ar_, steps, ans, None, "AR = TR/q", {"tr": tr, "q": qq}
+    if tr is not None and ar is not None and tr >= 0 and ar > 0:
+        q_ = tr / ar
+        steps = [
+            "Method: rearrange AR = TR/q to q = TR/AR (leec204 eq 4.2) -- "
+            "units sold are revenue divided by revenue per unit.",
+            f"Given: TR = Rs {_fmt(tr)}, AR = Rs {_fmt(ar)}.",
+            f"q = {_fmt(tr)}/{_fmt(ar)} = {_fmt(q_)} units.",
+            f"Check: AR x q = {_fmt(ar)} x {_fmt(q_)} = Rs {_fmt(tr)} -- "
+            "the identity closes.",
+            "Interpretation: revenue of Rs "
+            f"{_fmt(tr)} at Rs {_fmt(ar)} per unit means "
+            f"{_fmt(q_)} units changed hands.",
+        ]
+        ans = f"Output q = {_fmt(q_)} units"
+        return q_, steps, ans, None, "q = TR/AR", {"tr": tr, "ar": ar}
+    return _GATE
+
+
+# 3b. CONSUMER EQUILIBRIUM -- cardinal rule MUx/Px = MUy/Py  (leec202 ch 2;
+#      ordinal twin: optimum where MRS = price ratio p1/p2)
+
+def _c_consumer_eq(g, m, text):
+    mux = _pf(g.get("mux")) or _mu_val(text, "x") or _mu_val(text, "1")
+    muy = _pf(g.get("muy")) or _mu_val(text, "y") or _mu_val(text, "2")
+    px = _pf(g.get("px")) or _pr_val(text, "x", mux) or _pr_val(text, "1",
+                                                                mux)
+    py = _pf(g.get("py")) or _pr_val(text, "y", muy) or _pr_val(text, "2",
+                                                                muy)
+    known = [v for v in (mux, muy, px, py) if v is not None]
+    if len(known) < 3:
+        return _GATE
+    if any(v is not None and v <= 0 for v in (mux, muy, px, py)):
+        return _GATE    # impossible state: non-positive price or marginal utility
+    name = {"mux": "MUx", "muy": "MUy", "px": "Px", "py": "Py"}
+    given = ", ".join(f"{name[k]} = {_fmt(v)}"
+                      for k, v in (("mux", mux), ("muy", muy),
+                                   ("px", px), ("py", py))
+                      if v is not None)
+    if None not in (mux, muy, px, py):
+        rx, ry = mux / px, muy / py
+        if abs(rx - ry) < 1e-9:
+            verdict = ("the consumer IS in equilibrium: the marginal "
+                       "utility per rupee is equal on both goods")
+            val = 0.0
+        else:
+            hi, lo = ("X", "Y") if rx > ry else ("Y", "X")
+            verdict = (f"NOT in equilibrium: MU per rupee is "
+                       f"{_fmt(max(rx, ry))} for good {hi} against "
+                       f"{_fmt(min(rx, ry))} for good {lo}, so shifting "
+                       f"spending toward good {hi} raises total utility")
+            val = abs(rx - ry)
+        steps = [
+            "Method: cardinal consumer equilibrium requires the marginal "
+            "utility of the last rupee spent to be the same on every good, "
+            "MUx/Px = MUy/Py (the law of equi-marginal utility, leec202 "
+            "ch 2); otherwise the consumer can gain by rearranging "
+            "spending.",
+            f"Given: {given}.",
+            f"MUx/Px = {_fmt(mux)}/{_fmt(px)} = {_fmt(rx)};  MUy/Py = "
+            f"{_fmt(muy)}/{_fmt(py)} = {_fmt(ry)}.",
+            "Check: compare the two ratios -- gap = "
+            + (_fmt(abs(rx - ry)) + "; equal ratios mean no rearrangement "
+               "can add utility." if abs(rx - ry) < 1e-9 else
+               _fmt(abs(rx - ry)) +
+               "; unequal, so the equilibrium condition fails."),
+            f"Interpretation: {verdict} (ordinal twin: the optimum sits "
+            "where MRS equals the price ratio p1/p2).",
+        ]
+        ans = ("Consumer is in equilibrium (MUx/Px = MUy/Py = "
+               f"{_fmt(rx)})" if abs(rx - ry) < 1e-9 else
+               f"Consumer is NOT in equilibrium: MUx/Px = {_fmt(rx)} vs "
+               f"MUY/Py = {_fmt(ry)} -- consume more of the good with the "
+               "higher MU per rupee")
+        return val, steps, ans, None, "MUx/Px = MUy/Py", \
+            {"mu_per_rupee_x": rx, "mu_per_rupee_y": ry}
+    # exactly one missing: solve it from the equilibrium condition
+    if mux is None:
+        mux = muy * px / py
+        solv = (f"MUx = MUy x (Px/Py) = {_fmt(muy)} x {_fmt(px)}/"
+                f"{_fmt(py)} = {_fmt(mux)}.")
+        ans_name, ans_val = "MUx", mux
+    elif muy is None:
+        muy = mux * py / px
+        solv = (f"MUy = MUx x (Py/Px) = {_fmt(mux)} x {_fmt(py)}/"
+                f"{_fmt(px)} = {_fmt(muy)}.")
+        ans_name, ans_val = "MUy", muy
+    elif px is None:
+        px = mux * py / muy
+        solv = (f"Px = MUx x (Py/MUy) = {_fmt(mux)} x {_fmt(py)}/"
+                f"{_fmt(muy)} = Rs {_fmt(px)}.")
+        ans_name, ans_val = "Px", px
+    else:
+        py = muy * px / mux
+        solv = (f"Py = MUy x (Px/MUx) = {_fmt(muy)} x {_fmt(px)}/"
+                f"{_fmt(mux)} = Rs {_fmt(py)}.")
+        ans_name, ans_val = "Py", py
+    steps = [
+        "Method: at consumer equilibrium the marginal utility per rupee is "
+        "equal on both goods, MUx/Px = MUy/Py (leec202 ch 2); with three of "
+        "the four terms known, the fourth follows algebraically.",
+        f"Given: {given}.",
+        solv,
+        f"Check: substitute back -- MUx/Px = {_fmt(mux)}/{_fmt(px)} = "
+        f"{_fmt(mux / px)} and MUy/Py = {_fmt(muy)}/{_fmt(py)} = "
+        f"{_fmt(muy / py)}; the two ratios are equal, so the identity "
+        "closes.",
+        "Interpretation: the last rupee spent on either good now yields "
+        f"the same utility ({_fmt(mux / px)}), which is exactly the "
+        "condition for the consumer's optimum bundle.",
+    ]
+    ans = f"{ans_name} = {_fmt(ans_val)} (consumer equilibrium: MUx/Px = MUy/Py)"
+    return ans_val, steps, ans, None, "MUx/Px = MUy/Py", \
+        {"mux": mux, "muy": muy, "px": px, "py": py}
+
+
+# 4b. MARKET SUPPLY -- horizontal sum of firm supplies  (leec205 ch 5)
+
+def _c_market_supply(g, m, text):
+    pp = _pf(g.get("pp"))
+    if pp is None:
+        m2 = re.search(r"at\s+(?:a\s+)?price\s*(?:is|of|=)?\s*(" + _NUM +
+                       r")", text, re.I)
+        if m2:
+            pp = _pf(m2.group(1))
+    qtys = [_pf(v) for v in re.findall(
+        r"(?:firm|producer|seller)\s+[a-z0-9]{1,3}\s+(?:supplie?s|supplied|"
+        r"offers?)\s*[^0-9\n]{0,12}?(" + _NUM + r")", text, re.I)]
+    qtys = [v for v in qtys if v is not None]
+    # linear-firm mode: sum the supply functions Qs_i = c_i + d_i P
+    fns = [(m.groupdict()) for m in re.finditer(_SUP_QS, text, re.I)]
+    slopes = []
+    for gd in fns:
+        c, d = _fn_from(gd, "c", "sgnd", "d")
+        if c is None or d is None or d <= 0:
+            return _GATE    # law of supply violated for a component firm
+        slopes.append((c, d))
+    if len(qtys) < 2 and len(slopes) < 2:
+        return _GATE
+    if pp is not None and pp <= 0:
+        return _GATE        # impossible state: non-positive price
+    if len(qtys) >= 2:
+        total = sum(qtys)
+        given = (f"Given: firm supplies of "
+                 + ", ".join(_fmt(v) for v in qtys)
+                 + (f" units each offered at the price Rs {_fmt(pp)}."
+                    if pp is not None else " units (at the same price)."))
+        comp = " + ".join(_fmt(v) for v in qtys) + f" = {_fmt(total)} units."
+        steps = [
+            "Method: market supply at any price is the HORIZONTAL sum of "
+            "the individual firms' supplies -- add what each firm offers at "
+            "that price (leec205 ch 5); it applies because every firm faces "
+            "the same market price.",
+            given,
+            f"Market supply = {comp}",
+            f"Check: re-add the firm quantities -- {len(qtys)} firms, "
+            f"total {_fmt(total)}; each firm's quantity is counted once, "
+            "so the identity closes.",
+            "Interpretation: at this price the market as a whole offers "
+            f"{_fmt(total)} units; plotting such sums at every price traces "
+            "the upward-sloping market supply curve.",
+        ]
+        ans = (f"Market supply = {_fmt(total)} units"
+               + (f" at price Rs {_fmt(pp)}" if pp is not None else ""))
+        return total, steps, ans, None, "Qm = sum of firm Qs at each P", \
+            {"firm_supplies": qtys}
+    c_sum = sum(c for c, _ in slopes)
+    d_sum = sum(d for _, d in slopes)
+    fn_s = f"Qs(market) = {_fmt(c_sum)} + {_fmt(d_sum)}P"
+    if pp is not None:
+        total = c_sum + d_sum * pp
+        if total <= 0:
+            return _GATE    # impossible state: non-positive market supply
+        steps = [
+            "Method: the market supply curve is the horizontal sum of the "
+            "firms' supply curves -- at each price, add the quantities "
+            "supplied (leec205 ch 5); adding functions means adding "
+            "intercepts and slopes.",
+            f"Given: firm supply functions "
+            + "; ".join(f"Qs = {_fmt(c)} + {_fmt(d)}P" for c, d in slopes)
+            + (f", evaluated at P = Rs {_fmt(pp)}." if pp is not None
+               else "."),
+            f"{fn_s};  at P = {_fmt(pp)}: Qs = {_fmt(c_sum)} + "
+            f"{_fmt(d_sum)} x {_fmt(pp)} = {_fmt(total)} units.",
+            f"Check: each firm alone supplies "
+            + ", ".join(_fmt(c + d * pp) for c, d in slopes)
+            + f"; their sum = {_fmt(total)} -- the identity closes.",
+            "Interpretation: the combined market offers "
+            f"{_fmt(total)} units at Rs {_fmt(pp)}; the market curve is "
+            "flatter than each firm's curve because every rupee of price "
+            f"adds {_fmt(d_sum)} units across all firms together.",
+        ]
+        ans = (f"Market supply function: {fn_s}; at price Rs {_fmt(pp)} "
+               f"market supply = {_fmt(total)} units")
+        return total, steps, ans, None, \
+            "Qm = (sum c) + (sum d) P", \
+            {"market_intercept": c_sum, "market_slope": d_sum}
+    steps = [
+        "Method: the market supply curve is the horizontal sum of the "
+        "firms' supply curves -- add quantities at each price (leec205 "
+        "ch 5).",
+        "Given: firm supply functions "
+        + "; ".join(f"Qs = {_fmt(c)} + {_fmt(d)}P" for c, d in slopes) + ".",
+        f"Market function: {fn_s} (sum of intercepts; sum of slopes).",
+        f"Check: substituting any price, e.g. P = 1, gives firm totals "
+        + ", ".join(_fmt(c + d) for c, d in slopes)
+        + f" which sum to {_fmt(c_sum + d_sum)} = market Qs at P = 1 -- "
+        "the identity closes.",
+        "Interpretation: the market supply curve lies to the right of "
+        "every individual firm's curve; its slope "
+        f"({_fmt(d_sum)}) is shallower because all firms respond together "
+        "to a price change.",
+    ]
+    ans = f"Market supply function: {fn_s}"
+    return c_sum, steps, ans, None, "Qm = (sum c) + (sum d) P", \
+        {"market_intercept": c_sum, "market_slope": d_sum}
+
+
+# 5b. PRICE CEILING / FLOOR  (leec205 5.2.1 / 5.2.2)
+
+def _c_price_control(g, m, text):
+    fn = _both_fns(text)
+    if not fn:
+        return _GATE
+    a, b, c, d = fn["a"], fn["b"], fn["c"], fn["d"]
+    if abs(b) + d == 0:
+        return _GATE
+    p_star = (a - c) / (abs(b) + d)
+    if p_star <= 0:
+        return _GATE
+    pc = _labv(text, r"(?:price\s+ceiling|maximum\s+price)")
+    pf = _labv(text, r"(?:price\s+floor|minimum\s+price|support\s+price)")
+    if pc is None and pf is None:
+        return _GATE
+    kind = "ceiling" if pc is not None else "floor"
+    pcx = pc if pc is not None else pf
+    if pcx <= 0:
+        return _GATE        # impossible state: non-positive controlled price
+    binding = pcx < p_star if kind == "ceiling" else pcx > p_star
+    qd = a + b * pcx
+    qs = c + d * pcx
+    steps = [
+        "Method: a price ceiling is a legal MAXIMUM, binding only below "
+        "equilibrium, where Qd > Qs creates a shortage; a price floor is a "
+        "legal MINIMUM, binding only above equilibrium, where Qs > Qd "
+        "creates a surplus (leec205 5.2.1-5.2.2).",
+        f"Given: Qd = {_fmt(a)} - {_fmt(abs(b))}P;  Qs = {_fmt(c)} + "
+        f"{_fmt(d)}P;  {kind} price = Rs {_fmt(pcx)}.",
+        f"P* = ({_fmt(a)} - {_fmt(c)})/({_fmt(abs(b))} + {_fmt(d)}) = "
+        f"Rs {_fmt(p_star)}.  At the {kind} price: Qd = {_fmt(qd)}, "
+        f"Qs = {_fmt(qs)}.",
+        f"Check: Rs {_fmt(pcx)} is {'below' if pcx < p_star else 'above' if pcx > p_star else 'equal to'} "
+        f"P* = Rs {_fmt(p_star)}, so the {kind} is "
+        f"{'BINDING' if binding else 'NOT binding'}; gap Qd - Qs = "
+        f"{_fmt(qd - qs)}.",
+        (f"Interpretation: the binding {kind} of Rs {_fmt(pcx)} leaves "
+         f"buyers wanting {_fmt(qd)} units but sellers offering only "
+         f"{_fmt(qs)} -- a persistent {'shortage' if kind == 'ceiling' else 'surplus'} "
+         f"of {_fmt(abs(qd - qs))} units, so the good must be "
+         f"{'rationed' if kind == 'ceiling' else 'buffer-stocked / procured at the support price'}."
+         if binding else
+         f"Interpretation: the {kind} of Rs {_fmt(pcx)} lies on the wrong "
+         f"side of P* = Rs {_fmt(p_star)}, so it never bites -- the market "
+         f"still clears at Rs {_fmt(p_star)} with {_fmt(a + b * p_star)} "
+         "units traded."),
+    ]
+    if binding:
+        val = abs(qd - qs)
+        ans = (f"The {kind} is binding: {'shortage (excess demand)' if kind == 'ceiling' else 'surplus (excess supply)'} "
+               f"of {_fmt(val)} units at Rs {_fmt(pcx)}")
+    else:
+        val = 0.0
+        ans = (f"The {kind} of Rs {_fmt(pcx)} is NOT binding -- the market "
+               f"clears at P* = Rs {_fmt(p_star)}")
+    return val, steps, ans, None, \
+        "ceiling < P* -> shortage Qd-Qs;  floor > P* -> surplus", \
+        {"p_star": p_star, "qd": qd, "qs": qs, "controlled_price": pcx}
+
+
+# 6b. GDP AND WELFARE, numeric -- per-capita GDP  (leec102 2.5)
+
+def _c_per_capita(g, m, text):
+    mg = re.search(r"(?:gdp|national\s+income)[^.]{0,30}?(?:grows?|growth|"
+                   r"rises?|increases?|expands?)[^.]{0,15}?(?:by|at|is)?\s*"
+                   r"(" + _NUM + r")\s*%", text, re.I) or \
+        re.search(r"(?:gdp|income)\s+growth(?:\s+rate)?\s*(?:is|of)?\s*(" +
+                  _NUM + r")\s*%", text, re.I)
+    mp = re.search(r"population[^.]{0,30}?(?:grows?|growth|rises?|"
+                   r"increases?)[^.]{0,15}?(?:by|at|is)?\s*(" + _NUM +
+                   r")\s*%", text, re.I) or \
+        re.search(r"population\s+growth(?:\s+rate)?\s*(?:is|of)?\s*(" +
+                  _NUM + r")\s*%", text, re.I)
+    if mg and mp:
+        gg, nn = _pf(mg.group(1)), _pf(mp.group(1))
+        if gg <= -100 or nn <= -100:
+            return _GATE    # impossible state: base destroyed (<= -100%)
+        exact = ((1.0 + gg / 100.0) / (1.0 + nn / 100.0) - 1.0) * 100.0
+        steps = [
+            "Method: welfare per person moves with per-capita GDP = GDP / "
+            "population, so per-capita growth = (1 + g)/(1 + n) - 1 -- "
+            "total GDP alone is NOT an index of welfare (leec102 2.5: "
+            "distribution, non-monetary exchanges, externalities).",
+            f"Given: GDP growth g = {_fmt(gg)}%, population growth n = "
+            f"{_fmt(nn)}%.",
+            f"= (1 + {_fmt(gg)}/100)/(1 + {_fmt(nn)}/100) - 1 x 100 = "
+            f"{_fmt(exact)}% (textbook approximation g - n = "
+            f"{_fmt(gg - nn)}%).",
+            f"Check: (1 + {exact / 100:.6f}) x (1 + {_fmt(nn)}/100) = "
+            f"{(1 + exact / 100) * (1 + nn / 100):.6f} = 1 + {_fmt(gg)}/100 "
+            "-- the identity closes.",
+            "Interpretation: although GDP rises "
+            f"{_fmt(gg)}%, income per HEAD rises only {_fmt(exact)}% "
+            "(about "
+            f"{_fmt(gg - nn)}%) -- and if the rise is concentrated in few "
+            "hands, most people may be worse off, so GDP alone overstates "
+            "welfare gains.",
+        ]
+        ans = (f"Per-capita growth = {_fmt(exact)}% exact (about "
+               f"{_fmt(gg - nn)}% by the g - n approximation)")
+        return exact, steps, ans, None, \
+            "per-capita growth = (1+g)/(1+n) - 1", {"gdp_growth": gg,
+                                                    "pop_growth": nn}
+    gdp = _labv(text, r"(?:real\s+)?(?:gdp|national\s+income)")
+    pop = _labv(text, r"population")
+    if gdp is None or pop is None or gdp < 0 or pop <= 0:
+        return _GATE
+    pc = gdp / pop
+    steps = [
+        "Method: per-capita (real) GDP = GDP / population -- average "
+        "income per head, the first correction when GDP is used as a "
+        "welfare index (leec102 2.5).",
+        f"Given: GDP = Rs {_fmt(gdp)}, population = {_fmt(pop)}.",
+        f"Per-capita GDP = {_fmt(gdp)}/{_fmt(pop)} = Rs {_fmt(pc)}.",
+        f"Check: per-capita x population = {_fmt(pc)} x {_fmt(pop)} = "
+        f"Rs {_fmt(gdp)} -- the identity closes.",
+        "Interpretation: the average person accounts for Rs "
+        f"{_fmt(pc)} of output -- an average only: leec102 warns it hides "
+        "distribution (a rise concentrated on a few), non-monetary "
+        "exchanges and externalities, so welfare may move differently.",
+    ]
+    ans = f"Per-capita GDP = Rs {_fmt(pc)}"
+    return pc, steps, ans, None, "per-capita GDP = GDP / population", \
+        {"gdp": gdp, "population": pop}
+
+
+# 7b. CORRELATION COEFFICIENT from paired data (statistics chapters:
+#      Karl Pearson's product-moment r)
+
+def _c_correlation(g, m, text):
+    pair_tuples = re.findall(r"\(\s*(" + _NUM + r")\s*,\s*(" + _NUM +
+                             r")\s*\)", text)
+    xs = [_pf(a) for a, _b in pair_tuples]
+    ys = [_pf(_b) for _a, _b in pair_tuples]
+    src = "paired observations (x, y)"
+    if len(xs) < 3:
+        mx = re.search(r"\bx\s*(?:values?)?\s*(?:are|is|of|:|=)?\s*" + _VALS,
+                       text, re.I)
+        my = re.search(r"\by\s*(?:values?)?\s*(?:are|is|of|:|=)?\s*" + _VALS,
+                       text, re.I)
+        if not (mx and my):
+            mx = re.search(r"prices?\s*(?:are|of|:|=)?\s*" + _VALS, text,
+                           re.I)
+            my = re.search(r"(?:demands?|quantities)\s*(?:are|of|:|=)?\s*" +
+                           _VALS, text, re.I)
+        if mx and my:
+            xs, ys = _nums(mx.group("vals")), _nums(my.group("vals"))
+            src = "the two listed series"
+    if len(xs) < 3 or len(xs) != len(ys):
+        return _GATE
+    n = float(len(xs))
+    mx_ = sum(xs) / n
+    my_ = sum(ys) / n
+    sxx = sum((x - mx_) ** 2 for x in xs)
+    syy = sum((y - my_) ** 2 for y in ys)
+    sxy = sum((x - mx_) * (y - my_) for x, y in zip(xs, ys))
+    if sxx <= 0 or syy <= 0:
+        return _GATE    # impossible state: zero variance -> r undefined
+    r_ = sxy / ((sxx * syy) ** 0.5)
+    strength = ("strong" if abs(r_) > 0.8 else "moderate"
+                if abs(r_) > 0.3 else "weak")
+    direction = "positive" if r_ > 0 else "negative" if r_ < 0 else "no"
+    pair_s = "; ".join(f"({_fmt(x)}, {_fmt(y)})" for x, y in zip(xs, ys))
+    steps = [
+        "Method: Karl Pearson's product-moment correlation coefficient "
+        "r = sum(dx dy) / sqrt(sum(dx^2) sum(dy^2)) with dx = x - mean(x), "
+        "dy = y - mean(y) measures the degree of linear association "
+        "between two paired series (statistics chapters: correlation).",
+        f"Given: n = {len(xs)} pairs {src}: {pair_s};  means x-bar = "
+        f"{mx_:.4g}, y-bar = {my_:.4g}.",
+        f"sum(dx^2) = {sxx:.4g}, sum(dy^2) = {syy:.4g}, sum(dxdy) = "
+        f"{sxy:.4g};  r = {sxy:.4g} / sqrt({sxx:.4g} x {syy:.4g}) = "
+        f"{sxy:.4g}/{(sxx * syy) ** 0.5:.4g} = {r_:.4f}.",
+        f"Check: |r| = {abs(r_):.4f} <= 1 (a valid coefficient); "
+        f"r-squared = {r_ * r_:.4f}, i.e. {r_ * r_ * 100:.1f}% of the "
+        "variation in y is explained by x -- recomputing the ratio gives "
+        "the same value.",
+        f"Interpretation: {direction} correlation of strength {strength}: "
+        + ("the two series move together -- high x goes with high y."
+           if r_ > 0 else
+           "the two series move in opposite directions -- high x goes "
+           "with low y (e.g. price up, quantity demanded down)."),
+    ]
+    ans = f"Correlation coefficient r = {r_:.4f} ({strength} {direction} correlation)"
+    return r_, steps, ans, None, \
+        "r = sum(dxdy) / sqrt(sum(dx^2) sum(dy^2))", \
+        {"n_pairs": len(xs), "r_squared": r_ * r_}
+
+
+# 8b. BALANCE OF PAYMENTS -- visible/invisible classification + current
+#      account balance  (leec106 6.1)
+
+_BOP_LABELS = (
+    ("visible exports",
+     r"(?<!in)visible\s+exports?|merchandise\s+exports?|goods\s+exports?|"
+     r"exports?\s+of\s+(?:goods|merchandise)"),
+    ("visible imports",
+     r"(?<!in)visible\s+imports?|merchandise\s+imports?|goods\s+imports?|"
+     r"imports?\s+of\s+(?:goods|merchandise)"),
+    ("invisible exports",
+     r"invisible\s+exports?|services\s+exports?|exports?\s+of\s+"
+     r"(?:services|invisibles)"),
+    ("invisible imports",
+     r"invisible\s+imports?|services\s+imports?|imports?\s+of\s+"
+     r"(?:services|invisibles)"),
+)
+
+
+def _c_bop(g, m, text):
+    vals = {name: _labv(text, r"(?:" + pat + r")", tight=True)
+            for name, pat in _BOP_LABELS}
+    ni = _labv(text, r"net\s+invisibles?", tight=True)
+    gross = [v for v in vals.values()]
+    n_known = sum(v is not None for v in gross) + (1 if ni is not None else 0)
+    if n_known < 2:
+        return _GATE
+    if any(v is not None and v < 0 for v in gross):
+        return _GATE    # impossible state: negative gross exports/imports
+    ve = vals["visible exports"] or 0.0
+    vi = vals["visible imports"] or 0.0
+    ie = vals["invisible exports"] or 0.0
+    ii = vals["invisible imports"] or 0.0
+    net_vis = ve - vi
+    net_inv = (ie - ii) + (ni if ni is not None else 0.0)
+    bal = net_vis + net_inv
+    given_bits = []
+    for nm, v in vals.items():
+        if v is not None:
+            kind = "INVISIBLE" if "invisible" in nm else "VISIBLE"
+            given_bits.append(f"{nm} Rs {_fmt(v)} ({kind})")
+    if ni is not None:
+        given_bits.append(f"net invisibles Rs {_fmt(ni)} (INVISIBLE)")
+    verdict = ("surplus" if bal > 0 else "deficit" if bal < 0 else
+               "balanced")
+    steps = [
+        "Method: the balance of payments records all transactions with "
+        "the rest of the world; goods trade items are VISIBLE, while "
+        "services, income and transfers are INVISIBLE items, and the "
+        "current-account balance = net visibles + net invisibles (leec106 "
+        "6.1).",
+        "Given: " + "; ".join(given_bits) + ".",
+        f"Net visibles = {_fmt(ve)} - {_fmt(vi)} = Rs {_fmt(net_vis)};  "
+        f"net invisibles = ({_fmt(ie)} - {_fmt(ii)})"
+        + (f" + {_fmt(ni)}" if ni is not None else "") +
+        f" = Rs {_fmt(net_inv)};  balance = {_fmt(net_vis)} + "
+        f"({_fmt(net_inv)}) = Rs {_fmt(bal)}.",
+        f"Check: re-add all credited items ({_fmt(ve)} + {_fmt(ie)}"
+        + (f" + max({ni}, 0)" if ni is not None and ni > 0 else "") +
+        f") and debited items ({_fmt(vi)} + {_fmt(ii)}) -- the difference "
+        f"reproduces Rs {_fmt(bal)}.",
+        f"Interpretation: a current-account {verdict} of Rs "
+        f"{_fmt(abs(bal))} -- "
+        + ("export earnings exceed import payments; the excess builds "
+           "reserves." if bal > 0 else
+           "the country pays out more than it earns, so the gap must be "
+           "met by drawing down reserves or borrowing from abroad "
+           "(leec106 6.1.3)." if bal < 0 else
+           "receipts exactly cover payments."),
+    ]
+    ans = (f"Balance of payments on current account = Rs {_fmt(bal)} "
+           f"({verdict}); goods items are visible, services/income items "
+           f"invisible")
+    extra = {"net_visibles": net_vis, "net_invisibles": net_inv}
+    for k, v in vals.items():
+        if v is not None:
+            extra[k.replace(" ", "_")] = v
+    if ni is not None:
+        extra["net_invisibles_given"] = ni
+    return bal, steps, ans, None, \
+        "BoP(current) = (VX - VM) + net invisibles", extra
 
 
 # --------------------------------------------------------------------------- #
@@ -1721,7 +3139,49 @@ _TABLE = [(fid,
            else calc)
           for fid, pat, calc in _TABLE]
 
-TABLE = _TABLE
+# ---- books2 table: the chapters the first wave did not cover ---------------- #
+# Category triggers + full-text label re-parse inside the handler (same
+# convention as the *_2 wrappers), so slot order never matters.
+
+_TABLE_BOOKS2: List[Tuple[str, str, Any]] = [
+    # micro ch 3 (leec203): TP/AP/MP schedule
+    ("TP_AP_MP_SCHEDULE",
+     r"\b(?:total|average|marginal)\s+product\b", _c_tp_ap_mp),
+    # micro ch 3 (leec203): cost schedules
+    ("COST_SCHEDULE_ANY",
+     r"\bmarginal\s+cost\b|\b(?:total\s+)?(?:fixed|variable)\s+cost\b|"
+     r"\baverage\s+(?:variable|fixed)\s+cost\b|\b(?:avc|afc|sac)\b|"
+     r"\baverage\s+cost\b",
+     _c_cost),
+    # micro ch 4 (leec204): revenue curves
+    ("REVENUE_CURVES_ANY", r"\b(?:total|average|marginal)\s+revenue\b",
+     _c_revenue),
+    # micro ch 2 (leec202): consumer equilibrium, MUx/Px = MUy/Py
+    ("CONSUMER_EQUIB_RATIO",
+     r"\bconsumer'?s?\s+equilibrium\b|\bconsumer\s+is\s+in\s+equilibrium\b|"
+     r"\bequilibrium\s+of\s+(?:the\s+)?consumer\b|"
+     r"\bm(?:arginal\s+)?u(?:tility)?\s*(?:of\s+(?:good\s+)?)?_?\s*[xy12]\b",
+     _c_consumer_eq),
+    # micro ch 5 (leec205): market supply = horizontal sum
+    ("MARKET_SUPPLY_SUM", r"\bmarket\s+supply\b", _c_market_supply),
+    # micro ch 5 (leec205 5.2): price ceiling / floor
+    ("PRICE_CEILING_FLOOR",
+     r"\bprice\s+(?:ceiling|floor)\b|\b(?:maximum|minimum)\s+price\b|"
+     r"\bsupport\s+price\b",
+     _c_price_control),
+    # macro ch 2 (leec102 2.5): GDP and welfare, per-capita arithmetic
+    ("GDP_WELFARE_PERCAPITA", r"\bper\s+capita\b|\bgdp\s+and\s+welfare\b",
+     _c_per_capita),
+    # statistics chapters: correlation from paired data
+    ("CORRELATION_COEFFICIENT", r"\bcorrelat|\bkarl\s+pearson\b",
+     _c_correlation),
+    # macro ch 6 (leec106 6.1): balance of payments, visible/invisible
+    ("BOP_CLASSIFY_ANY",
+     r"\bbalance\s+of\s+payments\b|\bcurrent\s+account\b|\bbop\b",
+     _c_bop),
+]
+
+TABLE = _TABLE + _TABLE_BOOKS2
 
 
 def model_economics_families(text: str) -> ModelResult:

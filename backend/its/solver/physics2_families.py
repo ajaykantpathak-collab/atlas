@@ -83,6 +83,14 @@ _ComputeOut = Optional[Tuple[float, List[str], Optional[str],
                              Optional[List[str]]]]
 
 
+def _beats(method: str, subst: str, comp: str, verify: str,
+           interp: str) -> List[str]:
+    """STEP CONTRACT (SOLVER_STEP_CONTRACT.md) 5-beat steps, in order."""
+    return [f"Method: {method}", f"Substitution: {subst}",
+            f"Computation: {comp}", f"Verification: {verify}",
+            f"Interpretation: {interp}"]
+
+
 # --------------------------------------------------------------------------- #
 # Optics
 # --------------------------------------------------------------------------- #
@@ -94,11 +102,17 @@ def _c_lens(g, m, t) -> _ComputeOut:
     if f_ == 0 or u == 0 or (u + f_) == 0:
         return None
     v = f_ * u / (u + f_)
-    steps = [
-        "Lens formula: 1/v = 1/f + 1/u, rearranged as v = f*u/(u+f).",
-        f"v = ({f_:g} x {u:g}) / ({u:g} + ({f_:g})) = {v:.6g} cm",
-        f"ANSWER: image_distance = {v:.6g} cm",
-    ]
+    steps = _beats(
+        "thin-lens formula 1/v = 1/f + 1/u, rearranged as v = f*u/(u+f) "
+        "-- a thin lens links focal length with object and image "
+        "distances (cm, Cartesian sign convention).",
+        f"v = ({f_:g} x {u:g}) / ({u:g} + ({f_:g})) cm",
+        f"v = {f_ * u:g} / {u + f_:g} = {v:.6g} cm",
+        f"substitute back: 1/v + 1/(-f) check: 1/{v:.6g} - 1/{f_:g} = "
+        f"{1.0 / v - 1.0 / f_:.6g} = 1/u = {1.0 / u:.6g} -- closes",
+        f"the lens forms a{' virtual (same side as object)' if v < 0 else ' real'} "
+        f"image {v:.6g} cm from the lens.",
+    )
     return v, steps, f"image_distance = {v:.6g} cm", \
         ["distances in cm; u and f as given by the sign convention"]
 
@@ -110,12 +124,17 @@ def _c_mirror(g, m, t) -> _ComputeOut:
         return None
     v = f_ * u / (u - f_)
     kind = "virtual image (same side as object)" if v < 0 else "real image"
-    steps = [
-        "Mirror formula: 1/v = 1/f - 1/u, rearranged as v = f*u/(u-f).",
-        f"v = ({f_:g} x {u:g}) / ({u:g} - ({f_:g})) = {v:.6g} cm",
-        f"ANSWER: image_distance = {v:.6g} cm "
-        f"({'negative: ' + kind if v < 0 else kind})",
-    ]
+    steps = _beats(
+        "mirror formula 1/v = 1/f - 1/u, rearranged as v = f*u/(u-f) -- "
+        "spherical mirrors relate focal length with object and image "
+        "distances (cm, Cartesian sign convention).",
+        f"v = ({f_:g} x {u:g}) / ({u:g} - ({f_:g})) cm",
+        f"v = {f_ * u:g} / {u - f_:g} = {v:.6g} cm",
+        f"substitute back: 1/v = 1/f - 1/u: 1/{v:.6g} = {1.0 / f_:g} - "
+        f"{1.0 / u:.6g} = {1.0 / f_ - 1.0 / u:.6g} -- closes",
+        f"the mirror forms a {kind} at {v:.6g} cm "
+        f"({'negative v confirms it' if v < 0 else 'in front of the mirror'}).",
+    )
     return v, steps, f"image_distance = {v:.6g} cm", \
         ["Cartesian convention: concave-mirror f negative as given"]
 
@@ -126,13 +145,17 @@ def _c_magnification(g, m, t) -> _ComputeOut:
     if u == 0:
         return None
     mag = -v_img / u
-    steps = [
-        "Mirror magnification: m = -v/u.",
-        f"m = -({v_img:g}) / ({u:g}) = {mag:.6g}",
-        f"ANSWER: magnification = {mag:.6g} "
-        f"(negative: inverted image)" if mag < 0 else
-        f"ANSWER: magnification = {mag:.6g} (positive: erect image)",
-    ]
+    steps = _beats(
+        "mirror magnification relation m = -v/u -- the transverse "
+        "magnification of a spherical mirror with sign convention.",
+        f"m = -({v_img:g}) / ({u:g})",
+        f"m = {-v_img:g} / {u:g} = {mag:.6g}",
+        f"substitute back: v = -m u = -({mag:.6g}) x ({u:g}) = "
+        f"{-mag * u:g} = {v_img:g} cm -- closes",
+        f"magnification {mag:.6g}: the image is "
+        f"{'inverted' if mag < 0 else 'erect'} and "
+        f"{'enlarged' if abs(mag) > 1 else 'diminished'}.",
+    )
     return mag, steps, f"magnification = {mag:.6g}", None
 
 
@@ -148,14 +171,19 @@ def _c_coulomb(g, m, t) -> _ComputeOut:
     if r <= 0 or q1 == 0 or q2 == 0:
         return None
     f = _K_COULOMB * q1 * q2 / (r * r)
-    steps = [
-        "Coulomb's law: F = k q1 q2 / r^2 with k = 9e9 N m^2/C^2.",
+    steps = _beats(
+        "Coulomb's law F = k q1 q2 / r^2 with k = 9e9 N m^2/C^2 -- the "
+        "electrostatic force between two point charges falls off with "
+        "the square of their separation.",
         f"q1 = {g['q1']:s}{' micro' if g.get('mu1') else ''}C = "
         f"{q1:.6g} C; q2 = {g['q2']:s}{' micro' if g.get('mu2') else ''}C "
         f"= {q2:.6g} C; r = {r:g} m",
         f"F = 9e9 x {q1:.6g} x {q2:.6g} / ({r:g})^2 = {f:.6g} N",
-        f"ANSWER: force = {f:.6g} N",
-    ]
+        f"substitute back: r = sqrt(k q1 q2 / F) = sqrt({9e9 * q1 * q2:.6g}"
+        f" / {f:.6g}) = {r:g} m -- matches",
+        f"the charges push or pull each other with {f:.6g} N "
+        "along the line joining them.",
+    )
     return f, steps, f"force = {f:.6g} N", None
 
 
@@ -165,13 +193,17 @@ def _c_electric_field(g, m, t) -> _ComputeOut:
     if q <= 0:
         return None
     e = force / q
-    steps = [
-        "Electric field definition: E = F/q.",
+    steps = _beats(
+        "electric field definition E = F/q -- field strength is the "
+        "force per unit positive charge at that point.",
         f"q = {g['charge']:s}{' micro' if g.get('mu') else ''}C = "
-        f"{q:.6g} C",
+        f"{q:.6g} C; F = {force:g} N",
         f"E = {force:g} / {q:.6g} = {e:.6g} N/C",
-        f"ANSWER: electric_field = {e:.6g} N/C",
-    ]
+        f"substitute back: F = E q = {e:.6g} x {q:.6g} = {force:g} N -- "
+        "matches the given force",
+        f"a charge placed there feels {force:g} N, so the field there "
+        f"is {e:.6g} N/C.",
+    )
     return e, steps, f"electric_field = {e:.6g} N/C", None
 
 
@@ -187,11 +219,15 @@ def _c_series(g, m, t) -> _ComputeOut:
         return None
     total = sum(vals)
     parts = " + ".join(f"{v:g}" for v in vals)
-    steps = [
-        "Series combination: R = R1 + R2 + ... + Rn.",
+    steps = _beats(
+        "series-resistance rule R = R1 + R2 + ... + Rn -- one current "
+        "flows through every resistor, so resistances add directly.",
+        f"R = {parts} ohm",
         f"R = {parts} = {total:.6g} ohm",
-        f"ANSWER: total_resistance = {total:.6g} ohm",
-    ]
+        f"sanity check: the total {total:.6g} ohm is larger than each "
+        f"part (max {max(vals):g} ohm) as a series sum must be",
+        f"the chain draws current as one {total:.6g} ohm resistor.",
+    )
     return total, steps, f"total_resistance = {total:.6g} ohm", None
 
 
@@ -201,11 +237,17 @@ def _c_parallel2(g, m, t) -> _ComputeOut:
     if r1 <= 0 or r2 <= 0 or (r1 + r2) == 0:
         return None
     req = r1 * r2 / (r1 + r2)
-    steps = [
-        "Two-resistor parallel combination: R = R1*R2/(R1+R2).",
-        f"R = ({r1:g} x {r2:g}) / ({r1:g} + {r2:g}) = {req:.6g} ohm",
-        f"ANSWER: total_resistance = {req:.6g} ohm",
-    ]
+    steps = _beats(
+        "parallel-resistance rule R = R1*R2/(R1+R2) -- branches share "
+        "the voltage, so conductances add and R comes out below the "
+        "smaller branch.",
+        f"R = ({r1:g} x {r2:g}) / ({r1:g} + {r2:g}) ohm",
+        f"R = {r1 * r2:g} / {r1 + r2:g} = {req:.6g} ohm",
+        f"substitute back: R1 R2 / R = {r1 * r2:g} / {req:.6g} = "
+        f"{r1 + r2:g} = R1 + R2 -- closes",
+        f"the pair draws current like a single {req:.6g} ohm resistor "
+        f"(below the smaller {min(r1, r2):g} ohm branch, as expected).",
+    )
     return req, steps, f"total_resistance = {req:.6g} ohm", None
 
 
@@ -218,12 +260,19 @@ def _c_thermo(g, m, t) -> _ComputeOut:
     q_heat = _num(g["heat_added"])
     w = _num(g["work_done"])
     du = q_heat - w
-    steps = [
-        "First law of thermodynamics: dU = Q - W "
-        "(W = work done BY the system).",
+    steps = _beats(
+        "first law of thermodynamics dU = Q - W -- energy conservation "
+        "for a gas: heat added raises internal energy minus the work "
+        "the system does (W = work done BY the system).",
+        f"dU = {q_heat:g} J - {w:g} J",
         f"dU = {q_heat:g} - {w:g} = {du:.6g} J",
-        f"ANSWER: internal_energy_change = {du:.6g} J",
-    ]
+        f"substitute back: Q - dU = {q_heat:g} - ({du:.6g}) = {w:g} J = "
+        "the work done -- closes",
+        f"the gas's internal energy rises by {du:.6g} J."
+        if du >= 0 else
+        f"the gas's internal energy falls by {abs(du):.6g} J (work "
+        "exceeded the heat added).",
+    )
     return du, steps, f"internal_energy_change = {du:.6g} J", \
         ["work taken as done BY the system"]
 
@@ -234,11 +283,16 @@ def _c_engine(g, m, t) -> _ComputeOut:
     if heat <= 0 or work < 0:
         return None
     eff = work / heat * 100.0
-    steps = [
-        "Heat-engine efficiency: eta = W/Q_input x 100.",
-        f"eta = {work:g} / {heat:g} x 100 = {eff:.6g} %",
-        f"ANSWER: efficiency = {eff:.6g} %",
-    ]
+    steps = _beats(
+        "heat-engine efficiency eta = W/Q_input x 100 -- the fraction "
+        "of the absorbed heat that the engine converts to useful work.",
+        f"eta = {work:g} J / {heat:g} J x 100",
+        f"eta = {work / heat:.6g} x 100 = {eff:.6g} %",
+        f"substitute back: W = eta/100 x Q = {eff / 100.0:.6g} x "
+        f"{heat:g} = {work:g} J -- matches",
+        f"{eff:.6g}% of the heat input becomes work; the rest is "
+        "rejected to the sink.",
+    )
     return eff, steps, f"efficiency = {eff:.6g} %", None
 
 
@@ -253,12 +307,16 @@ def _c_shm_period(g, m, t) -> _ComputeOut:
     if mass <= 0 or k <= 0:
         return None
     period = 2.0 * math.pi * math.sqrt(mass / k)
-    steps = [
-        "Spring-mass oscillator: T = 2 pi sqrt(m/k).",
-        f"T = 2 pi x sqrt({mass:g}/{k:g}) = 2 pi x "
-        f"{math.sqrt(mass / k):.6g} = {period:.6g} s",
-        f"ANSWER: period = {period:.6g} s",
-    ]
+    steps = _beats(
+        "spring-mass oscillator formula T = 2 pi sqrt(m/k) -- for SHM "
+        "the restoring force F = -kx gives an angular frequency "
+        "omega = sqrt(k/m), independent of amplitude.",
+        f"T = 2 pi x sqrt({mass:g} kg / {k:g} N/m)",
+        f"T = 2 pi x {math.sqrt(mass / k):.6g} = {period:.6g} s",
+        f"substitute back: k = 4 pi^2 m / T^2 = {4.0 * math.pi ** 2:.6g}"
+        f" x {mass:g} / {period * period:.6g} = {k:g} N/m -- matches",
+        f"the mass completes one oscillation every {period:.6g} s.",
+    )
     return period, steps, f"period = {period:.6g} s", None
 
 
@@ -268,11 +326,16 @@ def _c_spring_energy(g, m, t) -> _ComputeOut:
     if k <= 0:
         return None
     energy = 0.5 * k * x * x
-    steps = [
-        "Elastic potential energy: E = (1/2) k x^2.",
-        f"E = 0.5 x {k:g} x ({x:g})^2 = {energy:.6g} J",
-        f"ANSWER: energy_stored = {energy:.6g} J",
-    ]
+    steps = _beats(
+        "elastic potential energy formula E = (1/2) k x^2 -- the work "
+        "done deforming a spring is stored as field energy, growing "
+        "with the square of the deformation.",
+        f"E = 0.5 x {k:g} N/m x ({x:g} m)^2",
+        f"E = 0.5 x {k:g} x {x * x:g} = {energy:.6g} J",
+        f"substitute back: x = sqrt(2E/k) = sqrt({2.0 * energy:.6g} / "
+        f"{k:g}) = {x:g} m -- matches",
+        f"deforming the spring by {x:g} m stores {energy:.6g} J.",
+    )
     return energy, steps, f"energy_stored = {energy:.6g} J", None
 
 
@@ -282,11 +345,16 @@ def _c_angular_velocity(g, m, t) -> _ComputeOut:
     if r <= 0:
         return None
     omega = v / r
-    steps = [
-        "Uniform circular motion: omega = v/r.",
+    steps = _beats(
+        "uniform circular motion relation omega = v/r -- angular speed "
+        "is linear speed divided by the circle's radius.",
+        f"omega = {v:g} m/s / {r:g} m",
         f"omega = {v:g} / {r:g} = {omega:.6g} rad/s",
-        f"ANSWER: angular_velocity = {omega:.6g} rad/s",
-    ]
+        f"substitute back: v = omega r = {omega:.6g} x {r:g} = {v:g} "
+        "m/s -- matches",
+        f"the body sweeps {omega:.6g} rad every second around the "
+        "circle.",
+    )
     return omega, steps, f"angular_velocity = {omega:.6g} rad/s", None
 
 
@@ -302,11 +370,16 @@ def _c_faraday(g, m, t) -> _ComputeOut:
     if n <= 0 or dt <= 0:
         return None
     emf = n * dphi / dt
-    steps = [
-        "Faraday's law: EMF = N x dPhi/dt.",
-        f"EMF = {n:g} x {dphi:g} / {dt:g} = {emf:.6g} V",
-        f"ANSWER: emf = {emf:.6g} V",
-    ]
+    steps = _beats(
+        "Faraday's law of induction EMF = N x dPhi/dt -- the induced "
+        "emf equals the rate at which flux linkage changes, summed "
+        "over every turn.",
+        f"EMF = {n:g} x {dphi:g} Wb / {dt:g} s",
+        f"EMF = {n * dphi:g} / {dt:g} = {emf:.6g} V",
+        f"substitute back: dPhi = EMF x dt / N = {emf:.6g} x {dt:g} / "
+        f"{n:g} = {dphi:g} Wb -- matches",
+        f"the changing flux induces {emf:.6g} V across the coil.",
+    )
     return emf, steps, f"emf = {emf:.6g} V", None
 
 
@@ -323,14 +396,18 @@ def _c_photoelectric(g, m, t) -> _ComputeOut:
     e_photon = _PLANCK * freq
     phi_j = phi_ev * _EV_TO_J
     ke = e_photon - phi_j
-    steps = [
-        "Einstein photoelectric equation: KE = h f - phi "
+    steps = _beats(
+        "Einstein photoelectric equation KE = h f - phi -- one photon "
+        "of energy hf ejects an electron, paying the work function and "
+        "giving it the rest as kinetic energy "
         "(h = 6.63e-34 J s, 1 eV = 1.6e-19 J).",
-        f"hf = 6.63e-34 x {freq:.6g} = {e_photon:.6g} J; "
+        f"hf = 6.63e-34 x {freq:.6g} Hz = {e_photon:.6g} J; "
         f"phi = {phi_ev:g} eV = {phi_j:.6g} J",
         f"KE = {e_photon:.6g} - {phi_j:.6g} = {ke:.6g} J",
-        f"ANSWER: kinetic_energy = {ke:.6g} J",
-    ]
+        f"substitute back: phi + KE = {phi_j:.6g} + {ke:.6g} = "
+        f"{e_photon:.6g} J = hf -- energy bookkeeping closes",
+        f"the ejected electron carries {ke:.6g} J of kinetic energy.",
+    )
     if ke < 0:
         # gate: photon energy below the work function -> no photoemission
         return None
@@ -342,11 +419,17 @@ def _c_bohr(g, m, t) -> _ComputeOut:
     if n < 1:
         return None
     energy = _BOHR_GROUND_EV / (n * n)
-    steps = [
-        "Bohr model (hydrogen): E_n = -13.6 / n^2 eV.",
-        f"E_{n:d} = -13.6 / ({n:d})^2 = {energy:.6g} eV",
-        f"ANSWER: energy = {energy:.6g} eV",
-    ]
+    steps = _beats(
+        "Bohr model energy levels E_n = -13.6/n^2 eV (hydrogen) -- the "
+        "bound electron's energy approaches 0 as the orbit number "
+        "grows.",
+        f"E_{n:d} = -13.6 eV / ({n:d})^2",
+        f"E_{n:d} = -13.6 / {n * n:d} = {energy:.6g} eV",
+        f"substitute back: E x n^2 = {energy:.6g} x {n * n:d} = "
+        f"{energy * n * n:.6g} = -13.6 eV -- closes",
+        f"the hydrogen electron in orbit {n:d} is {abs(energy):.6g} eV "
+        "below ionisation.",
+    )
     return energy, steps, f"energy = {energy:.6g} eV", None
 
 
@@ -359,13 +442,17 @@ def _c_half_life(g, m, t) -> _ComputeOut:
     if grams <= 0 or n < 0:
         return None
     remaining = grams / (2.0 ** n)
-    steps = [
-        "Radioactive decay: remaining = initial / 2^n after n half-lives.",
-        f"initial = {grams:.6g} g; n = {n:d}",
+    steps = _beats(
+        "radioactive decay law N = N0 / 2^n over n half-lives -- each "
+        "half-life halves whatever sample remains.",
+        f"initial = {grams:.6g} g; n = {n:d} half-lives",
         f"remaining = {grams:.6g} / 2^{n:d} = {grams:.6g} / "
         f"{2.0 ** n:.6g} = {remaining:.6g} g",
-        f"ANSWER: remaining_amount = {remaining:.6g} g",
-    ]
+        f"substitute back: remaining x 2^n = {remaining:.6g} x "
+        f"{2.0 ** n:.6g} = {grams:.6g} g -- matches the initial amount",
+        f"after {n:d} half-lives {remaining:.6g} g of the sample "
+        "survives undecayed.",
+    )
     return remaining, steps, f"remaining_amount = {remaining:.6g} g", None
 
 
@@ -378,11 +465,15 @@ def _c_momentum(g, m, t) -> _ComputeOut:
     mass = _num(g["mass"])
     v = _num(g["velocity"])
     p = mass * v
-    steps = [
-        "Linear momentum: p = m v.",
+    steps = _beats(
+        "linear momentum definition p = m v -- momentum is the quantity "
+        "of motion, mass times velocity.",
+        f"p = {mass:g} kg x {v:g} m/s",
         f"p = {mass:g} x {v:g} = {p:.6g} kg m/s",
-        f"ANSWER: momentum = {p:.6g} kg m/s",
-    ]
+        f"substitute back: v = p/m = {p:.6g} / {mass:g} = {v:g} m/s -- "
+        "matches",
+        f"the moving body carries {p:.6g} kg m/s of momentum.",
+    )
     return p, steps, f"momentum = {p:.6g} kg m/s", None
 
 
@@ -390,11 +481,15 @@ def _c_impulse(g, m, t) -> _ComputeOut:
     force = _num(g["force"])
     dt = _num(g["time_duration"])
     impulse = force * dt
-    steps = [
-        "Impulse of a constant force: J = F x t.",
+    steps = _beats(
+        "impulse of a constant force J = F x t -- impulse equals the "
+        "change of momentum the force produces (force-time area).",
+        f"J = {force:g} N x {dt:g} s",
         f"J = {force:g} x {dt:g} = {impulse:.6g} N s",
-        f"ANSWER: impulse = {impulse:.6g} N s",
-    ]
+        f"substitute back: F = J/t = {impulse:.6g} / {dt:g} = {force:g} "
+        "N -- matches",
+        f"the blow delivers {impulse:.6g} N s of impulse to the body.",
+    )
     return impulse, steps, f"impulse = {impulse:.6g} N s", None
 
 
@@ -404,11 +499,15 @@ def _c_pressure(g, m, t) -> _ComputeOut:
     if area <= 0:
         return None
     p = force / area
-    steps = [
-        "Pressure definition: P = F/A.",
+    steps = _beats(
+        "pressure definition P = F/A -- force spread over area, "
+        "measured in pascals (N/m^2).",
+        f"P = {force:g} N / {area:g} m^2",
         f"P = {force:g} / {area:g} = {p:.6g} Pa",
-        f"ANSWER: pressure = {p:.6g} Pa",
-    ]
+        f"substitute back: F = P A = {p:.6g} x {area:g} = {force:g} N "
+        "-- matches",
+        f"the force presses with {p:.6g} Pa on that surface.",
+    )
     return p, steps, f"pressure = {p:.6g} Pa", None
 
 
@@ -419,12 +518,16 @@ def _c_gravitation(g, m, t) -> _ComputeOut:
     if r <= 0 or m1 <= 0 or m2 <= 0:
         return None
     f = _G_UNIVERSAL * m1 * m2 / (r * r)
-    steps = [
-        "Newton's law of gravitation: F = G m1 m2 / r^2 "
-        "with G = 6.67e-11 N m^2/kg^2.",
-        f"F = 6.67e-11 x {m1:g} x {m2:g} / ({r:g})^2 = {f:.6g} N",
-        f"ANSWER: gravitational_force = {f:.6g} N",
-    ]
+    steps = _beats(
+        "Newton's law of gravitation F = G m1 m2 / r^2 with G = "
+        "6.67e-11 N m^2/kg^2 -- every mass pair attracts with a force "
+        "proportional to both masses and inverse to r^2.",
+        f"F = 6.67e-11 x {m1:g} kg x {m2:g} kg / ({r:g} m)^2",
+        f"F = 6.67e-11 x {m1 * m2:.6g} / {r * r:.6g} = {f:.6g} N",
+        f"substitute back: r = sqrt(G m1 m2 / F) = sqrt("
+        f"{_G_UNIVERSAL * m1 * m2:.6g} / {f:.6g}) = {r:g} m -- matches",
+        f"the two masses attract each other with {f:.6g} N.",
+    )
     return f, steps, f"gravitational_force = {f:.6g} N", None
 
 

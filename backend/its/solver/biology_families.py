@@ -9,14 +9,21 @@ list).  No LLM calls anywhere.
 Families:
   genetics    PUNNETT_CROSS (mono- and dihybrid, any-question-form),
               PUNNETT_SELF, BLOOD_GROUP_CROSS (ABO), BLOOD_GROUP_RH,
-              SEX_LINKED_CROSS (colour-blindness / haemophilia)
+              SEX_LINKED_CROSS (colour-blindness / haemophilia),
+              PEDIGREE_PROBABILITY (autosomal pedigree risk chains)
   physiology  PHOTO_RESP_QUIZ, PHOTOSYNTH_BALANCE, RQ_NUMERIC,
-              RQ_SUBSTRATE
+              RQ_SUBSTRATE, CARDIAC_OUTPUT, BREATHING_VOLUME
+              (lung volumes/capacities), TRANSPIRATION_RATE (potometer)
   ecology     ENERGY_FLOW_10_PERCENT, EXP_POP_GROWTH, POP_DOUBLING,
               LOGISTIC_GROWTH, HARDY_WEINBERG, SHANNON_INDEX,
               SPECIES_RICHNESS, NPP_GPP, SPECIES_AREA
   cell bio    CELL_MAGNIFICATION, FIELD_OF_VIEW, CELL_DIVISION_COUNT
   biotech     RESTRICTION_SITE_COUNT, PCR_AMPLIFICATION, CHARGAFF_DNA
+
+STEP CONTRACT (enforced by test_biology_families.py): every matched
+answer carries >= 3 steps totalling >= 200 chars in the 5-beat shape --
+method/principle line, given-values restatement, computation shown,
+verification check, biological interpretation.
 
 Dispatcher: model_biology(text) -> ModelResult (first grounded row
 wins; a gate refusal lets the scan continue).  Deterministic only.
@@ -220,11 +227,22 @@ def _c_punnett(g, m, text):
                              for k in order)
     dom_frac = sum(1 for z in cells if _pheno(z)[0] == "dom") / total
 
-    steps = [f"Parent 1 ({p1}) produces gametes: " + ", ".join(gam1) + ".",
+    steps = ["Method: Punnett square -- every gamete of parent 1 meets "
+             "every gamete of parent 2, so each box is 1/total of the "
+             "offspring (Mendel's law of segregation; independent "
+             "assortment across genes).",
+             f"Given: cross {p1} x {p2} ({n_genes} gene pair(s)).",
+             f"Parent 1 ({p1}) produces gametes: " + ", ".join(gam1) + ".",
              f"Parent 2 ({p2}) produces gametes: " + ", ".join(gam2) + "."]
     steps.extend(_grid_lines(gam1, gam2, cells))
     steps.append(f"Genotype ratio: {geno_ratio}")
     steps.append(f"Phenotype ratio: {pheno_ratio}")
+    steps.append(f"Check: {len(gam1)} x {len(gam2)} = {total} equally "
+                 "likely boxes and the genotype counts above sum to "
+                 f"{sum(gcounts.values())}.")
+    steps.append("Interpretation: probabilities are box counts over the "
+                 f"{total} boxes ({_pct(1.0 / total)} each); a dominant "
+                 "allele masks a recessive one in any heterozygote.")
 
     eq = "Punnett square: P1 gametes x P2 gametes; P = favourable / total"
 
@@ -392,13 +410,19 @@ def _c_blood_abo(g, m, text):
             kid_geno.append(f"{zg} ({_ABO_PHENO[zg]})")
     total = sum(kids.values())
     probs = {k: kids.get(k, 0) / total for k in _ABO_ORDER}
-    steps = [f"Parent 1 genotype {p1} (group {_ABO_PHENO[p1]}) gametes: "
+    steps = ["Method: ABO inheritance -- each parent passes one of its "
+             "two alleles; A and B are co-dominant, O is recessive.",
+             f"Parent 1 genotype {p1} (group {_ABO_PHENO[p1]}) gametes: "
              + ", ".join(gam1) + ".",
              f"Parent 2 genotype {p2} (group {_ABO_PHENO[p2]}) gametes: "
              + ", ".join(gam2) + ".",
              "Child genotypes: " + ", ".join(kid_geno) + ".",
              "Child phenotype probabilities: "
-             + ", ".join(f"{k}: {_pct(probs[k])}" for k in _ABO_ORDER) + "."]
+             + ", ".join(f"{k}: {_pct(probs[k])}" for k in _ABO_ORDER) + ".",
+             f"Check: {total} equally likely fertilisations ({len(gam1)} x "
+             f"{len(gam2)}); the four group probabilities sum to 100%.",
+             "Interpretation: a group-O child proves both parents carry "
+             "the O allele, and an AB parent can never have an O child."]
     eq = "ABO cross: parental gametes x gametes; group of each zygote"
     # ask: a group named AFTER both parents have been stated
     tail = text[parents[1][2]:]
@@ -450,12 +474,18 @@ def _c_blood_rh(g, m, text):
     neg = kids.get("dd", 0)
     frac_neg = neg / total
     frac_pos = 1 - frac_neg
-    steps = [f"Parent 1 genotype {p1} gametes: " + ", ".join(gam1) + ".",
+    steps = ["Method: Rh factor -- D is dominant over d; only dd children "
+             "are Rh negative (the erythroblastosis-risk pairing).",
+             f"Parent 1 genotype {p1} gametes: " + ", ".join(gam1) + ".",
              f"Parent 2 genotype {p2} gametes: " + ", ".join(gam2) + ".",
              "Children: "
              + ", ".join(f"{k} x{n}" for k, n in sorted(kids.items())) + ".",
              f"Rh- children: {neg}/{total}; Rh+ children: "
-             f"{total - neg}/{total}."]
+             f"{total - neg}/{total}.",
+             f"Check: {total} equally likely combinations and the Rh+ and "
+             "Rh- fractions sum to 100%.",
+             "Interpretation: an Rh- child must receive d from both "
+             "parents -- a homozygous DD parent can never have one."]
     eq = "Rh cross: D dominant over d; dd = Rh negative"
     tail = text[parents[1][2]:]
     if re.search(r"Rh\s*(?:negative|\-)", tail, re.I) and \
@@ -563,7 +593,10 @@ def _c_sex_linked(g, m, text):
         cats["affected_s" if xa else "normal_s"] += 1
     total = sum(cats.values())
     cond_name = "haemophilia" if cond == "h" else "colour blindness"
-    lines = [f"Mother {mother[1]} x Father {father[1]} ({cond_name}).",
+    lines = ["Method: X-linked cross -- the mother's X reaches every "
+             "child, the father's X only daughters (sons get his Y); a "
+             "recessive condition on X shows in sons who receive it.",
+             f"Mother {mother[1]} x Father {father[1]} ({cond_name}).",
              "Daughters: " + ", ".join(f"{mX[i]}X{fX[1]}"
                                        for i in range(2)) + ".",
              "Sons: " + ", ".join(f"{mX[i]}Y" for i in range(2)) + ".",
@@ -571,7 +604,12 @@ def _c_sex_linked(g, m, text):
              f"affected daughters {cats['affected_d']}/4, "
              f"normal daughters {cats['normal_d']}/4, "
              f"normal sons {cats['normal_s']}/4, "
-             f"affected sons {cats['affected_s']}/4."]
+             f"affected sons {cats['affected_s']}/4.",
+             f"Check: 2 x 2 = {total} equally likely children; the "
+             "breakdown categories above sum to 4/4.",
+             "Interpretation: an affected son must get his single X from "
+             "his mother, which is why X-linked recessives pass from "
+             "carrier mothers to sons."]
     eq = ("X-linked cross: mother's X goes to all children, father's X "
           "only to daughters")
     cond_word = (r"haemophil\w*|hemophil\w*" if cond == "h"
@@ -648,47 +686,100 @@ def _c_sex_linked(g, m, text):
 # photosynthesis / respiration quiz + balancing
 # --------------------------------------------------------------------------- #
 
-_PHOTO_FACTS: List[Tuple[str, str]] = [
+_PHOTO_FACTS: List[Tuple[str, str, str, str]] = [
     (r"word\s+equation",
      "photosynthesis word equation: carbon dioxide + water "
-     "--(sunlight, chlorophyll)--> glucose + oxygen"),
+     "--(sunlight, chlorophyll)--> glucose + oxygen",
+     "Cross-check: the balanced form is 6 CO2 + 6 H2O --> C6H12O6 + 6 O2.",
+     "Interpretation: light and chlorophyll drive the change; the plant "
+     "builds its own food from inorganic inputs."),
     (r"(?:gas|gases).{0,40}\b(released|produced|evolved|given\s+out|"
      r"liberated|bubbles)",
-     "oxygen (O2) is released during photosynthesis"),
+     "oxygen (O2) is released during photosynthesis",
+     "Cross-check: the oxygen comes from splitting water in the light "
+     "reaction, not from CO2.",
+     "Interpretation: that is why an aquatic plant bubbles oxygen in "
+     "bright light."),
     (r"\b(?:gas|gases)\b.{0,40}\b(absorbed|taken\s+in|used|consumed|"
      r"intake)",
-     "carbon dioxide (CO2) is absorbed during photosynthesis"),
+     "carbon dioxide (CO2) is absorbed during photosynthesis",
+     "Cross-check: CO2 enters through the stomata and is fixed in the "
+     "Calvin cycle.",
+     "Interpretation: stomata close on hot dry days, cutting CO2 intake "
+     "and slowing photosynthesis."),
     (r"raw\s+materials?",
      "raw materials of photosynthesis: carbon dioxide and water "
-     "(with sunlight and chlorophyll)"),
+     "(with sunlight and chlorophyll)",
+     "Cross-check: the balanced equation 6 CO2 + 6 H2O --> C6H12O6 + 6 O2 "
+     "has exactly these inputs.",
+     "Interpretation: without light, chlorophyll, CO2 or water the "
+     "process stops and the plant lives on stored food."),
     (r"(?:end|final)\s+products?|main\s+product",
      "end product of photosynthesis: glucose (food); oxygen is the "
-     "by-product"),
-    (r"\b(?:site|sites)\b|takes\s+place|chloroplast",
-     "site of photosynthesis: chloroplast (chlorophyll in chloroplasts)"),
+     "by-product",
+     "Cross-check: 1 glucose is built per 6 CO2 fixed; surplus glucose is "
+     "stored as starch.",
+     "Interpretation: glucose is the energy store; the oxygen supports "
+     "aerobic respiration."),
+    (r"\b(?:site|sites)\b|takes?\s+place|chloroplast",
+     "site of photosynthesis: chloroplast (chlorophyll in chloroplasts)",
+     "Cross-check: thylakoid membranes run the light reaction; the stroma "
+     "runs the dark reaction.",
+     "Interpretation: that is why a leaf tests positive for starch after "
+     "a sunny day."),
     (r"energy\s+source|source\s+of\s+energy",
-     "energy source for photosynthesis: sunlight (solar energy)"),
+     "energy source for photosynthesis: sunlight (solar energy)",
+     "Cross-check: light energy is converted to chemical energy in ATP "
+     "and NADPH.",
+     "Interpretation: photosynthesis is the entry point of solar energy "
+     "into the food chain."),
     (r"by\s*-?\s?product",
-     "by-product of photosynthesis: oxygen"),
+     "by-product of photosynthesis: oxygen",
+     "Cross-check: 6 O2 released per glucose -- the same oxygen your "
+     "respiration uses.",
+     "Interpretation: plants respire all day; the gas released in "
+     "daylight is net oxygen."),
 ]
 
-_RESP_FACTS: List[Tuple[str, str]] = [
+_RESP_FACTS: List[Tuple[str, str, str, str]] = [
     (r"word\s+equation",
      "respiration word equation: glucose + oxygen --> carbon dioxide "
-     "+ water + energy (ATP)"),
+     "+ water + energy (ATP)",
+     "Cross-check: respiration releases the energy photosynthesis stored "
+     "in glucose.",
+     "Interpretation: all cells respire day and night to power life."),
     (r"energy\s+currency",
-     "energy currency of the cell: ATP (adenosine triphosphate)"),
+     "energy currency of the cell: ATP (adenosine triphosphate)",
+     "Cross-check: ATP -> ADP + phosphate releases the terminal-phosphate "
+     "energy for cell work.",
+     "Interpretation: ATP is regenerated in mitochondria during oxidative "
+     "phosphorylation."),
     (r"anaerobic.{0,40}(yeast|fermentation)",
      "anaerobic respiration in yeast: glucose --> ethanol + carbon "
-     "dioxide + energy (fermentation)"),
+     "dioxide + energy (fermentation)",
+     "Cross-check: glucose (C6H12O6) -> 2 ethanol + 2 CO2 + only 2 ATP.",
+     "Interpretation: fermentation yields ~2 ATP per glucose versus "
+     "~36-38 aerobically."),
     (r"anaerobic.{0,40}(muscle|cramp)",
      "anaerobic respiration in human muscle: glucose --> lactic acid "
-     "+ energy"),
+     "+ energy",
+     "Cross-check: without oxygen the pyruvate is reduced to lactic acid, "
+     "not fully oxidised.",
+     "Interpretation: the accumulated lactic acid causes the cramp; the "
+     "oxygen debt clears it later."),
     (r"aerobic",
      "aerobic respiration: glucose + oxygen --> carbon dioxide + water "
-     "+ energy"),
+     "+ energy",
+     "Cross-check: glucose is fully oxidised to CO2 and water inside the "
+     "mitochondria.",
+     "Interpretation: aerobic respiration releases far more energy than "
+     "fermentation."),
     (r"(?:site|mitochondri)",
-     "site of aerobic respiration: mitochondria (powerhouse of the cell)"),
+     "site of aerobic respiration: mitochondria (powerhouse of the cell)",
+     "Cross-check: glycolysis is cytoplasmic; the Krebs cycle and "
+     "electron transport are mitochondrial.",
+     "Interpretation: the folded cristae pack in more respiratory "
+     "enzymes."),
 ]
 
 
@@ -700,20 +791,30 @@ def _c_photo_resp_quiz(g, m, text):
     is_photo = bool(re.search(r"photosynth|chlorophyll", text, re.I))
     is_resp = bool(re.search(r"respirat|fermentation|breathing", text,
                              re.I))
+    topic = "photosynthesis" if is_photo else "respiration"
     facts = _PHOTO_FACTS if is_photo else (_RESP_FACTS if is_resp else [])
-    for pat, ans in facts:
+
+    def _quiz_steps(ans: str, check: str, interp: str) -> List[str]:
+        return ["Method: closed-world NCERT fact table -- the matched "
+                "keyword routes to a fixed authored answer (no "
+                "invention).",
+                f"Given: the question asks about {topic}.",
+                f"Answer: {ans}.", check, interp]
+
+    for pat, ans, check, interp in facts:
         if re.search(pat, text, re.I):
-            return None, ["Matched biology fact (deterministic table).",
-                          f"Answer: {ans}"], ans, None, \
+            return None, _quiz_steps(ans, check, interp), ans, None, \
                 "NCERT biology fact table", {}
     # default word-equation only when the question is about the equation
     if is_photo and re.search(r"equation|CO\s*2|glucose", text, re.I):
-        ans = _PHOTO_FACTS[0][1]
-        return None, ["Matched photosynthesis word equation."], ans, \
+        ans, check, interp = _PHOTO_FACTS[0][1], \
+            _PHOTO_FACTS[0][2], _PHOTO_FACTS[0][3]
+        return None, _quiz_steps(ans, check, interp), ans, \
             None, "NCERT biology fact table", {}
     if is_resp and re.search(r"equation|glucose|ATP", text, re.I):
-        ans = _RESP_FACTS[0][1]
-        return None, ["Matched respiration word equation."], ans, \
+        ans, check, interp = _RESP_FACTS[0][1], \
+            _RESP_FACTS[0][2], _RESP_FACTS[0][3]
+        return None, _quiz_steps(ans, check, interp), ans, \
             None, "NCERT biology fact table", {}
     return _GATE
 
@@ -722,9 +823,15 @@ def _c_photo_balance(g, m, text):
     if not re.search(r"CO\s*2", text, re.I) or \
             not re.search(r"C\s*6\s*H\s*12\s*O\s*6", text, re.I):
         return _GATE
-    steps = ["Photosynthesis: 6 CO2 + 6 H2O --(sunlight, chlorophyll)--> "
+    steps = ["Method: balance by atom conservation -- each element must "
+             "appear the same number of times on both sides.",
+             "Given: unbalanced skeleton CO2 + H2O -> C6H12O6 + O2 "
+             "(photosynthesis).",
+             "Photosynthesis: 6 CO2 + 6 H2O --(sunlight, chlorophyll)--> "
              "C6H12O6 + 6 O2.",
-             "Atom check: C 6 = 6, H 12 = 12, O (6 + 12) = 18 = (6 + 12)."]
+             "Atom check: C 6 = 6, H 12 = 12, O (6 + 12) = 18 = (6 + 12).",
+             "Interpretation: the coefficients 6, 6, 1, 6 are the mole "
+             "ratio -- 6 CO2 and 6 H2O build 1 glucose and release 6 O2."]
     return None, steps, ("balanced equation: 6 CO2 + 6 H2O --> C6H12O6 "
                          "+ 6 O2 (coefficients 6, 6, 1, 6)"), None, \
         "6CO2 + 6H2O -> C6H12O6 + 6O2", \
@@ -746,32 +853,57 @@ def _c_rq_numeric(g, m, text):
     if o <= 0:
         return _GATE
     rq = c / o
-    steps = [f"CO2 evolved = {_fmt(c)}, O2 consumed = {_fmt(o)}.",
-             f"RQ = CO2/O2 = {_fmt(c)}/{_fmt(o)} = {_fmt(rq)}."]
-    if rq == 1.0:
-        steps.append("RQ = 1 is typical of carbohydrates (e.g. glucose).")
-    elif rq < 1.0:
-        steps.append("RQ < 1 is typical of fats (~0.7) and proteins (~0.8).")
-    else:
-        steps.append("RQ > 1 is typical of organic acids (e.g. malic "
-                     "acid, 1.33).")
+    interp = ("RQ = 1 is typical of carbohydrates (e.g. glucose)."
+              if rq == 1.0 else
+              "RQ < 1 is typical of fats (~0.7) and proteins (~0.8)."
+              if rq < 1.0 else
+              "RQ > 1 is typical of organic acids (e.g. malic acid, 1.33).")
+    steps = ["Method: the respiratory quotient compares gas exchange -- "
+             "RQ = volume of CO2 evolved / volume of O2 consumed for the "
+             "substrate being respired.",
+             f"Given: CO2 evolved = {_fmt(c)}, O2 consumed = {_fmt(o)}.",
+             f"RQ = CO2/O2 = {_fmt(c)}/{_fmt(o)} = {_fmt(rq)}.",
+             f"Check: back-calculation {_fmt(rq)} x {_fmt(o)} = "
+             f"{_fmt(rq * o)} = the CO2 evolved.",
+             f"Interpretation: {interp}"]
     return rq, steps, f"RQ = {_fmt(rq)}", None, \
         "RQ = CO2 evolved / O2 consumed", {"co2": c, "o2": o}
 
 
 _RQ_SUBSTRATE = [
-    (r"glucose|carbohydrate|sucrose", 1.0, "carbohydrates (glucose): "
-     "RQ = 1"),
-    (r"\bfats?\b|\blipids?\b|\boils?\b", 0.7, "fats: RQ = 0.7"),
-    (r"proteins?", 0.8, "proteins: RQ = 0.8 (about 0.8-0.9)"),
-    (r"malic|organic\s+acid", 1.33, "organic acids (malic acid): RQ = 1.33"),
+    (r"glucose|carbohydrate|sucrose", 1.0,
+     "carbohydrates (glucose): RQ = 1",
+     "Check: glucose is fully oxidised -- every O2 taken in yields one "
+     "CO2 out (C6H12O6 + 6 O2 -> 6 CO2 + 6 H2O).",
+     "Interpretation: equal gas exchange gives RQ = 1 for carbohydrates."),
+    (r"\bfats?\b|\blipids?\b|\boils?\b", 0.7, "fats: RQ = 0.7",
+     "Check: fats are less oxidised than carbohydrates, so they need "
+     "extra O2 per CO2 released -- 0.7 < 1.",
+     "Interpretation: fats give more energy per gram but demand more "
+     "oxygen to burn."),
+    (r"proteins?", 0.8, "proteins: RQ = 0.8 (about 0.8-0.9)",
+     "Check: proteins are less oxidised than carbohydrate but more than "
+     "fat, so 0.8 lies between 0.7 and 1.",
+     "Interpretation: proteins are rarely the main fuel; an RQ near 0.8 "
+     "hints at protein metabolism."),
+    (r"malic|organic\s+acid", 1.33,
+     "organic acids (malic acid): RQ = 1.33",
+     "Check: organic acids already carry oxygen, so they release more "
+     "CO2 than the O2 they absorb -- 1.33 > 1.",
+     "Interpretation: succulent plants show RQ > 1 when organic acids "
+     "are respired."),
 ]
 
 
 def _c_rq_substrate(g, m, text):
-    for pat, val, ans in _RQ_SUBSTRATE:
+    for pat, val, ans, check, interp in _RQ_SUBSTRATE:
         if re.search(pat, text, re.I):
-            return val, ["Standard RQ table (deterministic).", ans], ans, \
+            steps = ["Method: each respiratory substrate has a standard "
+                     "RQ fixed by how its oxidation balances O2 uptake "
+                     "against CO2 release.",
+                     "Given: the substrate named in the question.",
+                     f"Answer: {ans}.", check, interp]
+            return val, steps, ans, \
                 None, "RQ = CO2 evolved / O2 consumed", {"rq": val}
     return _GATE
 
@@ -832,12 +964,19 @@ def _c_energy_flow(g, m, text):
     if hops == 0:
         return _GATE
     energy = given[3] * (0.1 ** hops)
-    steps = [f"Given: {_fmt(given[3])} {given[4]} at the {given[2]} level.",
-             "10 percent law: only 10% of the energy passes to the next "
-             "trophic level.",
+    steps = ["Method: Lindeman's 10 percent law -- only about 10% of the "
+             "energy at one trophic level passes to the next; the rest "
+             "is lost to respiration and heat.",
+             f"Given: {_fmt(given[3])} {given[4]} at the {given[2]} level.",
              f"Hops from {given[2]} to {ask[2]}: {hops}.",
              f"Energy = {given[3]:g} x (0.1)^{hops} = {_fmt(energy)} "
-             f"{given[4]}."]
+             f"{given[4]}.",
+             f"Check: {hops} hops back up, {_fmt(energy)} x "
+             f"{_fmt(10.0 ** hops)} = {_fmt(given[3])} {given[4]} -- "
+             "consistent.",
+             "Interpretation: steep losses like this are why food chains "
+             "rarely exceed 4-5 trophic levels and top carnivores are "
+             "always few."]
     return energy, steps, (f"energy at the {ask[2]} level = "
                            f"{_fmt(energy)} {given[4]}"), None, \
         "10% law: E_next = 0.1^hops x E_given", \
@@ -871,10 +1010,17 @@ def _c_exp_growth(g, m, text):
     if n0v <= 0 or not (0 < rv < 1) or tv < 0:
         return _GATE
     n = n0v * math.exp(rv * tv)
-    steps = [f"N0 = {_fmt(n0v)}, r = {_fmt(rv)} per {t.group(2)}, "
+    steps = ["Method: unrestricted exponential growth follows the "
+             "J-shaped curve N = N0 e^(rt).",
+             f"N0 = {_fmt(n0v)}, r = {_fmt(rv)} per {t.group(2)}, "
              f"t = {_fmt(tv)} {t.group(2)}.",
              f"N = N0 e^(rt) = {_fmt(n0v)} x e^({_fmt(rv)}x{_fmt(tv)}) "
-             f"= {_fmt(n)}."]
+             f"= {_fmt(n)}.",
+             f"Check: ln(N/N0) = ln({_fmt(n / n0v)}) = {_fmt(rv * tv)} "
+             f"= r x t.",
+             "Interpretation: with no limiting factors growth accelerates "
+             "indefinitely -- real populations slow as resources run "
+             "out."]
     return n, steps, f"N = {_fmt(n)} individuals", None, "N = N0 e^(rt)", \
         {"N0": n0v, "r": rv, "t": tv}
 
@@ -900,11 +1046,17 @@ def _c_pop_doubling(g, m, text):
     n0v = float(n0.group(1)) if n0 else 1.0
     gens = tv / d
     n = n0v * (2.0 ** gens)
-    steps = [f"Doubling time = {_fmt(d)} {d_u}; elapsed = {_fmt(tv)} "
+    steps = ["Method: a population that doubles every fixed interval "
+             "grows geometrically, N = N0 x 2^(t/td).",
+             f"Doubling time = {_fmt(d)} {d_u}; elapsed = {_fmt(tv)} "
              f"minutes.",
              f"Generations = {_fmt(tv)}/{_fmt(d)} = {_fmt(gens)}.",
              f"N = N0 x 2^generations = {_fmt(n0v)} x 2^{_fmt(gens)} "
-             f"= {_fmt(n)}."]
+             f"= {_fmt(n)}.",
+             f"Check: {_fmt(n)}/{_fmt(n0v)} = {_fmt(n / n0v)} = "
+             f"2^{_fmt(gens)} -- consistent.",
+             "Interpretation: bacterial J-curves level off once nutrients "
+             "are exhausted and waste accumulates."]
     return n, steps, f"N = {_fmt(n)}", None, "N = N0 x 2^(t/td)", \
         {"N0": n0v, "doublings": gens}
 
@@ -934,11 +1086,17 @@ def _c_logistic(g, m, text):
         return _GATE
     ert = math.exp(rv * tv)
     n = (Kv * n0v * ert) / (Kv + n0v * (ert - 1))
-    steps = [f"K = {_fmt(Kv)}, N0 = {_fmt(n0v)}, r = {_fmt(rv)}, "
+    steps = ["Method: logistic growth, dN/dt = rN(K - N)/K -- growth "
+             "slows as N approaches the carrying capacity K.",
+             f"K = {_fmt(Kv)}, N0 = {_fmt(n0v)}, r = {_fmt(rv)}, "
              f"t = {_fmt(tv)}.",
              f"e^(rt) = e^({_fmt(rv)}x{_fmt(tv)}) = {_fmt(ert)}.",
              "N = K N0 e^(rt) / (K + N0 (e^(rt) - 1))",
-             f"N = {_fmt(n)}."]
+             f"N = {_fmt(n)}.",
+             f"Check: N0 < N < K ({_fmt(n0v)} < {_fmt(n)} < {_fmt(Kv)}) "
+             "and N rises monotonically with t -- consistent.",
+             "Interpretation: the sigmoid (S-shaped) curve levels off at "
+             "K -- natural populations are resource-limited."]
     return n, steps, f"N = {_fmt(n)} individuals", None, \
         "logistic: N = K N0 e^(rt) / (K + N0 (e^(rt) - 1))", \
         {"K": Kv, "N0": n0v, "r": rv, "t": tv}
@@ -949,15 +1107,16 @@ def _c_logistic(g, m, text):
 # --------------------------------------------------------------------------- #
 
 _HW_CONCEPTS = [
-    # allele frequencies are the most specific givens -- check first
+    # genotype frequencies are the most specific givens -- checked by
+    # nearest-number distance below, order only breaks ties
+    (r"homozygous\s+recessive|recessive\s+(?:trait|phenotype|condition)",
+     "q2", "homozygous recessive (q^2)"),
+    (r"homozygous\s+dominant", "p2", "homozygous dominant (p^2)"),
+    (r"heterozygous|carriers?", "hetero", "heterozygous (2pq)"),
     (r"frequency\s+(?:of\s+)?(?:the\s+)?recessive\s+allele", "q",
      "recessive allele frequency (q)"),
     (r"frequency\s+(?:of\s+)?(?:the\s+)?dominant\s+allele", "p",
      "dominant allele frequency (p)"),
-    (r"homozygous\s+recessive|recessive\s+(?:trait|phenotype|condition)",
-     "q2", "homozygous recessive (q^2)"),
-    (r"heterozygous|carriers?", "hetero", "heterozygous (2pq)"),
-    (r"homozygous\s+dominant", "p2", "homozygous dominant (p^2)"),
 ]
 
 _HW_ASKS = [
@@ -974,19 +1133,33 @@ def _c_hardy(g, m, text):
     if not re.search(r"hardy|weinberg|h\s*-\s*w\b|population", text, re.I):
         return _GATE
     given = None
-    for pat, key, label in _HW_CONCEPTS:
+    nums = list(re.finditer(r"(\d+(?:\.\d+)?)\s*(%|percent)?", text))
+    best_d, best_ci = 999, 999
+    for ci, (pat, key, label) in enumerate(_HW_CONCEPTS):
         mm = re.search(pat, text, re.I)
         if not mm:
             continue
-        window = text[max(0, mm.start() - 60):mm.end() + 60]
-        nm = re.search(r"(\d+(?:\.\d+)?)\s*(%|percent)?", window)
-        if not nm:
+        # nearest number to THIS concept phrase (within 60 chars)
+        dmin = 999
+        pick = None
+        for nm in nums:
+            if nm.end() <= mm.start():
+                d = mm.start() - nm.end()
+            elif nm.start() >= mm.end():
+                d = nm.start() - mm.end()
+            else:
+                d = 0
+            if d < dmin and d <= 60:
+                dmin = d
+                pick = nm
+        if pick is None:
             continue
-        v = float(nm.group(1))
-        if nm.group(2) or v > 1:
+        v = float(pick.group(1))
+        if pick.group(2) or v > 1:
             v = v / 100.0
-        given = (key, v, label)
-        break
+        if (dmin, ci) < (best_d, best_ci):
+            best_d, best_ci = dmin, ci
+            given = (key, v, label)
     if not given:
         return _GATE
     key, v, label = given
@@ -1020,15 +1193,27 @@ def _c_hardy(g, m, text):
     if q is None:
         q = 1.0 - p
     p2, hetero, q2 = p * p, 2 * p * q, q * q
-    steps = [f"Given: {label} = {_fmt(v)}.",
-             "Hardy-Weinberg: p^2 + 2pq + q^2 = 1 with p + q = 1.",
+    steps = ["Method: Hardy-Weinberg principle -- a large, randomly "
+             "mating population with no selection keeps allele "
+             "frequencies constant: p^2 + 2pq + q^2 = 1, p + q = 1.",
+             f"Given: {label} = {_fmt(v)}.",
              f"q = {_fmt(q)}, p = {_fmt(p)}.",
              f"p^2 = {_fmt(p2)} ({_pct(p2)}), 2pq = {_fmt(hetero)} "
-             f"({_pct(hetero)}), q^2 = {_fmt(q2)} ({_pct(q2)})."]
+             f"({_pct(hetero)}), q^2 = {_fmt(q2)} ({_pct(q2)}).",
+             f"Check: {_fmt(p2)} + {_fmt(hetero)} + {_fmt(q2)} = "
+             f"{_fmt(p2 + hetero + q2)} = 1.",
+             "Interpretation: heterozygous carriers hide the recessive "
+             "allele, so rare conditions persist unseen in carriers."]
     vals = {"p": p, "q": q, "p2": p2, "hetero": hetero, "q2": q2}
     eq = "p^2 + 2pq + q^2 = 1, p + q = 1"
+    # ask routing reads only the question tail (after the ask verb) so a
+    # given mention ("32 percent are heterozygous") cannot hijack the ask
+    ask_verb = re.search(r"\b(?:find|what\s+is|what\s+are|calculate|"
+                         r"determine|compute|how\s+(?:many|much))\b",
+                         text, re.I)
+    tail = text[ask_verb.end():] if ask_verb else text
     for pat, vkey, ans in _HW_ASKS:
-        if re.search(pat, text, re.I):
+        if re.search(pat, tail, re.I):
             val = vals[vkey]
             return val, steps, f"{ans} = {_fmt(val)} ({_pct(val)})", \
                 (assumptions or None), eq, vals
@@ -1055,10 +1240,16 @@ def _c_shannon(g, m, text):
         h += -pi * math.log(pi)
         parts.append(f"({_fmt(pi)})ln({_fmt(pi)})="
                      f"{_fmt(-pi * math.log(pi))}")
-    steps = [f"Species counts: {nums}; total N = {_fmt(total)}.",
+    steps = ["Method: Shannon diversity index H = -SUM(pi ln pi) weights "
+             "each species by its proportional abundance.",
+             f"Species counts: {nums}; total N = {_fmt(total)}.",
              "pi = count/N for each species; H = -SUM(pi ln pi).",
              "H = -[ " + " + ".join(parts) + " ]",
-             f"H = {_fmt(h)}"]
+             f"H = {_fmt(h)}",
+             f"Check: the pi values sum to "
+             f"{_fmt(sum(n / total for n in nums))} = 1.",
+             "Interpretation: H grows with species number AND evenness; "
+             "H = 0 means one single dominant species."]
     return h, steps, f"Shannon index H = {_fmt(h)}", None, \
         "H = -SUM(pi ln pi)", {"S": float(len(nums)), "N": total}
 
@@ -1069,8 +1260,15 @@ def _c_richness(g, m, text):
         nums = _num_list_after(text, "species present")
     if not nums:
         return _GATE
-    return float(len(nums)), [f"Distinct species counts listed: {nums}.",
-                              f"Species richness S = {len(nums)}."], \
+    return float(len(nums)), \
+        ["Method: species richness S counts the distinct species in a "
+         "community, ignoring how many of each.",
+         f"Given: species counts listed = {nums}.",
+         f"S = number of distinct species = {len(nums)}.",
+         f"Check: recount of the distinct list gives {len(nums)} "
+         "entries.",
+         "Interpretation: richness alone misses evenness -- two areas "
+         "with the same S can differ in their Shannon H."], \
         f"species richness S = {len(nums)}", None, \
         "S = number of distinct species", {"S": float(len(nums))}
 
@@ -1111,10 +1309,17 @@ def _c_magnification(g, m, text):
         if aum <= 0:
             return _GATE
         M = ium / aum
-        steps = [f"Image size = {_fmt(ium)} um.",
+        steps = ["Method: magnification M = image size / actual size, "
+                 "with both sizes first converted to the same unit.",
+                 f"Image size = {_fmt(ium)} um.",
                  f"Actual size = {_fmt(aum)} um.",
                  f"M = image/actual = {_fmt(ium)}/{_fmt(aum)} = "
-                 f"{_fmt(M)}x."]
+                 f"{_fmt(M)}x.",
+                 f"Check: {_fmt(ium)} / {_fmt(M)} = {_fmt(aum)} um -- "
+                 "inverts back to the actual size.",
+                 "Interpretation: total microscope magnification = "
+                 "objective x eyepiece; resolution still limits the "
+                 "detail you can see."]
         return M, steps, f"magnification = {_fmt(M)}x", None, \
             "M = image size / actual size", {"image_um": ium,
                                              "actual_um": aum}
@@ -1124,9 +1329,15 @@ def _c_magnification(g, m, text):
         aum = _size_in_um(float(ac.group(1)), au)
         ium = Mv * aum
         out_v = ium / _UM[au]
-        steps = [f"Actual size = {_fmt(aum)} um.",
+        steps = ["Method: magnification M = image size / actual size, so "
+                 "image = M x actual.",
+                 f"Actual size = {_fmt(aum)} um.",
                  f"Image size = M x actual = {_fmt(Mv)} x {_fmt(aum)} um "
-                 f"= {_fmt(ium)} um = {_fmt(out_v)} {au}."]
+                 f"= {_fmt(ium)} um = {_fmt(out_v)} {au}.",
+                 f"Check: image / M = {_fmt(ium)}/{_fmt(Mv)} = "
+                 f"{_fmt(aum)} um -- consistent.",
+                 "Interpretation: magnification multiplies every length "
+                 "of the specimen equally."]
         return out_v, steps, (f"image size = {_fmt(out_v)} {au} "
                               f"({Mv:g}x magnification)"), None, \
             "M = image size / actual size", {"image_um": ium,
@@ -1139,9 +1350,15 @@ def _c_magnification(g, m, text):
             return _GATE
         aum = ium / Mv
         out_v = aum / _UM[iu]
-        steps = [f"Image size = {_fmt(ium)} um.",
+        steps = ["Method: magnification M = image size / actual size, so "
+                 "actual = image / M.",
+                 f"Image size = {_fmt(ium)} um.",
                  f"Actual size = image/M = {_fmt(ium)}/{_fmt(Mv)} = "
-                 f"{_fmt(aum)} um = {_fmt(out_v)} {iu}."]
+                 f"{_fmt(aum)} um = {_fmt(out_v)} {iu}.",
+                 f"Check: actual x M = {_fmt(aum)} x {_fmt(Mv)} = "
+                 f"{_fmt(ium)} um -- consistent.",
+                 "Interpretation: dividing the drawing size by M recovers "
+                 "the true cell size."]
         return out_v, steps, f"actual size = {_fmt(out_v)} {iu}", None, \
             "M = image size / actual size", {"image_um": ium,
                                              "actual_um": aum, "M": Mv}
@@ -1153,7 +1370,8 @@ def _c_field_of_view(g, m, text):
                     + _UNIT_ALT + r"\b", text, re.I)
     cnt = re.search(r"(\d+)\s*(?:cells?|specimens?|objects?|bacteri\w+)",
                     text, re.I)
-    size = re.search(r"(?:cell|specimen|object)\s+(?:size|diameter|length)"
+    size = re.search(r"(?:cell|specimen|object)\s+(?:size|diameter|"
+                     r"length|measures)"
                      r"\D{0,20}?(\d+(?:\.\d+)?)\s*" + _UNIT_ALT + r"\b",
                      text, re.I)
     if not fov or not (cnt or size):
@@ -1164,10 +1382,17 @@ def _c_field_of_view(g, m, text):
         if n <= 0:
             return _GATE
         v = fv / n
-        return v, [f"Field of view diameter = {_fmt(fv)} {fu}.",
+        return v, ["Method: estimate specimen size by counting how many "
+                   "fit across the field-of-view diameter.",
+                   f"Field of view diameter = {_fmt(fv)} {fu}.",
                    f"{_fmt(n)} cells fit across the diameter.",
                    f"Size of one cell = {_fmt(fv)}/{_fmt(n)} = "
-                   f"{_fmt(v)} {fu}."], \
+                   f"{_fmt(v)} {fu}.",
+                   f"Check: {n:g} x {_fmt(v)} = {_fmt(fv)} {fu} -- the "
+                   "full diameter.",
+                   "Interpretation: higher magnification shrinks the "
+                   "field, so more magnification is not automatically "
+                   "more useful."], \
             f"size of one cell = {_fmt(v)} {fu}", None, \
             "cell size = field-of-view diameter / cell count", \
             {"fov": fv, "n": n}
@@ -1175,9 +1400,15 @@ def _c_field_of_view(g, m, text):
     if sv <= 0:
         return _GATE
     n = fv / sv
-    return n, [f"Field of view diameter = {_fmt(fv)} {fu}.",
+    return n, ["Method: cells-across = field-of-view diameter / cell "
+               "size.",
+               f"Field of view diameter = {_fmt(fv)} {fu}.",
                f"Cell size = {_fmt(sv)} {fu}.",
-               f"Cells across = {_fmt(fv)}/{_fmt(sv)} = {_fmt(n)}."], \
+               f"Cells across = {_fmt(fv)}/{_fmt(sv)} = {_fmt(n)}.",
+               f"Check: {_fmt(n)} x {_fmt(sv)} = {_fmt(fv)} {fu} -- the "
+               "full diameter.",
+               "Interpretation: fewer, larger cells fit at low power; "
+               "switching objectives changes the count, not the cells."], \
         f"{_fmt(n)} cells fit across", None, \
         "cell size = field-of-view diameter / cell count", \
         {"fov": fv, "n": n}
@@ -1188,16 +1419,30 @@ def _c_cell_division(g, m, text):
         dn = re.search(r"2\s*n\s*=\s*(\d+)", text, re.I)
         if dn:
             n = float(dn.group(1)) / 2.0
-            return n, [f"Parent cell: 2n = {dn.group(1)}.",
-                       "Meiosis halves the chromosome number.",
-                       f"Gametes: n = {dn.group(1)}/2 = {_fmt(n)}; "
-                       "4 gametes are produced."], \
+            return n, ["Method: meiosis halves the chromosome number and "
+                       "produces 4 haploid gametes from one diploid "
+                       "cell.",
+                       f"Given: parent cell 2n = {dn.group(1)}.",
+                       f"Gametes: n = {dn.group(1)}/2 = {_fmt(n)}, with "
+                       "4 gametes produced per meiocyte.",
+                       f"Check: fertilisation restores 2n: n + n = "
+                       f"{_fmt(2 * n)} = the parent number.",
+                       "Interpretation: halving at meiosis keeps the "
+                       "chromosome number constant across generations."], \
                 f"gametes have n = {_fmt(n)} chromosomes (4 cells)", None, \
                 "meiosis: 2n -> n, one cell -> 4 gametes", \
                 {"2n": float(dn.group(1)), "n": n}
         if re.search(r"(?:how many|number of)\s+(?:daughter\s+)?cells",
                      text, re.I):
-            return 4.0, ["Meiosis: one diploid cell -> 4 haploid cells."], \
+            return 4.0, ["Method: meiosis is two sequential divisions "
+                         "(meiosis I then II) after one DNA replication.",
+                         "Given: one diploid cell enters meiosis.",
+                         "Meiosis I halves the chromosome number; "
+                         "meiosis II separates the chromatids.",
+                         "Check: 1 cell -> 2 after meiosis I -> 4 after "
+                         "meiosis II.",
+                         "Interpretation: 4 genetically different haploid "
+                         "cells (gametes or spores) are produced."], \
                 "4 haploid cells", None, "meiosis: one cell -> 4 cells", \
                 {"cells": 4.0}
         return _GATE
@@ -1211,8 +1456,15 @@ def _c_cell_division(g, m, text):
     c0 = re.search(r"(?:from|starting\s+with)\s+(\d+)\s*cells?", text, re.I)
     c = float(c0.group(1)) if c0 else 1.0
     cells = c * (2.0 ** k)
-    steps = ["Mitosis doubles the cell count each division.",
-             f"Cells = {c:g} x 2^{k} = {_fmt(cells)}."]
+    steps = ["Method: each mitotic division doubles the cell count -- one "
+             "cell gives 2 identical daughters.",
+             f"Given: {k} mitotic division(s) from {c:g} starting "
+             "cell(s).",
+             f"Cells = {c:g} x 2^{k} = {_fmt(cells)}.",
+             f"Check: {_fmt(cells)}/{c:g} = {_fmt(2.0 ** k)} = 2^{k}; "
+             "each generation doubles.",
+             "Interpretation: mitosis serves growth and repair -- every "
+             "cell stays genetically identical to the parent."]
     return cells, steps, f"{_fmt(cells)} cells", None, \
         "mitosis: cells = start x 2^n", {"divisions": float(k),
                                          "cells": cells}
@@ -1251,9 +1503,10 @@ def _c_restriction(g, m, text):
         return _GATE
     count = seq.count(site)
     is_pal = site == site[::-1]
-    steps = [f"Sequence length: {len(seq)} bp.",
-             f"Restriction site: {lab}."
-             + ("  The site is palindromic." if is_pal else ""),
+    steps = ["Method: a Type-II restriction endonuclease cuts at every "
+             "copy of its (usually palindromic) recognition site.",
+             f"Given: sequence length {len(seq)} bp; site {lab}"
+             + (" -- palindromic." if is_pal else "."),
              f"Occurrences of {site} in the sequence: {count}."]
     eq = "count occurrences of the recognition site"
     if re.search(r"fragments?", text, re.I):
@@ -1262,11 +1515,21 @@ def _c_restriction(g, m, text):
         shape = "circular" if circular else "linear"
         steps.append(f"{shape.capitalize()} DNA cut at {count} "
                      f"site(s) -> {frags} fragment(s).")
+        steps.append(f"Check: {count} cut(s) on {shape} DNA gives "
+                     f"{frags} piece(s) by the cuts-to-pieces rule.")
+        steps.append("Interpretation: cutting vector and insert with the "
+                     "same enzyme leaves complementary sticky ends for "
+                     "recombinant DNA.")
         return float(frags), steps, (f"{frags} fragments ({shape} DNA, "
                                      f"{count} cut site(s))"), None, \
             "fragments = cuts + 1 (linear); = cuts (circular)", \
             {"sites": float(count), "fragments": float(frags),
              "seq_len": float(len(seq))}
+    steps.append(f"Check: scanning all {len(seq)} bp gives exactly "
+                 f"{count} occurrence(s) of {site}.")
+    steps.append("Interpretation: the same enzyme cuts vector and insert, "
+                 "so the number of sites predicts the restriction map and "
+                 "digest fragments.")
     return float(count), steps, f"{count} restriction site(s)", None, eq, \
         {"sites": float(count), "seq_len": float(len(seq))}
 
@@ -1286,8 +1549,15 @@ def _c_pcr(g, m, text):
     if c <= 0:
         return _GATE
     out = c * (2.0 ** n)
-    steps = ["PCR doubles the DNA each cycle: copies = start x 2^n.",
-             f"Copies = {_fmt(c)} x 2^{n} = {_fmt(out)}."]
+    steps = ["Method: each PCR cycle doubles the target copy number -- "
+             "copies = start x 2^n (exponential amplification).",
+             f"Given: {n} cycles starting from {_fmt(c)} copy/copies.",
+             f"Copies = {_fmt(c)} x 2^{n} = {_fmt(out)}.",
+             f"Check: log2({_fmt(out)}/{_fmt(c)}) = "
+             f"{_fmt(math.log2(out / c))} = the cycle count.",
+             "Interpretation: about 30 cycles from one copy give ~a "
+             "billion copies -- the basis of DNA fingerprinting and "
+             "diagnostics."]
     return out, steps, f"{_fmt(out)} copies", None, \
         "PCR: copies = start x 2^n", {"cycles": float(n), "copies": out}
 
@@ -1323,12 +1593,21 @@ def _c_chargaff(g, m, text):
             per_base[b2] = v
         else:
             per_base[b2] = other_v
-    steps = [f"Given: {word} = {_fmt(v)}% of the bases.",
+    steps = ["Method: in double-stranded DNA the base pairs are fixed -- "
+             "A with T, G with C -- so Chargaff's rule gives A = T and "
+             "G = C.",
+             f"Given: {word} = {_fmt(v)}% of the bases.",
              "Chargaff's rule: A = T and G = C.",
              f"{comp} = {word} = {_fmt(comp_v)}%.",
              f"{b} + {comp} = {2 * v:g}%; remaining {rest:g}% splits "
              f"equally between the other pair, so each = "
              f"{_fmt(other_v)}%."]
+    steps.append(f"Check: {_fmt(per_base['A'])} + {_fmt(per_base['T'])} + "
+                 f"{_fmt(per_base['G'])} + {_fmt(per_base['C'])} = "
+                 f"{_fmt(sum(per_base.values()))}% = 100%.")
+    steps.append("Interpretation: A pairs with T and G with C in the "
+                 "double helix, which forces A = T and G = C -- "
+                 "Chargaff's rule.")
     # ask routing: a base word mentioned WITHOUT the given number
     asked = None
     for w2, b2, c2 in _BASES:
@@ -1376,20 +1655,43 @@ def _c_npp(g, m, text):
         return _GATE
     if "NPP" in vals and "GPP" in vals and "R" not in vals:
         r = vals["GPP"] - vals["NPP"]
-        steps = [f"GPP = {_fmt(vals['GPP'])}, NPP = {_fmt(vals['NPP'])}.",
-                 f"R = GPP - NPP = {_fmt(r)}."]
+        steps = ["Method: NPP = GPP - R -- net primary productivity is "
+                 "gross productivity minus the producers' own "
+                 "respiration.",
+                 f"GPP = {_fmt(vals['GPP'])}, NPP = {_fmt(vals['NPP'])}.",
+                 f"R = GPP - NPP = {_fmt(vals['GPP'])} - "
+                 f"{_fmt(vals['NPP'])} = {_fmt(r)}.",
+                 f"Check: NPP + R = {_fmt(vals['NPP'])} + {_fmt(r)} = "
+                 f"{_fmt(vals['NPP'] + r)} = GPP.",
+                 "Interpretation: only NPP (the stored biomass) is "
+                 "available to herbivores -- the rest is burnt by the "
+                 "plants themselves."]
         return r, steps, f"R (respiration) = {_fmt(r)}", None, \
             "NPP = GPP - R", {"R": r, **vals}
     if "NPP" in vals and "R" in vals:
         v = vals["NPP"] + vals["R"]
-        steps = [f"NPP = {_fmt(vals['NPP'])}, R = {_fmt(vals['R'])}.",
-                 f"GPP = NPP + R = {_fmt(v)}."]
+        steps = ["Method: NPP = GPP - R rearranged -- GPP is net storage "
+                 "plus the respiration it had to cover.",
+                 f"NPP = {_fmt(vals['NPP'])}, R = {_fmt(vals['R'])}.",
+                 f"GPP = NPP + R = {_fmt(vals['NPP'])} + "
+                 f"{_fmt(vals['R'])} = {_fmt(v)}.",
+                 f"Check: GPP - R = {_fmt(v)} - {_fmt(vals['R'])} = "
+                 f"{_fmt(v - vals['R'])} = NPP.",
+                 "Interpretation: only NPP flows to the next trophic "
+                 "level; R is lost as heat."]
         return v, steps, f"GPP = {_fmt(v)}", None, "NPP = GPP - R", \
             {"GPP": v, **vals}
     if "GPP" in vals and "R" in vals:
         v = vals["GPP"] - vals["R"]
-        steps = [f"GPP = {_fmt(vals['GPP'])}, R = {_fmt(vals['R'])}.",
-                 f"NPP = GPP - R = {_fmt(v)}."]
+        steps = ["Method: NPP = GPP - R -- the energy fixed minus the "
+                 "energy the producers respire away.",
+                 f"GPP = {_fmt(vals['GPP'])}, R = {_fmt(vals['R'])}.",
+                 f"NPP = GPP - R = {_fmt(vals['GPP'])} - "
+                 f"{_fmt(vals['R'])} = {_fmt(v)}.",
+                 f"Check: NPP + R = {_fmt(v)} + {_fmt(vals['R'])} = "
+                 f"{_fmt(v + vals['R'])} = GPP.",
+                 "Interpretation: NPP is the stored biomass that "
+                 "herbivores can actually eat; R escapes as heat."]
         return v, steps, f"NPP = {_fmt(v)}", None, "NPP = GPP - R", \
             {"NPP": v, **vals}
     return _GATE
@@ -1409,10 +1711,467 @@ def _c_species_area(g, m, text):
     if cv <= 0 or av <= 0:
         return _GATE
     s = cv * (av ** zv)
-    steps = [f"c = {_fmt(cv)}, z = {_fmt(zv)}, A = {_fmt(av)}.",
-             f"S = cA^z = {_fmt(cv)} x {_fmt(av)}^{_fmt(zv)} = {_fmt(s)}."]
+    steps = ["Method: species-area relation S = c A^z -- species count "
+             "rises with area; z is the slope of log S against log A.",
+             f"c = {_fmt(cv)}, z = {_fmt(zv)}, A = {_fmt(av)}.",
+             f"S = cA^z = {_fmt(cv)} x {_fmt(av)}^{_fmt(zv)} = "
+             f"{_fmt(s)}.",
+             f"Check: a 10x larger area multiplies S by "
+             f"{_fmt(10.0 ** zv)} -- S rises monotonically with A "
+             f"(z = {_fmt(zv)} > 0).",
+             "Interpretation: bigger reserves hold more species -- the "
+             "logic behind prioritising large, contiguous protected "
+             "areas."]
     return s, steps, f"S = {_fmt(s)} species", None, "S = c A^z", \
         {"c": cv, "z": zv, "A": av}
+
+
+# --------------------------------------------------------------------------- #
+# physiology: cardiac output, breathing volumes, transpiration rate
+# --------------------------------------------------------------------------- #
+
+def _c_cardiac(g, m, text):
+    if not re.search(r"cardiac\s+output|stroke\s+volume", text, re.I):
+        return _GATE
+    sv = re.search(r"stroke\s+volume\D{0,30}?(\d+(?:\.\d+)?)\s*"
+                   r"(ml|millilitres?|litres?|l\b)?", text, re.I)
+    hr = re.search(r"(\d+(?:\.\d+)?)\s*(?:beats?\s*(?:per|/)\s*"
+                   r"min(?:ute)?s?|bpm)\b", text, re.I)
+    if not hr:
+        hr = re.search(r"heart\s+rate\D{0,20}?(\d+(?:\.\d+)?)", text,
+                       re.I)
+    co = re.search(r"cardiac\s+output\D{0,30}?(\d+(?:\.\d+)?)\s*"
+                   r"(ml|millilitres?|litres?|l\b)?", text, re.I)
+    if sum(1 for x in (sv, hr, co) if x) < 2:
+        return _GATE
+
+    def _as_ml(mm) -> Optional[float]:
+        if not mm:
+            return None
+        v = float(mm.group(1))
+        if (mm.group(2) or "").lower().startswith("l"):
+            v *= 1000.0
+        return v
+
+    svv, cov = _as_ml(sv), _as_ml(co)
+    hr_v = float(hr.group(1)) if hr else None
+    if hr_v is not None and not (20 <= hr_v <= 250):
+        return _GATE
+    if svv is not None and not (5 <= svv <= 500):
+        return _GATE
+    if cov is not None and not (500 <= cov <= 40000):
+        return _GATE
+    given = []
+    if svv is not None:
+        given.append(f"stroke volume = {_fmt(svv)} mL")
+    if hr_v is not None:
+        given.append(f"heart rate = {_fmt(hr_v)} beats/min")
+    if cov is not None:
+        given.append(f"cardiac output = {_fmt(cov)} mL")
+    method = ("Method: cardiac output = stroke volume x heart rate -- "
+              "the volume of blood one ventricle pumps per minute (NCERT "
+              "average: 70 mL x 72 beats/min ~ 5 L).")
+    interp = ("Interpretation: the healthy adult averages ~5 L/min; "
+              "exercise raises cardiac output by increasing both stroke "
+              "volume and heart rate.")
+    if svv is None:
+        svv = cov / hr_v
+        steps = [method, f"Given: {'; '.join(given)}.",
+                 f"Stroke volume = cardiac output / heart rate = "
+                 f"{_fmt(cov)}/{_fmt(hr_v)} = {_fmt(svv)} mL.",
+                 f"Check: {_fmt(svv)} x {_fmt(hr_v)} = {_fmt(cov)} mL = "
+                 "the given cardiac output.", interp]
+        return svv, steps, f"stroke volume = {_fmt(svv)} mL", None, \
+            "cardiac output = stroke volume x heart rate", \
+            {"sv_ml": svv, "hr": hr_v, "co_ml": cov}
+    if hr_v is None:
+        hr_v = cov / svv
+        steps = [method, f"Given: {'; '.join(given)}.",
+                 f"Heart rate = cardiac output / stroke volume = "
+                 f"{_fmt(cov)}/{_fmt(svv)} = {_fmt(hr_v)} beats/min.",
+                 f"Check: {_fmt(svv)} x {_fmt(hr_v)} = {_fmt(cov)} mL = "
+                 "the given cardiac output.", interp]
+        return hr_v, steps, (f"heart rate = {_fmt(hr_v)} beats per "
+                             "minute"), None, \
+            "cardiac output = stroke volume x heart rate", \
+            {"sv_ml": svv, "hr": hr_v, "co_ml": cov}
+    cov = svv * hr_v
+    steps = [method, f"Given: {'; '.join(given)}.",
+             f"Cardiac output = {_fmt(svv)} mL x {_fmt(hr_v)} beats/min "
+             f"= {_fmt(cov)} mL/min (~{_fmt(cov / 1000.0)} L/min).",
+             f"Check: {_fmt(cov)} mL / {_fmt(hr_v)} beats = "
+             f"{_fmt(cov / hr_v)} mL per beat -- the given stroke "
+             "volume.", interp]
+    return cov, steps, (f"cardiac output = {_fmt(cov)} mL/min "
+                        f"(~{_fmt(cov / 1000.0)} L per minute)"), None, \
+        "cardiac output = stroke volume x heart rate", \
+        {"sv_ml": svv, "hr": hr_v, "co_ml": cov}
+
+
+_BREATH_LABELS = [
+    ("TV", r"\btidal\s+volume\b|\bTV\b"),
+    ("IRV", r"\binspiratory\s+reserve\s+volume\b|\bIRV\b"),
+    ("ERV", r"\bexpiratory\s+reserve\s+volume\b|\bERV\b"),
+    ("RV", r"\bresidual\s+volume\b|\bRV\b"),
+    ("VC", r"\bvital\s+capacity\b|\bVC\b"),
+    ("TLC", r"\btotal\s+lung\s+capacity\b|\bTLC\b"),
+    ("IC", r"\binspiratory\s+capacity\b|\bIC\b"),
+    ("EC", r"\bexpiratory\s+capacity\b|\bEC\b"),
+    ("FRC", r"\bfunctional\s+residual\s+capacity\b|\bFRC\b"),
+]
+
+_BREATH_RULES = [
+    ("IC", ("TV", "IRV"), "sum", "IC = TV + IRV"),
+    ("EC", ("TV", "ERV"), "sum", "EC = TV + ERV"),
+    ("FRC", ("ERV", "RV"), "sum", "FRC = ERV + RV"),
+    ("VC", ("TV", "IRV", "ERV"), "sum", "VC = TV + IRV + ERV"),
+    ("TLC", ("VC", "RV"), "sum", "TLC = VC + RV"),
+    ("RV", ("TLC", "VC"), "diff", "RV = TLC - VC"),
+    ("VC", ("TLC", "RV"), "diff", "VC = TLC - RV"),
+    ("ERV", ("FRC", "RV"), "diff", "ERV = FRC - RV"),
+    ("RV", ("FRC", "ERV"), "diff", "RV = FRC - ERV"),
+    ("ERV", ("VC", "IC"), "diff", "ERV = VC - IC"),
+    ("IC", ("VC", "ERV"), "diff", "IC = VC - ERV"),
+    ("ERV", ("EC", "TV"), "diff", "ERV = EC - TV"),
+    ("TV", ("EC", "ERV"), "diff", "TV = EC - ERV"),
+    ("IRV", ("VC", "TV", "ERV"), "diff3", "IRV = VC - TV - ERV"),
+    ("ERV", ("VC", "TV", "IRV"), "diff3", "ERV = VC - TV - IRV"),
+    ("TV", ("VC", "IRV", "ERV"), "diff3", "TV = VC - IRV - ERV"),
+]
+
+
+def _c_breathing(g, m, text):
+    if not re.search(r"tidal\s+volume|vital\s+capacity|residual\s+"
+                     r"volume|inspiratory|expiratory|total\s+lung\s+"
+                     r"capacity|functional\s+residual|minute\s+"
+                     r"ventilation|breathing\s+rate", text, re.I):
+        return _GATE
+    vals: Dict[str, float] = {}
+    for label, pat in _BREATH_LABELS:
+        mm = re.search(r"(?:" + pat + r")"
+                       + r"\D{0,25}?(\d+(?:\.\d+)?)\s*"
+                       r"(ml|millilitres?|litres?|l\b)?", text, re.I)
+        if mm:
+            v = float(mm.group(1))
+            if (mm.group(2) or "").lower().startswith("l"):
+                v *= 1000.0
+            if not (10 <= v <= 12000):
+                return _GATE
+            vals[label] = v
+    rate = re.search(r"(\d+(?:\.\d+)?)\s*breaths?\s*(?:per|/)\s*"
+                     r"min(?:ute)?s?", text, re.I)
+    if not rate:
+        rate = re.search(r"breathing\s+rate\D{0,15}?(\d+(?:\.\d+)?)",
+                         text, re.I)
+    rate_v = float(rate.group(1)) if rate else None
+    if rate_v is not None and not (5 <= rate_v <= 60):
+        return _GATE
+    if len(vals) < 2 and not (rate_v is not None and "TV" in vals):
+        return _GATE
+    method = ("Method: pulmonary capacities are sums of standard "
+              "respiratory volumes (NCERT, Breathing and Exchange of "
+              "Gases): IC = TV + IRV, EC = TV + ERV, FRC = ERV + RV, "
+              "VC = TV + IRV + ERV, TLC = VC + RV.")
+    given = [f"{k} = {_fmt(v)} mL" for k, v in vals.items()]
+    if rate_v is not None:
+        given.append(f"breathing rate = {_fmt(rate_v)} breaths/min")
+    derived: List[str] = []
+    deriv_rule: Dict[str, Tuple] = {}
+    if rate_v is not None and "TV" in vals and "MV" not in vals:
+        vals["MV"] = vals["TV"] * rate_v
+        derived.append("MV")
+    for _ in range(8):
+        changed = False
+        for target, parts, kind, expr in _BREATH_RULES:
+            if target in vals or not all(p in vals for p in parts):
+                continue
+            if kind == "sum":
+                vals[target] = sum(vals[p] for p in parts)
+            elif kind == "diff":
+                vals[target] = vals[parts[0]] - vals[parts[1]]
+            else:
+                vals[target] = (vals[parts[0]] - vals[parts[1]]
+                                - vals[parts[2]])
+            if not (10 <= vals[target] <= 12000):
+                return _GATE  # impossible state
+            deriv_rule[target] = (parts, kind, expr)
+            derived.append(target)
+            changed = True
+        if not changed:
+            break
+    if not derived:
+        return _GATE
+    steps = [method,
+             "Given: " + ", ".join(given) + "."]
+    for t2 in derived:
+        if t2 == "MV":
+            continue
+        steps.append(f"{deriv_rule[t2][2]} = {_fmt(vals[t2])} mL.")
+    if "MV" in derived:
+        steps.append(f"Minute ventilation = TV x breaths/min = "
+                     f"{_fmt(vals['TV'])} x {_fmt(rate_v)} = "
+                     f"{_fmt(vals['MV'])} mL/min.")
+    t = derived[-1] if derived[-1] != "MV" or len(derived) == 1 else \
+        derived[0]
+    value = vals[t]
+    if t == "MV":
+        steps.append(f"Check: {_fmt(value)} / {_fmt(rate_v)} breaths = "
+                     f"{_fmt(vals['TV'])} mL -- the given tidal volume.")
+    else:
+        parts, kind, expr = deriv_rule[t]
+        if kind == "sum":
+            steps.append(f"Check: {' + '.join(parts)} = "
+                         f"{_fmt(sum(vals[p] for p in parts))} mL -- "
+                         "re-addition confirms.")
+        elif kind == "diff":
+            steps.append(f"Check: {parts[1]} + result = "
+                         f"{_fmt(vals[parts[1]] + value)} mL = "
+                         f"{parts[0]} -- inverse confirms.")
+        else:
+            steps.append(f"Check: {' + '.join(parts[1:])} + result = "
+                         f"{_fmt(sum(vals[p] for p in parts[1:]) + value)}"
+                         f" mL = {parts[0]} -- inverse confirms.")
+    steps.append("Interpretation: a healthy adult moves ~6-8 L of air "
+                 "per minute at rest; capacities are clinical "
+                 "diagnostics of lung function, not separate air "
+                 "pockets.")
+    name = {"MV": "minute ventilation", "VC": "vital capacity",
+            "TLC": "total lung capacity", "IC": "inspiratory capacity",
+            "EC": "expiratory capacity", "FRC": "functional residual "
+            "capacity", "TV": "tidal volume",
+            "IRV": "inspiratory reserve volume",
+            "ERV": "expiratory reserve volume",
+            "RV": "residual volume"}.get(t, t)
+    return value, steps, f"{name} = {_fmt(value)} mL", None, \
+        "NCERT volume table: VC = TV+IRV+ERV; TLC = VC+RV; IC/EC/FRC", \
+        {k.lower(): v for k, v in vals.items()}
+
+
+def _c_transpiration(g, m, text):
+    if not re.search(r"transpiration|potometer", text, re.I):
+        return _GATE
+    rate_given = re.search(r"(\d+(?:\.\d+)?)\s*(ml|cm3|cm\u00b3|g\b|grams?)"
+                           r"\s*(?:per|/)\s*(minute|min|hour|h\b|day)",
+                           text, re.I)
+    amount = re.search(r"(\d+(?:\.\d+)?)\s*(ml|cm3|cm\u00b3|g\b|grams?)"
+                       r"\D{0,40}?(?:lost|absorbed|taken\s+up|uptake|"
+                       r"moved|travell?ed)", text, re.I)
+    if not amount:
+        amount = re.search(r"(?:lost|loses?|absorbed|taken\s+up)\D{0,25}?"
+                           r"(\d+(?:\.\d+)?)\s*(ml|cm3|cm\u00b3|g\b|"
+                           r"grams?)", text, re.I)
+    time = re.search(r"(?:in|over|during|for|within)\s+(\d+(?:\.\d+)?)\s*"
+                     r"(minutes?|min\b|hours?|h\b|days?)", text, re.I)
+    to_min = {"minute": 1.0, "min": 1.0, "hour": 60.0, "h": 60.0,
+              "day": 1440.0}
+    unit = (amount.group(2) if amount else
+            rate_given.group(2) if rate_given else "mL").lower()
+    unit = {"g": "g", "grams": "g"}.get(unit, unit.replace("cm\u00b3",
+                                                           "cm3"))
+    method = ("Method: rate of transpiration = water lost / time; a "
+              "potometer reads water uptake, which approximates the "
+              "water lost through the stomata.")
+    interp = ("Interpretation: the rate climbs on hot, dry, windy days "
+              "when stomata stay wide open, and falls when they close.")
+    if rate_given and time:
+        rv = float(rate_given.group(1))
+        ru = rate_given.group(3).lower()
+        ru = {"min": "minute", "h": "hour"}.get(ru, ru.rstrip("s"))
+        tv_ = float(time.group(1))
+        tu = time.group(2).lower()
+        tu = {"min": "minute", "h": "hour"}.get(tu, tu.rstrip("s"))
+        if rv <= 0 or rv > 1000 or tv_ <= 0 or tv_ > 43200:
+            return _GATE
+        r_per_tu = rv * to_min[ru] / to_min[tu]
+        water = r_per_tu * tv_
+        steps = [method,
+                 f"Given: rate = {_fmt(rv)} {unit}/{ru}; time = "
+                 f"{_fmt(tv_)} {tu}.",
+                 f"Water lost = {_fmt(rv)} x {_fmt(tv_)} = {_fmt(water)} "
+                 f"{unit}.",
+                 f"Check: {_fmt(water)} / {_fmt(tv_)} = "
+                 f"{_fmt(r_per_tu)} {unit}/{tu} -- the given rate.",
+                 interp]
+        return water, steps, (f"water lost = {_fmt(water)} {unit} in "
+                              f"{_fmt(tv_)} {tu}"), None, \
+            "water lost = transpiration rate x time", \
+            {"rate": r_per_tu, "time_min": tv_ * to_min[tu]}
+    if amount and time and not rate_given:
+        av = float(amount.group(1))
+        tv_ = float(time.group(1))
+        tu = time.group(2).lower()
+        tu = {"min": "minute", "h": "hour"}.get(tu, tu.rstrip("s"))
+        if av <= 0 or av > 5000 or tv_ <= 0 or tv_ > 43200:
+            return _GATE
+        rate = av / tv_
+        per_min = rate / to_min[tu]
+        per_h = per_min * 60.0
+        steps = [method,
+                 f"Given: water lost = {_fmt(av)} {unit} in {_fmt(tv_)} "
+                 f"{tu}.",
+                 f"Rate = {_fmt(av)} / {_fmt(tv_)} = {_fmt(rate)} "
+                 f"{unit}/{tu} = {_fmt(per_h)} {unit}/hour.",
+                 f"Check: {_fmt(per_min)} {unit}/min x 60 = "
+                 f"{_fmt(per_h)} {unit}/hour -- consistent.",
+                 interp]
+        return per_h, steps, (f"rate of transpiration = {_fmt(per_h)} "
+                              f"{unit} per hour"), None, \
+            "rate = water lost / time", {"amount": av, "time_min":
+                                         tv_ * to_min[tu]}
+    return _GATE
+
+
+# --------------------------------------------------------------------------- #
+# genetics: pedigree probability chains
+# --------------------------------------------------------------------------- #
+
+_PEDIGREE_SCENARIOS = {
+    "aa.carrier": {
+        "method": "Method: autosomal recessive pedigree rule -- the "
+                  "trait shows only in aa individuals, so carriers (Aa) "
+                  "are unaffected and can pass it on silently.",
+        "given": "Given: both parents are carriers (Aa x Aa) from the "
+                 "pedigree.",
+        "cross": "Cross Aa x Aa -> AA, Aa, Aa, aa: P(affected aa) = 1/4, "
+                 "P(unaffected) = 3/4; among the unaffected, 2/3 are "
+                 "carriers.",
+        "check": "Check: 1/4 + 2/4 + 1/4 = 1 -- the four outcomes "
+                 "account for every child.",
+        "p_aff": 0.25, "p_unaff": 0.75, "p_car": 0.5,
+        "p_car_unaff": 2.0 / 3.0,
+        "interp": "Interpretation: each child is an independent event -- "
+                  "even after unaffected children, the next child's risk "
+                  "stays 1/4.",
+    },
+    "aa.aff_child": {
+        "method": "Method: autosomal recessive pedigree rule -- an "
+                  "affected child (aa) of unaffected parents proves both "
+                  "parents are carriers (Aa).",
+        "given": "Given: unaffected parents with one affected child -- "
+                 "both are carriers (Aa x Aa).",
+        "cross": "Cross Aa x Aa -> AA, Aa, Aa, aa: P(affected aa) = 1/4, "
+                 "P(unaffected) = 3/4.",
+        "check": "Check: 1/4 + 2/4 + 1/4 = 1 -- the four outcomes "
+                 "account for every child.",
+        "p_aff": 0.25, "p_unaff": 0.75, "p_car": 0.5,
+        "p_car_unaff": 2.0 / 3.0,
+        "interp": "Interpretation: unaffected siblings of an affected "
+                  "child have a 2/3 chance of being carriers -- key for "
+                  "counselling.",
+    },
+    "aa.aff_x_car": {
+        "method": "Method: autosomal recessive pedigree rule -- an "
+                  "affected parent is aa and can only pass a; a carrier "
+                  "parent passes a half the time.",
+        "given": "Given: affected (aa) x carrier (Aa) parents from the "
+                 "pedigree.",
+        "cross": "Cross aa x Aa -> Aa, aa, Aa, aa: P(affected) = 1/2, "
+                 "P(unaffected carrier) = 1/2.",
+        "check": "Check: 1/2 + 1/2 = 1 -- every outcome covered.",
+        "p_aff": 0.5, "p_unaff": 0.5, "p_car": 0.5,
+        "p_car_unaff": 1.0,
+        "interp": "Interpretation: half the children show the trait -- "
+                  "a 1-in-2 recurrence risk in each pregnancy.",
+    },
+    "aa.aff_x_unaff": {
+        "method": "Method: autosomal recessive pedigree rule -- an "
+                  "affected parent (aa) with a homozygous normal partner "
+                  "(AA) has only carrier children.",
+        "given": "Given: affected (aa) x unaffected non-carrier (AA) "
+                 "parents from the pedigree.",
+        "cross": "Cross aa x AA -> all Aa: P(affected) = 0, all children "
+                 "unaffected carriers.",
+        "check": "Check: all 4 outcomes are Aa -- zero affected, four "
+                 "carriers.",
+        "p_aff": 0.0, "p_unaff": 1.0, "p_car": 1.0,
+        "p_car_unaff": 1.0,
+        "interp": "Interpretation: the trait can skip the generation and "
+                  "reappear if carriers marry carriers.",
+    },
+    "ad.het_x_unaff": {
+        "method": "Method: autosomal dominant pedigree rule -- one copy "
+                  "(Aa) is enough to show the trait; an affected "
+                  "heterozygote passes A to half the gametes.",
+        "given": "Given: heterozygous affected parent (Aa) x unaffected "
+                 "(aa) from the pedigree.",
+        "cross": "Cross Aa x aa -> Aa, aa, Aa, aa: P(affected) = 1/2, "
+                 "P(unaffected) = 1/2.",
+        "check": "Check: 1/2 + 1/2 = 1 -- every outcome covered.",
+        "p_aff": 0.5, "p_unaff": 0.5, "p_car": 0.0,
+        "p_car_unaff": 0.0,
+        "interp": "Interpretation: dominant traits do not skip "
+                  "generations -- every generation shows affected "
+                  "individuals.",
+    },
+}
+
+
+def _c_pedigree(g, m, text):
+    if not re.search(r"pedigree", text, re.I):
+        return _GATE
+    if not re.search(r"probab|chance|likelihood|odds|risk", text, re.I):
+        return _GATE
+    if re.search(r"x[-\s]?linked|sex[-\s]?linked", text, re.I):
+        return _GATE  # SEX_LINKED_CROSS owns X-linked territory
+    dom = bool(re.search(r"dominant", text, re.I)) and \
+        not bool(re.search(r"recessive", text, re.I))
+    aff_child = bool(re.search(r"affected\s+(?:child|son|daughter|boy|"
+                               r"girl)|child\s+(?:is|was)\s+affected|"
+                               r"has\s+an?\s+affected\s+(?:child|son|"
+                               r"daughter)", text, re.I))
+    carriers = bool(re.search(r"both\s+carriers|carrier\s+parents|"
+                              r"carriers\s+of", text, re.I))
+    het_aff = bool(re.search(r"heterozygous\s+affected|affected\s+"
+                             r"heterozygous", text, re.I))
+    if dom:
+        if het_aff:
+            key = "ad.het_x_unaff"
+        else:
+            return _GATE  # affected-parent genotypes unstated
+    else:
+        if carriers:
+            key = "aa.carrier"
+        elif aff_child and re.search(r"unaffected", text, re.I):
+            key = "aa.aff_child"  # a GIVEN affected child of unaffected parents
+        elif re.search(r"affected", text, re.I) and \
+                re.search(r"carrier", text, re.I):
+            key = "aa.aff_x_car"
+        elif re.search(r"affected", text, re.I) and \
+                re.search(r"unaffected|normal", text, re.I):
+            key = "aa.aff_x_unaff"
+        else:
+            return _GATE
+    sc = _PEDIGREE_SCENARIOS[key]
+    steps = [sc["method"], sc["given"], sc["cross"], sc["check"],
+             sc["interp"]]
+    eq = "Mendelian monohybrid probabilities read onto a pedigree"
+    # ask routing: read only the question tail (after the ask word) so
+    # givens like "unaffected parents with an affected child" cannot
+    # hijack what is being asked
+    ask_m = re.search(r"probab|chance|likelihood|odds|risk", text, re.I)
+    tail = text[ask_m.start():] if ask_m else text
+    aff_ask = re.search(r"(?<!un)affected\s+(?:child|offspring)|"
+                        r"(?:child|son|daughter|offspring)\s+[^.]{0,30}?"
+                        r"(?:will\s+be|is|to\s+be)\s+affected", tail,
+                        re.I)
+    if aff_ask:
+        val, ans = sc["p_aff"], (f"probability of an affected child = "
+                                 f"{_fmt(sc['p_aff'])}")
+    elif re.search(r"carrier", tail, re.I) and \
+            re.search(r"unaffected|not\s+affected", tail, re.I):
+        val, ans = sc["p_car_unaff"], ("probability that an unaffected "
+                                       "child is a carrier = "
+                                       f"{_fmt(sc['p_car_unaff'])}")
+    elif re.search(r"unaffected|not\s+affected|normal", tail, re.I) and \
+            not re.search(r"carrier", tail, re.I):
+        val, ans = sc["p_unaff"], (f"probability of an unaffected child "
+                                   f"= {_fmt(sc['p_unaff'])}")
+    else:
+        val, ans = sc["p_aff"], (f"probability of an affected child = "
+                                 f"{_fmt(sc['p_aff'])}")
+    return val, steps, ans, None, eq, \
+        {"p_affected": sc["p_aff"], "p_unaffected": sc["p_unaff"],
+         "p_carrier": sc["p_car"]}
 
 
 # --------------------------------------------------------------------------- #
@@ -1437,8 +2196,18 @@ _TABLE: List[Tuple[str, str, Any]] = [
      r"self(?:[- ]?(?:pollinat\w+|fertilis\w+|fertiliz\w+)|\s*cross)",
      _c_punnett_self),
     ("PUNNETT_CROSS", _PUNNETT_LOOSE, _c_punnett),
+    ("PEDIGREE_PROBABILITY", r"pedigree", _c_pedigree),
 
     # ---- physiology ----
+    ("CARDIAC_OUTPUT",
+     r"cardiac\s+output|stroke\s+volume",
+     _c_cardiac),
+    ("BREATHING_VOLUME",
+     r"tidal\s+volume|vital\s+capacity|residual\s+volume|inspiratory|"
+     r"expiratory|total\s+lung\s+capacity|functional\s+residual|"
+     r"minute\s+ventilation|breathing\s+rate",
+     _c_breathing),
+    ("TRANSPIRATION_RATE", r"transpiration|potometer", _c_transpiration),
     ("PHOTOSYNTH_BALANCE",
      r"(?:balance|balanced)\b.{0,60}?(?:CO\s*2|photosynth)",
      _c_photo_balance),

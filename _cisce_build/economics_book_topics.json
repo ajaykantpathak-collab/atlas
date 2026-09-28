@@ -1,0 +1,309 @@
+{
+  "_meta": {
+    "built": "2026-09-27",
+    "purpose": "Class-wise economics topic inventory (classes 9-12) grounding the Atlas economics solver families and the economics sandbox. Sources are the actual NCERT text cache, the verified ICSE corpus, and the Applied Maths statistics cache (Statistics-for-Economics substitute).",
+    "node_id_rule": "node ids are internal-only; never expose in student-facing fields",
+    "corpus_root": "deploy/content/cisce_nodes_v2",
+    "book_cache_root": "ncert_books/text_cache_new",
+    "extended": "2026-09-27 books2 wave: every topic classified (see topic_classification); solver families grown 24 -> 36 (52 rows) with the STEP CONTRACT (Method/Given/computation/Check/Interpretation, >=3 steps, >=150 chars) enforced by test_economics_families.py (57 cases + 7 impossible-state gates + 11 other-subject negative probes + contract assertions, all green)"
+  },
+  "class_9": {
+    "cbse_ncert": {
+      "book": "Exploring Society — Indian Social Science (new 2026-27 single SST book)",
+      "source_files": [
+        "class_9/misc/iest108.txt",
+        "class_9/misc/iest109.txt"
+      ],
+      "note": "The cache holds the NEW syllabus book. The old 4-chapter Economics book (Palampur / People as Resource / Poverty as a Challenge / Food Security in India) is NOT in text_cache_new/class_9; its themes persist inside iest ch 8-9 and the ICSE corpus ch 4-5.",
+      "chapters": [
+        {"no": 8, "title": "Building Blocks in Economics: The Problem of Choice", "topics": ["economic problem", "scarcity and choice", "opportunity cost", "economic systems (what/how/for whom)"], "solver_families": []},
+        {"no": 9, "title": "The Price Puzzle: What Drives the Market", "topics": ["demand and its determinants", "supply and its determinants", "price determination", "market equilibrium", "surplus and shortage"], "solver_families": ["DEMAND_SUPPLY_LINEAR_ANY", "MARKET_EQUILIBRIUM"]}
+      ]
+    },
+    "icse_corpus": {
+      "prefix": "c9_econ_icse",
+      "node_count": 61,
+      "chapters": [
+        {"no": 1, "title": "Introduction to Economics", "nodes": 26, "topics": ["wealth definition (Adam Smith)", "welfare definition (Marshall)", "scarcity definition (Robbins)", "growth definition (Samuelson)", "micro vs macro", "basic terms: goods, services, consumption, production, distribution", "economic activity vs non-economic activity"]},
+        {"no": 2, "title": "Types of Economies", "nodes": 5, "topics": ["capitalist economy", "socialist economy", "mixed economy", "price mechanism vs planning"]},
+        {"no": 3, "title": "Problems of an Economy", "nodes": 8, "topics": ["unlimited wants", "limited resources with alternative uses", "what/how/for whom", "opportunity cost", "production possibility"]},
+        {"no": 4, "title": "The Indian Economy: A Study", "nodes": 8, "topics": ["agriculture: problems and government measures", "land reforms", "food security and PDS", "secondary sector and industry", "industrialisation impacts and remedies", "tertiary sector"]},
+        {"no": 5, "title": "Major Problems of the Indian Economy", "nodes": 11, "topics": ["poverty line", "absolute vs relative poverty", "causes of poverty", "unemployment (structural, disguised)", "causes of unemployment", "rural schemes: PMKVY, MGNREGA", "headcount ratio"], "solver_families": ["UNEMPLOYMENT_RATES", "HEADCOUNT_RATIO", "PARTICIPATION_RATE"]},
+        {"no": 6, "title": "Major Reforms and Emerging Trends", "nodes": 8, "topics": ["LPG reforms", "globalisation", "privatisation", "emerging trends in employment"]}
+      ]
+    }
+  },
+  "class_10": {
+    "icse_corpus": {
+      "prefix": "c10_econ_icse",
+      "node_count": 54,
+      "chapters": [
+        {"no": 1, "title": "The Productive Mechanism", "nodes": 9, "topics": ["factors of production: land, labour, capital, enterprise", "production function", "division of labour"]},
+        {"no": 2, "title": "Theory of Demand and Supply", "nodes": 9, "topics": ["demand schedule and curve", "movement vs shift", "supply schedule and curve", "market equilibrium", "surplus and shortage", "elasticity of demand"], "solver_families": ["DEMAND_SUPPLY_LINEAR_ANY", "MARKET_EQUILIBRIUM", "MARKET_SUPPLY_SUM", "PED_PERCENTAGE (pairs + any-missing)", "PED_TOTAL_OUTLAY", "PED_POINT_LINEAR"]},
+        {"no": 3, "title": "Market", "nodes": 8, "topics": ["market forms", "perfect competition", "monopoly", "oligopoly", "monopolistic competition"]},
+        {"no": 4, "title": "Banking in India", "nodes": 13, "topics": ["evolution of money", "functions of RBI", "credit creation", "CRR/SLR/repo/OMO", "demonetisation vs monetary policy", "public finance: direct vs indirect taxes"], "solver_families": ["MONEY_MULTIPLIER", "DEPOSIT_CREATION_CHAIN"]},
+        {"no": 5, "title": "Inflation", "nodes": 7, "topics": ["CPI", "creeping/walking/galloping/hyper inflation", "causes: demand-pull, cost-push", "effects and control"], "solver_families": ["CPI_INFLATION_RATE", "FISHER_REAL_RATE"]},
+        {"no": 6, "title": "Consumer Awareness", "nodes": 7, "topics": ["consumer rights", "consumer protection", "consumer courts"]}
+      ]
+    },
+    "cbse_ncert": {
+      "note": "CBSE class 10 does not carry a standalone Economics book in this cache; Understanding Economic Development II themes (sectors of the economy, money and credit, globalisation, consumer rights) are covered by the c9/c10 ICSE corpus chapters 4-6 and the class 11-12 NCERT books."
+    }
+  },
+  "class_11": {
+    "cbse_ncert": {
+      "book": "Indian Economic Development",
+      "source_files": [
+        "class_11/misc/keec101.txt", "class_11/misc/keec102.txt", "class_11/misc/keec103.txt",
+        "class_11/misc/keec104.txt", "class_11/misc/keec105.txt", "class_11/misc/keec106.txt",
+        "class_11/misc/keec107.txt", "class_11/misc/keec108.txt"
+      ],
+      "chapters": [
+        {"no": 1, "title": "Development Policies and Experience (1947-90)", "topics": ["state of Indian economy at independence", "five year plans", "agriculture vs industry debate", "green revolution"], "solver_families": []},
+        {"no": 2, "title": "Economic Reforms Since 1991", "topics": ["liberalisation privatisation globalisation", "demonetisation 2016", "GST"], "solver_families": []},
+        {"no": 3, "title": "Current Challenges Facing the Indian Economy", "topics": ["human capital formation", "human development index", "rural development credit marketing organic farming", "poverty and unemployment challenges"], "solver_families": ["HEADCOUNT_RATIO"]},
+        {"no": 4, "title": "Rural Development", "topics": ["credit and rural banking", "marketing", "diversification", "organic farming"]},
+        {"no": 5, "title": "Employment", "topics": ["worker, workforce, labour force", "unemployment types", "participation rates", "informalisation"], "solver_families": ["UNEMPLOYMENT_RATES", "PARTICIPATION_RATE"]},
+        {"no": 6, "title": "Environment and Sustainable Development", "topics": ["resource depletion", "global warming", "sustainable development"]},
+        {"no": 7, "title": "Development Experiences: India and Neighbours", "topics": ["India-Pakistan-China comparison", "HDI comparisons"]}
+      ]
+    },
+    "statistics_for_economics": {
+      "note": "Statistics for Economics is NOT present in text_cache_new/class_11 (keec2* absent). Grounded instead by the Applied Maths statistics cache, which covers the same machinery the CBSE stats book teaches.",
+      "substitute_sources": [
+        "D:/_KEEP/text_cache_new/am11_010_descriptive_statistics.txt",
+        "D:/_KEEP/text_cache_new/am12_006_index_numbers_time_based.txt"
+      ],
+      "chapters": [
+        {"no": 1, "title": "Introduction / Collection / Organisation / Presentation of Data", "topics": ["frequency distributions", "tables and diagrams"]},
+        {"no": 2, "title": "Measures of Central Tendency and Dispersion", "topics": ["mean median mode", "range, standard deviation", "correlation"], "solver_families": ["(mean/median/mode covered by maths2 MEAN_GROUPED/MEDIAN/MODE; no new econ families needed)", "CORRELATION_COEFFICIENT (books2: Karl Pearson r from paired data)"]},
+        {"no": 3, "title": "Index Numbers", "topics": ["simple aggregative", "Laspeyres", "Paasche", "CPI", "inflation from index pairs"], "solver_families": ["INDEX_AGGREGATIVE", "INDEX_LASPEYRES", "INDEX_PAASCHES", "CPI_INFLATION_RATE"]}
+      ]
+    }
+  },
+  "class_12": {
+    "cbse_ncert": {
+      "book": "Introductory Macroeconomics (leec1xx) + Introductory Microeconomics (leec2xx)",
+      "macro": {
+        "source_files": [
+          "class_12/misc/leec101.txt", "class_12/misc/leec102.txt", "class_12/misc/leec103.txt",
+          "class_12/misc/leec104.txt", "class_12/misc/leec105.txt", "class_12/misc/leec106.txt"
+        ],
+        "chapters": [
+          {"no": 1, "title": "Introduction", "topics": ["macro vs micro", "four sectors: households firms government external"], "solver_families": []},
+          {"no": 2, "title": "National Income Accounting", "topics": ["circular flow", "GDP/GNP/NNP/NI (mp and fc)", "value added method", "income method", "expenditure method", "GDP = C+I+G+(X-M)", "GDP deflator", "real vs nominal GDP", "welfare limitations"], "solver_families": ["GDP_EXPENDITURE_ANY_MISSING", "NNPFC_CONVERSION", "VALUE_ADDED_CHAIN", "INCOME_METHOD_NI", "GDP_DEFLATOR (real/nominal any-missing)", "GDP_WELFARE_PERCAPITA (books2: numeric welfare caveat)"]},
+          {"no": 3, "title": "Money and Banking", "topics": ["functions of money", "money supply measures", "credit creation by commercial banks", "central bank instruments", "money multiplier = 1/RRR"], "solver_families": ["MONEY_MULTIPLIER", "DEPOSIT_CREATION_CHAIN"]},
+          {"no": 4, "title": "Determination of Income and Employment", "topics": ["aggregate demand", "consumption function C = a + bY", "APC/MPC/APS/MPS identities", "investment multiplier = 1/(1-MPC)", "equilibrium income"], "solver_families": ["CONSUMPTION_FUNCTION_ANY (incl. equilibrium income Y* = (a+I)/(1-MPC))", "INVESTMENT_MULTIPLIER", "APC_APS_IDENTITIES"]},
+          {"no": 5, "title": "Government Budget and the Economy", "topics": ["revenue receipts/expenditure", "capital receipts/expenditure", "revenue deficit", "fiscal deficit", "primary deficit"], "solver_families": ["BUDGET_DEFICITS_ANY"]},
+          {"no": 6, "title": "Open Economy Macroeconomics", "topics": ["balance of payments", "exchange rate", "depreciation and appreciation", "percentage change in exchange rate"], "solver_families": ["EXCHANGE_RATE_CHANGE", "BOP_CLASSIFY_ANY (books2: visible/invisible + current-account balance)"]}
+        ]
+      },
+      "micro": {
+        "source_files": [
+          "class_12/misc/leec201.txt", "class_12/misc/leec202.txt", "class_12/misc/leec203.txt",
+          "class_12/misc/leec204.txt", "class_12/misc/leec205.txt"
+        ],
+        "chapters": [
+          {"no": 1, "title": "Introduction", "topics": ["central problems", "production possibility frontier"], "solver_families": []},
+          {"no": 2, "title": "Theory of Consumer Behaviour", "topics": ["utility", "demand curve", "price/income/substitution effects", "price elasticity of demand", "consumer equilibrium (cardinal MUx/Px = MUy/Py; ordinal MRS = p1/p2)"], "solver_families": ["PED_PERCENTAGE", "PED_TOTAL_OUTLAY", "PED_PERCENTAGE any-missing", "PED_POINT_LINEAR", "CONSUMER_EQUIB_RATIO (books2)"]},
+          {"no": 3, "title": "Production and Costs", "topics": ["TP/AP/MP", "cost curves"], "solver_families": ["TP_AP_MP_SCHEDULE (books2)", "COST_SCHEDULE_ANY (books2: TC/TFC/TVC/AC/AVC/AFC/MC)"]},
+          {"no": 4, "title": "The Theory of the Firm under Perfect Competition", "topics": ["revenue", "profit maximisation", "supply curve"], "solver_families": ["REVENUE_CURVES_ANY (books2: TR/AR/MR)"]},
+          {"no": 5, "title": "Market Equilibrium", "topics": ["equilibrium price", "excess demand/supply", "price ceiling and floor", "shifts of demand and supply", "market supply (horizontal sum)"], "solver_families": ["DEMAND_SUPPLY_LINEAR_ANY", "MARKET_EQUILIBRIUM", "MARKET_SUPPLY_SUM (books2)", "PRICE_CEILING_FLOOR (books2)"]}
+        ]
+      }
+    }
+  },
+  "sandbox_mapping": {
+    "engine_types": {"E1": "Parameter Lab (primary)", "E4": "System Simulator", "E7lite": "Data Lab", "3D_exception": "circular-flow model only"},
+    "labs": [
+      {"key": "market", "title": "Demand-Supply Market Lab", "engine": "E1+E4 2D", "solver": ["DEMAND_SUPPLY_LINEAR_ANY", "MARKET_EQUILIBRIUM"], "classes": [9, 10, 12]},
+      {"key": "elasticity", "title": "Elasticity Explorer", "engine": "E1 2D", "solver": ["PED_PERCENTAGE", "PED_TOTAL_OUTLAY", "PED_POINT_LINEAR"], "classes": [10, 12]},
+      {"key": "circularflow", "title": "National Income Circular Flow (3D)", "engine": "E4 3D", "solver": ["GDP_EXPENDITURE_ANY_MISSING"], "classes": [12]},
+      {"key": "money", "title": "Money Multiplier Visualizer", "engine": "E1 2D", "solver": ["MONEY_MULTIPLIER", "DEPOSIT_CREATION_CHAIN"], "classes": [10, 12]},
+      {"key": "budget", "title": "Budget Lab", "engine": "E1 2D", "solver": ["BUDGET_DEFICITS_ANY"], "classes": [12]},
+      {"key": "datalab", "title": "Index-Number Data Lab", "engine": "E7-lite 2D", "solver": ["INDEX_AGGREGATIVE", "INDEX_LASPEYRES", "INDEX_PAASCHES", "CORRELATION_COEFFICIENT"], "classes": [11, 12]},
+      {"key": "cost", "title": "Cost-Revenue Curve Lab", "engine": "E1 2D", "solver": ["TP_AP_MP_SCHEDULE", "COST_SCHEDULE_ANY", "REVENUE_CURVES_ANY"], "classes": [12]},
+      {"key": "consumer", "title": "Consumer Equilibrium Lab", "engine": "E1 2D", "solver": ["CONSUMER_EQUIB_RATIO"], "classes": [12]}
+    ]
+  },
+  "topic_classification": {
+    "_legend": {
+      "covered": "solver-able AND implemented in backend/its/solver/economics_families.py (books2 wave unless noted)",
+      "maths2_shared": "numeric machinery owned by maths2_families (class-11 stats convention)",
+      "not_solver_able": "conceptual/descriptive -- taught via authored corpus content, graphs, sandboxes and MisconceptionPanel; no single deterministic computation",
+      "status_after_books2": "NO solver-able topic remains MISSING"
+    },
+    "class_9": {
+      "cbse_ncert_ch8": [
+        {"topic": "economic problem", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "scarcity and choice", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "opportunity cost", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "economic systems (what/how/for whom)", "solver_able": false, "status": "not_solver_able"}
+      ],
+      "cbse_ncert_ch9": [
+        {"topic": "demand and its determinants", "solver_able": true, "status": "covered", "family": "DEMAND_SUPPLY_LINEAR_ANY (numeric demand function; determinants conceptual)"},
+        {"topic": "supply and its determinants", "solver_able": true, "status": "covered", "family": "DEMAND_SUPPLY_LINEAR_ANY / MARKET_SUPPLY_SUM"},
+        {"topic": "price determination", "solver_able": true, "status": "covered", "family": "MARKET_EQUILIBRIUM"},
+        {"topic": "market equilibrium", "solver_able": true, "status": "covered", "family": "MARKET_EQUILIBRIUM"},
+        {"topic": "surplus and shortage", "solver_able": true, "status": "covered", "family": "EXCESS_DEMAND_SUPPLY"}
+      ],
+      "icse_ch1_intro": "7 topics (definitions of economics, micro/macro, basic terms) -- all not_solver_able",
+      "icse_ch2_economies": "4 topics (capitalist/socialist/mixed, price mechanism vs planning) -- all not_solver_able",
+      "icse_ch3_problems": "5 topics (unlimited wants, limited resources, what/how/for whom, opportunity cost, production possibility) -- all not_solver_able (frontier taught graphically)",
+      "icse_ch4_indian_economy": "6 topics (agriculture, land reforms, food security/PDS, industry, tertiary sector) -- all not_solver_able",
+      "icse_ch5_major_problems": [
+        {"topic": "poverty line", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "absolute vs relative poverty", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "causes of poverty", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "unemployment (structural, disguised)", "solver_able": false, "status": "not_solver_able (types are conceptual; the RATES are solver-able, see below)"},
+        {"topic": "causes of unemployment", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "rural schemes: PMKVY, MGNREGA", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "headcount ratio", "solver_able": true, "status": "covered", "family": "HEADCOUNT_RATIO"},
+        {"topic": "unemployment / participation rates", "solver_able": true, "status": "covered", "family": "UNEMPLOYMENT_RATES (handler computes LFPR)"}
+      ],
+      "icse_ch6_reforms": "4 topics (LPG, globalisation, privatisation, employment trends) -- all not_solver_able"
+    },
+    "class_10": {
+      "icse_ch1_productive_mechanism": "3 topics (factors of production, production function, division of labour) -- all not_solver_able at this level (TP/AP/MP numeric work belongs to class 12 micro ch 3)",
+      "icse_ch2_demand_supply": [
+        {"topic": "demand schedule and curve", "solver_able": true, "status": "covered", "family": "DEMAND_SUPPLY_LINEAR_ANY / DEMAND_Q_AT_P / DEMAND_P_FOR_Q"},
+        {"topic": "movement vs shift", "solver_able": false, "status": "not_solver_able (authored misconception c10_econ_icse_02_004)"},
+        {"topic": "supply schedule and curve", "solver_able": true, "status": "covered", "family": "DEMAND_SUPPLY_LINEAR_ANY / MARKET_SUPPLY_SUM"},
+        {"topic": "market equilibrium", "solver_able": true, "status": "covered", "family": "MARKET_EQUILIBRIUM"},
+        {"topic": "surplus and shortage", "solver_able": true, "status": "covered", "family": "EXCESS_DEMAND_SUPPLY"},
+        {"topic": "elasticity of demand", "solver_able": true, "status": "covered", "family": "PED_PERCENTAGE / PED_TOTAL_OUTLAY / PED_POINT_LINEAR (percentage any-missing rides inside PED_PERCENTAGE)"}
+      ],
+      "icse_ch3_market_forms": "5 topics (perfect competition, monopoly, oligopoly, monopolistic) -- all not_solver_able (comparator content)",
+      "icse_ch4_banking": [
+        {"topic": "evolution of money", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "functions of RBI", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "credit creation", "solver_able": true, "status": "covered", "family": "MONEY_MULTIPLIER / DEPOSIT_CREATION_CHAIN"},
+        {"topic": "CRR/SLR/repo/OMO", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "demonetisation vs monetary policy", "solver_able": false, "status": "not_solver_able (authored misconception c10_econ_icse_04_009)"},
+        {"topic": "public finance: direct vs indirect taxes", "solver_able": false, "status": "not_solver_able"}
+      ],
+      "icse_ch5_inflation": [
+        {"topic": "CPI", "solver_able": true, "status": "covered", "family": "CPI_INFLATION_RATE (index pairs + cost-of-basket CPI)"},
+        {"topic": "creeping/walking/galloping/hyper inflation", "solver_able": false, "status": "not_solver_able (authored misconception c10_econ_icse_05_003)"},
+        {"topic": "causes: demand-pull, cost-push", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "effects and control", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "real vs nominal interest (Fisher)", "solver_able": true, "status": "covered", "family": "FISHER_REAL_RATE"}
+      ],
+      "icse_ch6_consumer_awareness": "3 topics (rights, protection, courts) -- all not_solver_able"
+    },
+    "class_11": {
+      "ied_ch1_development_policies": "4 topics -- all not_solver_able",
+      "ied_ch2_reforms_1991": "3 topics -- all not_solver_able",
+      "ied_ch3_challenges": [
+        {"topic": "human capital formation", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "human development index", "solver_able": false, "status": "not_solver_able (composite index; books give no computable formula set)"},
+        {"topic": "rural development credit marketing organic farming", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "poverty and unemployment challenges", "solver_able": true, "status": "covered", "family": "HEADCOUNT_RATIO / UNEMPLOYMENT_RATES"}
+      ],
+      "ied_ch4_rural_development": "4 topics -- all not_solver_able",
+      "ied_ch5_employment": [
+        {"topic": "worker, workforce, labour force", "solver_able": false, "status": "not_solver_able (definitions)"},
+        {"topic": "unemployment types", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "participation rates", "solver_able": true, "status": "covered", "family": "UNEMPLOYMENT_RATES (computes u-rate AND LFPR)"},
+        {"topic": "informalisation", "solver_able": false, "status": "not_solver_able"}
+      ],
+      "ied_ch6_environment": "3 topics -- all not_solver_able",
+      "ied_ch7_india_neighbours": "2 topics -- all not_solver_able",
+      "stats_ch1_collection_presentation": [
+        {"topic": "frequency distributions", "solver_able": false, "status": "maths2_shared"},
+        {"topic": "tables and diagrams", "solver_able": false, "status": "not_solver_able"}
+      ],
+      "stats_ch2_central_tendency_dispersion": [
+        {"topic": "mean median mode", "solver_able": true, "status": "maths2_shared (MEAN_GROUPED/MEDIAN/MODE)"},
+        {"topic": "range, standard deviation", "solver_able": true, "status": "maths2_shared"},
+        {"topic": "correlation", "solver_able": true, "status": "covered", "family": "CORRELATION_COEFFICIENT (books2: Karl Pearson r from paired data; economics-flavoured interpretation)"}
+      ],
+      "stats_ch3_index_numbers": [
+        {"topic": "simple aggregative", "solver_able": true, "status": "covered", "family": "INDEX_AGGREGATIVE"},
+        {"topic": "Laspeyres", "solver_able": true, "status": "covered", "family": "INDEX_LASPEYRES"},
+        {"topic": "Paasche", "solver_able": true, "status": "covered", "family": "INDEX_PAASCHES"},
+        {"topic": "CPI", "solver_able": true, "status": "covered", "family": "CPI_INFLATION_RATE"},
+        {"topic": "inflation from index pairs", "solver_able": true, "status": "covered", "family": "CPI_INFLATION_RATE"}
+      ]
+    },
+    "class_12": {
+      "macro_ch1_intro": "2 topics (macro vs micro, four sectors) -- all not_solver_able",
+      "macro_ch2_national_income": [
+        {"topic": "circular flow", "solver_able": false, "status": "not_solver_able (3D sandbox engine E4)"},
+        {"topic": "GDP/GNP/NNP/NI (mp and fc)", "solver_able": true, "status": "covered", "family": "GDP_EXPENDITURE_ANY_MISSING / NNPFC_CONVERSION"},
+        {"topic": "value added method", "solver_able": true, "status": "covered", "family": "VALUE_ADDED_CHAIN (single firm + stage chain)"},
+        {"topic": "income method", "solver_able": true, "status": "covered", "family": "INCOME_METHOD_NI"},
+        {"topic": "expenditure method", "solver_able": true, "status": "covered", "family": "GDP_EXPENDITURE_ANY_MISSING"},
+        {"topic": "GDP = C+I+G+(X-M)", "solver_able": true, "status": "covered", "family": "GDP_EXPENDITURE_ANY_MISSING"},
+        {"topic": "GDP deflator", "solver_able": true, "status": "covered", "family": "GDP_DEFLATOR"},
+        {"topic": "real vs nominal GDP", "solver_able": true, "status": "covered", "family": "GDP_DEFLATOR (any-missing among nominal/real/deflator)"},
+        {"topic": "welfare limitations", "solver_able": true, "status": "covered", "family": "GDP_WELFARE_PERCAPITA (books2: per-capita level + growth vs population; distribution/externality caveats in the Interpretation beat, leec102 2.5)"}
+      ],
+      "macro_ch3_money_banking": [
+        {"topic": "functions of money", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "money supply measures", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "credit creation by commercial banks", "solver_able": true, "status": "covered", "family": "DEPOSIT_CREATION_CHAIN"},
+        {"topic": "central bank instruments", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "money multiplier = 1/RRR", "solver_able": true, "status": "covered", "family": "MONEY_MULTIPLIER"}
+      ],
+      "macro_ch4_income_determination": [
+        {"topic": "aggregate demand", "solver_able": false, "status": "not_solver_able (concept; its arithmetic lives in the families below)"},
+        {"topic": "consumption function C = a + bY", "solver_able": true, "status": "covered", "family": "CONSUMPTION_FUNCTION_ANY"},
+        {"topic": "APC/MPC/APS/MPS identities", "solver_able": true, "status": "covered", "family": "APC_APS_IDENTITIES"},
+        {"topic": "investment multiplier = 1/(1-MPC)", "solver_able": true, "status": "covered", "family": "INVESTMENT_MULTIPLIER"},
+        {"topic": "equilibrium income", "solver_able": true, "status": "covered", "family": "CONSUMPTION_FUNCTION_ANY equilibrium branch: Y* = (a+I)/(1-MPC)"}
+      ],
+      "macro_ch5_budget": [
+        {"topic": "revenue receipts/expenditure", "solver_able": false, "status": "not_solver_able (classification concept)"},
+        {"topic": "capital receipts/expenditure", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "revenue deficit", "solver_able": true, "status": "covered", "family": "BUDGET_DEFICITS_ANY"},
+        {"topic": "fiscal deficit", "solver_able": true, "status": "covered", "family": "BUDGET_DEFICITS_ANY"},
+        {"topic": "primary deficit", "solver_able": true, "status": "covered", "family": "BUDGET_DEFICITS_ANY"}
+      ],
+      "macro_ch6_open_economy": [
+        {"topic": "balance of payments", "solver_able": true, "status": "covered", "family": "BOP_CLASSIFY_ANY (books2: visible/invisible classification + current-account balance)"},
+        {"topic": "exchange rate", "solver_able": true, "status": "covered", "family": "EXCHANGE_RATE_CHANGE"},
+        {"topic": "depreciation and appreciation", "solver_able": true, "status": "covered", "family": "EXCHANGE_RATE_CHANGE"},
+        {"topic": "percentage change in exchange rate", "solver_able": true, "status": "covered", "family": "EXCHANGE_RATE_CHANGE"}
+      ],
+      "micro_ch1_intro": "2 topics (central problems, PPF) -- all not_solver_able",
+      "micro_ch2_consumer_behaviour": [
+        {"topic": "utility", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "demand curve", "solver_able": true, "status": "covered", "family": "DEMAND_Q_AT_P / DEMAND_P_FOR_Q"},
+        {"topic": "price/income/substitution effects", "solver_able": false, "status": "not_solver_able"},
+        {"topic": "price elasticity of demand", "solver_able": true, "status": "covered", "family": "PED_PERCENTAGE / PED_TOTAL_OUTLAY / PED_POINT_LINEAR"},
+        {"topic": "consumer equilibrium (cardinal MUx/Px = MUy/Py; ordinal MRS = p1/p2)", "solver_able": true, "status": "covered", "family": "CONSUMER_EQUIB_RATIO (books2: verdict + any-missing)"}
+      ],
+      "micro_ch3_production_costs": [
+        {"topic": "TP/AP/MP", "solver_able": true, "status": "covered", "family": "TP_AP_MP_SCHEDULE (books2: AP = TP/q, MP = dTP/dq, TP = AP x q)"},
+        {"topic": "cost curves", "solver_able": true, "status": "covered", "family": "COST_SCHEDULE_ANY (books2: TC = TFC + TVC, AC/AVC/AFC, MC = dTC/dQ, any-missing)"}
+      ],
+      "micro_ch4_firm_perfect_competition": [
+        {"topic": "revenue", "solver_able": true, "status": "covered", "family": "REVENUE_CURVES_ANY (books2: TR = p x q, AR = TR/q, MR = dTR/dq, any-missing)"},
+        {"topic": "profit maximisation", "solver_able": false, "status": "not_solver_able (MR = MC comparison is a table/schedule exercise in the books; single-shot arithmetic not prescribed)"},
+        {"topic": "supply curve", "solver_able": false, "status": "not_solver_able (P = MC curve derivation is graphical)"}
+      ],
+      "micro_ch5_market_equilibrium": [
+        {"topic": "equilibrium price", "solver_able": true, "status": "covered", "family": "MARKET_EQUILIBRIUM"},
+        {"topic": "excess demand/supply", "solver_able": true, "status": "covered", "family": "EXCESS_DEMAND_SUPPLY"},
+        {"topic": "price ceiling and floor", "solver_able": true, "status": "covered", "family": "PRICE_CEILING_FLOOR (books2: binding/non-binding, shortage/surplus)"},
+        {"topic": "shifts of demand and supply", "solver_able": false, "status": "not_solver_able (qualitative)"},
+        {"topic": "market supply (horizontal sum)", "solver_able": true, "status": "covered", "family": "MARKET_SUPPLY_SUM (books2: firm quantities + linear-function sum)"}
+      ]
+    }
+  },
+  "misconception_sources_corpus": {
+    "closed_world_rule": "MisconceptionPanel strings must be verbatim authored corpus text; never invented.",
+    "nodes_used": [
+      "c10_econ_icse_02_001 (demand vs quantity demanded; price change shifts curve)",
+      "c10_econ_icse_02_004 (movement vs shift; increase in demand vs quantity demanded)",
+      "c10_econ_icse_04_009 (demonetisation vs monetary policy instruments)",
+      "c10_econ_icse_05_001 (any price increase equals inflation)",
+      "c10_econ_icse_05_003 (walking inflation impact; rule of 70)",
+      "c9_econ_icse_05_004 (anyone without a job is unemployed)",
+      "c9_econ_icse_05_002 (relative vs absolute poverty)",
+      "c9_econ_icse_05_001 (poverty line equals minimum wage)",
+      "c9_econ_icse_04_002/003/005 (agriculture, land reform, food security)"
+    ]
+  }
+}

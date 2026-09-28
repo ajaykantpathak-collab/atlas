@@ -1,0 +1,3163 @@
+{
+ "generated": "2026-09-27",
+ "sources": {
+  "ncert_books": "D:/platform/ncert_books/text_cache_new/{class}/misc (iesc=cls9 sci, jesc=cls10 sci, keph=cls11 phys, leph=cls12 phys)",
+  "corpus": "D:/platform/deploy/content/cisce_nodes_v2 c6-c12 phy (ICSE/ISC), THIS_FORMULA fields",
+  "node_counts": {
+   "10": 48,
+   "11": 68,
+   "12": 62,
+   "6": 75,
+   "7": 90,
+   "8": 86,
+   "9": 61
+  }
+ },
+ "book_chapters_by_class": {
+  "9": {
+   "source": "ncert_books/text_cache_new/class_9/misc iesc1xx (Science)",
+   "chapters": {
+    "8": "Motion (v=u+at, s=ut+1/2at^2, v^2=u^2+2as, graphs)",
+    "9": "Force and Laws of Motion (F=ma, momentum p=mv, impulse, conservation)",
+    "10": "Gravitation (F=Gm1m2/r^2, g=GM/R^2, weight W=mg, buoyancy, Archimedes)",
+    "11": "Work and Energy (W=Fd, KE=1/2mv^2, PE=mgh, work-energy theorem, power, kWh)",
+    "12": "Sound (v=f(lambda), reflection, echo, SONAR)"
+   }
+  },
+  "10": {
+   "source": "ncert_books/text_cache_new/class_10/misc jesc1xx (Science)",
+   "chapters": {
+    "10": "Light - Reflection and Refraction (mirror/lens formula, magnification, refractive index, Snell)",
+    "11": "The Human Eye and the Colourful World (power of lens, dispersion, scattering)",
+    "12": "Electricity (V=IR, series/parallel, P=VI, H=I^2Rt, kWh billing)",
+    "13": "Magnetic Effects of Electric Current (field, solenoid, force on conductor, motor, induction)"
+   }
+  },
+  "11": {
+   "source": "ncert_books/text_cache_new/class_11/misc keph1xx/keph2xx (Physics 1-2)",
+   "chapters": {
+    "1": "Units and Measurement",
+    "2": "Motion in a Straight Line (kinematics)",
+    "3": "Motion in a Plane (vectors, projectile, circular motion)",
+    "4": "Laws of Motion (F=ma, friction, momentum, circular dynamics)",
+    "5": "Work, Energy and Power (W=Fs cos, KE, PE, work-energy theorem, power)",
+    "6": "Systems of Particles and Rotational Motion (torque, moment of inertia, angular momentum)",
+    "7": "Gravitation (F=Gm1m2/r^2, g=GM/R^2, satellites, escape velocity)",
+    "8": "Mechanical Properties of Solids (stress, strain, Young's modulus, Hooke)",
+    "9": "Mechanical Properties of Fluids (P=h rho g, Archimedes, Bernoulli, viscosity)",
+    "10": "Thermal Properties of Matter (Q=mc dT, Q=mL, calorimetry, expansion)",
+    "11": "Thermodynamics (dU=Q-W, engines)",
+    "12": "Kinetic Theory (PV=nRT)",
+    "13": "Oscillations (SHM, T=2pi sqrt(l/g), T=2pi sqrt(m/k), energy)",
+    "14": "Waves (v=f(lambda), speed of sound, beats, Doppler)"
+   }
+  },
+  "12": {
+   "source": "ncert_books/text_cache_new/class_12/misc leph1xx/leph2xx (Physics 1-2)",
+   "chapters": {
+    "1": "Electric Charges and Fields (Coulomb F=kq1q2/r^2, E=F/q)",
+    "2": "Electrostatic Potential and Capacitance (V=kq/r, C=Q/V, capacitors)",
+    "3": "Current Electricity (Ohm V=IR, resistivity, series/parallel, cells, Wheatstone, power)",
+    "4": "Moving Charges and Magnetism (Biot-Savart, solenoid, F=qvB, F=BIL, galvanometer)",
+    "5": "Magnetism and Matter",
+    "6": "Electromagnetic Induction (Faraday EMF=N dphi/dt, Lenz, inductance)",
+    "7": "Alternating Current (X_L, X_C, impedance, resonance, transformer)",
+    "8": "Electromagnetic Waves (c=f(lambda), spectrum)",
+    "9": "Ray Optics (mirror/lens, power P=1/f, prism, refraction, TIR)",
+    "10": "Wave Optics (interference, YDSE fringe width)",
+    "11": "Dual Nature (photoelectric KE=hf-phi, de Broglie lambda=h/p)",
+    "12": "Atoms (Bohr E_n=-13.6/n^2 eV)",
+    "13": "Nuclei (mass defect, binding energy, half-life)",
+    "14": "Semiconductors (diode, transistor)"
+   }
+  },
+  "6": {
+   "source": "corpus c6_phy_icse (ICSE junior)",
+   "chapters": {
+    "1": "Matter and its states",
+    "2": "Measurement (length, mass, area, volume)",
+    "3": "Force (push/pull, contact/non-contact)",
+    "4": "Energy and Simple Machines",
+    "5": "Light - rectilinear propagation, shadows, pinhole",
+    "6": "Magnets (poles, law of magnetism)",
+    "7": "Matter: volume/space"
+   }
+  },
+  "7": {
+   "source": "corpus c7_phy_icse",
+   "chapters": {
+    "1": "Motion (speed v=s/t, uniform/non-uniform)",
+    "2": "Work and Energy (W=Fd, KE, PE)",
+    "3": "Light - Reflection (law i=r, plane mirror, spherical mirrors)",
+    "4": "Heat (thermometer, Q=mc dT intro)",
+    "5": "Sound (vibration, pitch, loudness, v=f(lambda))",
+    "6": "Magnetism (law of magnetism, compass)",
+    "7": "States of matter and kinetic model"
+   }
+  },
+  "8": {
+   "source": "corpus c8_phy_icse",
+   "chapters": {
+    "1": "Density (rho=m/V, floating/sinking)",
+    "2": "Force and Pressure (P=F/A, atmospheric P)",
+    "3": "Work, Energy, Power (W=Fd, P=W/t)",
+    "4": "Refraction of Light (Snell, glass block, lateral displacement)",
+    "5": "Change of state, evaporation/boiling (latent heat)",
+    "6": "Sound (echo, SONAR, ultrasonic)",
+    "7": "Electrical energy, kWh billing (E=P x t, cost)"
+   }
+  }
+ },
+ "corpus_chapters_by_class": {
+  "10": {
+   "1": {
+    "theme": "A turning force is a force that tends to rotate a body about a fixed point called the pivot or fulcrum. Unlike a linear force that produces translation, a turni",
+    "nodes": [
+     "c10_phy_icse_01_001.md",
+     "c10_phy_icse_01_002.md",
+     "c10_phy_icse_01_003.md",
+     "c10_phy_icse_01_004.md",
+     "c10_phy_icse_01_005.md",
+     "c10_phy_icse_01_006.md",
+     "c10_phy_icse_01_007.md",
+     "c10_phy_icse_01_008.md",
+     "c10_phy_icse_01_009.md",
+     "c10_phy_icse_01_010.md",
+     "c10_phy_icse_01_011.md"
+    ],
+    "first_formula": "τ = F × d"
+   },
+   "2": {
+    "theme": "Refraction through a glass block and a prism describes how a light ray changes direction when it enters and leaves a transparent medium of different optical den",
+    "nodes": [
+     "c10_phy_icse_02_001.md",
+     "c10_phy_icse_02_002.md",
+     "c10_phy_icse_02_003.md",
+     "c10_phy_icse_02_004.md",
+     "c10_phy_icse_02_005.md",
+     "c10_phy_icse_02_006.md"
+    ],
+    "first_formula": "Snell’s law: *n₁ sin i = n₂ sin r* | Lateral displacement (glass block): *d = t sin(i − r) / cos r* | Prism deviation: *δ = i + e − A* | Minimum deviation condition: *n = sin[(A+δₘ)/2] / sin(A/2)*"
+   },
+   "3": {
+    "theme": "Reflection of sound waves is the change in direction of a wavefront when it encounters a boundary between two media and returns into the original medium. The in",
+    "nodes": [
+     "c10_phy_icse_03_001.md",
+     "c10_phy_icse_03_002.md",
+     "c10_phy_icse_03_004.md",
+     "c10_phy_icse_03_005.md",
+     "c10_phy_icse_03_006.md",
+     "c10_phy_icse_03_007.md",
+     "c10_phy_icse_03_008.md"
+    ],
+    "first_formula": "θ_i = θ_r"
+   },
+   "4": {
+    "theme": "Ohm’s law states that, for a metallic conductor at constant temperature, the current **I** flowing through it is directly proportional to the potential differen",
+    "nodes": [
+     "c10_phy_icse_04_001.md",
+     "c10_phy_icse_04_002.md",
+     "c10_phy_icse_04_003.md",
+     "c10_phy_icse_04_004.md",
+     "c10_phy_icse_04_005.md",
+     "c10_phy_icse_04_006.md",
+     "c10_phy_icse_04_007.md",
+     "c10_phy_icse_04_008.md"
+    ],
+    "first_formula": "V = I × R"
+   },
+   "5": {
+    "theme": "The Heat chapter in ICSE Class 10 Physics builds a quantitative framework for thermal energy transfer. It introduces three interlinked sub‑concepts: (1) **Calor",
+    "nodes": [
+     "c10_phy_icse_05_001.md",
+     "c10_phy_icse_05_002.md",
+     "c10_phy_icse_05_003.md",
+     "c10_phy_icse_05_004.md",
+     "c10_phy_icse_05_005.md",
+     "c10_phy_icse_05_006.md",
+     "c10_phy_icse_05_007.md",
+     "c10_phy_icse_05_008.md"
+    ],
+    "first_formula": "Q = m c ΔT"
+   },
+   "6": {
+    "theme": "Modern Physics in Class 10 ICSE introduces the behaviour of atomic nuclei. **Radioactivity** is the spontaneous disintegration of an unstable nucleus, emitting",
+    "nodes": [
+     "c10_phy_icse_06_001.md",
+     "c10_phy_icse_06_002.md",
+     "c10_phy_icse_06_003.md",
+     "c10_phy_icse_06_004.md",
+     "c10_phy_icse_06_005.md",
+     "c10_phy_icse_06_006.md",
+     "c10_phy_icse_06_007.md",
+     "c10_phy_icse_06_008.md"
+    ],
+    "first_formula": "N = N₀ e^(−λt) ; T½ = ln 2 / λ ; A = λN"
+   }
+  },
+  "11": {
+   "1": {
+    "theme": "Physics is the fundamental science that investigates the nature and behavior of matter and energy across all scales, from subatomic particles (10⁻¹⁵ m) to the o",
+    "nodes": [
+     "c11_phy_isc_01_001.md",
+     "c11_phy_isc_01_002.md",
+     "c11_phy_isc_01_003.md",
+     "c11_phy_isc_01_004.md",
+     "c11_phy_isc_01_005.md"
+    ],
+    "first_formula": "Dimensional formula: [Q] = M^a L^b T^c I^d Θ^e N^f J^g"
+   },
+   "2": {
+    "theme": "A **frame of reference** is a coordinate system (usually three mutually perpendicular axes \\(x, y, z\\) with an origin \\(O\\)) together with a clock that records",
+    "nodes": [
+     "c11_phy_isc_02_001.md",
+     "c11_phy_isc_02_002.md",
+     "c11_phy_isc_02_003.md",
+     "c11_phy_isc_02_004.md",
+     "c11_phy_isc_02_005.md",
+     "c11_phy_isc_02_006.md"
+    ],
+    "first_formula": "Distance: s = ∫|**v**| dt  (or sum of segment lengths) | Displacement: Δ**r** = **r**_f − **r**_i"
+   },
+   "3": {
+    "theme": "A **scalar** is a physical quantity completely described by a magnitude (numerical value) and a unit, with no direction. Examples: mass (kg), time (s), temperat",
+    "nodes": [
+     "c11_phy_isc_03_002.md",
+     "c11_phy_isc_03_003.md",
+     "c11_phy_isc_03_004.md",
+     "c11_phy_isc_03_005.md",
+     "c11_phy_isc_03_006.md",
+     "c11_phy_isc_03_007.md"
+    ],
+    "first_formula": "A| = √(Aₓ² + Aᵧ² + A_z²)"
+   },
+   "4": {
+    "theme": "Newton’s three laws of motion form the axiomatic basis of classical mechanics. **First Law (Law of Inertia):** A body remains at rest or in uniform motion in",
+    "nodes": [
+     "c11_phy_isc_04_001.md",
+     "c11_phy_isc_04_004.md",
+     "c11_phy_isc_04_007.md",
+     "c11_phy_isc_04_008.md",
+     "c11_phy_isc_04_009.md"
+    ],
+    "first_formula": "1. Σ**F** = **0**  (First law, equilibrium condition) | 2. **F** = *d**p**/dt* = *m**a**  (Second law, constant‑mass form) | 3. **F**₁₂ = –**F**₂₁  (Third law, action–reaction pair)"
+   },
+   "5": {
+    "theme": "Work done by a force is a scalar quantity defined as the dot product of the force vector **F** and the displacement vector **s** of the point of application of",
+    "nodes": [
+     "c11_phy_isc_05_001.md",
+     "c11_phy_isc_05_002.md",
+     "c11_phy_isc_05_004.md",
+     "c11_phy_isc_05_006.md"
+    ],
+    "first_formula": "\\(W = \\mathbf{F} \\cdot \\mathbf{s} = F s \\cos\\theta\\)"
+   },
+   "6": {
+    "theme": "The centre of mass (CM) of a system of particles is the unique point whose position vector **R** satisfies \\[ \\mathbf{R} = \\frac{\\sum_{i=1}^{n} m_i \\mathbf{r",
+    "nodes": [
+     "c11_phy_isc_06_001.md",
+     "c11_phy_isc_06_002.md",
+     "c11_phy_isc_06_003.md",
+     "c11_phy_isc_06_004.md",
+     "c11_phy_isc_06_006.md",
+     "c11_phy_isc_06_007.md"
+    ],
+    "first_formula": "\\(\\displaystyle \\mathbf{R}_{\\text{CM}} = \\frac{\\sum_{i=1}^{n} m_i \\mathbf{r}_i}{\\sum_{i=1}^{n} m_i}\\)  (discrete) ; \\(\\displaystyle \\mathbf{R}_{\\text{CM}} = \\frac{1}{M}\\int \\mathbf{r}\\,dm\\) (continuous)"
+   },
+   "7": {
+    "theme": "Newton’s law of universal gravitation states that every point mass attracts every other point mass with a force acting along the line joining their centres. The",
+    "nodes": [
+     "c11_phy_isc_07_001.md",
+     "c11_phy_isc_07_002.md",
+     "c11_phy_isc_07_003.md",
+     "c11_phy_isc_07_004.md",
+     "c11_phy_isc_07_005.md",
+     "c11_phy_isc_07_006.md",
+     "c11_phy_isc_07_007.md",
+     "c11_phy_isc_07_008.md"
+    ],
+    "first_formula": "\\(F = G \\frac{m_1 m_2}{r^2}\\)"
+   },
+   "8": {
+    "theme": "Stress is the internal restoring force per unit cross‑sectional area developed when a deforming force acts on a body. Its symbol is σ (sigma) and SI unit is pas",
+    "nodes": [
+     "c11_phy_isc_08_001.md",
+     "c11_phy_isc_08_005.md",
+     "c11_phy_isc_08_006.md",
+     "c11_phy_isc_08_008.md",
+     "c11_phy_isc_08_009.md",
+     "c11_phy_isc_08_010.md",
+     "c11_phy_isc_08_011.md",
+     "c11_phy_isc_08_012.md",
+     "c11_phy_isc_08_013.md"
+    ],
+    "first_formula": "Stress σ = F/A; Strain ε = ΔL/L; Hooke’s law (within elastic limit): σ = E ε (E is Young’s modulus, defined in next node)."
+   },
+   "9": {
+    "theme": "The **zeroth law of thermodynamics** establishes the transitive property of thermal equilibrium. Two systems are in *thermal equilibrium* when, placed in diathe",
+    "nodes": [
+     "c11_phy_isc_09_002.md",
+     "c11_phy_isc_09_003.md",
+     "c11_phy_isc_09_006.md"
+    ],
+    "first_formula": "T_A = T_B = T_C  (when A, B, C are pairwise in thermal equilibrium via a common third system)"
+   },
+   "10": {
+    "theme": "The equation of state of a perfect (ideal) gas is the mathematical relationship **PV = nRT** (or **PV = Nk_BT**) that exactly connects the macroscopic thermodyn",
+    "nodes": [
+     "c11_phy_isc_10_001.md",
+     "c11_phy_isc_10_002.md",
+     "c11_phy_isc_10_003.md",
+     "c11_phy_isc_10_005.md",
+     "c11_phy_isc_10_006.md",
+     "c11_phy_isc_10_007.md",
+     "c11_phy_isc_10_008.md"
+    ],
+    "first_formula": "PV = nRT"
+   },
+   "11": {
+    "theme": "Periodic motion is any motion that repeats itself after a fixed interval of time. The **time period** (symbol **T**) is the smallest positive interval after whi",
+    "nodes": [
+     "c11_phy_isc_11_001.md",
+     "c11_phy_isc_11_004.md",
+     "c11_phy_isc_11_005.md",
+     "c11_phy_isc_11_006.md",
+     "c11_phy_isc_11_007.md",
+     "c11_phy_isc_11_008.md",
+     "c11_phy_isc_11_009.md",
+     "c11_phy_isc_11_010.md",
+     "c11_phy_isc_11_011.md"
+    ],
+    "first_formula": "\\(T = \\frac{1}{f}\\)  (or equivalently \\(f = \\frac{1}{T}\\))"
+   }
+  },
+  "12": {
+   "1": {
+    "theme": "Electric charge is a fundamental property of matter that exists in two types, positive and negative, measured in coulombs (C). Coulomb's law states that the ele",
+    "nodes": [
+     "c12_phy_isc_01_001.md",
+     "c12_phy_isc_01_002.md",
+     "c12_phy_isc_01_003.md",
+     "c12_phy_isc_01_004.md",
+     "c12_phy_isc_01_005.md",
+     "c12_phy_isc_01_006.md",
+     "c12_phy_isc_01_007.md",
+     "c12_phy_isc_01_008.md",
+     "c12_phy_isc_01_009.md",
+     "c12_phy_isc_01_010.md"
+    ],
+    "first_formula": "**F₁₂** = (1/4πϵ₀) (q₁ q₂ / r²) **r̂₁₂**"
+   },
+   "2": {
+    "theme": "Electric current (I) is the rate of flow of electric charge across a cross‑section of a conductor. Quantitatively, \\( I = \\frac{Q}{t} \\) for a constant flow, or",
+    "nodes": [
+     "c12_phy_isc_02_001.md",
+     "c12_phy_isc_02_006.md",
+     "c12_phy_isc_02_007.md",
+     "c12_phy_isc_02_008.md",
+     "c12_phy_isc_02_009.md",
+     "c12_phy_isc_02_010.md",
+     "c12_phy_isc_02_011.md"
+    ],
+    "first_formula": "\\( I = \\frac{Q}{t} \\) (average) ; \\( I = \\frac{dQ}{dt} \\) (instantaneous)"
+   },
+   "3": {
+    "theme": "The Biot‑Savart law gives the magnetic field **dB** produced at a point **P** by an infinitesimal current element **I dl**. In vector form \\[ d\\mathbf{B} = \\",
+    "nodes": [
+     "c12_phy_isc_03_001.md",
+     "c12_phy_isc_03_003.md",
+     "c12_phy_isc_03_005.md",
+     "c12_phy_isc_03_006.md",
+     "c12_phy_isc_03_007.md"
+    ],
+    "first_formula": "\\(d\\mathbf{B} = \\frac{\\mu_0}{4\\pi}\\frac{I\\,d\\mathbf{l}\\times\\mathbf{\\hat r}}{r^2}\\)"
+   },
+   "4": {
+    "theme": "Self‑inductance **L** of a coil is the ratio of the magnetic flux linkage **NΦ** produced by its own current **I** to that current: **L = NΦ / I**. Its SI unit",
+    "nodes": [
+     "c12_phy_isc_04_003.md",
+     "c12_phy_isc_04_004.md",
+     "c12_phy_isc_04_005.md",
+     "c12_phy_isc_04_007.md",
+     "c12_phy_isc_04_008.md"
+    ],
+    "first_formula": "L = μ₀ N² A / l ; M = μ₀ N₁ N₂ A / l ; k = M / √(L₁ L₂) ; ε = –L dI/dt ; ε₂ = –M dI₁/dt ; U = ½ L I² ; U_coupled = ½ L₁ I₁² + ½ L₂ I₂² ± M I₁ I₂"
+   },
+   "5": {
+    "theme": "Electromagnetic waves are self‑propagating oscillations of electric and magnetic fields that travel through vacuum at speed \\(c = 3.00 \\times 10^8\\ \\text{m/s}\\)",
+    "nodes": [
+     "c12_phy_isc_05_001.md",
+     "c12_phy_isc_05_002.md",
+     "c12_phy_isc_05_003.md",
+     "c12_phy_isc_05_004.md",
+     "c12_phy_isc_05_007.md",
+     "c12_phy_isc_05_008.md"
+    ],
+    "first_formula": "\\(I_d = \\varepsilon_0 \\frac{d\\Phi_E}{dt}\\)"
+   },
+   "6": {
+    "theme": "A spherical mirror is a reflecting surface that forms part of a sphere of radius **R**. The centre of that sphere is the **centre of curvature (C)**, the midpoi",
+    "nodes": [
+     "c12_phy_isc_06_002.md",
+     "c12_phy_isc_06_004.md",
+     "c12_phy_isc_06_008.md"
+    ],
+    "first_formula": "1/f = 1/v + 1/u ; m = –v/u = h′/h ; f = R/2"
+   },
+   "7": {
+    "theme": "Wave optics treats light as an electromagnetic wave propagating through space. The chapter builds on Huygens' principle: every point on a wavefront acts as a so",
+    "nodes": [
+     "c12_phy_isc_07_001.md",
+     "c12_phy_isc_07_002.md",
+     "c12_phy_isc_07_003.md",
+     "c12_phy_isc_07_004.md",
+     "c12_phy_isc_07_005.md",
+     "c12_phy_isc_07_006.md",
+     "c12_phy_isc_07_008.md"
+    ],
+    "first_formula": "r = v Δt"
+   },
+   "8": {
+    "theme": "The chapter “Dual Nature of Radiation and Matter” establishes that electromagnetic radiation exhibits particle‑like properties (photoelectric effect, Einstein’s",
+    "nodes": [
+     "c12_phy_isc_08_001.md",
+     "c12_phy_isc_08_002.md",
+     "c12_phy_isc_08_003.md",
+     "c12_phy_isc_08_004.md",
+     "c12_phy_isc_08_005.md",
+     "c12_phy_isc_08_006.md",
+     "c12_phy_isc_08_007.md",
+     "c12_phy_isc_08_008.md"
+    ],
+    "first_formula": "K_max = hν – φ"
+   },
+   "9": {
+    "theme": "Rutherford’s nuclear model (1911) postulates that an atom consists of a tiny, dense, positively charged nucleus containing nearly all the atomic mass, while neg",
+    "nodes": [
+     "c12_phy_isc_09_002.md",
+     "c12_phy_isc_09_003.md",
+     "c12_phy_isc_09_004.md"
+    ],
+    "first_formula": "\\(r_{\\text{min}} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{2Ze^2}{K}\\)"
+   },
+   "10": {
+    "theme": "Energy bands in solids arise when a large number of atoms come together to form a crystal. Each atom contributes discrete atomic orbitals; due to the Pauli excl",
+    "nodes": [
+     "c12_phy_isc_10_001.md",
+     "c12_phy_isc_10_002.md",
+     "c12_phy_isc_10_003.md",
+     "c12_phy_isc_10_004.md",
+     "c12_phy_isc_10_005.md",
+     "c12_phy_isc_10_006.md",
+     "c12_phy_isc_10_007.md",
+     "c12_phy_isc_10_008.md"
+    ],
+    "first_formula": "nᵢ = √(N_c N_v) exp(−E₉ / 2kT) ; σ = q (n μ_n + p μ_p)"
+   }
+  },
+  "6": {
+   "1": {
+    "theme": "**Matter** is anything that possesses **mass** (it can be weighed) and **occupies space** (it has volume). The bench, the water in the cooler, the LPG in the ki",
+    "nodes": [
+     "c6_phy_icse_01_001.md",
+     "c6_phy_icse_01_002.md",
+     "c6_phy_icse_01_003.md",
+     "c6_phy_icse_01_004.md"
+    ],
+    "first_formula": ""
+   },
+   "2": {
+    "theme": "**Length** is the distance between two points — the spacing between one endpoint and another, such as the two ends of a notebook, the two walls of a room, or th",
+    "nodes": [
+     "c6_phy_icse_02_001.md",
+     "c6_phy_icse_02_002.md",
+     "c6_phy_icse_02_003.md",
+     "c6_phy_icse_02_004.md",
+     "c6_phy_icse_02_005.md",
+     "c6_phy_icse_02_006.md",
+     "c6_phy_icse_02_007.md",
+     "c6_phy_icse_02_008.md",
+     "c6_phy_icse_02_009.md",
+     "c6_phy_icse_02_010.md",
+     "c6_phy_icse_02_011.md",
+     "c6_phy_icse_02_012.md",
+     "c6_phy_icse_02_013.md",
+     "c6_phy_icse_02_014.md",
+     "c6_phy_icse_02_015.md",
+     "c6_phy_icse_02_016.md"
+    ],
+    "first_formula": "Unit relations for length: 1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm"
+   },
+   "3": {
+    "theme": "**Force** is a push or a pull acting on an object, arising whenever two objects **interact** — one body does something to another. The definition has three load",
+    "nodes": [
+     "c6_phy_icse_03_001.md",
+     "c6_phy_icse_03_002.md",
+     "c6_phy_icse_03_003.md",
+     "c6_phy_icse_03_004.md",
+     "c6_phy_icse_03_005.md",
+     "c6_phy_icse_03_006.md",
+     "c6_phy_icse_03_007.md",
+     "c6_phy_icse_03_008.md",
+     "c6_phy_icse_03_009.md"
+    ],
+    "first_formula": "F = m a ; f = μ N"
+   },
+   "4": {
+    "theme": "**Simple Machines** is the opening concept of the Energy chapter: a machine is *any device that receives an applied force (the effort) and delivers a modified f",
+    "nodes": [
+     "c6_phy_icse_04_001.md",
+     "c6_phy_icse_04_002.md",
+     "c6_phy_icse_04_003.md",
+     "c6_phy_icse_04_004.md",
+     "c6_phy_icse_04_005.md",
+     "c6_phy_icse_04_006.md",
+     "c6_phy_icse_04_007.md",
+     "c6_phy_icse_04_008.md",
+     "c6_phy_icse_04_009.md"
+    ],
+    "first_formula": "MA = Load / Effort"
+   },
+   "5": {
+    "theme": "Rectilinear propagation of light is the fundamental principle stating that light travels in straight lines through a homogeneous transparent medium. A light ray",
+    "nodes": [
+     "c6_phy_icse_05_001.md",
+     "c6_phy_icse_05_002.md",
+     "c6_phy_icse_05_003.md",
+     "c6_phy_icse_05_004.md",
+     "c6_phy_icse_05_005.md",
+     "c6_phy_icse_05_006.md",
+     "c6_phy_icse_05_007.md",
+     "c6_phy_icse_05_008.md",
+     "c6_phy_icse_05_009.md",
+     "c6_phy_icse_05_010.md",
+     "c6_phy_icse_05_011.md",
+     "c6_phy_icse_05_012.md",
+     "c6_phy_icse_05_013.md",
+     "c6_phy_icse_05_014.md",
+     "c6_phy_icse_05_015.md",
+     "c6_phy_icse_05_016.md"
+    ],
+    "first_formula": "image height / object height = image distance / object distance (i.e., h-image / h-object = v / u, the two gaps measured from the hole)"
+   },
+   "6": {
+    "theme": "Magnetic substances are materials that experience a noticeable force of attraction when placed near a magnet. In the ICSE Class 6 curriculum the classic magneti",
+    "nodes": [
+     "c6_phy_icse_06_001.md",
+     "c6_phy_icse_06_002.md",
+     "c6_phy_icse_06_003.md",
+     "c6_phy_icse_06_004.md",
+     "c6_phy_icse_06_005.md",
+     "c6_phy_icse_06_006.md",
+     "c6_phy_icse_06_007.md",
+     "c6_phy_icse_06_008.md"
+    ],
+    "first_formula": "B = μ₀ × n × I"
+   },
+   "7": {
+    "theme": "The **volume** of an object is the **amount of space it occupies** — the three-dimensional \"room\" that the object claims from the world. Every solid thing has t",
+    "nodes": [
+     "c6_phy_icse_07_001.md",
+     "c6_phy_icse_07_002.md",
+     "c6_phy_icse_07_003.md",
+     "c6_phy_icse_07_004.md",
+     "c6_phy_icse_07_005.md",
+     "c6_phy_icse_07_006.md",
+     "c6_phy_icse_07_007.md",
+     "c6_phy_icse_07_008.md",
+     "c6_phy_icse_07_009.md",
+     "c6_phy_icse_07_010.md",
+     "c6_phy_icse_07_011.md",
+     "c6_phy_icse_07_012.md",
+     "c6_phy_icse_07_013.md"
+    ],
+    "first_formula": "V (cuboid) = l × b × h;  V (cube) = side³;  1 L = 1000 cm³, 1 mL = 1 cm³"
+   }
+  },
+  "7": {
+   "1": {
+    "theme": "**Motion** is the change in position of an object with respect to time and its surroundings — an object is in motion if it occupies a new position at every succ",
+    "nodes": [
+     "c7_phy_icse_01_001.md",
+     "c7_phy_icse_01_002.md",
+     "c7_phy_icse_01_003.md",
+     "c7_phy_icse_01_004.md",
+     "c7_phy_icse_01_005.md",
+     "c7_phy_icse_01_006.md",
+     "c7_phy_icse_01_007.md",
+     "c7_phy_icse_01_008.md",
+     "c7_phy_icse_01_009.md",
+     "c7_phy_icse_01_010.md",
+     "c7_phy_icse_01_011.md",
+     "c7_phy_icse_01_012.md"
+    ],
+    "first_formula": "NONE — a concept node: motion is defined qualitatively (change of position with respect to time, judged against a reference point); the chapter's first equation (average speed = distance/time) is earned at the uniform/non-uniform and speed station (c7_phy_icse_01_003) and exercised on daily-life obj"
+   },
+   "2": {
+    "theme": "**Work**, in physics, is said to be done when a force acting on a body makes the body move through a distance in the direction of the force. It is measured by t",
+    "nodes": [
+     "c7_phy_icse_02_001.md",
+     "c7_phy_icse_02_002.md",
+     "c7_phy_icse_02_003.md",
+     "c7_phy_icse_02_004.md",
+     "c7_phy_icse_02_005.md",
+     "c7_phy_icse_02_006.md",
+     "c7_phy_icse_02_007.md",
+     "c7_phy_icse_02_008.md",
+     "c7_phy_icse_02_009.md",
+     "c7_phy_icse_02_010.md",
+     "c7_phy_icse_02_011.md",
+     "c7_phy_icse_02_012.md"
+    ],
+    "first_formula": "WORK = FORCE × DISPLACEMENT, written W = F × s, with F the force in newtons and s the displacement in metres in the direction of the force; for lifting, W = weight × height = m × g × h (g ≈ 10 m/s²); with the unit identity 1 J = 1 N·m and 1 kJ = 1000 J."
+   },
+   "3": {
+    "theme": "The normal is an imaginary line drawn perpendicular (at 90°) to the reflecting surface at the point of incidence. It serves as the reference line for measuring",
+    "nodes": [
+     "c7_phy_icse_03_001.md",
+     "c7_phy_icse_03_002.md",
+     "c7_phy_icse_03_003.md",
+     "c7_phy_icse_03_004.md",
+     "c7_phy_icse_03_005.md",
+     "c7_phy_icse_03_006.md",
+     "c7_phy_icse_03_007.md",
+     "c7_phy_icse_03_008.md",
+     "c7_phy_icse_03_009.md",
+     "c7_phy_icse_03_010.md",
+     "c7_phy_icse_03_011.md",
+     "c7_phy_icse_03_012.md",
+     "c7_phy_icse_03_013.md",
+     "c7_phy_icse_03_014.md",
+     "c7_phy_icse_03_015.md",
+     "c7_phy_icse_03_016.md"
+    ],
+    "first_formula": "θᵣ = θᵢ"
+   },
+   "4": {
+    "theme": "Heat is a form of energy transferred between systems or objects due to a temperature difference. In the International System of Units (SI) the unit of heat ener",
+    "nodes": [
+     "c7_phy_icse_04_001.md",
+     "c7_phy_icse_04_002.md",
+     "c7_phy_icse_04_003.md",
+     "c7_phy_icse_04_004.md",
+     "c7_phy_icse_04_005.md",
+     "c7_phy_icse_04_006.md",
+     "c7_phy_icse_04_007.md",
+     "c7_phy_icse_04_008.md",
+     "c7_phy_icse_04_009.md",
+     "c7_phy_icse_04_010.md",
+     "c7_phy_icse_04_011.md",
+     "c7_phy_icse_04_012.md",
+     "c7_phy_icse_04_013.md",
+     "c7_phy_icse_04_014.md",
+     "c7_phy_icse_04_015.md",
+     "c7_phy_icse_04_016.md"
+    ],
+    "first_formula": "1 cal = 4.184 J"
+   },
+   "5": {
+    "theme": "A source of sound is any vibrating body — an object moving rapidly to and fro about a central position — that passes its vibrations to the surroundings and sets",
+    "nodes": [
+     "c7_phy_icse_05_001.md",
+     "c7_phy_icse_05_002.md",
+     "c7_phy_icse_05_003.md",
+     "c7_phy_icse_05_004.md",
+     "c7_phy_icse_05_005.md",
+     "c7_phy_icse_05_006.md",
+     "c7_phy_icse_05_007.md",
+     "c7_phy_icse_05_008.md",
+     "c7_phy_icse_05_009.md",
+     "c7_phy_icse_05_010.md",
+     "c7_phy_icse_05_011.md",
+     "c7_phy_icse_05_012.md",
+     "c7_phy_icse_05_013.md"
+    ],
+    "first_formula": "Source of sound = vibrating body; sound exists exactly while the vibration lasts (start together, stop together)"
+   },
+   "6": {
+    "theme": "The Law of Magnetism states two fundamental rules that govern how magnets interact. **Rule 1 (pole interaction):** like poles repel each other — a north pole pu",
+    "nodes": [
+     "c7_phy_icse_06_001.md",
+     "c7_phy_icse_06_002.md",
+     "c7_phy_icse_06_003.md",
+     "c7_phy_icse_06_004.md",
+     "c7_phy_icse_06_005.md",
+     "c7_phy_icse_06_006.md",
+     "c7_phy_icse_06_007.md",
+     "c7_phy_icse_06_008.md"
+    ],
+    "first_formula": "P = 2n — when a magnet is cut into n complete pieces, the total number of magnetic poles among all the pieces is twice the number of pieces, because every piece is a full magnet with two poles."
+   },
+   "7": {
+    "theme": "Matter exists in three states — **solid, liquid and gas** — and the differences between them are explained by the movement and arrangement of their particles. I",
+    "nodes": [
+     "c7_phy_icse_07_001.md",
+     "c7_phy_icse_07_002.md",
+     "c7_phy_icse_07_003.md",
+     "c7_phy_icse_07_004.md",
+     "c7_phy_icse_07_005.md",
+     "c7_phy_icse_07_006.md",
+     "c7_phy_icse_07_007.md",
+     "c7_phy_icse_07_008.md",
+     "c7_phy_icse_07_009.md",
+     "c7_phy_icse_07_010.md",
+     "c7_phy_icse_07_011.md",
+     "c7_phy_icse_07_012.md",
+     "c7_phy_icse_07_013.md"
+    ],
+    "first_formula": "NONE — this node teaches a qualitative particle model, not a formula."
+   }
+  },
+  "8": {
+   "1": {
+    "theme": "Density (ρ) is defined as mass per unit volume: ρ = m/V. For an irregular solid, volume cannot be found by simple geometry; instead the water displacement metho",
+    "nodes": [
+     "c8_phy_icse_01_001.md",
+     "c8_phy_icse_01_002.md",
+     "c8_phy_icse_01_003.md",
+     "c8_phy_icse_01_004.md",
+     "c8_phy_icse_01_005.md",
+     "c8_phy_icse_01_006.md",
+     "c8_phy_icse_01_007.md",
+     "c8_phy_icse_01_008.md",
+     "c8_phy_icse_01_009.md",
+     "c8_phy_icse_01_010.md",
+     "c8_phy_icse_01_011.md",
+     "c8_phy_icse_01_012.md",
+     "c8_phy_icse_01_013.md"
+    ],
+    "first_formula": "ρ = m/V"
+   },
+   "2": {
+    "theme": "A force is a push or a pull; this chapter, Force and Pressure, studies two of its less obvious effects. The first is the subject of this node: a force can turn",
+    "nodes": [
+     "c8_phy_icse_02_001.md",
+     "c8_phy_icse_02_002.md",
+     "c8_phy_icse_02_003.md",
+     "c8_phy_icse_02_004.md",
+     "c8_phy_icse_02_005.md",
+     "c8_phy_icse_02_006.md",
+     "c8_phy_icse_02_007.md",
+     "c8_phy_icse_02_008.md"
+    ],
+    "first_formula": "NONE (qualitative node: the turning effect grows with force and with perpendicular distance from the pivot; the formal product Moment = Force × distance is defined in c8_phy_icse_02_002)"
+   },
+   "3": {
+    "theme": "Work is said to be done by a force only when the force succeeds in moving the body on which it acts, and its measure is the product of the force and the distanc",
+    "nodes": [
+     "c8_phy_icse_03_001.md",
+     "c8_phy_icse_03_002.md",
+     "c8_phy_icse_03_003.md",
+     "c8_phy_icse_03_004.md",
+     "c8_phy_icse_03_005.md",
+     "c8_phy_icse_03_006.md",
+     "c8_phy_icse_03_007.md",
+     "c8_phy_icse_03_008.md",
+     "c8_phy_icse_03_009.md",
+     "c8_phy_icse_03_010.md",
+     "c8_phy_icse_03_011.md",
+     "c8_phy_icse_03_012.md"
+    ],
+    "first_formula": "Work: W = F × d (force in N, displacement along the force in m, work in N m); lifting case: work = weight × height gained; zero-work cases: d = 0 (no motion) or displacement perpendicular to F (no component of motion along the force)"
+   },
+   "4": {
+    "theme": "Refraction of light is the change in the direction of travel of light when it passes obliquely (at a slant) from one transparent medium into another — for examp",
+    "nodes": [
+     "c8_phy_icse_04_001.md",
+     "c8_phy_icse_04_002.md",
+     "c8_phy_icse_04_003.md",
+     "c8_phy_icse_04_004.md",
+     "c8_phy_icse_04_005.md",
+     "c8_phy_icse_04_006.md",
+     "c8_phy_icse_04_007.md",
+     "c8_phy_icse_04_008.md",
+     "c8_phy_icse_04_009.md",
+     "c8_phy_icse_04_010.md",
+     "c8_phy_icse_04_011.md",
+     "c8_phy_icse_04_012.md",
+     "c8_phy_icse_04_013.md",
+     "c8_phy_icse_04_014.md",
+     "c8_phy_icse_04_015.md"
+    ],
+    "first_formula": "Direction rules (the node's working machinery): entering an optically denser medium (air → water, air → glass) bends the ray towards the normal, r < i; entering an optically rarer medium (water → air, glass → air) bends it away, r > i; entry along the normal deviates the ray not at all though its sp"
+   },
+   "5": {
+    "theme": "Evaporation and boiling are both changes of state from liquid to vapour, and nearly everything important about them is in how they differ. EVAPORATION is the sl",
+    "nodes": [
+     "c8_phy_icse_05_001.md",
+     "c8_phy_icse_05_002.md",
+     "c8_phy_icse_05_003.md",
+     "c8_phy_icse_05_004.md",
+     "c8_phy_icse_05_005.md",
+     "c8_phy_icse_05_006.md",
+     "c8_phy_icse_05_007.md",
+     "c8_phy_icse_05_008.md",
+     "c8_phy_icse_05_009.md",
+     "c8_phy_icse_05_010.md"
+    ],
+    "first_formula": "The node's operating relations (conceptual): both processes are liquid → vapour; evaporation — surface-only, all temperatures, no bubbles, no external heat needed, rate ∝ (surface area, temperature, wind) and ∝ inverse humidity, COOLS the liquid and surface left behind (fastest molecules escape, ave"
+   },
+   "6": {
+    "theme": "SOUND is produced when a body VIBRATES — a vibration being one complete to-and-fro motion of the body about its resting position — and travels to the ear as a w",
+    "nodes": [
+     "c8_phy_icse_06_001.md",
+     "c8_phy_icse_06_002.md",
+     "c8_phy_icse_06_003.md",
+     "c8_phy_icse_06_004.md",
+     "c8_phy_icse_06_005.md",
+     "c8_phy_icse_06_006.md",
+     "c8_phy_icse_06_007.md",
+     "c8_phy_icse_06_008.md",
+     "c8_phy_icse_06_009.md",
+     "c8_phy_icse_06_010.md",
+     "c8_phy_icse_06_011.md",
+     "c8_phy_icse_06_012.md",
+     "c8_phy_icse_06_013.md",
+     "c8_phy_icse_06_014.md"
+    ],
+    "first_formula": "f = 1/T and T = 1/f (frequency and time period are reciprocals); pitch rule: higher frequency → higher pitch, lower frequency → lower pitch; human audible range: about 20 Hz to 20,000 Hz (below: infrasound; above: ultrasound); unit ladder: 1 kHz = 1000 Hz; worked values: f = total vibrations ÷ total"
+   },
+   "7": {
+    "theme": "The kilowatt hour (kWh), commercially called one unit, is the practical unit of electrical energy used for household consumption and billing: 1 kWh is the energ",
+    "nodes": [
+     "c8_phy_icse_07_001.md",
+     "c8_phy_icse_07_002.md",
+     "c8_phy_icse_07_003.md",
+     "c8_phy_icse_07_004.md",
+     "c8_phy_icse_07_005.md",
+     "c8_phy_icse_07_006.md",
+     "c8_phy_icse_07_007.md",
+     "c8_phy_icse_07_008.md",
+     "c8_phy_icse_07_009.md",
+     "c8_phy_icse_07_010.md",
+     "c8_phy_icse_07_011.md",
+     "c8_phy_icse_07_012.md",
+     "c8_phy_icse_07_013.md",
+     "c8_phy_icse_07_014.md"
+    ],
+    "first_formula": "E = P × t — electrical energy consumed = power rating × time of use; 1 kWh (1 unit) = 1 kW × 1 h = 3.6 × 10⁶ J; bill = total units × tariff (₹ per unit); Wh ÷ 1000 = kWh."
+   }
+  },
+  "9": {
+   "1": {
+    "theme": "**Measurements and Experimentation** is the opening chapter of ICSE Class 9 Physics and it builds the entire operational foundation on which every later chapter",
+    "nodes": [
+     "c9_phy_icse_01_001.md",
+     "c9_phy_icse_01_002.md",
+     "c9_phy_icse_01_003.md",
+     "c9_phy_icse_01_004.md",
+     "c9_phy_icse_01_005.md",
+     "c9_phy_icse_01_006.md",
+     "c9_phy_icse_01_007.md",
+     "c9_phy_icse_01_008.md"
+    ],
+    "first_formula": "F = m a   (Force = mass × acceleration)"
+   },
+   "2": {
+    "theme": "Motion in one dimension describes the movement of a particle along a straight line. **Distance** (scalar, metre, m) is the total path length travelled. **Displa",
+    "nodes": [
+     "c9_phy_icse_02_001.md",
+     "c9_phy_icse_02_002.md",
+     "c9_phy_icse_02_003.md",
+     "c9_phy_icse_02_004.md",
+     "c9_phy_icse_02_005.md",
+     "c9_phy_icse_02_006.md",
+     "c9_phy_icse_02_007.md",
+     "c9_phy_icse_02_008.md"
+    ],
+    "first_formula": "Displacement (straight-line, multi-leg) = signed sum of leg displacements along the chosen axis; displacement magnitude for two perpendicular legs: |s| = √(x² + y²); and the governing inequality: |displacement| ≤ distance, with equality only on a straight, unreversed path"
+   },
+   "3": {
+    "theme": "A **force** is any interaction that can change the state of motion or shape of an object. Forces are classified by whether the interacting bodies must be in phy",
+    "nodes": [
+     "c9_phy_icse_03_001.md",
+     "c9_phy_icse_03_002.md",
+     "c9_phy_icse_03_003.md",
+     "c9_phy_icse_03_004.md",
+     "c9_phy_icse_03_005.md",
+     "c9_phy_icse_03_006.md",
+     "c9_phy_icse_03_007.md"
+    ],
+    "first_formula": "F = ma   (also F = dp/dt)"
+   },
+   "4": {
+    "theme": "Fluids are substances that continuously deform under shear stress; they include liquids and gases. The chapter introduces five interlinked concepts. First, pres",
+    "nodes": [
+     "c9_phy_icse_04_001.md",
+     "c9_phy_icse_04_002.md",
+     "c9_phy_icse_04_003.md",
+     "c9_phy_icse_04_004.md",
+     "c9_phy_icse_04_005.md",
+     "c9_phy_icse_04_006.md",
+     "c9_phy_icse_04_007.md",
+     "c9_phy_icse_04_008.md"
+    ],
+    "first_formula": "P = P₀ + ρgh"
+   },
+   "5": {
+    "theme": "Heat is energy in transit due to a temperature difference; its SI unit is the joule (J). Temperature is a measure of the average kinetic energy of particles, ex",
+    "nodes": [
+     "c9_phy_icse_05_001.md",
+     "c9_phy_icse_05_002.md",
+     "c9_phy_icse_05_003.md",
+     "c9_phy_icse_05_004.md",
+     "c9_phy_icse_05_005.md",
+     "c9_phy_icse_05_006.md",
+     "c9_phy_icse_05_007.md",
+     "c9_phy_icse_05_008.md"
+    ],
+    "first_formula": "F = (9/5)C + 32; C = (5/9)(F − 32); T(K) = t(°C) + 273.15 (ICSE working value: +273); unit bridges: 1 cal = 4.186 J ≈ 4.2 J; 1 kcal = 1000 cal = 4186 J; fixed points: 0 °C = 32 °F = 273 K and 100 °C = 212 °F = 373 K"
+   },
+   "6": {
+    "theme": "This node is the chapter's map. **Light** is a form of energy that makes things visible, travelling in straight lines (rectilinear propagation) at 3 × 10⁸ m s⁻¹",
+    "nodes": [
+     "c9_phy_icse_06_001.md",
+     "c9_phy_icse_06_002.md",
+     "c9_phy_icse_06_003.md",
+     "c9_phy_icse_06_004.md",
+     "c9_phy_icse_06_005.md",
+     "c9_phy_icse_06_006.md",
+     "c9_phy_icse_06_007.md",
+     "c9_phy_icse_06_008.md"
+    ],
+    "first_formula": "The chapter's formula kit (taught in the later nodes, mapped here): R = 2f (radius–focal bridge); mirror formula 1/v + 1/u = 1/f; linear magnification m = h′/h = −v/u; plane mirror: image distance = object distance (behind = in front)"
+   },
+   "7": {
+    "theme": "Sound is a mechanical longitudinal wave that propagates through a material medium by periodic compressions and rarefactions of particles. It requires a medium —",
+    "nodes": [
+     "c9_phy_icse_07_001.md",
+     "c9_phy_icse_07_002.md",
+     "c9_phy_icse_07_003.md",
+     "c9_phy_icse_07_004.md",
+     "c9_phy_icse_07_005.md",
+     "c9_phy_icse_07_006.md"
+    ],
+    "first_formula": "v = f λ"
+   },
+   "8": {
+    "theme": "This chapter introduces the foundational concepts of electricity and magnetism as they appear in the CISCE ICSE Class 9 syllabus. It begins with a **simple elec",
+    "nodes": [
+     "c9_phy_icse_08_001.md",
+     "c9_phy_icse_08_002.md",
+     "c9_phy_icse_08_003.md",
+     "c9_phy_icse_08_004.md",
+     "c9_phy_icse_08_005.md",
+     "c9_phy_icse_08_006.md",
+     "c9_phy_icse_08_007.md",
+     "c9_phy_icse_08_008.md"
+    ],
+    "first_formula": "I = Q/t — current equals charge passing a section per unit time; rearrangements Q = I·t and t = Q/I; electron count n = Q/(1.6 × 10⁻¹⁹); units: 1 A = 1 C s⁻¹."
+   }
+  }
+ },
+ "formulas_by_class": {
+  "10": [
+   {
+    "node": "c10_phy_icse_01_001.md",
+    "formula": "τ = F × d"
+   },
+   {
+    "node": "c10_phy_icse_01_002.md",
+    "formula": "$\\tau = F \\times d$"
+   },
+   {
+    "node": "c10_phy_icse_01_003.md",
+    "formula": "\\(\\sum \\vec{F} = 0\\)  and  \\(\\sum M = 0\\)  (or  \\(\\sum M_{\\text{clockwise}} = \\sum M_{\\text{anticlockwise}}\\))"
+   },
+   {
+    "node": "c10_phy_icse_01_004.md",
+    "formula": "\\(F_c = \\frac{m v^2}{r} = m \\omega^2 r\\) ; \\(a_c = \\frac{v^2}{r} = \\omega^2 r\\) ; \\(T = \\frac{2\\pi}{\\omega}\\) ; \\(f = \\frac{1}{T}\\)"
+   },
+   {
+    "node": "c10_phy_icse_01_005.md",
+    "formula": "\\(W = F s \\cos\\theta\\)"
+   },
+   {
+    "node": "c10_phy_icse_01_006.md",
+    "formula": "ΔE = W"
+   },
+   {
+    "node": "c10_phy_icse_01_007.md",
+    "formula": "P = W / t  ;  P = F·v"
+   },
+   {
+    "node": "c10_phy_icse_01_008.md",
+    "formula": "KE = ½ m v² ; PE_grav = m g h ; E_elec = V I t"
+   },
+   {
+    "node": "c10_phy_icse_01_009.md",
+    "formula": "Mechanical Advantage (MA) = Load (L) / Effort (E) ; Load (L) = MA × Effort (E)"
+   },
+   {
+    "node": "c10_phy_icse_01_010.md",
+    "formula": "E = L / MA"
+   },
+   {
+    "node": "c10_phy_icse_01_011.md",
+    "formula": "\\(E_i = E_f\\)  (or  \\(\\Delta E = 0\\))"
+   },
+   {
+    "node": "c10_phy_icse_02_001.md",
+    "formula": "Snell’s law: *n₁ sin i = n₂ sin r* | Lateral displacement (glass block): *d = t sin(i − r) / cos r* | Prism deviation: *δ = i + e − A* | Minimum deviation condition: *n = sin[(A+δₘ)/2] / sin(A/2)*"
+   },
+   {
+    "node": "c10_phy_icse_02_002.md",
+    "formula": "\\(\\sin C = \\frac{n_2}{n_1}\\)  (for \\(n_1 > n_2\\))"
+   },
+   {
+    "node": "c10_phy_icse_02_003.md",
+    "formula": "sin C = n₂ / n₁"
+   },
+   {
+    "node": "c10_phy_icse_02_004.md",
+    "formula": "1/f = 1/v - 1/u  (lens formula) ; m = v/u  (magnification) ; P = 1/f  (power, f in metres)"
+   },
+   {
+    "node": "c10_phy_icse_02_005.md",
+    "formula": "\\( \\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u} \\) ; \\( m = \\frac{v}{u} = \\frac{h'}{h} \\)"
+   },
+   {
+    "node": "c10_phy_icse_02_006.md",
+    "formula": "Angular dispersion Δδ = (μ_v – μ_r) A; Dispersive power ω = (μ_v – μ_r) / (μ_y – 1)"
+   },
+   {
+    "node": "c10_phy_icse_03_001.md",
+    "formula": "θ_i = θ_r"
+   },
+   {
+    "node": "c10_phy_icse_03_002.md",
+    "formula": "d = v * t / 2"
+   },
+   {
+    "node": "c10_phy_icse_03_004.md",
+    "formula": "\\( m\\frac{d^2x}{dt^2} + b\\frac{dx}{dt} + kx = 0 \\) | \\( A(t) = A_0 e^{-\\frac{b}{2m}t} \\) | \\( \\omega' = \\sqrt{\\frac{k}{m} - \\frac{b^2}{4m^2}} \\) | \\( \\delta = \\frac{bT}{2m} = \\frac{1}{n}\\ln\\frac{A_0}{"
+   },
+   {
+    "node": "c10_phy_icse_03_005.md",
+    "formula": "A = (F₀/m) / √[(ω₀² − ω²)² + (2βω)²]"
+   },
+   {
+    "node": "c10_phy_icse_03_006.md",
+    "formula": "\\(f_{\\text{forced}} = f_{\\text{natural}}\\)"
+   },
+   {
+    "node": "c10_phy_icse_03_007.md",
+    "formula": "\\[ | \\beta = 10 \\log_{10}\\!\\left(\\frac{I}{I_0}\\right) \\quad \\text{and} \\quad I \\propto A^2 | \\]"
+   },
+   {
+    "node": "c10_phy_icse_04_001.md",
+    "formula": "V = I × R"
+   },
+   {
+    "node": "c10_phy_icse_04_002.md",
+    "formula": "E = V + Ir   (or V = E – Ir)"
+   },
+   {
+    "node": "c10_phy_icse_04_003.md",
+    "formula": "P = VI = I²R = V²/R ; E = Pt ; 1 kWh = 3.6 × 10⁶ J"
+   },
+   {
+    "node": "c10_phy_icse_04_005.md",
+    "formula": "I = P / V  (current drawn by an appliance) ; Fuse rating I_fuse must satisfy I_normal < I_fuse < I_cable_max"
+   },
+   {
+    "node": "c10_phy_icse_04_007.md",
+    "formula": "\\(B = \\frac{\\mu_0 I}{2\\pi r}\\) (straight wire), \\(B = \\frac{\\mu_0 I}{2R}\\) (circular loop centre), \\(B = \\mu_0 n I\\) (solenoid)"
+   },
+   {
+    "node": "c10_phy_icse_04_008.md",
+    "formula": "B = μ₀ μᵣ n I"
+   },
+   {
+    "node": "c10_phy_icse_05_002.md",
+    "formula": "Q = m c ΔT"
+   },
+   {
+    "node": "c10_phy_icse_05_003.md",
+    "formula": "Q = mL"
+   },
+   {
+    "node": "c10_phy_icse_05_004.md",
+    "formula": "Q_lost = Q_gained  (or Σ m_i c_i (T_initial,i – T_f) = Σ m_j c_j (T_f – T_initial,j) + Σ m_k L_k)"
+   },
+   {
+    "node": "c10_phy_icse_05_005.md",
+    "formula": "ΣQ_lost = ΣQ_gained  (or  m₁c₁(T₁ – T) = m₂c₂(T – T₂) + mL for phase change)"
+   },
+   {
+    "node": "c10_phy_icse_05_006.md",
+    "formula": "Heat lost by hot bodies = Heat gained by cold bodies. | For a body undergoing temperature change: Q = m c ΔT. | For a body undergoing phase change at constant temperature: Q = m L. | Total heat gained"
+   },
+   {
+    "node": "c10_phy_icse_05_007.md",
+    "formula": "\\(Q_{\\text{lost}} = Q_{\\text{gained}} + W \\Delta T\\)  (for isolated calorimeter system) | \\(W = \\frac{m_c c_c}{c_{\\text{water}}}\\)  (water equivalent)"
+   },
+   {
+    "node": "c10_phy_icse_05_008.md",
+    "formula": "Q = mcΔT ; Q = mL ; ΣQ_lost = ΣQ_gained"
+   },
+   {
+    "node": "c10_phy_icse_06_002.md",
+    "formula": "N = N₀ e^(−λt) ; T½ = ln 2 / λ ; A = λN"
+   },
+   {
+    "node": "c10_phy_icse_06_003.md",
+    "formula": "E = Δm c²"
+   },
+   {
+    "node": "c10_phy_icse_06_004.md",
+    "formula": "E = mc²"
+   },
+   {
+    "node": "c10_phy_icse_06_005.md",
+    "formula": "E = Δm c²"
+   },
+   {
+    "node": "c10_phy_icse_06_006.md",
+    "formula": "E = Δm c²"
+   },
+   {
+    "node": "c10_phy_icse_06_007.md",
+    "formula": "E = Δm c²"
+   },
+   {
+    "node": "c10_phy_icse_06_008.md",
+    "formula": "\\(N = N_0 (1/2)^{t/T_{1/2}}\\) ; \\(E = \\Delta m \\, c^2\\)"
+   }
+  ],
+  "11": [
+   {
+    "node": "c11_phy_isc_01_002.md",
+    "formula": "Dimensional formula: [Q] = M^a L^b T^c I^d Θ^e N^f J^g"
+   },
+   {
+    "node": "c11_phy_isc_01_003.md",
+    "formula": "[Q] = M^α L^β T^γ I^δ Θ^ε N^ζ J^η"
+   },
+   {
+    "node": "c11_phy_isc_01_005.md",
+    "formula": "Δx = |x_measured – x_true| (absolute error) | Relative error = Δx / x_true | Percentage error = (Δx / x_true) × 100 % | For z = x ± y: Δz = Δx + Δy | For z = x·y or z = x/y: (Δz/z) = √((Δx/x)² + (Δy/y"
+   },
+   {
+    "node": "c11_phy_isc_02_002.md",
+    "formula": "Distance: s = ∫|**v**| dt  (or sum of segment lengths) | Displacement: Δ**r** = **r**_f − **r**_i"
+   },
+   {
+    "node": "c11_phy_isc_02_003.md",
+    "formula": "\\(v = \\frac{ds}{dt}\\) ; \\(a = \\frac{dv}{dt} = \\frac{d^2s}{dt^2}\\)"
+   },
+   {
+    "node": "c11_phy_isc_02_004.md",
+    "formula": "v_avg = Δx/Δt ; v = dx/dt ; a_avg = Δv/Δt ; a = dv/dt = d²x/dt² ; For uniform motion: v = constant, a = 0"
+   },
+   {
+    "node": "c11_phy_isc_02_005.md",
+    "formula": "v = dx/dt (slope of x‑t graph); a = dv/dt (slope of v‑t graph); Δx = ∫v dt (area under v‑t graph); Δv = ∫a dt (area under a‑t graph)"
+   },
+   {
+    "node": "c11_phy_isc_02_006.md",
+    "formula": "v = u + a t ; s = u t + ½ a t² ; v² = u² + 2 a s ; s = (u + v) t / 2"
+   },
+   {
+    "node": "c11_phy_isc_03_002.md",
+    "formula": "A| = √(Aₓ² + Aᵧ² + A_z²)"
+   },
+   {
+    "node": "c11_phy_isc_03_003.md",
+    "formula": "R = √(A² + B² + 2AB cosθ); Rx = ΣAx, Ry = ΣAy; R = √(Rx² + Ry²); θ = tan⁻¹(Ry/Rx)"
+   },
+   {
+    "node": "c11_phy_isc_03_004.md",
+    "formula": "y = x tanθ − (g x²) / (2 u² cos²θ)"
+   },
+   {
+    "node": "c11_phy_isc_03_005.md",
+    "formula": "a_c = v²/r = ω²r; F_c = m v²/r = m ω²r; v = ωr; T = 2π/ω; f = 1/T"
+   },
+   {
+    "node": "c11_phy_isc_03_006.md",
+    "formula": "\\(\\vec{v}_{AB} = \\vec{v}_A - \\vec{v}_B\\)"
+   },
+   {
+    "node": "c11_phy_isc_03_007.md",
+    "formula": "**v**_AB = **v**_A − **v**_B ; |**v**_AB| = √(v_A² + v_B² − 2 v_A v_B cos θ) ; tan α = (v_A sin θ) / (v_A cos θ − v_B)"
+   },
+   {
+    "node": "c11_phy_isc_04_001.md",
+    "formula": "1. Σ**F** = **0**  (First law, equilibrium condition) | 2. **F** = *d**p**/dt* = *m**a**  (Second law, constant‑mass form) | 3. **F**₁₂ = –**F**₂₁  (Third law, action–reaction pair)"
+   },
+   {
+    "node": "c11_phy_isc_04_004.md",
+    "formula": "I = ∫ F dt = Δp = m Δv"
+   },
+   {
+    "node": "c11_phy_isc_04_007.md",
+    "formula": "\\(f_k = \\mu_k N\\)"
+   },
+   {
+    "node": "c11_phy_isc_04_008.md",
+    "formula": "\\(F_r = \\mu_r N\\)"
+   },
+   {
+    "node": "c11_phy_isc_04_009.md",
+    "formula": "F_c = m v² / r = m ω² r ; a_c = v² / r = ω² r ; tanθ = v² / (r g) (ideal banking) ; ΣF_radial = m a_c ; ΣF_tangential = m a_t"
+   },
+   {
+    "node": "c11_phy_isc_05_001.md",
+    "formula": "\\(W = \\mathbf{F} \\cdot \\mathbf{s} = F s \\cos\\theta\\)"
+   },
+   {
+    "node": "c11_phy_isc_05_002.md",
+    "formula": "K = ½ m v² ; U_g = m g h ; U_s = ½ k x²"
+   },
+   {
+    "node": "c11_phy_isc_05_004.md",
+    "formula": "\\(K_i + U_i = K_f + U_f\\)  (or \\(\\Delta K + \\Delta U = 0\\))"
+   },
+   {
+    "node": "c11_phy_isc_05_006.md",
+    "formula": "\\( P_{\\text{avg}} = \\frac{W}{\\Delta t} \\) ; \\( P = \\frac{dW}{dt} \\) ; \\( P = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta \\)"
+   },
+   {
+    "node": "c11_phy_isc_06_001.md",
+    "formula": "\\(\\displaystyle \\mathbf{R}_{\\text{CM}} = \\frac{\\sum_{i=1}^{n} m_i \\mathbf{r}_i}{\\sum_{i=1}^{n} m_i}\\)  (discrete) ; \\(\\displaystyle \\mathbf{R}_{\\text{CM}} = \\frac{1}{M}\\int \\mathbf{r}\\,dm\\) (continuou"
+   },
+   {
+    "node": "c11_phy_isc_06_002.md",
+    "formula": "\\(\\vec{V}_{\\text{CM}} = \\frac{\\vec{P}_{\\text{total}}}{M}\\) ; \\(\\vec{A}_{\\text{CM}} = \\frac{\\vec{F}_{\\text{ext}}}{M}\\)"
+   },
+   {
+    "node": "c11_phy_isc_06_003.md",
+    "formula": "τ = r × F ; L = r × p = I ω ; dL/dt = τ_ext"
+   },
+   {
+    "node": "c11_phy_isc_06_004.md",
+    "formula": "Conservation of linear momentum: \\(\\sum \\vec{p}_{\\text{initial}} = \\sum \\vec{p}_{\\text{final}}\\) when \\(\\sum \\vec{F}_{\\text{ext}} = \\vec{0}\\). | Conservation of angular momentum: \\(\\sum \\vec{L}_{\\text"
+   },
+   {
+    "node": "c11_phy_isc_06_006.md",
+    "formula": "\\(I = M k^2\\)  (or \\(k = \\sqrt{I/M}\\))"
+   },
+   {
+    "node": "c11_phy_isc_06_007.md",
+    "formula": "\\(\\omega = \\omega_0 + \\alpha t\\) ; \\(\\theta = \\omega_0 t + \\frac12 \\alpha t^2\\) ; \\(\\omega^2 = \\omega_0^2 + 2\\alpha\\theta\\) ; \\(\\tau = I\\alpha\\) ; \\(L = I\\omega\\)"
+   },
+   {
+    "node": "c11_phy_isc_07_001.md",
+    "formula": "\\(F = G \\frac{m_1 m_2}{r^2}\\)"
+   },
+   {
+    "node": "c11_phy_isc_07_002.md",
+    "formula": "g = G M / R^2"
+   },
+   {
+    "node": "c11_phy_isc_07_003.md",
+    "formula": "gₕ = g₀ (1 – 2h/R)  (h ≪ R) ;  g_d = g₀ (1 – d/R)  (uniform density) ;  g_eff(φ) = g₀ – ω²R cos²φ + Δg_shape sin²φ"
+   },
+   {
+    "node": "c11_phy_isc_07_004.md",
+    "formula": "E = GM / r²"
+   },
+   {
+    "node": "c11_phy_isc_07_005.md",
+    "formula": "\\(V = -\\dfrac{GM}{r}\\) ; \\(\\Delta V = V_2 - V_1 = -GM\\left(\\dfrac{1}{r_2} - \\dfrac{1}{r_1}\\right)\\) ; \\(\\vec{g} = -\\nabla V\\) ; \\(U = mV\\)"
+   },
+   {
+    "node": "c11_phy_isc_07_006.md",
+    "formula": "vₑ = √(2GM/R) = √(2gR)"
+   },
+   {
+    "node": "c11_phy_isc_07_007.md",
+    "formula": "v = √(GM/r) ; T = 2π√(r³/GM) ; E = –GMm/(2r)"
+   },
+   {
+    "node": "c11_phy_isc_07_008.md",
+    "formula": "\\( T^{2} = \\frac{4\\pi^{2}}{GM}\\,a^{3} \\)"
+   },
+   {
+    "node": "c11_phy_isc_08_001.md",
+    "formula": "Stress σ = F/A; Strain ε = ΔL/L; Hooke’s law (within elastic limit): σ = E ε (E is Young’s modulus, defined in next node)."
+   },
+   {
+    "node": "c11_phy_isc_08_005.md",
+    "formula": "γ = F/L ; ΔP_drop = 2γ/R ; ΔP_bubble = 4γ/R ; h = 2γ cosθ/(ρ g r)"
+   },
+   {
+    "node": "c11_phy_isc_08_006.md",
+    "formula": "P + ½ρv² + ρgh = constant"
+   },
+   {
+    "node": "c11_phy_isc_08_008.md",
+    "formula": "T(K) = T(°C) + 273.15 ; T(°F) = T(°C) × 9/5 + 32"
+   },
+   {
+    "node": "c11_phy_isc_08_009.md",
+    "formula": "c = Q / (m ΔT)   ;   Cₘ = c M   ;   cₚ – cᵥ = R / M"
+   },
+   {
+    "node": "c11_phy_isc_08_010.md",
+    "formula": "Q = m L"
+   },
+   {
+    "node": "c11_phy_isc_08_011.md",
+    "formula": "\\( \\dot{Q} = k A \\frac{\\Delta T}{L} \\)  (steady‑state slab) | \\( R = \\frac{L}{kA} \\) | \\( \\dot{Q}_{\\text{cyl}} = \\frac{2\\pi k L \\Delta T}{\\ln(r_2/r_1)} \\) | \\( \\dot{Q}_{\\text{sph}} = \\frac{4\\pi k r_1 "
+   },
+   {
+    "node": "c11_phy_isc_08_012.md",
+    "formula": "\\( Q = h A (T_s - T_f) \\)"
+   },
+   {
+    "node": "c11_phy_isc_08_013.md",
+    "formula": "Stefan–Boltzmann law: \\( P = \\varepsilon \\sigma A T^4 \\) ; Wien’s displacement law: \\( \\lambda_{\\max} T = b \\)"
+   },
+   {
+    "node": "c11_phy_isc_09_002.md",
+    "formula": "T_A = T_B = T_C  (when A, B, C are pairwise in thermal equilibrium via a common third system)"
+   },
+   {
+    "node": "c11_phy_isc_09_003.md",
+    "formula": "ΔU = Q – W"
+   },
+   {
+    "node": "c11_phy_isc_09_006.md",
+    "formula": "\\(\\eta = \\frac{W}{Q_H} = 1 - \\frac{Q_C}{Q_H}\\) ; \\(\\eta_{\\text{Carnot}} = 1 - \\frac{T_C}{T_H}\\) ; \\(\\text{COP}_R = \\frac{Q_C}{W} = \\frac{T_C}{T_H - T_C}\\) ; \\(\\text{COP}_{HP} = \\frac{Q_H}{W} = \\frac{T"
+   },
+   {
+    "node": "c11_phy_isc_10_001.md",
+    "formula": "PV = nRT"
+   },
+   {
+    "node": "c11_phy_isc_10_002.md",
+    "formula": "\\(W_{\\text{on}} = -\\int_{V_1}^{V_2} P\\,\\mathrm{d}V\\) (general); Isothermal: \\(W_{\\text{on}} = nRT\\ln(V_1/V_2)\\); Adiabatic: \\(W_{\\text{on}} = \\frac{P_2V_2-P_1V_1}{\\gamma-1}\\); Constant pressure: \\(W_{"
+   },
+   {
+    "node": "c11_phy_isc_10_005.md",
+    "formula": "U = (f/2) n R T"
+   },
+   {
+    "node": "c11_phy_isc_10_006.md",
+    "formula": "U = (f/2)RT"
+   },
+   {
+    "node": "c11_phy_isc_10_007.md",
+    "formula": "Cᵥ = f/2 R ; Cₚ = Cᵥ + R = (f/2 + 1)R ; γ = Cₚ/Cᵥ = (f+2)/f ; Qᵥ = nCᵥΔT ; Qₚ = nCₚΔT ; ΔU = nCᵥΔT ; Wₚ = pΔV = nRΔT"
+   },
+   {
+    "node": "c11_phy_isc_10_008.md",
+    "formula": "λ = kT / (√2 π d² P)   (also λ = 1 / (√2 π d² n))"
+   },
+   {
+    "node": "c11_phy_isc_11_001.md",
+    "formula": "\\(T = \\frac{1}{f}\\)  (or equivalently \\(f = \\frac{1}{T}\\))"
+   },
+   {
+    "node": "c11_phy_isc_11_004.md",
+    "formula": "\\(x = A\\sin(\\omega t + \\phi)\\); \\(v = \\omega\\sqrt{A^2 - x^2}\\); \\(a = -\\omega^2 x\\); \\(\\omega = \\sqrt{k/m}\\); \\(T = 2\\pi/\\omega\\); \\(f = 1/T\\)"
+   },
+   {
+    "node": "c11_phy_isc_11_005.md",
+    "formula": "\\(E = \\frac{1}{2}kA^2 = \\frac{1}{2}m\\omega^2A^2\\) | \\(K = \\frac{1}{2}mv^2 = \\frac{1}{2}m\\omega^2(A^2 - x^2)\\) | \\(U = \\frac{1}{2}kx^2 = \\frac{1}{2}m\\omega^2x^2\\)"
+   },
+   {
+    "node": "c11_phy_isc_11_006.md",
+    "formula": "v = f λ ; y(x,t) = A sin(kx – ωt) (transverse) ; s(x,t) = A sin(kx – ωt) (longitudinal) ; k = 2π/λ ; ω = 2πf"
+   },
+   {
+    "node": "c11_phy_isc_11_007.md",
+    "formula": "\\(v = \\sqrt{\\frac{\\gamma RT}{M}}\\) (gases); \\(v = \\sqrt{\\frac{B}{\\rho}}\\) (liquids); \\(v = \\sqrt{\\frac{Y}{\\rho}}\\) (solids)"
+   },
+   {
+    "node": "c11_phy_isc_11_008.md",
+    "formula": "\\(y(x,t) = \\sum_{i=1}^{n} y_i(x,t)\\)  (resultant displacement as algebraic sum of individual wave displacements)"
+   },
+   {
+    "node": "c11_phy_isc_11_009.md",
+    "formula": "y(x,t) = 2A sin(kx) cos(ωt)  (standing wave on string fixed at both ends) | λ_n = 2L/n  (allowed wavelengths) | f_n = n v/(2L)  (harmonic frequencies) | v = √(T/μ)  (wave speed on string)"
+   },
+   {
+    "node": "c11_phy_isc_11_010.md",
+    "formula": "\\(f_{\\text{beat}} = |f_1 - f_2|\\) ; \\(T_{\\text{beat}} = \\frac{1}{|f_1 - f_2|}\\)"
+   },
+   {
+    "node": "c11_phy_isc_11_011.md",
+    "formula": "\\(f' = f \\frac{v \\pm v_o}{v \\mp v_s}\\)"
+   }
+  ],
+  "12": [
+   {
+    "node": "c12_phy_isc_01_001.md",
+    "formula": "**F₁₂** = (1/4πϵ₀) (q₁ q₂ / r²) **r̂₁₂**"
+   },
+   {
+    "node": "c12_phy_isc_01_003.md",
+    "formula": "p = q d; τ = p × E; U = –p·E; E_axial = (1/4πϵ₀)(2p/r³); E_equatorial = (1/4πϵ₀)(p/r³); F = (p·∇)E"
+   },
+   {
+    "node": "c12_phy_isc_01_004.md",
+    "formula": "\\(\\displaystyle \\oint_{S} \\mathbf{E}\\cdot d\\mathbf{A} = \\frac{Q_{\\text{enc}}}{\\varepsilon_{0}}\\)"
+   },
+   {
+    "node": "c12_phy_isc_01_005.md",
+    "formula": "\\(V = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r}\\); \\(U = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1 q_2}{r}\\); \\(V_B - V_A = -\\int_A^B \\vec{E}\\cdot d\\vec{l}\\); \\(\\vec{E} = -\\nabla V\\)"
+   },
+   {
+    "node": "c12_phy_isc_01_006.md",
+    "formula": "\\(E = \\frac{\\sigma}{\\varepsilon_0}\\)  (electric field just outside a conductor) | \\(V = \\text{constant}\\)  (potential throughout a conductor in electrostatic equilibrium)"
+   },
+   {
+    "node": "c12_phy_isc_01_008.md",
+    "formula": "P = ε₀ χₑ E ; D = ε₀ E + P = ε E ; ε = ε₀ εᵣ ; εᵣ = 1 + χₑ ; σ_b = P·n̂ ; ρ_b = –∇·P ; C = εᵣ C₀ ; u = ½ D·E = ½ ε E²"
+   },
+   {
+    "node": "c12_phy_isc_01_009.md",
+    "formula": "\\(C = \\dfrac{Q}{V}\\) ; \\(C = \\dfrac{\\kappa\\varepsilon_0 A}{d}\\) ; \\(U = \\dfrac12 C V^2 = \\dfrac12 Q V = \\dfrac{Q^2}{2C}\\) ; Series: \\(\\dfrac{1}{C_{\\text{eq}}} = \\sum \\dfrac{1}{C_i}\\) ; Parallel: \\(C_{"
+   },
+   {
+    "node": "c12_phy_isc_01_010.md",
+    "formula": "Series: \\(\\frac{1}{C_{\\text{eq}}} = \\sum_{i=1}^{n} \\frac{1}{C_i}\\) ; Parallel: \\(C_{\\text{eq}} = \\sum_{i=1}^{n} C_i\\)"
+   },
+   {
+    "node": "c12_phy_isc_02_001.md",
+    "formula": "\\( I = \\frac{Q}{t} \\) (average) ; \\( I = \\frac{dQ}{dt} \\) (instantaneous)"
+   },
+   {
+    "node": "c12_phy_isc_02_006.md",
+    "formula": "\\(R = R_0[1 + \\alpha (T - T_0)]\\)  (linear approximation for metals) | \\(\\rho = \\rho_0 \\exp\\!\\bigl(\\frac{E_g}{2kT}\\bigr)\\)  (intrinsic semiconductor)"
+   },
+   {
+    "node": "c12_phy_isc_02_007.md",
+    "formula": "ε = W / Q"
+   },
+   {
+    "node": "c12_phy_isc_02_008.md",
+    "formula": "V = E - I r"
+   },
+   {
+    "node": "c12_phy_isc_02_009.md",
+    "formula": "KCL: ΣI = 0 at any junction. KVL: ΣV = 0 around any closed loop."
+   },
+   {
+    "node": "c12_phy_isc_02_010.md",
+    "formula": "\\( \\frac{P}{Q} = \\frac{R}{S} \\)  (balance condition) | \\( S = \\frac{Q \\times R}{P} \\)  (unknown resistance)"
+   },
+   {
+    "node": "c12_phy_isc_02_011.md",
+    "formula": "\\(k = \\frac{V}{L} = \\frac{IR}{L}\\); \\(E = k l\\); \\(\\frac{E_1}{E_2} = \\frac{l_1}{l_2}\\); \\(r = R\\frac{L_1-L_2}{L_2}\\)"
+   },
+   {
+    "node": "c12_phy_isc_03_001.md",
+    "formula": "\\(d\\mathbf{B} = \\frac{\\mu_0}{4\\pi}\\frac{I\\,d\\mathbf{l}\\times\\mathbf{\\hat r}}{r^2}\\)"
+   },
+   {
+    "node": "c12_phy_isc_03_003.md",
+    "formula": "\\(\\vec{F}=q(\\vec{v}\\times\\vec{B})\\)"
+   },
+   {
+    "node": "c12_phy_isc_03_005.md",
+    "formula": "τₘ = N I A B ; τᵣ = k φ ; N I A B = k φ ; S_I = φ / I = N A B / k ; S_V = φ / V = N A B / (k R) ; G = I / φ = k / (N A B)"
+   },
+   {
+    "node": "c12_phy_isc_03_006.md",
+    "formula": "\\( \\vec{m} = q_m (2\\vec{l}) \\) ; \\( \\vec{B}_{\\text{axial}} = \\frac{\\mu_0}{4\\pi}\\frac{2\\vec{m}}{r^3} \\) ; \\( \\vec{B}_{\\text{eq}} = \\frac{\\mu_0}{4\\pi}\\frac{-\\vec{m}}{r^3} \\) ; \\( \\vec{\\tau} = \\vec{m} \\t"
+   },
+   {
+    "node": "c12_phy_isc_03_007.md",
+    "formula": "B = μ₀(H + M) ; M = χ_m H ; μ_r = 1 + χ_m ; Hysteresis loss per cycle per unit volume = ∮ H dB"
+   },
+   {
+    "node": "c12_phy_isc_04_003.md",
+    "formula": "L = μ₀ N² A / l ; M = μ₀ N₁ N₂ A / l ; k = M / √(L₁ L₂) ; ε = –L dI/dt ; ε₂ = –M dI₁/dt ; U = ½ L I² ; U_coupled = ½ L₁ I₁² + ½ L₂ I₂² ± M I₁ I₂"
+   },
+   {
+    "node": "c12_phy_isc_04_004.md",
+    "formula": "\\(I_{\\text{rms}} = \\frac{I_0}{\\sqrt{2}}\\) ; \\(V_{\\text{rms}} = \\frac{V_0}{\\sqrt{2}}\\) ; \\(P_{\\text{avg}} = V_{\\text{rms}} I_{\\text{rms}} \\cos\\phi\\) (for resistive load \\(\\cos\\phi=1\\))"
+   },
+   {
+    "node": "c12_phy_isc_04_005.md",
+    "formula": "X_L = ωL = 2πfL ; X_C = 1/(ωC) = 1/(2πfC) ; X = X_L – X_C"
+   },
+   {
+    "node": "c12_phy_isc_04_007.md",
+    "formula": "Z = √[R² + (X_L – X_C)²] ;  φ = arctan[(X_L – X_C)/R] ;  ω₀ = 1/√(LC) ;  f₀ = ω₀/(2π) ;  I_rms = V_rms / Z ;  P_avg = I_rms² R = V_rms I_rms cos φ"
+   },
+   {
+    "node": "c12_phy_isc_04_008.md",
+    "formula": "\\(f_0 = \\frac{1}{2\\pi\\sqrt{LC}}\\) ; \\(\\omega_0 = \\frac{1}{\\sqrt{LC}}\\) ; \\(Q = \\frac{\\omega_0 L}{R} = \\frac{1}{\\omega_0 C R} = \\frac{1}{R}\\sqrt{\\frac{L}{C}}\\) ; \\(\\Delta f = \\frac{f_0}{Q}\\) ; \\(Z_{\\te"
+   },
+   {
+    "node": "c12_phy_isc_05_001.md",
+    "formula": "\\(I_d = \\varepsilon_0 \\frac{d\\Phi_E}{dt}\\)"
+   },
+   {
+    "node": "c12_phy_isc_05_002.md",
+    "formula": "Id = ε₀ dΦE/dt ; ∮ B·dl = μ₀(Ic + Id)"
+   },
+   {
+    "node": "c12_phy_isc_05_003.md",
+    "formula": "c = f λ"
+   },
+   {
+    "node": "c12_phy_isc_05_004.md",
+    "formula": "\\(c = \\frac{1}{\\sqrt{\\mu_0\\varepsilon_0}}\\); \\(E_0 = cB_0\\); \\(u = \\frac{1}{2}\\varepsilon_0E^2 + \\frac{1}{2}\\frac{B^2}{\\mu_0}\\); \\(I = \\langle u\\rangle c = \\frac{1}{2}\\varepsilon_0cE_0^2\\); \\(p = U/c\\"
+   },
+   {
+    "node": "c12_phy_isc_05_007.md",
+    "formula": "I = I₀ cos²θ  (Malus’s law) | tan θ_B = n₂/n₁  (Brewster’s law)"
+   },
+   {
+    "node": "c12_phy_isc_05_008.md",
+    "formula": "I_d = ε₀ dΦ_E/dt ; ∇×B = μ₀J + μ₀ε₀ ∂E/∂t ; c = 1/√(μ₀ε₀) ; λ = c/ν ; E_photon = hν ; I = ½ ε₀ c E₀²"
+   },
+   {
+    "node": "c12_phy_isc_06_002.md",
+    "formula": "1/f = 1/v + 1/u ; m = –v/u = h′/h ; f = R/2"
+   },
+   {
+    "node": "c12_phy_isc_06_004.md",
+    "formula": "\\(\\sin C = \\frac{n_2}{n_1}\\)  (for \\(n_1 > n_2\\))"
+   },
+   {
+    "node": "c12_phy_isc_06_008.md",
+    "formula": "\\(M_{\\text{normal}} = \\frac{L}{f_o}\\times\\frac{D}{f_e}\\) ; \\(M_{\\text{near}} = \\frac{v_o}{u_o}\\times\\left(1+\\frac{D}{f_e}\\right)\\) with \\(1/f_o = 1/v_o + 1/u_o\\)"
+   },
+   {
+    "node": "c12_phy_isc_07_002.md",
+    "formula": "r = v Δt"
+   },
+   {
+    "node": "c12_phy_isc_07_003.md",
+    "formula": "β = λD/d ; constructive: d sin θ = nλ ; destructive: d sin θ = (n+½)λ"
+   },
+   {
+    "node": "c12_phy_isc_07_004.md",
+    "formula": "a sinθ = mλ (minima, m = ±1, ±2, …) ; I(θ) = I₀ (sinβ/β)² , β = (π a sinθ)/λ ; Double‑slit intensity: I = I₀ (sinβ/β)² cos²α , α = (π d sinθ)/λ ; Rayleigh criterion (circular aperture): θ_R = 1.22 λ/D"
+   },
+   {
+    "node": "c12_phy_isc_07_005.md",
+    "formula": "I = I₀ cos²θ ; tan θ_B = n₂ / n₁"
+   },
+   {
+    "node": "c12_phy_isc_07_006.md",
+    "formula": "L_c = λ²/Δλ ; τ_c = 1/Δν"
+   },
+   {
+    "node": "c12_phy_isc_07_008.md",
+    "formula": "β = λD/d ; a sinθ = mλ (m ≠ 0) ; I = I₀ cos²θ ; tanθₚ = n"
+   },
+   {
+    "node": "c12_phy_isc_08_002.md",
+    "formula": "K_max = hν – φ"
+   },
+   {
+    "node": "c12_phy_isc_08_003.md",
+    "formula": "K_max = hν – φ"
+   },
+   {
+    "node": "c12_phy_isc_08_005.md",
+    "formula": "λ = h / p = h / (m v) = h / √(2 m K)"
+   },
+   {
+    "node": "c12_phy_isc_08_006.md",
+    "formula": "λ = h/√(2meV)  (de Broglie wavelength of electrons accelerated through voltage V);  nλ = 2d sinθ  (Bragg’s law for diffraction from crystal planes)"
+   },
+   {
+    "node": "c12_phy_isc_08_007.md",
+    "formula": "Δx Δp ≥ ħ/2  and  ΔE Δt ≥ ħ/2"
+   },
+   {
+    "node": "c12_phy_isc_08_008.md",
+    "formula": "Kₘₐₓ = hν – φ ; eVₛ = Kₘₐₓ ; λ = h/p ; p = √(2mK) ; λ = h/√(2meV) ; nλ = 2d sinθ"
+   },
+   {
+    "node": "c12_phy_isc_09_002.md",
+    "formula": "\\(r_{\\text{min}} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{2Ze^2}{K}\\)"
+   },
+   {
+    "node": "c12_phy_isc_09_003.md",
+    "formula": "\\(m_e v r = n \\frac{h}{2\\pi}\\); \\(r_n = n^2 a_0\\) with \\(a_0 = \\frac{4\\pi\\varepsilon_0 \\hbar^2}{m_e e^2}\\); \\(E_n = -\\frac{m_e e^4}{8\\varepsilon_0^2 h^2}\\frac{1}{n^2} = -\\frac{13.6\\,\\text{eV}}{n^2}\\);"
+   },
+   {
+    "node": "c12_phy_isc_09_004.md",
+    "formula": "1/λ = *R* (1/*n₁²* – 1/*n₂²*)"
+   },
+   {
+    "node": "c12_phy_isc_10_002.md",
+    "formula": "nᵢ = √(N_c N_v) exp(−E₉ / 2kT) ; σ = q (n μ_n + p μ_p)"
+   },
+   {
+    "node": "c12_phy_isc_10_003.md",
+    "formula": "\\(I = I_0 \\left(e^{\\frac{qV}{kT}} - 1\\right)\\)  (Shockley diode equation) | \\(V_{bi} = \\frac{kT}{q}\\ln\\left(\\frac{N_A N_D}{n_i^2}\\right)\\)  (built‑in potential)"
+   },
+   {
+    "node": "c12_phy_isc_10_004.md",
+    "formula": "\\(V_{dc(HW)} = \\frac{V_m}{\\pi}\\) ; \\(V_{dc(FW)} = \\frac{2V_m}{\\pi}\\) ; \\(\\gamma_{HW}=1.21\\) ; \\(\\gamma_{FW}=0.48\\) ; \\(\\eta_{HW}=40.6\\%\\) ; \\(\\eta_{FW}=81.2\\%\\) ; \\(\\Delta V \\approx \\frac{I_{dc}}{f_r "
+   },
+   {
+    "node": "c12_phy_isc_10_005.md",
+    "formula": "\\(\\lambda = \\dfrac{hc}{E_g}\\) ; \\(V_f \\approx \\dfrac{E_g}{e}\\) ; \\(R = \\dfrac{V_{supply} - V_f}{I_{LED}}\\)"
+   },
+   {
+    "node": "c12_phy_isc_10_006.md",
+    "formula": "\\(I_{\\text{ph}} = \\frac{\\eta q P_{\\text{opt}}}{h\\nu}\\)"
+   },
+   {
+    "node": "c12_phy_isc_10_007.md",
+    "formula": "\\(I = I_L - I_0 \\left[ \\exp\\left(\\frac{qV}{kT}\\right) - 1 \\right]\\)"
+   },
+   {
+    "node": "c12_phy_isc_10_008.md",
+    "formula": "\\(V_{out} = V_Z + I_Z r_z\\)  (output voltage of a Zener shunt regulator) | \\(R_S = \\frac{V_{in} - V_Z}{I_{ZK} + I_{L(max)}}\\)  (series resistor design) | \\(P_Z = V_Z I_Z\\)  (Zener power dissipation)"
+   }
+  ],
+  "6": [
+   {
+    "node": "c6_phy_icse_02_001.md",
+    "formula": "Unit relations for length: 1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm"
+   },
+   {
+    "node": "c6_phy_icse_02_002.md",
+    "formula": "Unit relations for mass: 1 kg = 1000 g; 1 g = 1000 mg; 1 kg = 10,00,000 mg"
+   },
+   {
+    "node": "c6_phy_icse_02_003.md",
+    "formula": "Centimetre relations: 1 m = 100 cm; 1 cm = 10 mm"
+   },
+   {
+    "node": "c6_phy_icse_02_004.md",
+    "formula": "Inch–centimetre relation: 1 inch = 2.54 cm"
+   },
+   {
+    "node": "c6_phy_icse_02_005.md",
+    "formula": "Foot relations: 1 ft = 12 in; 1 ft = 30.48 cm (= 0.3048 m)"
+   },
+   {
+    "node": "c6_phy_icse_02_006.md",
+    "formula": "The conversion toolkit: 1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm; 1 in = 2.54 cm; 1 ft = 12 in; 1 ft = 30.48 cm"
+   },
+   {
+    "node": "c6_phy_icse_02_008.md",
+    "formula": "Measurement by displacement: length = end reading − start reading"
+   },
+   {
+    "node": "c6_phy_icse_02_011.md",
+    "formula": "Mass of object = sum of standard masses at balance"
+   },
+   {
+    "node": "c6_phy_icse_02_012.md",
+    "formula": "Displayed mass = object's mass (with any pre-tared load automatically subtracted)"
+   },
+   {
+    "node": "c6_phy_icse_02_013.md",
+    "formula": "The time ladder: 1 min = 60 s; 1 h = 60 min = 3600 s; 1 day = 24 h"
+   },
+   {
+    "node": "c6_phy_icse_02_015.md",
+    "formula": "Recorded interval: displayed time, claimed as (displayed time ± reaction band), reaction band ≈ 0.2–0.3 s for hand-timing"
+   },
+   {
+    "node": "c6_phy_icse_02_016.md",
+    "formula": "Average of trials: average time = (trial 1 + trial 2 + ... + trial n) ÷ n; per-event time from a bracket: bracket time ÷ N events"
+   },
+   {
+    "node": "c6_phy_icse_03_004.md",
+    "formula": "F = m a ; f = μ N"
+   },
+   {
+    "node": "c6_phy_icse_03_009.md",
+    "formula": "\\(F_f = \\mu N\\)"
+   },
+   {
+    "node": "c6_phy_icse_04_001.md",
+    "formula": "MA = Load / Effort"
+   },
+   {
+    "node": "c6_phy_icse_04_003.md",
+    "formula": "MA = Effort Arm / Load Arm"
+   },
+   {
+    "node": "c6_phy_icse_04_004.md",
+    "formula": "MA = Load / Effort = Effort-arm / Load-arm; and Load × load-arm = Effort × effort-arm, rearranged as Effort = (Load × load-arm) / effort-arm"
+   },
+   {
+    "node": "c6_phy_icse_04_005.md",
+    "formula": "MA = Load / Effort = Effort-arm / Load-arm, with Load × load-arm = Effort × effort-arm — applied through the five-stone routine"
+   },
+   {
+    "node": "c6_phy_icse_04_007.md",
+    "formula": "Ideal MA: lever = effort-arm / load-arm; inclined plane = length / height; wheel-and-axle = radius of wheel / radius of axle; pulley rig = number of load-sharing rope-portions"
+   },
+   {
+    "node": "c6_phy_icse_04_008.md",
+    "formula": "Load × load-arm = Effort × effort-arm — measured, predicted and checked on each model; MA = effort-arm / load-arm read off every trial"
+   },
+   {
+    "node": "c6_phy_icse_05_003.md",
+    "formula": "image height / object height = image distance / object distance (i.e., h-image / h-object = v / u, the two gaps measured from the hole)"
+   },
+   {
+    "node": "c6_phy_icse_05_004.md",
+    "formula": "shadow width / object width = source-to-screen distance / source-to-object distance (point-source shadows; the Sun as the nearly-parallel far case)"
+   },
+   {
+    "node": "c6_phy_icse_05_007.md",
+    "formula": "image height / object height = hole-to-screen distance / object-to-hole distance (h-image / h-object = v / u), derived from similar triangles at the crossing"
+   },
+   {
+    "node": "c6_phy_icse_05_009.md",
+    "formula": "hᵢ = hₒ × (v / u)"
+   },
+   {
+    "node": "c6_phy_icse_06_007.md",
+    "formula": "B = μ₀ × n × I"
+   },
+   {
+    "node": "c6_phy_icse_06_008.md",
+    "formula": "B = μ₀ μᵣ n I"
+   },
+   {
+    "node": "c6_phy_icse_07_001.md",
+    "formula": "V (cuboid) = l × b × h;  V (cube) = side³;  1 L = 1000 cm³, 1 mL = 1 cm³"
+   },
+   {
+    "node": "c6_phy_icse_07_002.md",
+    "formula": "Area (irregular, graph paper) = N(full squares) × 1 + N(more-than-half squares) × 1 + N(exactly-half squares) × ½;  regular reminders: A (rectangle) = l × b, A (square) = side²"
+   },
+   {
+    "node": "c6_phy_icse_07_003.md",
+    "formula": "Density = Mass ÷ Volume, with rearrangements Mass = Density × Volume and Volume = Mass ÷ Density"
+   },
+   {
+    "node": "c6_phy_icse_07_004.md",
+    "formula": "Speed = Distance ÷ Time;  Distance = Speed × Time;  Time = Distance ÷ Speed"
+   },
+   {
+    "node": "c6_phy_icse_07_005.md",
+    "formula": "Volume delivered (or added) = Initial reading − Final reading;  Reading rule: eye level with the settled surface, at the BOTTOM of the meniscus;  Height of liquid column ≈ Volume ÷ cross-section area "
+   },
+   {
+    "node": "c6_phy_icse_07_006.md",
+    "formula": "Volume of irregular solid = Final reading − Initial reading (rise in mL = volume in cm³);  sinker method: Volume of floater = reading (sinker + floater) − reading (sinker alone)"
+   },
+   {
+    "node": "c6_phy_icse_07_007.md",
+    "formula": "Density = Mass ÷ Volume, with V = l × b × h (cuboid) or V = side³ (cube) from scale-measured edges, and M from a balance"
+   },
+   {
+    "node": "c6_phy_icse_07_008.md",
+    "formula": "Speed = Distance ÷ Time (the concept's working relation; everyday use is estimation against the ladder: speed ≈ distance ÷ time, judged in km/h)"
+   },
+   {
+    "node": "c6_phy_icse_07_009.md",
+    "formula": "A (rectangle) = l × b with edges by scale;  A (irregular) = F + M + ½ × H by the grid treaty;  reconciliation rule: two lawful routes to one surface must agree within the count's tolerance"
+   },
+   {
+    "node": "c6_phy_icse_07_010.md",
+    "formula": "Density = Mass ÷ Volume, applied at stations: equal-volume ranking (mass order = density order, licensed by equal volumes); invariance check (M/2 ÷ V/2 = M ÷ V); water-line verdict (average D against "
+   },
+   {
+    "node": "c6_phy_icse_07_011.md",
+    "formula": "Density = Mass ÷ Volume (M = D × V; V = M ÷ D) and Speed = Distance ÷ Time (D = S × T; T = D ÷ S), run through the four-move protocol with re-substitution checks"
+   },
+   {
+    "node": "c6_phy_icse_07_012.md",
+    "formula": "Delivered volume = Initial reading − Actual final reading (three labelled numbers: INITIAL, TARGET-FINAL, DELIVERED);  Displacement volume = Final reading − Initial reading (rise in mL = cm³)"
+   },
+   {
+    "node": "c6_phy_icse_07_013.md",
+    "formula": "Coordination rule: beaker CARRIES bulk (\"about\" claims to its marks); cylinder CERTIFIES exact (difference-of-readings); record names the vouching instrument — CARRIED (beaker) / CERTIFIED (cylinder)"
+   }
+  ],
+  "7": [
+   {
+    "node": "c7_phy_icse_01_001.md",
+    "formula": "NONE — a concept node: motion is defined qualitatively (change of position with respect to time, judged against a reference point); the chapter's first equation (average speed = distance/time) is earn"
+   },
+   {
+    "node": "c7_phy_icse_01_002.md",
+    "formula": "NONE — a concept/classification node: the families of motion are defined by path, axis, mean position and repetition, not by any equation; the chapter's first equation (average speed = distance/time) "
+   },
+   {
+    "node": "c7_phy_icse_01_003.md",
+    "formula": "AVERAGE SPEED = TOTAL DISTANCE COVERED / TOTAL TIME TAKEN — the chapter's first equation; companion rate: SPEED = DISTANCE COVERED / TIME TAKEN (average speed is this formula applied to whole-journey "
+   },
+   {
+    "node": "c7_phy_icse_01_004.md",
+    "formula": "TIME PERIOD = TOTAL TIME FOR N COMPLETE OSCILLATIONS ÷ N — the arc's working formula, applied with N = 20 (or more); the pendulum's period is the fixed time-cost of one complete to-and-fro."
+   },
+   {
+    "node": "c7_phy_icse_01_005.md",
+    "formula": "NONE of its own — the station reuses c7_phy_icse_01_004's TIME PERIOD = TOTAL TIME FOR N OSCILLATIONS ÷ N (N = 20) as its measuring stick, and adds the comparison rule: a change is real only when the "
+   },
+   {
+    "node": "c7_phy_icse_01_006.md",
+    "formula": "NONE of its own — the station reuses c7_phy_icse_01_004's TIME PERIOD = TOTAL TIME FOR N OSCILLATIONS ÷ N (N = 20), and adds the timing bookkeeping: CORRECTED READING = OBSERVED READING − ZERO ERROR, "
+   },
+   {
+    "node": "c7_phy_icse_01_007.md",
+    "formula": "T = 2π√(L/g)"
+   },
+   {
+    "node": "c7_phy_icse_01_008.md",
+    "formula": "NONE of its own — the station reuses c7_phy_icse_01_004's TIME PERIOD = TOTAL TIME FOR N OSCILLATIONS ÷ N (N = 20) as its measuring stick, and carries the length rule from c7_phy_icse_01_005: LENGTH ="
+   },
+   {
+    "node": "c7_phy_icse_01_009.md",
+    "formula": "NONE of its own — the station reuses c7_phy_icse_01_005's LENGTH = SUSPENSION POINT TO THE CENTRE OF THE BOB (the clamp defining the first term) and adds only the HEIGHT PLAN: MINIMUM SUSPENSION HEIGH"
+   },
+   {
+    "node": "c7_phy_icse_01_010.md",
+    "formula": "NONE of its own — the station reuses c7_phy_icse_01_004's TIME PERIOD = TOTAL TIME ÷ NUMBER OF COMPLETE CYCLES for reading periods off video timestamps, and adds the playback bookkeeping: REAL TIME = "
+   },
+   {
+    "node": "c7_phy_icse_01_011.md",
+    "formula": "speed = distance / time ; average speed = total distance / total time"
+   },
+   {
+    "node": "c7_phy_icse_01_012.md",
+    "formula": "NONE of its own — the station reuses c7_phy_icse_01_003's SPEED = DISTANCE ÷ TIME (with its inverses DISTANCE = SPEED × TIME and TIME = DISTANCE ÷ SPEED), and adds the unit bridge: SPEED IN km/h = SPE"
+   },
+   {
+    "node": "c7_phy_icse_02_001.md",
+    "formula": "WORK = FORCE × DISPLACEMENT, written W = F × s, with F the force in newtons and s the displacement in metres in the direction of the force; for lifting, W = weight × height = m × g × h (g ≈ 10 m/s²); "
+   },
+   {
+    "node": "c7_phy_icse_02_002.md",
+    "formula": "No single computational formula — the station's law is the BALANCE EQUATION: TOTAL ENERGY BEFORE CONVERSION = TOTAL ENERGY AFTER CONVERSION (sum of all forms before = sum of all forms after, every ent"
+   },
+   {
+    "node": "c7_phy_icse_02_003.md",
+    "formula": "No new computational formula — the station's defining relation is ENERGY = CAPACITY TO DO WORK, measured as: ENERGY OF A BODY = TOTAL WORK THE BODY CAN DO (joule, J); with the ledger consequences: CAP"
+   },
+   {
+    "node": "c7_phy_icse_02_004.md",
+    "formula": "The relation in both directions: ENERGY SPENT BY A BODY = WORK DONE BY THE BODY, and WORK DONE ON A BODY = ENERGY GAINED BY THE BODY; both transfers computed with the 001 tool W = F × s (for lifting, "
+   },
+   {
+    "node": "c7_phy_icse_02_005.md",
+    "formula": "No new computational formula — the station is a classification, not a calculation; the only counting tool reused is the raised-position capacity count from 001–003: CAPACITY OF A RAISED BODY = WEIGHT "
+   },
+   {
+    "node": "c7_phy_icse_02_006.md",
+    "formula": "No new computational formula — the station is an example-mapping; the only arithmetic reused is the raised-count at potential's position door: CAPACITY = WEIGHT × HEIGHT = m × g × h (joules), applied "
+   },
+   {
+    "node": "c7_phy_icse_02_007.md",
+    "formula": "No new computational formula — this station teaches the conversion grammar: INPUT form → DEVICE → OUTPUT form(s), with the ledger sentence (input joules = useful output joules + heat/sound exit lines)"
+   },
+   {
+    "node": "c7_phy_icse_02_008.md",
+    "formula": "No new computational formula — this station states the LAW (total energy constant: no creation, no destruction, conversion only) and uses the familiar raised-count as its arithmetic proof at every ban"
+   },
+   {
+    "node": "c7_phy_icse_02_009.md",
+    "formula": "PE = mgh; P = η × ṁ × g × h"
+   },
+   {
+    "node": "c7_phy_icse_02_010.md",
+    "formula": "No new senior timing formula — two working relations only: (1) TIME PERIOD T = TOTAL TIME ÷ NUMBER OF OSCILLATIONS (the measured classroom definition, in seconds per swing); FREQUENCY = 1 ÷ T (oscilla"
+   },
+   {
+    "node": "c7_phy_icse_02_011.md",
+    "formula": "No new computational formula — the charts reuse the chapter's two arithmetic habits and display them WITH their working: (1) the raised-count BANK = WEIGHT × HEIGHT = m × g × h (joules) at every poten"
+   },
+   {
+    "node": "c7_phy_icse_03_005.md",
+    "formula": "θᵣ = θᵢ"
+   },
+   {
+    "node": "c7_phy_icse_03_006.md",
+    "formula": "∠i = ∠r (first law of reflection, angles measured from the normal at the point of incidence)"
+   },
+   {
+    "node": "c7_phy_icse_03_007.md",
+    "formula": "v = -u ; m = -v/u = 1"
+   },
+   {
+    "node": "c7_phy_icse_03_008.md",
+    "formula": "Speed of light c = 3 × 10^8 m/s; time = distance / speed (t = d/c)"
+   },
+   {
+    "node": "c7_phy_icse_03_011.md",
+    "formula": "Apparent colour of an object = components of the incident light that the object reflects (surviving components after absorption)"
+   },
+   {
+    "node": "c7_phy_icse_03_012.md",
+    "formula": "Surviving colour = white light minus absorbed components (C absorbs R; M absorbs G; Y absorbs B; stacking filters multiplies absorptions toward black)"
+   },
+   {
+    "node": "c7_phy_icse_03_014.md",
+    "formula": "∠i = ∠r enforced by construction: both drawn angles are measured from the constructed normal about the point of incidence"
+   },
+   {
+    "node": "c7_phy_icse_03_015.md",
+    "formula": "Image distance behind mirror = Object distance in front of mirror (\\(d_i = d_o\\))"
+   },
+   {
+    "node": "c7_phy_icse_04_001.md",
+    "formula": "1 cal = 4.184 J"
+   },
+   {
+    "node": "c7_phy_icse_04_002.md",
+    "formula": "Q(J) = Q(cal) × 4.184, equivalently 1 cal = 4.184 J and 1 kcal = 4184 J"
+   },
+   {
+    "node": "c7_phy_icse_04_003.md",
+    "formula": "°F = (9/5) °C + 32 ; °C = (5/9)(°F – 32) ; K = °C + 273.15 ; °C = K – 273.15"
+   },
+   {
+    "node": "c7_phy_icse_04_004.md",
+    "formula": "Heat a substance → it expands; cool it → it contracts; and for the same temperature rise, solids expand least, liquids more, gases most"
+   },
+   {
+    "node": "c7_phy_icse_04_005.md",
+    "formula": "Heat flows from higher temperature to lower temperature by conduction (through solids, no bulk movement), convection (by the fluid's own circulation), and radiation (by waves, no medium needed)"
+   },
+   {
+    "node": "c7_phy_icse_04_007.md",
+    "formula": "\\(F = \\frac{9}{5}C + 32\\)  and  \\(C = \\frac{5}{9}(F - 32)\\)"
+   },
+   {
+    "node": "c7_phy_icse_04_008.md",
+    "formula": "\\(F = \\frac{9}{5}C + 32\\)  (or equivalently \\(C = \\frac{5}{9}(F-32)\\))"
+   },
+   {
+    "node": "c7_phy_icse_04_009.md",
+    "formula": "\\(\\dot Q = \\frac{k A \\Delta T}{d}\\)"
+   },
+   {
+    "node": "c7_phy_icse_04_010.md",
+    "formula": "\\( Q = \\frac{k \\, A \\, \\Delta T}{L} \\)"
+   },
+   {
+    "node": "c7_phy_icse_04_012.md",
+    "formula": "Deduction rule: heat crossing through solid contact is conduction; heat carried by the moving fluid itself is convection; heat arriving in straight lines across a gap is radiation — and real scenes ar"
+   },
+   {
+    "node": "c7_phy_icse_04_013.md",
+    "formula": "In large systems the three modes chain: one mode charges the working substance, convection transports it across distance, and another mode discharges it at the sink — every link's mode is deducible by"
+   },
+   {
+    "node": "c7_phy_icse_04_016.md",
+    "formula": "Both edges of one thread obey F = (9/5 × C) + 32, anchored level at the fixed points (0°C = 32°F; 100°C = 212°F); rises between readings stand in the 9:5 ratio with no offset"
+   },
+   {
+    "node": "c7_phy_icse_05_001.md",
+    "formula": "Source of sound = vibrating body; sound exists exactly while the vibration lasts (start together, stop together)"
+   },
+   {
+    "node": "c7_phy_icse_05_002.md",
+    "formula": "v = f λ"
+   },
+   {
+    "node": "c7_phy_icse_05_003.md",
+    "formula": "Loudness increases with amplitude; pitch increases with frequency; T = 1/f (time period is the reciprocal of frequency)"
+   },
+   {
+    "node": "c7_phy_icse_05_005.md",
+    "formula": "θ_i = θ_r ; d = (v × t) / 2 ; α = E_absorbed / E_incident"
+   },
+   {
+    "node": "c7_phy_icse_05_006.md",
+    "formula": "v = d / t"
+   },
+   {
+    "node": "c7_phy_icse_05_007.md",
+    "formula": "Demonstration law: sound exists exactly while the vibration lasts — start together, stop together under damping; frequency = number of vibrations ÷ time taken"
+   },
+   {
+    "node": "c7_phy_icse_05_009.md",
+    "formula": "v = f λ"
+   },
+   {
+    "node": "c7_phy_icse_05_011.md",
+    "formula": "Valid medium-design = one variable (the medium) + fixed controls + live-source indicator + repeats + inference strict to evidence: silence counts only when the source is verified alive"
+   },
+   {
+    "node": "c7_phy_icse_05_012.md",
+    "formula": "Two signals, one test: sound (ringtone) fades to silence as the medium is withdrawn — radio (the call: screen lit, connection alive) is unaffected — recovery on re-admitting air; sound requires a mate"
+   },
+   {
+    "node": "c7_phy_icse_05_013.md",
+    "formula": "d = v * t / 2"
+   },
+   {
+    "node": "c7_phy_icse_06_001.md",
+    "formula": "P = 2n — when a magnet is cut into n complete pieces, the total number of magnetic poles among all the pieces is twice the number of pieces, because every piece is a full magnet with two poles."
+   },
+   {
+    "node": "c7_phy_icse_06_002.md",
+    "formula": "NONE — this node teaches a qualitative decision procedure, not a formula."
+   },
+   {
+    "node": "c7_phy_icse_06_003.md",
+    "formula": "MMF = N × I"
+   },
+   {
+    "node": "c7_phy_icse_06_004.md",
+    "formula": "MMF = N × I"
+   },
+   {
+    "node": "c7_phy_icse_06_005.md",
+    "formula": "Q = I × t — the total charge that flows through a point of a circuit equals the current multiplied by the time for which it flows."
+   },
+   {
+    "node": "c7_phy_icse_06_007.md",
+    "formula": "R = V / I — the resistance of a component equals the potential difference across it divided by the current through it; and for components in series, R_total = R1 + R2 + R3 + ..."
+   },
+   {
+    "node": "c7_phy_icse_07_001.md",
+    "formula": "NONE — this node teaches a qualitative particle model, not a formula."
+   },
+   {
+    "node": "c7_phy_icse_07_005.md",
+    "formula": "Rate of temperature rise r = (T2 − T1) / (t2 − t1) — the steepness of a heating-curve slope equals the temperature change divided by the time taken, used to compare how fast different stages of the ac"
+   },
+   {
+    "node": "c7_phy_icse_07_006.md",
+    "formula": "Q = mL (latent heat equation for condensation and freezing)"
+   },
+   {
+    "node": "c7_phy_icse_07_011.md",
+    "formula": "ΔT = T2 − T1 — a temperature change equals the later reading minus the earlier reading, both in degrees Celsius; readings below zero are negative numbers, so a rise from a sub-zero start spans the sum"
+   },
+   {
+    "node": "c7_phy_icse_07_012.md",
+    "formula": "NONE — this node teaches support technique, not a formula."
+   },
+   {
+    "node": "c7_phy_icse_07_013.md",
+    "formula": "NONE — this node teaches a qualitative change of state, not a formula."
+   }
+  ],
+  "8": [
+   {
+    "node": "c8_phy_icse_01_001.md",
+    "formula": "ρ = m/V"
+   },
+   {
+    "node": "c8_phy_icse_01_002.md",
+    "formula": "ρ = m/V (applied across the three states of matter); also used in rearranged forms m = ρ × V and V = m/ρ"
+   },
+   {
+    "node": "c8_phy_icse_01_003.md",
+    "formula": "ρ = m/V (with rearranged forms m = ρ × V and V = m/ρ, and conversions 1 mL = 1 cm³ = 10⁻⁶ m³, 1 g cm⁻³ = 1000 kg m⁻³)"
+   },
+   {
+    "node": "c8_phy_icse_01_004.md",
+    "formula": "ρ = m/V, applied in the two practical forms: solid — ρ = m/(V₂ − V₁) using displacement readings; liquid — ρ = (m₂ − m₁)/V using mass by difference"
+   },
+   {
+    "node": "c8_phy_icse_01_005.md",
+    "formula": "ρ = m / V"
+   },
+   {
+    "node": "c8_phy_icse_01_006.md",
+    "formula": "ρ_object < ρ_liquid → float; ρ_object > ρ_liquid → sink; applied in bracketing form: behaviour in liquids of known density bounds an unknown density between two values"
+   },
+   {
+    "node": "c8_phy_icse_01_007.md",
+    "formula": "Least count = range ÷ number of divisions; volume of an irregular solid = V₂ − V₁ (final minus initial water level)"
+   },
+   {
+    "node": "c8_phy_icse_01_008.md",
+    "formula": "Volume of the object = volume of collected overflow; density ρ = m/V_overflow"
+   },
+   {
+    "node": "c8_phy_icse_01_009.md",
+    "formula": "Level rise = volume ÷ cross-sectional area (the bore principle that sets a vessel's scale coarseness); least count = range ÷ number of marks"
+   },
+   {
+    "node": "c8_phy_icse_01_010.md",
+    "formula": "Relative density = density of substance ÷ density of water; with the water identity 1 g cm⁻³ = 1000 kg m⁻³ and mass–volume link m = ρ × V"
+   },
+   {
+    "node": "c8_phy_icse_01_011.md",
+    "formula": "Density of an object ρ = m ÷ V (V by displacement: level rise in a cylinder or overflow from a Eureka can); average density of a hollow object = total mass ÷ outer volume; submerged fraction when floa"
+   },
+   {
+    "node": "c8_phy_icse_01_012.md",
+    "formula": "Density of a liquid ρ = mass ÷ volume (volume by graduated cylinder); relative density = ρ_liquid ÷ ρ_water; layering law: of two immiscible liquids, the larger relative density takes the lower floor;"
+   },
+   {
+    "node": "c8_phy_icse_01_013.md",
+    "formula": "Mass by difference: m_liquid = (mass of vessel + liquid) − (mass of vessel); total indicated mass = sum of standard weights + rider reading; density assembly: ρ = m/V with m from the balance and V fro"
+   },
+   {
+    "node": "c8_phy_icse_02_001.md",
+    "formula": "NONE (qualitative node: the turning effect grows with force and with perpendicular distance from the pivot; the formal product Moment = Force × distance is defined in c8_phy_icse_02_002)"
+   },
+   {
+    "node": "c8_phy_icse_02_002.md",
+    "formula": "\\(M = F \\times d\\)"
+   },
+   {
+    "node": "c8_phy_icse_02_004.md",
+    "formula": "NONE (qualitative-only node: the working relations are the depth law \"the deeper the point below the free surface, the greater the pressure\" and the levelling law \"a liquid at rest stands at one commo"
+   },
+   {
+    "node": "c8_phy_icse_02_006.md",
+    "formula": "Qualitative laws demonstrated here: turning effect grows in direct proportion to the applied force (at fixed perpendicular distance) and to the perpendicular distance from the pivot to the line of act"
+   },
+   {
+    "node": "c8_phy_icse_02_007.md",
+    "formula": "Moment of a force: M = F × d; balance (principle of moments): ΣM_anticlockwise = ΣM_clockwise about the pivot, with the sign convention anticlockwise positive, clockwise negative; hung-mass shortcut o"
+   },
+   {
+    "node": "c8_phy_icse_02_008.md",
+    "formula": "Pressure: P = F/A; rearrangements: F = P × A (force a surface must carry) and A = F/P (area needed for a target pressure); 1 Pa = 1 N m⁻²; area conversions 1 m² = 10 000 cm², 1 cm² = 100 mm², 1 mm² = "
+   },
+   {
+    "node": "c8_phy_icse_03_001.md",
+    "formula": "Work: W = F × d (force in N, displacement along the force in m, work in N m); lifting case: work = weight × height gained; zero-work cases: d = 0 (no motion) or displacement perpendicular to F (no com"
+   },
+   {
+    "node": "c8_phy_icse_03_002.md",
+    "formula": "1 J = 1 N m; W (J) = F (N) × d (m); conversions 1 kJ = 1000 J and 1 MJ = 1 000 000 J; rearrangements F = W ÷ d (giving N) and d = W ÷ F (giving m)"
+   },
+   {
+    "node": "c8_phy_icse_03_003.md",
+    "formula": "W = F s cos θ ; W = m g h"
+   },
+   {
+    "node": "c8_phy_icse_03_004.md",
+    "formula": "Kinetic energy: KE = ½ m v² (m in kg, v in m/s, KE in J); laws: KE ∝ m at fixed v, KE ∝ v² at fixed m (double speed → four times KE); work link: KE gained from rest = work done accelerating; KE lost t"
+   },
+   {
+    "node": "c8_phy_icse_03_005.md",
+    "formula": "Gravitational potential energy: PE = m g h (g = 10 m/s² in calculations), equivalently PE = weight × height; laws: PE ∝ m at fixed h, PE ∝ h at fixed m; PE is measured from a stated reference level; e"
+   },
+   {
+    "node": "c8_phy_icse_03_006.md",
+    "formula": "KE = ½ m v²; PE = m g h with g = 10 m/s²; rearrangements h = PE ÷ (m g), v = √(2KE ÷ m), m = PE ÷ (g h); work links: raising work = PE gained (m g h), accelerating work from rest = KE gained (½ m v²);"
+   },
+   {
+    "node": "c8_phy_icse_03_007.md",
+    "formula": "Transformation chains in arrow notation: chemical → electrical → light + heat (torch); electrical → mechanical + sound + heat (fan); chemical → mechanical + heat (muscle); light → chemical (photosynth"
+   },
+   {
+    "node": "c8_phy_icse_03_008.md",
+    "formula": "Consolidated formula family: W = F × d (work, J); KE = ½ m v² (J); PE = m g h with g = 10 m/s² (J); banking identities: raising work = PE gained (m g h), accelerating work from rest = KE gained (½ m v"
+   },
+   {
+    "node": "c8_phy_icse_03_009.md",
+    "formula": "\\(W = F s \\cos\\theta\\)"
+   },
+   {
+    "node": "c8_phy_icse_03_011.md",
+    "formula": "Time period: T = total time for n oscillations ÷ n (second); frequency: f = 1/T (hertz); energy stations: at extremes KE = 0 and PE maximum (PE = m g h above the mean level); at the mean position PE m"
+   },
+   {
+    "node": "c8_phy_icse_03_012.md",
+    "formula": "Law of conservation of energy: energy can neither be created nor destroyed, only transformed; falling identity (from rest, air ignored): PE lost = KE gained, m g h = ½ m v², giving v² = 2gh = 20h at g"
+   },
+   {
+    "node": "c8_phy_icse_04_001.md",
+    "formula": "Direction rules (the node's working machinery): entering an optically denser medium (air → water, air → glass) bends the ray towards the normal, r < i; entering an optically rarer medium (water → air,"
+   },
+   {
+    "node": "c8_phy_icse_04_002.md",
+    "formula": "f = R / 2"
+   },
+   {
+    "node": "c8_phy_icse_04_003.md",
+    "formula": "Curvature statement of the mirror's geometry: a spherical mirror is a cap of a parent sphere; C (centre of curvature) lies R away from every point of the surface; sharper curvature ⇔ smaller R ⇔ C nea"
+   },
+   {
+    "node": "c8_phy_icse_04_004.md",
+    "formula": "R = PC — the radius of curvature is the pole-to-centre-of-curvature distance (equal to the parent sphere's radius, the same from every point of the surface); f = R/2 — the focal length is half the rad"
+   },
+   {
+    "node": "c8_phy_icse_04_005.md",
+    "formula": "The bridge's working relations (all prior learning, rehearsed): surface-to-normal conversion — angle from normal = 90° − angle from surface; mirror conversions — f = R/2 and R = 2f; reflection law (fe"
+   },
+   {
+    "node": "c8_phy_icse_04_006.md",
+    "formula": "The pair protocol's operating relations (procedural, not physical): five stages in fixed order — PREDICT (expectation + named rule, independently, before apparatus) → COMPARE (read aloud; disagreement"
+   },
+   {
+    "node": "c8_phy_icse_04_007.md",
+    "formula": "The group protocol's operating relations (procedural): four roles with products — Coordinator (sequence + calls), Operator (actions as recorded), Measurer (numbers with reference lines: \"angle from th"
+   },
+   {
+    "node": "c8_phy_icse_04_008.md",
+    "formula": "The diagram's construction relations (procedural): PC = R, PF = f = R/2 (F midway between P and C) — placement rule in both directions (given R, mark F at R/2; given f, C at 2f); concave: P, F, C in f"
+   },
+   {
+    "node": "c8_phy_icse_04_009.md",
+    "formula": "The slab's operating relations (procedural geometry): at entry (air→glass) the ray bends towards the normal; at exit (glass→air) away from the normal; the inside path is a straight segment between the"
+   },
+   {
+    "node": "c8_phy_icse_04_012.md",
+    "formula": "The pencil's operating relations (procedural): apparent-bend chain — immersed-point light refracts away from the normal at the water surface (water→air), the eye back-projects straight, the immersed p"
+   },
+   {
+    "node": "c8_phy_icse_04_013.md",
+    "formula": "The scale's operating relations (procedural): ruling — one line, one stroke, pencil upright against a flat edge; reading — flat scale along the quantity, eye over the mark (no parallax), quotation = n"
+   },
+   {
+    "node": "c8_phy_icse_04_015.md",
+    "formula": "The tumbler's operating relations (procedural): the apparatus provides the air–water pair — water the denser medium (towards-the-normal on entry, away on exit); the free surface self-levels flat and h"
+   },
+   {
+    "node": "c8_phy_icse_05_001.md",
+    "formula": "The node's operating relations (conceptual): both processes are liquid → vapour; evaporation — surface-only, all temperatures, no bubbles, no external heat needed, rate ∝ (surface area, temperature, w"
+   },
+   {
+    "node": "c8_phy_icse_05_002.md",
+    "formula": "ΔL = α L₀ ΔT ; ΔA = β A₀ ΔT (β ≈ 2α) ; ΔV = γ V₀ ΔT (γ ≈ 3α)"
+   },
+   {
+    "node": "c8_phy_icse_05_005.md",
+    "formula": "The flask's operating relations (procedural): visibility clause — transparent thin glass = the window for bulk-bubble evidence; heat-path clause — thin AND even walls so heat crosses fast and equally "
+   },
+   {
+    "node": "c8_phy_icse_05_006.md",
+    "formula": "The mount's operating relations (procedural): stability clause — three legs, one plane, no rocking (three points define a plane); spread clause — heat received at a point, delivered as a circle (iron "
+   },
+   {
+    "node": "c8_phy_icse_05_007.md",
+    "formula": "The burner's operating relations (procedural): lighting order — match at barrel top FIRST, gas on SECOND, air hole set after (never gas-then-match: pooling flare); turn-off order — gas off at the BENC"
+   },
+   {
+    "node": "c8_phy_icse_05_008.md",
+    "formula": "The working substance's operating relations (procedural): FILL clause — half to two-thirds, never brim-full (spatter headspace; shorter column, faster climb); COLD-FILL clause — water into a cold flas"
+   },
+   {
+    "node": "c8_phy_icse_05_009.md",
+    "formula": "The expansion setups' operating relations (procedural + one ratio): LINEAR setup — bar anchored at one end, free end on the roller; blue flame travelled ALONG the bar (even heating); pointer swing rec"
+   },
+   {
+    "node": "c8_phy_icse_05_010.md",
+    "formula": "ΔL = α L₀ ΔT"
+   },
+   {
+    "node": "c8_phy_icse_06_001.md",
+    "formula": "f = 1/T and T = 1/f (frequency and time period are reciprocals); pitch rule: higher frequency → higher pitch, lower frequency → lower pitch; human audible range: about 20 Hz to 20,000 Hz (below: infra"
+   },
+   {
+    "node": "c8_phy_icse_06_002.md",
+    "formula": "f = (1/(2L)) * sqrt(T/μ)"
+   },
+   {
+    "node": "c8_phy_icse_06_004.md",
+    "formula": "Loudness ∝ (amplitude)² — the loudness of a sound grows with the square of the vibration's amplitude; amplitude itself is the maximum displacement from the rest position, measured in units of length ("
+   },
+   {
+    "node": "c8_phy_icse_06_005.md",
+    "formula": "β = 10 log₁₀(I / I₀)"
+   },
+   {
+    "node": "c8_phy_icse_06_006.md",
+    "formula": "f = 1/T (frequency = reciprocal of time period): f = number of complete vibrations per second (Hz); T = time for one complete vibration (s); the audible range 20 Hz ≤ f ≤ 20 kHz frames the classificat"
+   },
+   {
+    "node": "c8_phy_icse_06_007.md",
+    "formula": "Qualitative proportionalities for pitch (no numeric formula at this level): frequency rises when vibrating length shortens (f ∝ 1/length), when tension rises, when the vibrator is thinner/lighter, and"
+   },
+   {
+    "node": "c8_phy_icse_06_008.md",
+    "formula": "β = 10 log₁₀(I / I₀)"
+   },
+   {
+    "node": "c8_phy_icse_06_009.md",
+    "formula": "The pair with its two consequence rules: frequency f (Hz) with T = 1/f (time period, s) fixing pitch; amplitude A (m/mm) fixing loudness with loudness ∝ A² for comparisons — read as: vertical dial (A)"
+   },
+   {
+    "node": "c8_phy_icse_06_011.md",
+    "formula": "Qualitative pitch rules for the stretched band/string: frequency rises as vibrating length shortens (f ∝ 1/L — double the length ≈ half the frequency, an octave down) and as tension rises; frequency f"
+   },
+   {
+    "node": "c8_phy_icse_06_012.md",
+    "formula": "Mass-loading rule for the struck vessel: more coupled water → larger vibrating mass → lower frequency → deeper note (fill level up, pitch down); tap force → amplitude → loudness only; blowing contrast"
+   },
+   {
+    "node": "c8_phy_icse_06_014.md",
+    "formula": "v = f λ; β = 10 log₁₀(I/I₀)"
+   },
+   {
+    "node": "c8_phy_icse_07_001.md",
+    "formula": "E = P × t — electrical energy consumed = power rating × time of use; 1 kWh (1 unit) = 1 kW × 1 h = 3.6 × 10⁶ J; bill = total units × tariff (₹ per unit); Wh ÷ 1000 = kWh."
+   },
+   {
+    "node": "c8_phy_icse_07_004.md",
+    "formula": "Rating-selection tool: I = P/V (normal working current = total load power ÷ supply voltage, V = 220 V domestic); fuse rating chosen slightly above I; heating-effect principle stated qualitatively (exc"
+   },
+   {
+    "node": "c8_phy_icse_07_007.md",
+    "formula": "Energy (kWh) = Power (kW) × Time (h); Cost (₹) = Energy (kWh) × Rate (₹/kWh); Power (kW) = Power (W) / 1000"
+   },
+   {
+    "node": "c8_phy_icse_07_008.md",
+    "formula": "Tester current estimate: I ≈ V/R_tester = 220 V ÷ ~10⁶ Ω ≈ 0.2 mA scale (safe, microamp-neon-glowing); reading rule: glow = live (mains potential); no glow = neutral or earth (near earth potential); c"
+   },
+   {
+    "node": "c8_phy_icse_07_010.md",
+    "formula": "NONE — the node is qualitative: friction transfers electrons (one body negative, the other positive); like charges repel, unlike attract; the electroscope's divergence tracks charge amount, its collap"
+   },
+   {
+    "node": "c8_phy_icse_07_011.md",
+    "formula": "E = P × t"
+   },
+   {
+    "node": "c8_phy_icse_07_012.md",
+    "formula": "Energy (kWh) = Power (kW) × Time (h); Cost = Energy (kWh) × Rate (₹/kWh) + Fixed Charges + Taxes"
+   },
+   {
+    "node": "c8_phy_icse_07_013.md",
+    "formula": "Rating-selection tool: I = P/V (guard current = total load watts ÷ 220 V); rating rule: smallest standard rating above I; melting action: excess current → heating effect → fuse wire's temperature reac"
+   }
+  ],
+  "9": [
+   {
+    "node": "c9_phy_icse_01_002.md",
+    "formula": "F = m a   (Force = mass × acceleration)"
+   },
+   {
+    "node": "c9_phy_icse_01_003.md",
+    "formula": "LC = 1 MSD − 1 VSD; observed reading = MSR + (coinciding vernier division × LC); corrected reading = observed reading − zero error"
+   },
+   {
+    "node": "c9_phy_icse_01_004.md",
+    "formula": "Least count of the screw gauge: LC = pitch ÷ N (N = total circular-scale divisions). Reading: observed = MSR + (n × LC), where MSR is the main-scale (pitch-scale) reading including an emerged half-mm "
+   },
+   {
+    "node": "c9_phy_icse_01_005.md",
+    "formula": "T = 2π√(L/g)"
+   },
+   {
+    "node": "c9_phy_icse_01_006.md",
+    "formula": "g = 4π²L/T², with T = total time for N oscillations ÷ N, and (graph form) slope of T²-versus-L line = 4π²/g"
+   },
+   {
+    "node": "c9_phy_icse_01_008.md",
+    "formula": "T = 2π√(L/g)"
+   },
+   {
+    "node": "c9_phy_icse_02_002.md",
+    "formula": "Displacement (straight-line, multi-leg) = signed sum of leg displacements along the chosen axis; displacement magnitude for two perpendicular legs: |s| = √(x² + y²); and the governing inequality: |dis"
+   },
+   {
+    "node": "c9_phy_icse_02_003.md",
+    "formula": "Average speed = total distance / total time; Average velocity = total displacement / total time; Instantaneous speed = |instantaneous velocity|; Instantaneous velocity = limit Δx/Δt as Δt→0"
+   },
+   {
+    "node": "c9_phy_icse_02_004.md",
+    "formula": "v = Δs/Δt (slope of s–t graph); a = Δv/Δt (slope of v–t graph); displacement = area under v–t graph; for uniform acceleration, s = (u+v)/2 × t (area of trapezium)"
+   },
+   {
+    "node": "c9_phy_icse_02_005.md",
+    "formula": "The three equations of uniformly accelerated motion: v = u + at; s = ut + ½at²; v² = u² + 2as — with acceleration defined as a = (v − u)/t and the supporting average velocity (u + v)/2 valid only unde"
+   },
+   {
+    "node": "c9_phy_icse_02_006.md",
+    "formula": "v = u + gt ; s = ut + ½gt² ; v² = u² + 2gs"
+   },
+   {
+    "node": "c9_phy_icse_02_007.md",
+    "formula": "Speed in uniform circular motion: v = 2πr/T (circumference over time period); frequency–period link: T = 1/f (f in revolutions per second; rpm converted by ÷60); average velocity over half a revolutio"
+   },
+   {
+    "node": "c9_phy_icse_02_008.md",
+    "formula": "No new formula (synthesis node) — the chapter's consolidated toolkit, routed: averages (totals rule; harmonic 2v₁v₂/(v₁+v₂) for equal distances); graphs (slope = speed/velocity/acceleration by axes; a"
+   },
+   {
+    "node": "c9_phy_icse_03_004.md",
+    "formula": "F = ma   (also F = dp/dt)"
+   },
+   {
+    "node": "c9_phy_icse_03_005.md",
+    "formula": "p = mv (momentum = mass × velocity; SI kg m s⁻¹, CGS g cm s⁻¹; vector, direction of velocity); Δp = mv − mu (change of momentum, signs by axis); F = Δp/t = (mv − mu)/t (second law's rate form), reduci"
+   },
+   {
+    "node": "c9_phy_icse_03_006.md",
+    "formula": "F_AB = –F_BA"
+   },
+   {
+    "node": "c9_phy_icse_03_007.md",
+    "formula": "F = G m₁ m₂ / r²"
+   },
+   {
+    "node": "c9_phy_icse_04_002.md",
+    "formula": "P = P₀ + ρgh"
+   },
+   {
+    "node": "c9_phy_icse_04_003.md",
+    "formula": "\\(F_b = \\rho_f V_{\\text{disp}} g\\)"
+   },
+   {
+    "node": "c9_phy_icse_04_004.md",
+    "formula": "\\(F_b = \\rho_f V_d g\\)"
+   },
+   {
+    "node": "c9_phy_icse_04_005.md",
+    "formula": "ρ_body / ρ_fluid = V_sub / V_body   (floatation condition)"
+   },
+   {
+    "node": "c9_phy_icse_04_006.md",
+    "formula": "Density: ρ = m/V; relative density: RD = ρ_substance/ρ_water (unitless); bridges: density (kg m⁻³) = RD × 1000, RD = density in g cm⁻³; loss-of-weight route: RD = W₁/(W₁ − W₂) (W₁ in air, W₂ fully imm"
+   },
+   {
+    "node": "c9_phy_icse_04_007.md",
+    "formula": "RD_solid = W_air / (W_air – W_water); RD_liquid = (W_air – W_liquid) / (W_air – W_water)"
+   },
+   {
+    "node": "c9_phy_icse_04_008.md",
+    "formula": "\\(P = P_0 + \\rho g h\\); \\(F_b = \\rho_{\\text{fluid}} V_{\\text{disp}} g\\); \\(W_{\\text{air}} - W_{\\text{app}} = F_b\\); \\(\\rho = m/V\\); \\(RD = \\rho_{\\text{substance}}/\\rho_{\\text{water}} = W_{\\text{air}}/"
+   },
+   {
+    "node": "c9_phy_icse_05_002.md",
+    "formula": "F = (9/5)C + 32; C = (5/9)(F − 32); T(K) = t(°C) + 273.15 (ICSE working value: +273); unit bridges: 1 cal = 4.186 J ≈ 4.2 J; 1 kcal = 1000 cal = 4186 J; fixed points: 0 °C = 32 °F = 273 K and 100 °C ="
+   },
+   {
+    "node": "c9_phy_icse_05_003.md",
+    "formula": "ρ_max = 1000 kg m⁻³ at T = 4 °C"
+   },
+   {
+    "node": "c9_phy_icse_05_004.md",
+    "formula": "10 % rule: E(next level) = 0.1 × E(current level), applied once per transfer; efficiency: η = (useful energy output ÷ total energy input) × 100 %; multi-stage pathway: η_overall = η₁ × η₂ × ... (as fr"
+   },
+   {
+    "node": "c9_phy_icse_05_007.md",
+    "formula": "Energy: E = P × t (kWh when P is in kW and t in hours; 1 kWh = 3.6 × 10⁶ J); cost = E × tariff; saving = (P_old − P_new) × t × tariff; percentage change based on the ORIGINAL value: %Δ = (new − old)/o"
+   },
+   {
+    "node": "c9_phy_icse_05_008.md",
+    "formula": "Q = mcΔT"
+   },
+   {
+    "node": "c9_phy_icse_06_001.md",
+    "formula": "The chapter's formula kit (taught in the later nodes, mapped here): R = 2f (radius–focal bridge); mirror formula 1/v + 1/u = 1/f; linear magnification m = h′/h = −v/u; plane mirror: image distance = o"
+   },
+   {
+    "node": "c9_phy_icse_06_002.md",
+    "formula": "Laws: i = r (about the normal); surface-angle conversion: i = 90° − θ_surface; single-reflection deviation: δ = 180° − 2i; mirror rotation: a mirror tilted by θ turns the reflected beam by 2θ; ray-pai"
+   },
+   {
+    "node": "c9_phy_icse_06_003.md",
+    "formula": "v = –u ; m = –v/u = +1"
+   },
+   {
+    "node": "c9_phy_icse_06_004.md",
+    "formula": "1/f = 1/v + 1/u  ;  m = –v/u = h′/h"
+   },
+   {
+    "node": "c9_phy_icse_06_005.md",
+    "formula": "\\( \\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u} \\) ; \\( m = -\\frac{v}{u} \\)"
+   },
+   {
+    "node": "c9_phy_icse_06_006.md",
+    "formula": "n₁ sin i = n₂ sin r  (Snell’s law) | n = c / v  (absolute refractive index)"
+   },
+   {
+    "node": "c9_phy_icse_06_007.md",
+    "formula": "m = -v/u = h'/h"
+   },
+   {
+    "node": "c9_phy_icse_06_008.md",
+    "formula": "1/f = 1/v + 1/u  (mirror formula) ; m = -v/u  (magnification)"
+   },
+   {
+    "node": "c9_phy_icse_07_001.md",
+    "formula": "v = f λ"
+   },
+   {
+    "node": "c9_phy_icse_07_002.md",
+    "formula": "v = (330 + 0.61 t) m s⁻¹ — speed of sound in air at Celsius temperature t; distance travelled: d = v × t; speed ordering across media: solid > liquid > gas (elasticity clause)."
+   },
+   {
+    "node": "c9_phy_icse_07_003.md",
+    "formula": "λ = v / f"
+   },
+   {
+    "node": "c9_phy_icse_07_005.md",
+    "formula": "λ = v / f"
+   },
+   {
+    "node": "c9_phy_icse_07_006.md",
+    "formula": "Laws: i = r (about the normal); echo door: d_min = v × 0.1/2 (≈ 17.2 m at 344 m s⁻¹); echo/SONAR ranging: 2d = v·t, i.e., d = v·t/2 (t = echo delay, v = speed in the medium)."
+   },
+   {
+    "node": "c9_phy_icse_08_002.md",
+    "formula": "I = Q/t — current equals charge passing a section per unit time; rearrangements Q = I·t and t = Q/I; electron count n = Q/(1.6 × 10⁻¹⁹); units: 1 A = 1 C s⁻¹."
+   },
+   {
+    "node": "c9_phy_icse_08_004.md",
+    "formula": "B = √(H² + V²) ; tan δ = V/H ; H = B cos δ ; V = B sin δ ; α = angle between magnetic meridian and geographic meridian"
+   },
+   {
+    "node": "c9_phy_icse_08_005.md",
+    "formula": "B = μ₀ n I"
+   },
+   {
+    "node": "c9_phy_icse_08_007.md",
+    "formula": "F = B I L sinθ"
+   },
+   {
+    "node": "c9_phy_icse_08_008.md",
+    "formula": "B = μ₀ μᵣ n I"
+   }
+  ]
+ },
+ "existing_solver_coverage": {
+  "physics2_families": [
+   "LENS_FORMULA",
+   "MIRROR_FORMULA",
+   "MAGNIFICATION_MIRROR",
+   "COULOMBS_LAW",
+   "ELECTRIC_FIELD",
+   "SERIES_RESISTANCE",
+   "PARALLEL_RESISTANCE_2",
+   "THERMO_FIRST_LAW",
+   "HEAT_ENGINE_EFFICIENCY",
+   "SHM_PERIOD_SPRING",
+   "SPRING_ENERGY",
+   "ANGULAR_VELOCITY",
+   "FARADAY_EMF",
+   "PHOTOELECTRIC",
+   "BOHR_ENERGY",
+   "HALF_LIFE",
+   "MOMENTUM",
+   "IMPULSE",
+   "PRESSURE",
+   "UNIVERSAL_GRAVITATION"
+  ],
+  "physics3_families": [
+   "SNELLS_LAW",
+   "CRITICAL_ANGLE",
+   "PRISM_DEVIATION",
+   "LENS_POWER",
+   "DE_BROGLIE",
+   "DECAY_ACTIVITY",
+   "POTENTIAL_ENERGY_FIELD",
+   "CAPACITANCE",
+   "CAPS_SERIES",
+   "CAPS_PARALLEL",
+   "KCL_CURRENT",
+   "WHEATSTONE",
+   "RESISTIVITY",
+   "SOLENOID_FIELD",
+   "FORCE_CONDUCTOR",
+   "WAVE_SPEED",
+   "PHOTON_ENERGY"
+  ],
+  "slot_schema_dimension_based": [
+   "SPEED_FROM_DISTANCE_TIME",
+   "DISTANCE_FROM_SPEED_TIME",
+   "TIME_FROM_DISTANCE_SPEED",
+   "WAVE_SPEED",
+   "RESISTANCE_OHM_LAW",
+   "CURRENT_OHM_LAW",
+   "VOLTAGE_OHM_LAW",
+   "WORK_FORCE_DISTANCE",
+   "KINETIC_ENERGY",
+   "POTENTIAL_ENERGY",
+   "DENSITY_FROM_MASS_VOLUME",
+   "POWER_FROM_ENERGY_TIME",
+   "CHARGE_FROM_CURRENT_TIME",
+   "ENERGY_FROM_CHARGE_VOLTAGE"
+  ],
+  "extra_families": [
+   "KINEMATICS_STOP",
+   "RESISTOR_NETWORK",
+   "BAROMETER_COLUMN"
+  ],
+  "extra_families2": [
+   "PROJECTILE_CEILING",
+   "BERNOULLI_LIFT",
+   "ROTATING_CYLINDER",
+   "KELVIN_CONVERT",
+   "CARBON_DATING",
+   "LENS_POWER_REAL",
+   "COIL_MAGNETIC_MOMENT"
+  ],
+  "modeling_layer": [
+   "SPEED_TIME_DISTANCE",
+   "CIRCULAR_ORBIT_SPEED",
+   "FILL_AND_DRAIN",
+   "TRAVELER_ON_GROWING_DOMAIN"
+  ]
+ },
+ "physics_families_module_plan": [
+  {
+   "fid": "KINEMATICS_V_U_AT",
+   "formula": "v = u + a t (solve v/u/a/t)",
+   "classes": [
+    "9",
+    "11"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "KINEMATICS_S_UT_AT2",
+   "formula": "s = u t + (1/2) a t^2 (solve s/u/a/t)",
+   "classes": [
+    "9",
+    "11"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "KINEMATICS_V2_U2_2AS",
+   "formula": "v^2 = u^2 + 2 a s (solve v/u/a/s, negative-root gate)",
+   "classes": [
+    "9",
+    "11"
+   ],
+   "status": "NEW (stop-case only existed: KINEMATICS_STOP)"
+  },
+  {
+   "fid": "NEWTON_SECOND_LAW",
+   "formula": "F = m a (solve F/m/a)",
+   "classes": [
+    "9",
+    "11"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "WEIGHT_MG",
+   "formula": "W = m g (solve W/m/g)",
+   "classes": [
+    "9",
+    "10"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "FRICTION_MU_N",
+   "formula": "f = mu N (solve f/mu/N)",
+   "classes": [
+    "11"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "WORK_DONE",
+   "formula": "W = F d",
+   "classes": [
+    "7",
+    "8",
+    "9",
+    "11"
+   ],
+   "status": "slot_schema WORK_FORCE_DISTANCE dims; NEW word-form"
+  },
+  {
+   "fid": "POWER_WORK_TIME",
+   "formula": "P = W / t",
+   "classes": [
+    "8",
+    "9",
+    "11"
+   ],
+   "status": "slot_schema dims; NEW word-form"
+  },
+  {
+   "fid": "POWER_FORCE_VELOCITY",
+   "formula": "P = F v",
+   "classes": [
+    "11"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "KINETIC_ENERGY",
+   "formula": "KE = (1/2) m v^2",
+   "classes": [
+    "7",
+    "8",
+    "9",
+    "11"
+   ],
+   "status": "slot_schema dims; NEW word-form"
+  },
+  {
+   "fid": "POTENTIAL_ENERGY",
+   "formula": "PE = m g h",
+   "classes": [
+    "7",
+    "8",
+    "9",
+    "11"
+   ],
+   "status": "slot_schema dims; NEW word-form"
+  },
+  {
+   "fid": "WORK_ENERGY_THEOREM",
+   "formula": "W = (1/2) m (v^2 - u^2)",
+   "classes": [
+    "9",
+    "11"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "GRAVITY_SURFACE_G",
+   "formula": "g = G M / R^2",
+   "classes": [
+    "9",
+    "11"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "HYDROSTATIC_PRESSURE",
+   "formula": "P = h rho g",
+   "classes": [
+    "9",
+    "11"
+   ],
+   "status": "NEW (barometer column existed)"
+  },
+  {
+   "fid": "ARCHIMEDES_BUOYANCY",
+   "formula": "F_b = rho_f g V (+ apparent weight)",
+   "classes": [
+    "9"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "HOOKE_LAW",
+   "formula": "F = k x (solve F/k/x)",
+   "classes": [
+    "11"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "SPECIFIC_HEAT",
+   "formula": "Q = m c (delta T)",
+   "classes": [
+    "7",
+    "8",
+    "9",
+    "11"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "LATENT_HEAT",
+   "formula": "Q = m L",
+   "classes": [
+    "8",
+    "9",
+    "11"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "PENDULUM_PERIOD",
+   "formula": "T = 2 pi sqrt(l/g) (solve T/l)",
+   "classes": [
+    "11"
+   ],
+   "status": "NEW (spring period existed)"
+  },
+  {
+   "fid": "OHMS_LAW_ANY",
+   "formula": "V = I R (solve V/I/R)",
+   "classes": [
+    "10"
+   ],
+   "status": "slot_schema dims; NEW word-form any-solve"
+  },
+  {
+   "fid": "ELECTRICAL_POWER_VI",
+   "formula": "P = V I (solve P/V/I)",
+   "classes": [
+    "10"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "ELECTRICAL_ENERGY_KWH",
+   "formula": "E = P kW x t h -> units -> cost",
+   "classes": [
+    "8",
+    "10"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "REFRACTIVE_INDEX_SPEED",
+   "formula": "n = c / v (solve n/v)",
+   "classes": [
+    "10",
+    "12"
+   ],
+   "status": "NEW (Snell/critical/prism existed in physics3)"
+  },
+  {
+   "fid": "MOMENT_OF_FORCE",
+   "formula": "tau = F x d",
+   "classes": [
+    "10"
+   ],
+   "status": "NEW"
+  },
+  {
+   "fid": "PRINCIPLE_OF_MOMENTS",
+   "formula": "F1 d1 = F2 d2",
+   "classes": [
+    "10"
+   ],
+   "status": "NEW"
+  }
+ ],
+ "solver_classification": {
+  "generated": "2026-09-27",
+  "note": "solver_able = has a closed-form computation the books actually exercise; covered = fires today; MISSING->implemented this batch in physics_families _TABLE_BOOKS2 (both trees). Concept-only or symbolic topics are solver_able=false with the reason.",
+  "9": {
+   "Motion (ch8)": {
+    "solver_able": true,
+    "covered": [
+     "KINEMATICS_V_U_AT",
+     "KINEMATICS_S_UT_AT2",
+     "KINEMATICS_V2_U2_2AS",
+     "graphs(concept)"
+    ]
+   },
+   "Force and Laws of Motion (ch9)": {
+    "solver_able": true,
+    "covered": [
+     "NEWTON_SECOND_LAW",
+     "MOMENTUM(physics2)",
+     "IMPULSE(physics2)",
+     "conservation(concept)"
+    ]
+   },
+   "Gravitation (ch10)": {
+    "solver_able": true,
+    "covered": [
+     "UNIVERSAL_GRAVITATION(physics2)",
+     "GRAVITY_SURFACE_G",
+     "WEIGHT_MG",
+     "ARCHIMEDES_BUOYANCY",
+     "HYDROSTATIC_PRESSURE",
+     "free-fall kinematics"
+    ]
+   },
+   "Work and Energy (ch11)": {
+    "solver_able": true,
+    "covered": [
+     "WORK_DONE",
+     "KINETIC_ENERGY",
+     "POTENTIAL_ENERGY",
+     "WORK_ENERGY_THEOREM",
+     "POWER_WORK_TIME",
+     "POWER_FORCE_VELOCITY",
+     "ELECTRICAL_ENERGY_KWH"
+    ]
+   },
+   "Sound (ch12)": {
+    "solver_able": true,
+    "covered": [
+     "WAVE_SPEED(physics3)",
+     "ECHO_SONAR(new)",
+     "reflection(concept)"
+    ]
+   }
+  },
+  "10": {
+   "Light: Reflection and Refraction (ch10)": {
+    "solver_able": true,
+    "covered": [
+     "MIRROR_FORMULA(physics2)",
+     "LENS_FORMULA(physics2)",
+     "MAGNIFICATION_MIRROR(physics2)",
+     "REFRACTIVE_INDEX_SPEED",
+     "SNELLS_LAW(physics3)",
+     "PLANE_MIRROR_ANGLE(new)"
+    ]
+   },
+   "Human Eye and Colourful World (ch11)": {
+    "solver_able": true,
+    "covered": [
+     "POWER_LENS(physics3)",
+     "LENS_POWER_REAL(extra2)",
+     "ANGULAR_DISPERSION(new)",
+     "scattering(concept)"
+    ]
+   },
+   "Electricity (ch12)": {
+    "solver_able": true,
+    "covered": [
+     "OHMS_LAW_ANY",
+     "SERIES_RESISTANCE(physics2)",
+     "PARALLEL_RESISTANCE_2(physics2)",
+     "RESISTIVITY(physics3)",
+     "ELECTRICAL_POWER_VI",
+     "ELECTRICAL_ENERGY_KWH"
+    ]
+   },
+   "Magnetic Effects of Current (ch13)": {
+    "solver_able": true,
+    "covered": [
+     "SOLENOID_FIELD(physics3)",
+     "FORCE_ON_CONDUCTOR(physics3)",
+     "motor/induction(concept)"
+    ]
+   }
+  },
+  "11": {
+   "Units and Measurement (ch1)": {
+    "solver_able": false,
+    "reason": "dimensional formulas are symbolic, no numeric computation type"
+   },
+   "Motion in a Straight Line (ch2)": {
+    "solver_able": true,
+    "covered": [
+     "KINEMATICS_V_U_AT",
+     "KINEMATICS_S_UT_AT2",
+     "KINEMATICS_V2_U2_2AS",
+     "RELATIVE_VELOCITY(new)"
+    ]
+   },
+   "Motion in a Plane (ch3)": {
+    "solver_able": true,
+    "covered": [
+     "PROJECTILE_CEILING(extra2)",
+     "ANGULAR_VELOCITY(physics2)",
+     "ANGULAR_MOMENTUM(new)"
+    ]
+   },
+   "Laws of Motion (ch4)": {
+    "solver_able": true,
+    "covered": [
+     "NEWTON_SECOND_LAW",
+     "FRICTION_MU_N",
+     "MOMENTUM(physics2)",
+     "IMPULSE(physics2)"
+    ]
+   },
+   "Work, Energy and Power (ch5)": {
+    "solver_able": true,
+    "covered": [
+     "WORK_DONE",
+     "KINETIC_ENERGY",
+     "POTENTIAL_ENERGY",
+     "WORK_ENERGY_THEOREM",
+     "POWER_WORK_TIME",
+     "POWER_FORCE_VELOCITY",
+     "SPRING_ENERGY(physics2)"
+    ]
+   },
+   "Rotational Motion (ch6)": {
+    "solver_able": true,
+    "was": "MISSING",
+    "covered": [
+     "TORQUE_ANGULAR(new tau=I alpha)",
+     "ANGULAR_MOMENTUM(new L=I omega, L=m v r)",
+     "MOMENT_OF_INERTIA_PT(new I=m r^2)",
+     "MOMENT_OF_FORCE"
+    ]
+   },
+   "Gravitation (ch7)": {
+    "solver_able": true,
+    "was": "MISSING (escape/orbital)",
+    "covered": [
+     "GRAVITY_SURFACE_G",
+     "UNIVERSAL_GRAVITATION(physics2)",
+     "ESCAPE_VELOCITY(new)",
+     "ORBITAL_VELOCITY(new)",
+     "KEPLER_THIRD(new)",
+     "CIRCULAR_ORBIT_SPEED(modeling_layer, period form)"
+    ]
+   },
+   "Mechanical Properties of Solids (ch8)": {
+    "solver_able": true,
+    "was": "MISSING (Young's modulus)",
+    "covered": [
+     "YOUNGS_MODULUS(new)",
+     "HOOKE_LAW"
+    ]
+   },
+   "Mechanical Properties of Fluids (ch9)": {
+    "solver_able": true,
+    "was": "MISSING (terminal velocity)",
+    "covered": [
+     "HYDROSTATIC_PRESSURE",
+     "ARCHIMEDES_BUOYANCY",
+     "TERMINAL_VELOCITY(new)",
+     "BERNOULLI_LIFT(extra2)"
+    ]
+   },
+   "Thermal Properties (ch10)": {
+    "solver_able": true,
+    "was": "MISSING (calorimetry mixtures)",
+    "covered": [
+     "SPECIFIC_HEAT",
+     "LATENT_HEAT",
+     "CALORIMETRY_MIXTURE(new)",
+     "KELVIN_CONVERT(extra2)"
+    ]
+   },
+   "Thermodynamics (ch11)": {
+    "solver_able": true,
+    "covered": [
+     "THERMO_FIRST_LAW(physics2)",
+     "HEAT_ENGINE_EFFICIENCY(physics2)"
+    ]
+   },
+   "Kinetic Theory (ch12)": {
+    "solver_able": true,
+    "reason": "PV=nRT is solver-able but owned by chemistry gas-law families; physics negative tests must not fire on chemistry probes"
+   },
+   "Oscillations (ch13)": {
+    "solver_able": true,
+    "covered": [
+     "PENDULUM_PERIOD",
+     "SHM_PERIOD_SPRING(physics2)",
+     "SPRING_ENERGY(physics2)"
+    ]
+   },
+   "Waves (ch14)": {
+    "solver_able": true,
+    "covered": [
+     "WAVE_SPEED(physics3)",
+     "PHOTON_ENERGY(physics3)",
+     "DOPPLER_EFFECT(new)"
+    ]
+   }
+  },
+  "12": {
+   "Electric Charges and Fields (ch1)": {
+    "solver_able": true,
+    "covered": [
+     "COULOMBS_LAW(physics2)",
+     "COULOMB_ALT",
+     "ELECTRIC_FIELD(physics2)",
+     "ELECTRIC_POTENTIAL(physics3)"
+    ]
+   },
+   "Electrostatic Potential and Capacitance (ch2)": {
+    "solver_able": true,
+    "covered": [
+     "ELECTRIC_POTENTIAL(physics3)",
+     "CAPACITANCE(physics3)",
+     "CAPACITORS_SERIES(physics3)",
+     "CAPACITORS_PARALLEL(physics3)"
+    ]
+   },
+   "Current Electricity (ch3)": {
+    "solver_able": true,
+    "covered": [
+     "OHMS_LAW_ANY",
+     "SERIES/PARALLEL(physics2)",
+     "RESISTIVITY(physics3)",
+     "KIRCHHOFF_CURRENT(physics3)",
+     "WHEATSTONE_BALANCED(physics3)",
+     "ELECTRICAL_POWER_VI",
+     "ELECTRICAL_ENERGY_KWH"
+    ]
+   },
+   "Moving Charges and Magnetism (ch4)": {
+    "solver_able": true,
+    "covered": [
+     "SOLENOID_FIELD(physics3)",
+     "FORCE_ON_CONDUCTOR(physics3)"
+    ]
+   },
+   "Magnetism and Matter (ch5)": {
+    "solver_able": false,
+    "reason": "qualitative magnetism; numeric types already covered by ch4 families"
+   },
+   "Electromagnetic Induction (ch6)": {
+    "solver_able": true,
+    "covered": [
+     "FARADAY_EMF(physics2)"
+    ]
+   },
+   "Alternating Current (ch7)": {
+    "solver_able": true,
+    "was": "MISSING",
+    "covered": [
+     "RMS_AC_VALUE(new rms/peak)",
+     "REACTANCE_LC(new X_L, X_C)",
+     "IMPEDANCE_RLC(new)",
+     "TRANSFORMER_RATIO(new)"
+    ]
+   },
+   "Electromagnetic Waves (ch8)": {
+    "solver_able": true,
+    "covered": [
+     "WAVE_SPEED(physics3)",
+     "PHOTON_ENERGY(physics3)"
+    ]
+   },
+   "Ray Optics (ch9)": {
+    "solver_able": true,
+    "covered": [
+     "MIRROR/LENS(physics2)",
+     "SNELLS_LAW(physics3)",
+     "CRITICAL_ANGLE(physics3)",
+     "PRISM_DEVIATION(physics3)",
+     "POWER_LENS(physics3)"
+    ]
+   },
+   "Wave Optics (ch10)": {
+    "solver_able": true,
+    "was": "MISSING (YDSE fringe width, resolving power)",
+    "covered": [
+     "YDSE_FRINGE(new beta=lambda D/d, n-th fringe)",
+     "RESOLVING_POWER(new Rayleigh 1.22 lambda/a)"
+    ]
+   },
+   "Dual Nature (ch11)": {
+    "solver_able": true,
+    "covered": [
+     "PHOTOELECTRIC(physics2)",
+     "DE_BROGLIE(physics3)",
+     "PHOTON_ENERGY(physics3)"
+    ]
+   },
+   "Atoms (ch12)": {
+    "solver_able": true,
+    "covered": [
+     "BOHR_ENERGY(physics2)"
+    ]
+   },
+   "Nuclei (ch13)": {
+    "solver_able": true,
+    "covered": [
+     "HALF_LIFE(physics2)",
+     "RADIOACTIVE_DECAY(physics3)"
+    ]
+   },
+   "Semiconductors (ch14)": {
+    "solver_able": true,
+    "was": "MISSING (logic gates, transistor gains)",
+    "covered": [
+     "LOGIC_GATE(new AND/OR/NOT/NAND/NOR/XOR)",
+     "TRANSISTOR_GAIN(new alpha/beta/Ic)"
+    ]
+   }
+  },
+  "new_families_this_batch": [
+   "RMS_AC_VALUE",
+   "REACTANCE_LC",
+   "IMPEDANCE_RLC",
+   "TRANSFORMER_RATIO",
+   "TORQUE_ANGULAR",
+   "ANGULAR_MOMENTUM",
+   "MOMENT_OF_INERTIA_PT",
+   "RELATIVE_VELOCITY",
+   "TERMINAL_VELOCITY",
+   "CALORIMETRY_MIXTURE",
+   "KEPLER_THIRD",
+   "ESCAPE_VELOCITY",
+   "ORBITAL_VELOCITY",
+   "YOUNGS_MODULUS",
+   "YDSE_FRINGE",
+   "RESOLVING_POWER",
+   "LOGIC_GATE",
+   "TRANSISTOR_GAIN",
+   "ECHO_SONAR",
+   "MACHINE_ADVANTAGE",
+   "ANGULAR_DISPERSION",
+   "DOPPLER_EFFECT",
+   "PLANE_MIRROR_ANGLE"
+  ]
+ }
+}

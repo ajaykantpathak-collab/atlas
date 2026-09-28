@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "generated": "2026-09-27",
+    "by": "accountancy specialist agent (Phase 1 task 1)",
+    "sources": [
+      "D:/platform/ncert_books/text_cache_new/class_11/misc/keac101..keac107, keac201, keac202 (NCERT Financial Accounting I & II, Class XI)",
+      "D:/platform/ncert_books/text_cache_new/class_12/misc/leac101..leac104, leac201..leac206, leca101 (NCERT Partnership Accounts, Company Accounts & Analysis of Financial Statements, Computerised Accounting, Class XII)",
+      "D:/platform/deploy/content/enhanced_nodes_md/c11_acc_cbse_*, c12_acc_cbse_* (190 authored CBSE corpus nodes)",
+      "D:/platform/deploy/content/cisce_nodes_md/c9_comst_icse_*, c10_comst_icse_* (ICSE Commercial Studies; ch04/ch05 class 9 carry accounting mechanics; skeleton nodes)"
+    ],
+    "note_class_9_10": "CBSE has NO Accountancy in classes 9-10. Accountancy mechanics at that level live in ICSE Commercial Studies (skeleton corpus, canonical chapter names only). Deterministic solver families target classes 11-12."
+  },
+  "classes": {
+    "9": {
+      "board_context": "ICSE Commercial Studies (corpus cisce_nodes_md/c9_comst_icse_*)",
+      "chapters": [
+        {"id": "c9_comst_icse_04", "title": "Introduction to Accounting and Bookkeeping", "nodes": 10, "status": "skeleton", "mechanics": ["business transactions", "journal entries (04_002)", "subsidiary books (04_004)", "ledger", "trial balance (04_007)", "capital and drawings (04_008)", "final accounts intro (04_009)"]},
+        {"id": "c9_comst_icse_05", "title": "Banking", "nodes": 10, "status": "skeleton", "mechanics": ["bank accounts", "cheques", "bank reconciliation statement (05_007, 05_008)", "banking services"]}
+      ]
+    },
+    "10": {
+      "board_context": "ICSE Commercial Studies (corpus cisce_nodes_md/c10_comst_icse_*)",
+      "chapters": [
+        {"id": "c10_comst_icse_03", "title": "Finance and Accounting", "nodes": 10, "status": "skeleton", "mechanics": ["capital market", "sources of raising capital"]}
+      ]
+    },
+    "11": {
+      "book": "NCERT Financial Accounting Part I & II (keac101-107, keac201-202)",
+      "corpus_prefix": "c11_acc_cbse",
+      "chapters": [
+        {"id": "c11_acc_cbse_01", "n": 1, "title": "Introduction to Accounting", "book_file": "keac101", "nodes": 12, "solverable": false},
+        {"id": "c11_acc_cbse_02", "n": 2, "title": "Theory Base of Accounting (GAAP, concepts, standards, IFRS)", "book_file": "keac102", "nodes": 11, "solverable": false},
+        {"id": "c11_acc_cbse_03", "n": 3, "title": "Recording of Transactions - I (journal, accounting equation, books of original entry)", "book_file": "keac103", "nodes": 11, "solverable": true, "solver_families": ["JOURNAL_ENTRY"]},
+        {"id": "c11_acc_cbse_04", "n": 4, "title": "Recording of Transactions - II (ledger, cash book, subsidiary books: purchases/sales/returns/petty cash)", "book_file": "keac104", "nodes": 9, "solverable": true, "solver_families": ["JOURNAL_ENTRY", "LEDGER_POSTING"]},
+        {"id": "c11_acc_cbse_05", "n": 5, "title": "Bank Reconciliation Statement", "book_file": "keac105", "nodes": 10, "solverable": true, "solver_families": ["BRS_ADJUST"]},
+        {"id": "c11_acc_cbse_06", "n": 6, "title": "Trial Balance and Rectification of Errors", "book_file": "keac106", "nodes": 10, "solverable": true, "solver_families": ["TRIAL_BALANCE_CHECK", "JOURNAL_ENTRY"]},
+        {"id": "c11_acc_cbse_07", "n": 7, "title": "Depreciation, Provisions and Reserves (SLM, WDV, change of method)", "book_file": "keac107", "nodes": 12, "solverable": true, "solver_families": ["DEP_SLM", "DEP_WDV"]},
+        {"id": "c11_acc_cbse_08", "n": 8, "title": "Financial Statements - I (trading & P&L account, balance sheet, capital/revenue expenditure)", "book_file": "keac201", "nodes": 12, "solverable": true, "solver_families": ["GROSS_PROFIT", "NET_PROFIT", "BALANCE_SHEET_MISSING_FIGURE"]},
+        {"id": "c11_acc_cbse_09", "n": 9, "title": "Financial Statements - II (adjustments: closing stock, outstanding/prepaid, depreciation provisions)", "book_file": "keac202", "nodes": 11, "solverable": true, "solver_families": ["GROSS_PROFIT", "NET_PROFIT", "BALANCE_SHEET_CHECK"]}
+      ]
+    },
+    "12": {
+      "book": "NCERT Partnership Accounts; Company Accounts and Analysis of Financial Statements (leac101-104, leac201-206, leca101)",
+      "corpus_prefix": "c12_acc_cbse",
+      "chapters": [
+        {"id": "c12_acc_cbse_01", "n": 1, "title": "Accounting for Partnership: Basic Concepts (P&L appropriation, interest on capital/drawings, commission, guarantee)", "book_file": "leac101..txt", "nodes": 11, "solverable": true, "solver_families": ["PARTNERSHIP_PROFIT_SHARE", "INTEREST_CAPITAL_DRAWINGS", "PARTNER_GUARANTEE"]},
+        {"id": "c12_acc_cbse_02", "n": 2, "title": "Reconstitution: Admission of a Partner (sacrificing ratio, goodwill)", "book_file": "leac102.txt", "nodes": 11, "solverable": true, "solver_families": ["PARTNERSHIP_NEW_RATIO"]},
+        {"id": "c12_acc_cbse_03", "n": 3, "title": "Reconstitution: Retirement/Death of a Partner (gaining ratio)", "book_file": "leac103.txt", "nodes": 10, "solverable": true, "solver_families": ["PARTNERSHIP_NEW_RATIO"]},
+        {"id": "c12_acc_cbse_04", "n": 4, "title": "Dissolution of Partnership Firm (realisation account)", "book_file": "leac104.txt", "nodes": 10, "solverable": false},
+        {"id": "c12_acc_cbse_05", "n": 5, "title": "Accounting for Share Capital (issue, forfeiture, re-issue)", "book_file": "leac201.txt", "nodes": 10, "solverable": false},
+        {"id": "c12_acc_cbse_06", "n": 6, "title": "Issue and Redemption of Debentures", "book_file": "leac202.txt", "nodes": 10, "solverable": false},
+        {"id": "c12_acc_cbse_07", "n": 7, "title": "Financial Statements of a Company (Schedule III)", "book_file": "leac203.txt", "nodes": 11, "solverable": false},
+        {"id": "c12_acc_cbse_08", "n": 8, "title": "Analysis of Financial Statements (comparative/common-size)", "book_file": "leac204.txt", "nodes": 9, "solverable": false},
+        {"id": "c12_acc_cbse_08b", "n": "5(Leac205)", "title": "Accounting Ratios (current, quick, debt-equity, GP/NP ratios, turnover)", "book_file": "leac205.txt", "nodes": 0, "solverable": true, "solver_families": ["CURRENT_RATIO", "QUICK_RATIO", "DEBT_EQUITY_RATIO", "GP_RATIO", "NP_RATIO"]},
+        {"id": "c12_acc_cbse_09", "n": 6, "title": "Cash Flow Statement", "book_file": "leac206.txt", "nodes": 10, "solverable": true, "solver_families": ["(CFO covered by commerce_families2 model_cash_flow)"]}
+      ]
+    }
+  },
+  "coverage_before_accountancy_families": {
+    "modeling_layer_registered_model_disaptchers": [
+      "model_maths2", "model_applied_maths (EMI/ANNUITY/CAGR - finance maths, not accountancy)",
+      "model_commerce2 (GST, CFO=NP+dep, partnership capital-ratio share, current ratio, interest on capital one-way)",
+      "model_commerce_narrative (closing capital, forward SLM depreciation, ROI, GST chains, hire purchase, successive discounts, SI/CI prose)"
+    ],
+    "gaps_identified": [
+      "JOURNAL_ENTRY golden-rules solver (debit/credit pairs + reasoning) - NO coverage",
+      "Depreciation SLM any-solve (solve for cost/salvage/life/rate) + multi-year schedule table - forward-only reader exists",
+      "Depreciation WDV multi-year schedule - NO coverage in model registry",
+      "Trading/P&L gross profit and net profit from line items - NO coverage",
+      "Balance-sheet equality check + missing-figure solver - NO coverage",
+      "Quick ratio, debt-equity, GP ratio, NP ratio - NO coverage (current ratio only, shallow)",
+      "BRS cash-book/pass-book adjustment solver both directions - NO coverage",
+      "Interest on capital/drawings any-solve (any missing of amount/rate/time) + drawings products method - one-way reader only",
+      "Partnership profit share by GIVEN ratio (not capital ratio) + guarantee-of-minimum problems - NO coverage"
+    ]
+  },
+  "classification_after_accountancy_families": {
+    "meta": {
+      "by": "accountancy family-completion agent (Phase 2 task 1)",
+      "date": "2026-09-27",
+      "rule": "solver_able = a deterministic family can answer the chapter's canonical NUMERIC/mechanic asks from one parsed sentence set; multi-item tabular preparations and classification/theory asks are solver_able=false with the blocking reason.",
+      "step_contract": "every family emits the 5-beat steps ([Method]/[Given]/computation/[Check]/[Interpretation], >=3 steps, >=150 chars) asserted by test_accountancy_families.py and re-measured by audit_families_contract.py"
+    },
+    "families_final": 34,
+    "families_core_table": 18,
+    "families_books2_table": 16,
+    "per_class": {
+      "9": [
+        {"id": "c9_comst_icse_04", "solver_able": true, "status": "covered", "families": ["JOURNAL_ENTRY", "TRIAL_BALANCE_DIFF"], "missing": []},
+        {"id": "c9_comst_icse_05", "solver_able": true, "status": "covered", "families": ["BRS_ADJUST"], "missing": []}
+      ],
+      "10": [
+        {"id": "c10_comst_icse_03", "solver_able": false, "status": "not_solver_able", "reason": "capital-market theory (sources of finance), no numeric mechanic"}
+      ],
+      "11": [
+        {"id": "c11_acc_cbse_01", "solver_able": false, "status": "not_solver_able", "reason": "intro/theory (objectives, users, qualitative aspects)"},
+        {"id": "c11_acc_cbse_02", "solver_able": false, "status": "not_solver_able", "reason": "theory base: GAAP/concepts/standards/IFRS"},
+        {"id": "c11_acc_cbse_03", "solver_able": true, "status": "covered", "families": ["JOURNAL_ENTRY"], "notes": "accounting equation asks fall to BALANCE_SHEET_MISSING"},
+        {"id": "c11_acc_cbse_04", "solver_able": true, "status": "covered", "families": ["JOURNAL_ENTRY"], "missing": ["multi-column cash book / petty cash book / ledger posting: tabular multi-item preparations, solver_able=false"]},
+        {"id": "c11_acc_cbse_05", "solver_able": true, "status": "covered", "families": ["BRS_ADJUST"], "notes": "both directions, overdrafts, all 8 classic adjustment items"},
+        {"id": "c11_acc_cbse_06", "solver_able": true, "status": "covered", "families": ["TRIAL_BALANCE_DIFF", "JOURNAL_ENTRY"], "missing": ["multi-error rectification statements: solver_able=false (needs full ledger context)"]},
+        {"id": "c11_acc_cbse_07", "solver_able": true, "status": "covered", "families": ["DEP_SLM", "DEP_WDV"], "missing": ["retrospective change-of-method comparisons: solver_able=false (multi-year two-method rework)"]},
+        {"id": "c11_acc_cbse_08", "solver_able": true, "status": "covered", "families": ["GROSS_PROFIT", "NET_PROFIT", "BALANCE_SHEET_MISSING"], "missing": ["capital vs revenue expenditure classification: solver_able=false (classification ask)"]},
+        {"id": "c11_acc_cbse_09", "solver_able": true, "status": "covered", "families": ["GROSS_PROFIT", "NET_PROFIT", "BALANCE_SHEET_MISSING"], "notes": "adjustments (closing stock, outstanding/prepaid, depreciation provision) enter the same computes"}
+      ],
+      "12": [
+        {"id": "c12_acc_cbse_01", "solver_able": true, "status": "covered", "families": ["PARTNERSHIP_PROFIT_SHARE", "INTEREST_CAPITAL", "INTEREST_DRAWINGS", "PARTNER_GUARANTEE"]},
+        {"id": "c12_acc_cbse_02", "solver_able": true, "status": "covered", "families": ["PARTNERSHIP_NEW_RATIO", "GOODWILL_VALUATION"], "notes": "goodwill: average profit, super profit, capitalisation; sacrificing ratio rides on PARTNERSHIP_NEW_RATIO", "missing": ["full admission revaluation + capital adjustment ledger: solver_able=false"]},
+        {"id": "c12_acc_cbse_03", "solver_able": true, "status": "covered", "families": ["GAINING_RATIO", "DECEASED_SHARE"], "missing": ["full retirement ledger (revaluation, loan a/c): solver_able=false"]},
+        {"id": "c12_acc_cbse_04", "solver_able": false, "status": "not_solver_able", "reason": "dissolution realisation account: multi-item tabular"},
+        {"id": "c12_acc_cbse_05", "solver_able": true, "status": "covered", "families": ["SHARE_ISSUE", "FORFEITURE_REISSUE"], "missing": ["pro-rata allotment + calls-in-arrears ledgers: solver_able=false"]},
+        {"id": "c12_acc_cbse_06", "solver_able": true, "status": "covered", "families": ["DEBENTURE_ISSUE"], "missing": ["debenture redemption schedules / collaterals: solver_able=false"]},
+        {"id": "c12_acc_cbse_07", "solver_able": false, "status": "not_solver_able", "reason": "Schedule III statement format: presentation, not computation"},
+        {"id": "c12_acc_cbse_08", "solver_able": false, "status": "not_solver_able", "reason": "comparative/common-size statements: whole-statement tabular builds"},
+        {"id": "c12_acc_cbse_08b", "solver_able": true, "status": "covered", "families": ["CURRENT_RATIO", "QUICK_RATIO", "DEBT_EQUITY_RATIO", "GP_RATIO", "NP_RATIO", "INVENTORY_TURNOVER", "RECEIVABLES_TURNOVER", "WORKING_CAPITAL"]},
+        {"id": "c12_acc_cbse_09", "solver_able": true, "status": "covered", "families": ["CASH_FLOW_OPERATING"], "notes": "indirect-method CFO with non-cash + working-capital classification; commerce2 CFO remains for alternate phrasings"}
+      ]
+    },
+    "gaps_closed_this_phase": [
+      "bills of exchange: BILL_DUE_DATE (term + 3 days of grace), BILL_DISCOUNT (discounting charge + proceeds), BILL_RENEWAL (interest on balance for fresh term)",
+      "insolvency: INSOLVENCY_RECOVERY (paise-in-the-rupee recovery -> bad debts)",
+      "incomplete records: INCOMPLETE_RECORDS_PROFIT (statement-of-affairs capital comparison)",
+      "NPO: SUBSCRIPTION_INCOME (receipts -> accrual income with outstanding/advance both ends)",
+      "retirement/death: GAINING_RATIO (new - old), DECEASED_SHARE (profit x share x months/12)",
+      "goodwill: GOODWILL_VALUATION (average profit, super profit, capitalisation)",
+      "company accounts: SHARE_ISSUE (par/premium instalments, call due), FORFEITURE_REISSUE (capital reserve), DEBENTURE_ISSUE (issue proceeds + redemption)",
+      "cash flow: CASH_FLOW_OPERATING (AS-3 indirect: non-cash add-backs + working-capital signs)",
+      "ratios: INVENTORY_TURNOVER, RECEIVABLES_TURNOVER, WORKING_CAPITAL"
+    ],
+    "still_not_solver_able": [
+      "ledger posting / cash books / petty cash (tabular multi-item)",
+      "multi-error rectification statements",
+      "retrospective depreciation change-of-method",
+      "dissolution realisation account",
+      "full reconstitution ledgers (revaluation + capital adjustment)",
+      "pro-rata share allotment / calls-in-arrears ledgers",
+      "debenture redemption schedules",
+      "Schedule III presentation, comparative/common-size statements",
+      "all theory chapters (concepts, standards, classification asks)"
+    ]
+  }
+}

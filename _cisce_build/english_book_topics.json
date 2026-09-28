@@ -1,0 +1,108 @@
+{
+ "_meta": {
+  "subject": "english (grammar + literature, CBSE & ICSE classes 6-12)",
+  "module": "backend/its/solver/english_families.py (model_english, batch-18)",
+  "generated": "2026-09-27",
+  "method": "closed-world scan of deploy/content/enhanced_nodes_md (c6_english_*, c6-c12_gram_*, c7-c10_engl_*, c11/c12_eng_*) and deploy/content/cisce_nodes_v2 (c7-c10_eng_icse_*); WALKTHROUGH/DIAGNOSTIC sections define taught topics and trap patterns"
+ },
+ "sources": {
+  "cbse_grammar_nodes": "enhanced_nodes_md/c{6..12}_gram_cbse_* (106 nodes; grammar chapters 80-95)",
+  "cbse_literature_nodes": "enhanced_nodes_md/c6_english_u* (50), c7-c10_engl_* (458), c11/c12_eng_* (2166)",
+  "icse_nodes": "cisce_nodes_v2/c{7..10}_eng_icse_* (269 nodes; Paper-1 functional grammar ch3 = transformations/error items; Paper-2 literature devices)",
+  "books_cache": "D:/platform/ncert_books/text_cache_new (literature chapters)"
+ },
+ "legend": {
+  "covered": "solver-able AND implemented in english_families.py",
+  "partial": "one taught sub-skill inside a family; the rest of the topic stays comparator content",
+  "missing": "solver-able in principle AND taught, but no deterministic family implemented yet (gap honestly declared)",
+  "not_solver_able": "conceptual/comparator/generative - taught via authored corpus content, no single deterministic computation (no pseudo-solvers invented)"
+ },
+ "topic_classification": {
+  "class_6": [
+   {"topic": "subject and predicate", "solver_able": false, "status": "not_solver_able", "reason": "comparator identification (c6_gram_cbse_80_001)"},
+   {"topic": "kinds of sentences (statement/question/command/exclamation)", "solver_able": true, "status": "covered", "family": "EXCLAMATORY_ASSERTIVE (What a/How to assertive frames); bare kind-labeling stays comparator"},
+   {"topic": "nouns/pronouns/number (kinds, pluralisation)", "solver_able": false, "status": "not_solver_able", "reason": "comparator morphology drill"},
+   {"topic": "tenses: simple present vs present continuous; past/future pairs", "solver_able": true, "status": "covered", "family": "TENSE_IDENTIFY / TENSE_CONVERT"},
+   {"topic": "articles a/an/the (an by vowel SOUND: an hour, a university)", "solver_able": true, "status": "covered", "family": "DETERMINER_CHOICE (a/an sound rule; discourse-level 'the' stays comparator)"},
+   {"topic": "prepositions (position words)", "solver_able": true, "status": "covered", "family": "PREPOSITION_COLLOCATION"},
+   {"topic": "conjunctions (and/but/or/so/because logic)", "solver_able": true, "status": "covered", "family": "CONJUNCTION_CHOICE"},
+   {"topic": "paragraph/letter/notice writing", "solver_able": false, "status": "not_solver_able", "reason": "generative writing"}
+  ],
+  "class_7": [
+   {"topic": "phrase vs clause; simple/compound/complex", "solver_able": true, "status": "covered", "family": "CLAUSE_TYPE (identification)"},
+   {"topic": "subject/object/complement roles", "solver_able": false, "status": "not_solver_able", "reason": "comparator"},
+   {"topic": "continuous tenses; present perfect; past perfect", "solver_able": true, "status": "covered", "family": "TENSE_IDENTIFY / TENSE_CONVERT"},
+   {"topic": "determiners (this/that, possession, quantity)", "solver_able": true, "status": "covered", "family": "DETERMINER_CHOICE"},
+   {"topic": "subordinating conjunctions (logic of each)", "solver_able": true, "status": "covered", "family": "CONJUNCTION_CHOICE (because/so/but routing)"},
+   {"topic": "adjectives vs adverbs", "solver_able": false, "status": "not_solver_able", "reason": "comparator (-ly hint, not a rule)"},
+   {"topic": "literary devices: figurative language (irony, personification, alliteration, metaphor, simile, assonance, onomatopoeia)", "solver_able": true, "status": "covered", "family": "FIGURE_OF_SPEECH (simile/metaphor/personification/hyperbole/alliteration/onomatopoeia identification); text-grounded irony/imagery analysis stays not_solver_able"}
+  ],
+  "class_8": [
+   {"topic": "full tense grid (9+1 cells, marker words since/for/by the time)", "solver_able": true, "status": "covered", "family": "TENSE_IDENTIFY / TENSE_CONVERT"},
+   {"topic": "sequence of tenses", "solver_able": true, "status": "partial", "family": "ERROR_SPOTTING (tense-drift case); passage-level consistency stays not_solver_able"},
+   {"topic": "active to passive voice (mechanics + constraints)", "solver_able": true, "status": "covered", "family": "VOICE_CHANGE (taught tenses + modals; intransitive gate)"},
+   {"topic": "reported speech: statements, questions, commands; backshift conditioning", "solver_able": true, "status": "covered", "family": "NARRATION_CHANGE (statements / yes-no / wh-questions / commands+negatives; present-reporting no-backshift)"},
+   {"topic": "subject-verb agreement: head-noun decoy, each/every traps, there is/are", "solver_able": true, "status": "covered", "family": "ERROR_SPOTTING"},
+   {"topic": "non-finites: infinitive/gerund/participle + verb complementation", "solver_able": true, "status": "covered", "family": "NONFINITE_IDENTIFY (identification; corpus complementation lexicon used for routing)"},
+   {"topic": "present perfect vs simple past fork", "solver_able": true, "status": "covered", "family": "TENSE_IDENTIFY (marker-based) + ERROR_SPOTTING (since/for trap)"},
+   {"topic": "will vs be going to", "solver_able": true, "status": "covered", "family": "TENSE_IDENTIFY (going-to cell)"}
+  ],
+  "class_9": [
+   {"topic": "tense gap-fill/editing via time-markers", "solver_able": true, "status": "covered", "family": "TENSE_CONVERT / ERROR_SPOTTING (double past 'didn't went', drift)"},
+   {"topic": "modals by function; politeness; semi-modals", "solver_able": false, "status": "not_solver_able", "reason": "context-semantic choice, no deterministic rule (comparator + misconception panels)"},
+   {"topic": "modal perfects (should/must/could/might have V3)", "solver_able": false, "status": "not_solver_able", "reason": "interpretation nuance (reproach vs deduction) - comparator"},
+   {"topic": "concord: indefinite pronouns; measured quantities", "solver_able": true, "status": "covered", "family": "ERROR_SPOTTING"},
+   {"topic": "full reported-speech machine", "solver_able": true, "status": "covered", "family": "NARRATION_CHANGE"},
+   {"topic": "determiners: few/a few attitude pair, count-mass pairing", "solver_able": true, "status": "covered", "family": "DETERMINER_CHOICE"},
+   {"topic": "article specificity algorithm", "solver_able": true, "status": "partial", "family": "DETERMINER_CHOICE (a/an sound rule); discourse-level 'the' stays not_solver_able"},
+   {"topic": "do-support (questions/negatives in simple tenses)", "solver_able": true, "status": "covered", "family": "ERROR_SPOTTING (double-past case) + NARRATION_CHANGE (de-do-support in reported questions)"}
+  ],
+  "class_10": [
+   {"topic": "twelve tense forms; stative verbs; tense markers", "solver_able": true, "status": "covered", "family": "TENSE_IDENTIFY / TENSE_CONVERT / ERROR_SPOTTING (stative-ing)"},
+   {"topic": "subject-verb agreement: head rule, indefinite pronouns, collective nouns, neither/nor", "solver_able": true, "status": "covered", "family": "ERROR_SPOTTING"},
+   {"topic": "passive voice (12-form grid)", "solver_able": true, "status": "covered", "family": "VOICE_CHANGE"},
+   {"topic": "reported speech backshift; reported questions; reported commands", "solver_able": true, "status": "covered", "family": "NARRATION_CHANGE"},
+   {"topic": "degrees of comparison (fixed frames)", "solver_able": true, "status": "covered", "family": "DEGREE_TRANSFORM"},
+   {"topic": "articles algorithm; quantifiers", "solver_able": true, "status": "covered", "family": "DETERMINER_CHOICE"},
+   {"topic": "simple/compound/complex by clause count", "solver_able": true, "status": "covered", "family": "CLAUSE_TYPE"}
+  ],
+  "class_11": [
+   {"topic": "subordinate clause classification (noun/adjective/adverb)", "solver_able": false, "status": "not_solver_able", "reason": "comparator"},
+   {"topic": "relative clauses", "solver_able": false, "status": "not_solver_able", "reason": "comparator choice (who/which/that)"},
+   {"topic": "transformation: too...to vs so...that", "solver_able": true, "status": "covered", "family": "TOO_TO_SO_THAT"},
+   {"topic": "synthesis (participles/appositives)", "solver_able": false, "status": "not_solver_able", "reason": "open-ended rewrite"},
+   {"topic": "conditionals type 1/2/3", "solver_able": true, "status": "covered", "family": "CONDITIONAL_TYPE (identification + if-clause gap-fill)"},
+   {"topic": "senior non-finites (perfect/passive infinitives, bare infinitive)", "solver_able": true, "status": "partial", "family": "NONFINITE_IDENTIFY (basic three-way identification); perfect/passive infinitive sub-types stay comparator"},
+   {"topic": "sequence of tenses in complex sentences", "solver_able": true, "status": "partial", "family": "ERROR_SPOTTING (drift case)"}
+  ],
+  "class_12": [
+   {"topic": "editing task (four-error inventory: tense/concord/determiner/word-form+preposition)", "solver_able": true, "status": "covered", "family": "ERROR_SPOTTING (per-trap catalog mirroring the inventory)"},
+   {"topic": "punctuation and apostrophe (its vs it's)", "solver_able": true, "status": "partial", "family": "ERROR_SPOTTING (its/it's case); full punctuation stays not_solver_able"},
+   {"topic": "phrasal verbs", "solver_able": false, "status": "not_solver_able", "reason": "lexicon drill, no rule"},
+   {"topic": "preposition collocations (depend on, good at, afraid of, different from not than, married to, listen to, insist on)", "solver_able": true, "status": "covered", "family": "PREPOSITION_COLLOCATION"},
+   {"topic": "make/do collocations", "solver_able": false, "status": "not_solver_able", "reason": "lexicon drill"},
+   {"topic": "senior reported speech: exclamations/wishes/optatives; suggestions/offers", "solver_able": true, "status": "missing", "reason": "taught (c12_gram_ch82_002/003) but narration of exclamations not yet implemented - NARRATION_CHANGE covers statements/questions/commands only"},
+   {"topic": "sentence reordering (cohesion)", "solver_able": false, "status": "not_solver_able", "reason": "discourse-level logic, no deterministic rule"}
+  ],
+  "icse_paper1_functional_grammar": [
+   {"topic": "sentence transformation: voice, narration, degrees, affirmative-negative, exclamatory-assertive, clause structure", "solver_able": true, "status": "covered", "family": "VOICE_CHANGE / NARRATION_CHANGE / DEGREE_TRANSFORM / AFFIRM_NEG / EXCLAMATORY_ASSERTIVE / CLAUSE_TYPE / TOO_TO_SO_THAT"},
+   {"topic": "assertive to interrogative frame", "solver_able": true, "status": "missing", "reason": "taught (c10_eng_icse_03_004) but unimplemented - needs a do-support negation engine of its own; honestly declared MISSING"},
+   {"topic": "error spotting / editing items", "solver_able": true, "status": "covered", "family": "ERROR_SPOTTING"},
+   {"topic": "register / composition planning / letters / comprehension", "solver_able": false, "status": "not_solver_able", "reason": "generative writing + reading comprehension"}
+  ],
+  "cross_cutting": [
+   {"topic": "question tags", "solver_able": true, "status": "missing", "reason": "solver-able in principle (aux polarity + number copy) but ZERO corpus nodes teach it (grep: no 'question tag' hits in either tree) - not implemented, honestly declared MISSING"},
+   {"topic": "literary devices: simile/metaphor/personification/hyperbole/alliteration/onomatopoeia", "solver_able": true, "status": "covered", "family": "FIGURE_OF_SPEECH (corpus examples: 'like frozen pearls', 'Life is a rollercoaster', 'The golden sun kissed the cold morning dew', 'Bright blossoms bend beside the bubbling brook')"},
+   {"topic": "irony (situational/dramatic), symbolism, imagery analysis, theme/character", "solver_able": false, "status": "not_solver_able", "reason": "text-grounded analysis (c10_engl_*, c11_eng_h_* nodes) - comparator"},
+   {"topic": "rhyme scheme labelling (AABB/ABAB)", "solver_able": true, "status": "missing", "reason": "requires pronunciation knowledge not derivable from spelling alone; no deterministic family - declared MISSING"}
+  ]
+ },
+ "summary": {
+  "english_grammar_nodes_scanned": 106,
+  "icse_eng_nodes_scanned": 269,
+  "literature_nodes_scanned": 2674,
+  "families_implemented": ["TENSE_IDENTIFY", "TENSE_CONVERT", "VOICE_CHANGE", "NARRATION_CHANGE", "ERROR_SPOTTING", "DEGREE_TRANSFORM", "TOO_TO_SO_THAT", "AFFIRM_NEG", "EXCLAMATORY_ASSERTIVE", "CLAUSE_TYPE", "DETERMINER_CHOICE", "PREPOSITION_COLLOCATION", "CONJUNCTION_CHOICE", "NONFINITE_IDENTIFY", "CONDITIONAL_TYPE", "FIGURE_OF_SPEECH"],
+  "honest_gaps": ["question tags (not taught in corpus)", "reported exclamations/suggestions (c12, taught but unimplemented)", "assertive-interrogative frame (taught, unimplemented)", "rhyme scheme (needs pronunciation knowledge)"],
+  "not_solver_able_note": "modals-by-function, phrasal verbs, reordering, composition, comprehension, irony/theme analysis are comparator content - no pseudo-solvers"
+ }
+}

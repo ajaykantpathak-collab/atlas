@@ -1,0 +1,1319 @@
+{
+ "generated": "2026-09-27",
+ "subject": "hindi (CBSE 6-12 + ICSE 6-10 + ISC 11-12)",
+ "sources": {
+  "cbse_corpus": "D:/platform/deploy/content/enhanced_nodes_md (c6_hin_*, c7_hin_*, c8_hin_*, c9_hin_ga_* [single Class-9 book per the 26-27 syllabus], c10_hin_{ks,kr,sp}_*, c11_hin_{a,al,ar,v}_*, c12_hin_{a,al,ar,v}_*)",
+  "cisce_corpus": "D:/platform/deploy/content/cisce_nodes_v2 (c6-c10_hin_icse_*, c11/c12_hin_isc_*)",
+  "scan": "D:/platform/_cisce_build/_hindi_corpus_scan.json",
+  "digest": "D:/platform/_cisce_build/_hindi_grammar_digest.txt"
+ },
+ "summary": {
+  "cbse_nodes": 2835,
+  "cbse_chapters": 151,
+  "icse_nodes": 431,
+  "icse_chapters": 58,
+  "topics_total": 29,
+  "topics_solver_able": 22,
+  "topics_covered": 18,
+  "topics_not_solver_able": 7,
+  "module": "backend/its/solver/hindi_families.py (model_hindi, 17 families in TABLE)",
+  "harness": "_cisce_build/test_hindi_families.py",
+  "auditor": "_cisce_build/audit_families_contract.py (hindi: HARD=0, warn=0, crashes=0, drift=0)"
+ },
+ "topic_classification": [
+  {
+   "topic": "sandhi (स्वर संधि): viichchhed + bhed",
+   "solver_able": true,
+   "covered": true,
+   "family": "SANDHI_VICHCHHED",
+   "corpus": "c11_hin_isc_01_002, c12_hin_isc_01_003 (viichchhed is the board form; विद्या+आलय दीर्घ, राम+अयण दीर्घ)",
+   "note": "taught split table (20 canonical words, दीर्घ/गुण/यण) + forward bhed analyzer on given components; unknown words DECLINE (reverse sandhi is ambiguous without a lexicon — honest gate, no pseudo-splits)"
+  },
+  {
+   "topic": "samas (तत्पुरुष/कर्मधारय/द्विगु/बहुव्रीहि/अव्ययीभाव/द्वंद्व): viichchhed + bhed",
+   "solver_able": true,
+   "covered": true,
+   "family": "SAMAS_VIGRAH",
+   "corpus": "c11_hin_isc_01_002/003 (राजकुमार, विद्यालय-प्रांगण षष्ठी-तत्पुरुष); bhed hits across c10-c12 chapters",
+   "note": "21 taught compounds covering all six bhed with the kaarak-word kasauti; unknown compounds decline"
+  },
+  {
+   "topic": "alankaar: anupraasa / yamak / upama / roopak / atishayokti classification",
+   "solver_able": true,
+   "covered": true,
+   "family": "ALANKAAR_CLASSIFY",
+   "corpus": "c9_hin_icse_04_003 (3-step kasauti + worked lines), c10_hin_ks_cbse_01_006 (anupraasa-vs-yamak)",
+   "note": "corpus kasauti order + the corpus's own tagged lines + rule branches (वाचक->उपमा, उपमान-आरोप->रूपक, dhvani-aavritti->anupraasa); untagged/unclassifiable lines decline"
+  },
+  {
+   "topic": "kaal (वर्तमान/भूत/भविष्यत्): identify",
+   "solver_able": true,
+   "covered": true,
+   "family": "KAAL_IDENTIFY",
+   "corpus": "c9_hin_icse_04_001 A3 ('पढ़ी' = भूतकाल सामान्य भूत)",
+   "note": "verb-shape markers (ने/था-family; ता/ती/ते+है; रहा+है; गा/गी/गे/ऊँगा)"
+  },
+  {
+   "topic": "kaal: convert (taught verb set)",
+   "solver_able": true,
+   "covered": true,
+   "family": "KAAL_CONVERT",
+   "corpus": "c9_hin_icse_04_004 A3 (खेल रहे हैं->खेल रहे थे), c10_hin_icse_04_001 A2 (सीता गाती थी->सीता गाएगी)",
+   "note": "20-verb future table + auxiliary-swap rules, ling-vachan agreement; verbs outside the table decline"
+  },
+  {
+   "topic": "vaachya: identify (कर्तृ/कर्म/भाव)",
+   "solver_able": true,
+   "covered": true,
+   "family": "VAACHYA_IDENTIFY",
+   "corpus": "c9_hin_icse_04_001, c8_hin_icse_03_003 (bhaav limit: akarmak + anishchayaarthak bhoot + जाना)",
+   "note": "marker analysis (ने; द्वारा/से+जाना; bhaav pattern)"
+  },
+  {
+   "topic": "vaachya: convert कर्तृ<->कर्म (3-step rule)",
+   "solver_able": true,
+   "covered": true,
+   "family": "VAACHYA_CONVERT",
+   "corpus": "c8_hin_icse_03_003, c11_hin_isc_01_003 A1, c10_hin_icse_04_003/004",
+   "note": "karm-front / agent-back with द्वारा (से variant noted) / जाना-join agreeing with the karm; reverse direction too; pronoun agents मैं/हम/तुम"
+  },
+  {
+   "topic": "kaarak-chinh (ने/को/से/के लिए/का/में/हे)",
+   "solver_able": true,
+   "covered": true,
+   "family": "KARAK_CHINH",
+   "corpus": "c7_hin_icse_03_002 A2, c8_hin_icse_03_002 (8 bhed + chinh)",
+   "note": "signature-particle lookup with the corpus chinh-pradhan warning ('से' करण-vs-अपादान noted in steps)"
+  },
+  {
+   "topic": "ling parivartan (आ->ई, नी-juraav; ruudhi exceptions)",
+   "solver_able": true,
+   "covered": true,
+   "family": "LING_VACHAN",
+   "corpus": "c8_hin_icse_03_002 A3 (लड़का->लड़की, शेर->शेरनी; पिता/चाचा/दादा exceptions)",
+   "note": "taught-pattern table + exception gate (exception words decline rather than mis-answer)"
+  },
+  {
+   "topic": "vachan parivartan (आ->ए, ई->इयाँ, आँ->एँ)",
+   "solver_able": true,
+   "covered": true,
+   "family": "LING_VACHAN",
+   "corpus": "c8_hin_icse_03_002 A3 (लड़का->लड़के, माला->मालाएँ, बात->बातें)",
+   "note": "taught pairs both directions"
+  },
+  {
+   "topic": "upasarg (छील-चाल: peel, remaining-root, meaning-flip)",
+   "solver_able": true,
+   "covered": true,
+   "family": "UPASARG_PRATYAY",
+   "corpus": "c7_hin_icse_03_004 (निर्मल=निर्+मल, संयम=सम्+यम, दुर्गंध=दुर्+गंध, पराजय=परा+जय, विजय=वि+जय...)",
+   "note": "15 attested words; unknown words decline"
+  },
+  {
+   "topic": "pratyay (place+work kasauti)",
+   "solver_able": true,
+   "covered": true,
+   "family": "PRATYAY_NIRMAN",
+   "corpus": "c7_hin_icse_03_002 Q1 / 004 (सुंदर+ता, बच्चा+पन, धन+वान, लिख+आवट, सच्चा+ई; trap: 'सुंदरपन' not a word)",
+   "note": "7 attested words; unknown decline"
+  },
+  {
+   "topic": "muhaavare / lokoktiyan meaning-match",
+   "solver_able": true,
+   "covered": true,
+   "family": "MUHAAVARA_MEANING",
+   "corpus": "c7_hin_icse_03_003 (door-test), c10_hin_icse_04_001/003, c9_hin_icse_04_003, c10_hin_ks_cbse_01_010, c7_03_003 (lokokti अंधों में काना राजा)",
+   "note": "9 attested entries with the corpus's own meanings; unknown idioms decline (no invented meanings)"
+  },
+  {
+   "topic": "tatsam<->tadbhav (dhvani-parivartan rules)",
+   "solver_able": true,
+   "covered": true,
+   "family": "TATSAM_TADBHAV",
+   "corpus": "c8_hin_icse_03_001/002 (म्->ँ नाम->नाँव, क्ष->ख क्षेत्र->खेत, व->ब वन->बन, र्ष->र वर्ष->बरस, अग्नि->आग series)",
+   "note": "14 taught pairs, both directions, rule named in steps"
+  },
+  {
+   "topic": "literature attribution (rachna -> rachak, corpus-only)",
+   "solver_able": true,
+   "covered": true,
+   "family": "LIT_FACT",
+   "corpus": "ICSE chapter parichay nodes state 'X द्वारा लिखित'; CBSE kavi-parichay nodes (e.g. c9_ga_11 Jhansi ki Rani -> Subhadra Kumari Chauhan); c10_ks_01_001 (Prasad 1889-1937, Kaamayani, chhayavaad)",
+   "note": "23 verified entries; anything outside the corpus declines by design (e.g. रश्मिरथी, whose corpus nodes mention the work without a parichay attribution, is declined)"
+  },
+  {
+   "topic": "vaakya bhed (सरल/संयुक्त/मिश्र)",
+   "solver_able": true,
+   "covered": true,
+   "family": "VAAKY_BHED",
+   "corpus": "c8_hin_icse_03_003 (kriya-ginti + jod-dhaaga kasauti), c10_hin_icse_04_004 A3 (और-join = संयुक्त)",
+   "note": "कि/जो/जब dhaaga -> mishr; samauchayabodhak + 2 clauses -> sanyukt; else saral"
+  },
+  {
+   "topic": "'ने'-niyam shuddhi (sakarmak AND bhootkaal)",
+   "solver_able": true,
+   "covered": true,
+   "family": "NA_SHUDDHI",
+   "corpus": "c9_hin_icse_04_002 A3 — 'the most mark-giving one-line rule' with all four worked corrections",
+   "note": "ne+akarmak drop, ne+present drop, missing-ne insert; all four corpus corrections reproduced exactly"
+  },
+  {
+   "topic": "vishay-kriya mel shuddhi (agreement)",
+   "solver_able": true,
+   "covered": true,
+   "family": "MEL_SHUDDHI",
+   "corpus": "c7_hin_icse_03_001 ('लड़कियाँ पढ़ता है'), c12_hin_isc_01_004 A3 ('वह...जाते हैं')",
+   "note": "pronoun/plural-subject vs kriya-ending mismatch repair for the taught patterns"
+  },
+  {
+   "topic": "shabd-roop declension tables (अकारांत/आकारांत)",
+   "solver_able": true,
+   "covered": false,
+   "family": null,
+   "corpus": "keyword scan: ZERO corpus hits for अकारांत/आकारांत; shabd-roop mentions appear only as glosses (c6_hin_cbse_09)",
+   "note": "MISSING: the corpus teaches no declension tables, so any solver table would be invented outside the closed world; declined by design"
+  },
+  {
+   "topic": "chhand maatraa-count (laghu/guru)",
+   "solver_able": true,
+   "covered": false,
+   "family": null,
+   "corpus": "c10_hin_ks_cbse_01_005 teaches the laghu=1/guru=2 rule with a worked line (20 maatra example)",
+   "note": "MISSING: deterministic in principle, but Devanagari syllabification edge cases (word-final consonant vs closed syllable) were not validated this batch; deferred rather than risk wrong counts"
+  },
+  {
+   "topic": "vaakya-shuddhi beyond ने/मेल (kriyaavisheshan order, double-vibhakti 'मेरे को')",
+   "solver_able": true,
+   "covered": false,
+   "family": null,
+   "corpus": "c12_hin_isc_01_003 A2, c10_hin_icse_04_003 A1 (रोज़ placement), c9_hin_icse_04_002 (मेरे को->मुझे)",
+   "note": "MISSING: correction patterns are attested but the corpus gives no finite rule set for unseen sentences; only the finite ने/मेल slices are covered"
+  },
+  {
+   "topic": "pratyaksh-apratyaksh (direct->indirect speech)",
+   "solver_able": true,
+   "covered": false,
+   "family": null,
+   "corpus": "c10_hin_icse_04_004 mentions it; the node's own worked example is internally inconsistent",
+   "note": "MISSING: no consistent taught rule set in the corpus"
+  },
+  {
+   "topic": "rachna: nibandh / patra / sanvaad / vigyapan / soochana lekhan",
+   "solver_able": false,
+   "covered": false,
+   "family": null,
+   "corpus": "c10_hin_icse_01/02, c9_hin_icse_01/02, isc Section-A rachna khanda",
+   "note": "free composition — format frameworks taught, content is open-ended; no closed-form answer"
+  },
+  {
+   "topic": "apathit gadyansh (unseen passage comprehension)",
+   "solver_able": false,
+   "covered": false,
+   "family": null,
+   "corpus": "c10_hin_icse_03, c9_hin_icse_03, isc khanda-A",
+   "note": "answers depend on an unseen passage; skimming strategy is taught, not a closed form"
+  },
+  {
+   "topic": "ras / chhand / bimb / preetik / bhaavarth / vyangya analysis of unseen verse",
+   "solver_able": false,
+   "covered": false,
+   "family": null,
+   "corpus": "c10 ks/sp chapters, c11/c12 Antara-Aaroh nodes",
+   "note": "interpretive judgment over verse context; no closed form (maatra-counting is the only deterministic slice — see MISSING above)"
+  },
+  {
+   "topic": "register chayan/parivartan (ISC Section-A)",
+   "solver_able": false,
+   "covered": false,
+   "family": null,
+   "corpus": "c11_hin_isc_01_002, c12_hin_isc_01_002 (MCQs attested)",
+   "note": "judgment over audience/context; the corpus MCQs are opinion-keyed, not rule-keyed"
+  },
+  {
+   "topic": "pad-parichay (full pos-tagging of a sentence)",
+   "solver_able": false,
+   "covered": false,
+   "family": null,
+   "corpus": "c7_hin_icse_03_001, c8_hin_icse_03_002, c10_hin_icse_04_001",
+   "note": "the corpus kasauti (question-ask) is procedural, but full tagging needs morphological disambiguation beyond the deterministic scope; the kaarak-chinh slice IS covered (KARAK_CHINH)"
+  },
+  {
+   "topic": "viraam-chinh prayog (punctuation placement/correction)",
+   "solver_able": false,
+   "covered": false,
+   "family": null,
+   "corpus": "c12_hin_ar_cbse_01 ('विराम चिह्न' chapter, template nodes), c9_hin_icse_04_003 (रुको, मत जाओ vs रुको मत, जाओ)",
+   "note": "rules are taught conceptually; correction of arbitrary sentences is open-ended"
+  },
+  {
+   "topic": "vartani shuddhi (spelling)",
+   "solver_able": false,
+   "covered": false,
+   "family": null,
+   "corpus": "c7_hin_cbse_01, c8_hin_cbse_04 mentions",
+   "note": "needs a full spelling lexicon; no taught rule set"
+  }
+ ],
+ "classes": {
+  "6": {
+   "books": [
+    {
+     "board": "cbse",
+     "book": "c6_hin_cbse (single Hindi book)",
+     "chapters": 13,
+     "kind": "literature",
+     "note": "kavi/lekhak parichay + path-vyakhya nodes (Sohanlal Dwivedi, Dhyan Chand, Premchand, Rahim, Surdas...); no vyaakaran teaching"
+    },
+    {
+     "board": "icse",
+     "book": "c6_hin_icse",
+     "chapters": 3,
+     "kind": "language+literature",
+     "note": "01 sunna-bolna, 02 pathan, 03 sangya (pad-bhed start: sangya bhed, paryayvachi, vilom, kaarak start)"
+    }
+   ],
+   "scan_chapters": {
+    "cbse": [
+     {
+      "chapter": "c6_hin_cbse_01",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_02",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_03",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_04",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_05",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_06",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_07",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_08",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_09",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_10",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_11",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_12",
+      "nodes": 15
+     },
+     {
+      "chapter": "c6_hin_cbse_13",
+      "nodes": 15
+     }
+    ],
+    "icse": [
+     {
+      "chapter": "c6_hin_icse_01",
+      "nodes": 10
+     },
+     {
+      "chapter": "c6_hin_icse_02",
+      "nodes": 4
+     },
+     {
+      "chapter": "c6_hin_icse_03",
+      "nodes": 4
+     }
+    ]
+   }
+  },
+  "7": {
+   "books": [
+    {
+     "board": "cbse",
+     "book": "c7_hin_cbse (single Hindi book)",
+     "chapters": 10,
+     "kind": "literature",
+     "note": "Maithili Sharan Gupt, hariodh, Giridhar kavirai, Meera...; literature only"
+    },
+    {
+     "board": "icse",
+     "book": "c7_hin_icse",
+     "chapters": 3,
+     "kind": "language+literature",
+     "note": "03 pad-bhed aur vaakya-samrachana is the class-7 grammar core: pad-bhed, uddeyshya-vidhey, mel-niyam, kaarak-chinh, shabd-bhandar (paryayvachi/vilom/ek shabd/muhaavara-lokokti), upasarg-pratyay (cheel-chaal)"
+    }
+   ],
+   "scan_chapters": {
+    "cbse": [
+     {
+      "chapter": "c7_hin_cbse_01",
+      "nodes": 15
+     },
+     {
+      "chapter": "c7_hin_cbse_02",
+      "nodes": 15
+     },
+     {
+      "chapter": "c7_hin_cbse_03",
+      "nodes": 15
+     },
+     {
+      "chapter": "c7_hin_cbse_04",
+      "nodes": 15
+     },
+     {
+      "chapter": "c7_hin_cbse_05",
+      "nodes": 15
+     },
+     {
+      "chapter": "c7_hin_cbse_06",
+      "nodes": 15
+     },
+     {
+      "chapter": "c7_hin_cbse_07",
+      "nodes": 15
+     },
+     {
+      "chapter": "c7_hin_cbse_08",
+      "nodes": 15
+     },
+     {
+      "chapter": "c7_hin_cbse_09",
+      "nodes": 15
+     },
+     {
+      "chapter": "c7_hin_cbse_10",
+      "nodes": 15
+     }
+    ],
+    "icse": [
+     {
+      "chapter": "c7_hin_icse_01",
+      "nodes": 6
+     },
+     {
+      "chapter": "c7_hin_icse_02",
+      "nodes": 4
+     },
+     {
+      "chapter": "c7_hin_icse_03",
+      "nodes": 4
+     }
+    ]
+   }
+  },
+  "8": {
+   "books": [
+    {
+     "board": "cbse",
+     "book": "c8_hin_cbse (single Hindi book)",
+     "chapters": 10,
+     "kind": "literature",
+     "note": "Bharatendu, Dushyant Kumar, Mahadevi Verma, Bheeshm Sahni...; literature only"
+    },
+    {
+     "board": "icse",
+     "book": "c8_hin_icse",
+     "chapters": 3,
+     "kind": "language+literature",
+     "note": "03 shabd-vichaar: tatsam-tadbhav rules, ruddhi/yogik/yogruddhi, upasarg-pratyay, pad-vichaar (kaarak 8 bhed, ling-vachan), kriya-kaal-vaachya-avyay-vaakya bhed, viraam-chinh, muhaavare"
+    }
+   ],
+   "scan_chapters": {
+    "cbse": [
+     {
+      "chapter": "c8_hin_cbse_01",
+      "nodes": 15
+     },
+     {
+      "chapter": "c8_hin_cbse_02",
+      "nodes": 15
+     },
+     {
+      "chapter": "c8_hin_cbse_03",
+      "nodes": 15
+     },
+     {
+      "chapter": "c8_hin_cbse_04",
+      "nodes": 15
+     },
+     {
+      "chapter": "c8_hin_cbse_05",
+      "nodes": 15
+     },
+     {
+      "chapter": "c8_hin_cbse_06",
+      "nodes": 15
+     },
+     {
+      "chapter": "c8_hin_cbse_07",
+      "nodes": 15
+     },
+     {
+      "chapter": "c8_hin_cbse_08",
+      "nodes": 15
+     },
+     {
+      "chapter": "c8_hin_cbse_09",
+      "nodes": 15
+     },
+     {
+      "chapter": "c8_hin_cbse_10",
+      "nodes": 15
+     }
+    ],
+    "icse": [
+     {
+      "chapter": "c8_hin_icse_01",
+      "nodes": 8
+     },
+     {
+      "chapter": "c8_hin_icse_02",
+      "nodes": 18
+     },
+     {
+      "chapter": "c8_hin_icse_03",
+      "nodes": 4
+     }
+    ]
+   }
+  },
+  "9": {
+   "books": [
+    {
+     "board": "cbse",
+     "book": "c9_hin_ga_cbse (the single Class-9 Hindi book, per the 26-27 syllabus)",
+     "chapters": 12,
+     "kind": "literature",
+     "note": "gadya (Premchand, Bakhshi, Renu...) + padya (Raidas, Tulsidas ke dohe, Nirala ke pad, Jhansi ki Rani, Vyaktitva ka saundarya); lokokti/muhaavara appear inside gadya contexts (ch02)"
+    },
+    {
+     "board": "icse",
+     "book": "c9_hin_icse",
+     "chapters": 5,
+     "kind": "language+literature",
+     "note": "04 bhaasha is the grammar core: 'ne' two-condition rule, vishay-kriya mel, kaal identify/convert, viraam-chinh, alankaar kasauti (upama/roopak/atishayokti/anupraasa/yamak), muhaavare-lokoktiyan"
+    }
+   ],
+   "scan_chapters": {
+    "cbse": [
+     {
+      "chapter": "c9_hin_ga_cbse_01",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_02",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_03",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_04",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_05",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_06",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_07",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_08",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_09",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_10",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_11",
+      "nodes": 15
+     },
+     {
+      "chapter": "c9_hin_ga_cbse_12",
+      "nodes": 15
+     }
+    ],
+    "icse": [
+     {
+      "chapter": "c9_hin_icse_01",
+      "nodes": 4
+     },
+     {
+      "chapter": "c9_hin_icse_02",
+      "nodes": 4
+     },
+     {
+      "chapter": "c9_hin_icse_03",
+      "nodes": 4
+     },
+     {
+      "chapter": "c9_hin_icse_04",
+      "nodes": 4
+     },
+     {
+      "chapter": "c9_hin_icse_05",
+      "nodes": 8
+     }
+    ]
+   }
+  },
+  "10": {
+   "books": [
+    {
+     "board": "cbse",
+     "book": "c10_hin_ks_cbse (Kshitij bhag-2)",
+     "chapters": 12,
+     "kind": "literature+vyakaran-touch",
+     "note": "ch01 (corpus title 'मुहावरे') carries the alankaar/chhand/muhaavara teaching: anupraasa-vs-yamak (kank-kank/soor-soor), upama (das been), laghu-guru matra rules, nakk-katna"
+    },
+    {
+     "board": "cbse",
+     "book": "c10_hin_kr_cbse (Kritika bhag-2)",
+     "chapters": 3,
+     "kind": "literature",
+     "note": "Mata ka anchal..."
+    },
+    {
+     "board": "cbse",
+     "book": "c10_hin_sp_cbse (Sparsh bhag-2)",
+     "chapters": 14,
+     "kind": "literature",
+     "note": "Parvat Pradesh me Paavas (anupraasa-rich), Kar chale hum fida, Aatmatran, Bade bhai sahab, Kaartus...; ch18 carries arth/muhaavara work"
+    },
+    {
+     "board": "icse",
+     "book": "c10_hin_icse",
+     "chapters": 26,
+     "kind": "language+literature",
+     "note": "01 nibandh praroop, 02 patra-lekhan, 03 apathit gadyansh, 04 vyaakaran kaushal (pad-parichay, vaakya bhed, kaal, vaachya, viraam-chinh, muhaavare-lokokti, vaakya-parivartan); 05-26 literature (Baath athanni ki...Saakhi, Girdhar ki kundaliyan, Megh aaye...)"
+    },
+    {
+     "board": "isc",
+     "book": "c11_hin_isc (ISC Hindi 805)",
+     "chapters": 5,
+     "kind": "language+literature",
+     "note": "01 Section-A bhaasha kaushal: sandhi (vidya+aalay deergh), samas (vidyaalay-praangan shashthi-tatpurush), upasarg-pratyay, vaakya-parivartan (vaachya), register; 02-05 literature"
+    }
+   ],
+   "scan_chapters": {
+    "cbse": [
+     {
+      "chapter": "c10_hin_kr_cbse_13",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_kr_cbse_14",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_kr_cbse_15",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_01",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_02",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_03",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_04",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_05",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_06",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_07",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_08",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_09",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_10",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_11",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_ks_cbse_12",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_16",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_17",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_18",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_19",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_20",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_21",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_22",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_23",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_24",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_25",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_26",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_27",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_28",
+      "nodes": 15
+     },
+     {
+      "chapter": "c10_hin_sp_cbse_29",
+      "nodes": 15
+     }
+    ],
+    "icse": [
+     {
+      "chapter": "c10_hin_icse_01",
+      "nodes": 4
+     },
+     {
+      "chapter": "c10_hin_icse_02",
+      "nodes": 4
+     },
+     {
+      "chapter": "c10_hin_icse_03",
+      "nodes": 4
+     },
+     {
+      "chapter": "c10_hin_icse_04",
+      "nodes": 4
+     },
+     {
+      "chapter": "c10_hin_icse_05",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_06",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_07",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_08",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_09",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_10",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_11",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_12",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_13",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_14",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_15",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_16",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_17",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_18",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_19",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_20",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_21",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_22",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_23",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_24",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_25",
+      "nodes": 8
+     },
+     {
+      "chapter": "c10_hin_icse_26",
+      "nodes": 8
+     }
+    ]
+   }
+  },
+  "11": {
+   "books": [
+    {
+     "board": "cbse",
+     "book": "c11_hin_a_cbse (Antara bhag-1)",
+     "chapters": 16,
+     "kind": "literature",
+     "note": ""
+    },
+    {
+     "board": "cbse",
+     "book": "c11_hin_al_cbse (Aalok)",
+     "chapters": 2,
+     "kind": "literature",
+     "note": ""
+    },
+    {
+     "board": "cbse",
+     "book": "c11_hin_ar_cbse (Aaroh bhag-1)",
+     "chapters": 16,
+     "kind": "literature",
+     "note": ""
+    },
+    {
+     "board": "cbse",
+     "book": "c11_hin_v_cbse (Vitaan bhag-1)",
+     "chapters": 5,
+     "kind": "literature",
+     "note": ""
+    }
+   ],
+   "scan_chapters": {
+    "cbse": [
+     {
+      "chapter": "c11_hin_a_cbse_01",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_02",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_03",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_04",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_05",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_06",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_07",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_08",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_09",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_10",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_11",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_12",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_13",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_14",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_15",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_a_cbse_16",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_al_cbse_01",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_al_cbse_02",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_01",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_02",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_03",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_04",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_05",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_06",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_07",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_08",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_09",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_10",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_11",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_12",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_13",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_14",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_15",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_ar_cbse_16",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_v_cbse_01",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_v_cbse_02",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_v_cbse_03",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_v_cbse_04",
+      "nodes": 15
+     },
+     {
+      "chapter": "c11_hin_v_cbse_05",
+      "nodes": 15
+     }
+    ],
+    "icse": [
+     {
+      "chapter": "c11_hin_isc_01",
+      "nodes": 4
+     },
+     {
+      "chapter": "c11_hin_isc_02",
+      "nodes": 10
+     },
+     {
+      "chapter": "c11_hin_isc_03",
+      "nodes": 14
+     },
+     {
+      "chapter": "c11_hin_isc_04",
+      "nodes": 10
+     },
+     {
+      "chapter": "c11_hin_isc_05",
+      "nodes": 6
+     }
+    ]
+   }
+  },
+  "12": {
+   "books": [
+    {
+     "board": "cbse",
+     "book": "c12_hin_a_cbse (Antara bhag-2)",
+     "chapters": 17,
+     "kind": "literature",
+     "note": "ch17 carries samas work (tatpurush/karmadharaya hits)"
+    },
+    {
+     "board": "cbse",
+     "book": "c12_hin_al_cbse (Aalok)",
+     "chapters": 3,
+     "kind": "literature",
+     "note": "02 = Phanishwarnath Renu"
+    },
+    {
+     "board": "cbse",
+     "book": "c12_hin_ar_cbse (Aaroh bhag-2)",
+     "chapters": 15,
+     "kind": "literature+vyakaran-touch",
+     "note": "ch01 (corpus title 'विराम चिह्न') and ch06 carry the samas/padavali content (tatpurush, karmadharaya, bahuvrihi, avyayibhav hits)"
+    },
+    {
+     "board": "cbse",
+     "book": "c12_hin_v_cbse (Vitaan bhag-2)",
+     "chapters": 3,
+     "kind": "literature",
+     "note": "03 = Ghalib ke khat region"
+    },
+    {
+     "board": "icse",
+     "book": "c12_hin_isc (ISC Hindi 805)",
+     "chapters": 13,
+     "kind": "language+literature",
+     "note": "01 khanda-A: vyaakaran (sandhi/samas/upasarg-pratyay/vaakya-shuddhi/viraam-chinh), rachna, apathit gadyansh; 02-12 literature (Mohan Rakesh, Jayshankar Prasad, Hazari Prasad Dwivedi, Mahadevi Verma, Dinkar, Nagarjun, Tulsidas)"
+    }
+   ],
+   "scan_chapters": {
+    "cbse": [
+     {
+      "chapter": "c12_hin_a_cbse_01",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_02",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_03",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_04",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_05",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_06",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_07",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_08",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_09",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_10",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_11",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_12",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_13",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_14",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_15",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_16",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_a_cbse_17",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_al_cbse_01",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_al_cbse_02",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_al_cbse_03",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_01",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_02",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_03",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_04",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_05",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_06",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_07",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_08",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_09",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_10",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_11",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_12",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_13",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_14",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_ar_cbse_15",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_v_cbse_01",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_v_cbse_02",
+      "nodes": 30
+     },
+     {
+      "chapter": "c12_hin_v_cbse_03",
+      "nodes": 30
+     }
+    ],
+    "icse": [
+     {
+      "chapter": "c12_hin_isc_01",
+      "nodes": 3
+     },
+     {
+      "chapter": "c12_hin_isc_02",
+      "nodes": 10
+     },
+     {
+      "chapter": "c12_hin_isc_03",
+      "nodes": 12
+     },
+     {
+      "chapter": "c12_hin_isc_04",
+      "nodes": 9
+     },
+     {
+      "chapter": "c12_hin_isc_05",
+      "nodes": 11
+     },
+     {
+      "chapter": "c12_hin_isc_06",
+      "nodes": 9
+     },
+     {
+      "chapter": "c12_hin_isc_07",
+      "nodes": 9
+     },
+     {
+      "chapter": "c12_hin_isc_08",
+      "nodes": 10
+     },
+     {
+      "chapter": "c12_hin_isc_09",
+      "nodes": 9
+     },
+     {
+      "chapter": "c12_hin_isc_10",
+      "nodes": 6
+     },
+     {
+      "chapter": "c12_hin_isc_11",
+      "nodes": 6
+     },
+     {
+      "chapter": "c12_hin_isc_12",
+      "nodes": 9
+     },
+     {
+      "chapter": "c12_hin_isc_13",
+      "nodes": 6
+     }
+    ]
+   }
+  }
+ }
+}

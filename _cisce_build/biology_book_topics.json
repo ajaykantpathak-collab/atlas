@@ -1,0 +1,966 @@
+{
+  "generated": "2026-09-27",
+  "sources": {
+    "ncert_books": "D:/platform/ncert_books/text_cache_new",
+    "corpus": "D:/platform/deploy/content/cisce_nodes_v2",
+    "note": "Classes 6-10: CISCE corpus nodes (ICSE biology) + NCERT class 9/10 science; Class 11: NCERT Biology kebo101-119; Class 12: NCERT Biology lebo101-113; Class 11 biotech: CISCE ISC biotech nodes c11_biotech_isc_01..12."
+  },
+  "classes": {
+    "6": {
+      "book_chapters": [],
+      "solver_topics": [
+        "habitat and adaptation",
+        "plant parts and functions",
+        "classification of organisms (grouping keys)",
+        "human body: organs",
+        "components of food / balanced diet arithmetic"
+      ],
+      "corpus_chapters": [
+        {
+          "class": 6,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 1,
+          "nodes": 12,
+          "label_hint": "The plant cell is the basic structural and functional unit of every plant — the smallest piece of a plant that is still alive and can carry out all the activities of life, such as taking in water, making food, using ener"
+        },
+        {
+          "class": 6,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 2,
+          "nodes": 18,
+          "label_hint": "**Revisit previous learning** is the deliberate reactivation of knowledge a student already holds before new teaching begins. In this chapter it means bringing back, into active memory, the Class 6 beginner's map of the"
+        },
+        {
+          "class": 6,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 3,
+          "nodes": 18,
+          "label_hint": "A **disease** is a condition in which the body (or part of it) is not working normally, causing discomfort or harm. Diseases are sorted into two great families by one question: **can it pass from a sick person to a healt"
+        },
+        {
+          "class": 6,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 4,
+          "nodes": 11,
+          "label_hint": "A **habitat** is the place — with its specific conditions of air, water, soil, light and temperature, together with the other organisms living there — where a plant or an animal naturally lives and grows, and from which"
+        },
+        {
+          "class": 6,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 5,
+          "nodes": 18,
+          "label_hint": "A tissue is a group of structurally similar cells that originate from a common meristematic region and cooperate to carry out a specific physiological function in a plant. In the CISCE Class 6 curriculum, tissues are int"
+        }
+      ]
+    },
+    "7": {
+      "book_chapters": [],
+      "solver_topics": [
+        "photosynthesis word equation",
+        "respiration word equation",
+        "transport in plants (transpiration)",
+        "excretion",
+        "reproduction in plants (pollination)"
+      ],
+      "corpus_chapters": [
+        {
+          "class": 7,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 1,
+          "nodes": 18,
+          "label_hint": "Classification is the systematic arrangement of living organisms into hierarchical groups based on observable and inheritable characteristics. The primary aim is to reduce the immense diversity of life into manageable ca"
+        },
+        {
+          "class": 7,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 2,
+          "nodes": 18,
+          "label_hint": "Photosynthesis in plants is the biological process by which green plants, algae, and certain bacteria convert carbon dioxide (CO₂) and water (H₂O) into glucose (C₆H₁₂O₆) and oxygen (O₂) using light energy captured by chl"
+        },
+        {
+          "class": 7,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 3,
+          "nodes": 18,
+          "label_hint": "The human excretory system comprises several organs that remove metabolic wastes to maintain homeostasis. The kidneys are the primary excretory organs; they filter blood through millions of nephrons, producing urine that"
+        },
+        {
+          "class": 7,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 4,
+          "nodes": 18,
+          "label_hint": "An allergy is an exaggerated immune response triggered when the body’s defence system identifies a normally harmless substance — called an allergen — as a threat. Common allergens include dust, pollen grains, house‑dust"
+        },
+        {
+          "class": 7,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 5,
+          "nodes": 18,
+          "label_hint": "Diffusion is the net movement of particles (molecules, ions, or atoms) from a region of higher concentration to a region of lower concentration until a uniform distribution is reached. It is a passive process — no metabo"
+        }
+      ]
+    },
+    "8": {
+      "book_chapters": [],
+      "solver_topics": [
+        "cell structure",
+        "reproduction (puberty, menstrual cycle arithmetic: 28-day cycle)",
+        "crop production (irrigation percentages)",
+        "microorganisms (friend and foe)",
+        "conservation (species counts)"
+      ],
+      "corpus_chapters": [
+        {
+          "class": 8,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 1,
+          "nodes": 18,
+          "label_hint": "**Asexual reproduction** is the production of new individuals from a SINGLE parent, without the production or fusion of special sex cells (gametes); the offspring are genetically identical to the parent (exact copies — c"
+        },
+        {
+          "class": 8,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 2,
+          "nodes": 18,
+          "label_hint": "An ecosystem is a functional unit of nature comprising all living organisms (biotic components) in a given area interacting with the non‑living (abiotic) components such as air, water, soil, sunlight, temperature, humidi"
+        },
+        {
+          "class": 8,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 3,
+          "nodes": 18,
+          "label_hint": "A **gland** is an organ that manufactures and releases a chemical substance — the body's chemical factory. The body runs two kinds. **Exocrine glands** have **ducts** — tubes that carry their secretion to a specific work"
+        },
+        {
+          "class": 8,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 4,
+          "nodes": 18,
+          "label_hint": "A communicable disease (infectious disease) is an illness caused by disease-producing microorganisms — or other agents such as viruses, bacteria, protozoa and worms — that passes from an infected person (or animal, or co"
+        },
+        {
+          "class": 8,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 5,
+          "nodes": 18,
+          "label_hint": "Bacteria are unicellular prokaryotic microorganisms that, in the food industry, perform controlled fermentation to transform raw ingredients into value‑added products. Key genera include *Lactobacillus*, *Streptococcus*,"
+        }
+      ]
+    },
+    "9": {
+      "book_chapters": [
+        {
+          "file": "iesc102",
+          "title": "The Ever-living World / Origin of Life in Water (new syllabus)",
+          "available": true
+        },
+        {
+          "file": "iesc103",
+          "title": "Tissues in Action",
+          "available": true
+        },
+        {
+          "file": "iesc111",
+          "title": "Reproduction: How Life Continues",
+          "available": true
+        },
+        {
+          "file": "iesc112",
+          "title": "Food Production and Plant Adaptation (Improvement in Food Resources)",
+          "available": true
+        },
+        {
+          "file": "iesc113",
+          "title": "Earth as a System: Energy, Matter, and Life",
+          "available": true
+        }
+      ],
+      "solver_topics": [
+        "cell - fundamental unit (magnification = image/actual size)",
+        "tissues",
+        "improvement in food resources (yields, percentages)",
+        "health and disease (immunity counts)"
+      ],
+      "corpus_chapters": [
+        {
+          "class": 9,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 1,
+          "nodes": 8,
+          "label_hint": "This chapter, Basic Biology, is the foundation on which every later biology lesson stands, and its subject is stated in its first principle: the cell is the basic structural and functional unit of all living things. The"
+        },
+        {
+          "class": 9,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 2,
+          "nodes": 8,
+          "label_hint": "This node is the chapter's opening map. Flowering plants (angiosperms) reproduce sexually through the flower — a highly modified shoot whose whole purpose is to bring together a male gamete and a female gamete, start a n"
+        },
+        {
+          "class": 9,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 3,
+          "nodes": 8,
+          "label_hint": "Plant Physiology in Class 9 ICSE covers three linked ideas. First, the **structure of dicot and monocot seeds**: dicots (e.g., bean, pea) have two cotyledons that store food, a distinct embryo axis with plumule and radic"
+        },
+        {
+          "class": 9,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 4,
+          "nodes": 8,
+          "label_hint": "Classification is the arrangement of living organisms into groups on the basis of their similarities and differences — a sorting that turns the bewildering diversity of life into an orderly, learnable, and usable system,"
+        },
+        {
+          "class": 9,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 5,
+          "nodes": 6,
+          "label_hint": "Nutrition is the process by which organisms obtain and utilise food substances for growth, repair and energy. In humans, food is classified into seven major classes: carbohydrates, proteins, fats, vitamins, minerals, wat"
+        },
+        {
+          "class": 9,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 6,
+          "nodes": 8,
+          "label_hint": "HEALTH is a state of complete PHYSICAL, MENTAL and SOCIAL well-being, and not merely the absence of disease or infirmity — the definition the World Health Organization adopted when it was founded, and the one this chapte"
+        },
+        {
+          "class": 9,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 7,
+          "nodes": 8,
+          "label_hint": "Waste generation refers to the production of unwanted or discarded materials arising from human activities. In the ICSE Class 9 Biology curriculum the chapter classifies sources into three major categories: domestic wast"
+        }
+      ]
+    },
+    "10": {
+      "book_chapters": [
+        {
+          "file": "jesc105",
+          "title": "Life Processes",
+          "available": true
+        },
+        {
+          "file": "jesc106",
+          "title": "Control and Coordination",
+          "available": true
+        },
+        {
+          "file": "jesc107",
+          "title": "How do Organisms Reproduce?",
+          "available": true
+        },
+        {
+          "file": "jesc108",
+          "title": "Heredity",
+          "available": true
+        },
+        {
+          "file": "jesc113",
+          "title": "Our Environment",
+          "available": true
+        }
+      ],
+      "solver_topics": [
+        "life processes: photosynthesis/respiration word equations",
+        "control and coordination (hormones, reflex arc)",
+        "reproduction (flower/human), menstrual cycle day arithmetic",
+        "heredity: Mendel monohybrid 3:1, dihybrid 9:3:3:1 ratios (Punnett)",
+        "sex determination XX/XY cross (50:50)",
+        "our environment: food chain, 10% law energy flow, ozone, waste"
+      ],
+      "corpus_chapters": [
+        {
+          "class": 10,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 1,
+          "nodes": 6,
+          "label_hint": "The cell cycle is an ordered series of events that leads to cell division. It comprises interphase (G₁, S, G₂) and the mitotic (M) phase. During G₁ the cell grows and carries out normal functions; in S phase DNA replicat"
+        },
+        {
+          "class": 10,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 2,
+          "nodes": 9,
+          "label_hint": "Imbibition is the physical process by which solid colloidal particles (such as seed coats, cell walls, or dry wood) absorb water without forming a solution. Water molecules adhere to the hydrophilic surfaces of the collo"
+        },
+        {
+          "class": 10,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 3,
+          "nodes": 12,
+          "label_hint": "Blood is a specialised connective tissue that circulates within the closed cardiovascular system. It consists of a straw‑coloured liquid matrix called plasma (≈55 % by volume) and formed elements — red blood cells (eryth"
+        },
+        {
+          "class": 10,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 4,
+          "nodes": 8,
+          "label_hint": "Population studies in ICSE Class 10 Biology examine three linked ideas. **Population growth** refers to the change in number of individuals in a defined area over time, driven by birth rate, death rate, immigration, and"
+        },
+        {
+          "class": 10,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 5,
+          "nodes": 8,
+          "label_hint": "This chapter provides a panoramic view of human evolution, linking five core sub‑areas: (1) **Theories of evolution** — Lamarckism, Darwinism, and the Modern Synthesis — which supply the explanatory framework; (2) **Basi"
+        },
+        {
+          "class": 10,
+          "subject": "bio",
+          "board": "icse",
+          "chapter": 6,
+          "nodes": 8,
+          "label_hint": "The chapter “Pollution” in ICSE Class 10 Biology provides a structured overview of environmental contamination. It defines pollution as the introduction of harmful substances or energy into the natural environment causin"
+        }
+      ]
+    },
+    "11": {
+      "book_chapters": [
+        {
+          "file": "kebo101",
+          "title": "The Living World",
+          "available": true
+        },
+        {
+          "file": "kebo102",
+          "title": "Biological Classification",
+          "available": true
+        },
+        {
+          "file": "kebo103",
+          "title": "Plant Kingdom",
+          "available": true
+        },
+        {
+          "file": "kebo104",
+          "title": "Animal Kingdom",
+          "available": true
+        },
+        {
+          "file": "kebo105",
+          "title": "Morphology of Flowering Plants",
+          "available": true
+        },
+        {
+          "file": "kebo106",
+          "title": "Anatomy of Flowering Plants",
+          "available": true
+        },
+        {
+          "file": "kebo107",
+          "title": "Structural Organisation in Animals",
+          "available": true
+        },
+        {
+          "file": "kebo108",
+          "title": "Cell: The Unit of Life",
+          "available": true
+        },
+        {
+          "file": "kebo109",
+          "title": "Biomolecules",
+          "available": true
+        },
+        {
+          "file": "kebo110",
+          "title": "Cell Cycle and Cell Division",
+          "available": true
+        },
+        {
+          "file": "kebo111",
+          "title": "Photosynthesis in Higher Plants",
+          "available": true
+        },
+        {
+          "file": "kebo112",
+          "title": "Respiration in Plants",
+          "available": true
+        },
+        {
+          "file": "kebo113",
+          "title": "Plant Growth and Development",
+          "available": true
+        },
+        {
+          "file": "kebo114",
+          "title": "Breathing and Exchange of Gases",
+          "available": true
+        },
+        {
+          "file": "kebo115",
+          "title": "Body Fluids and Circulation",
+          "available": true
+        },
+        {
+          "file": "kebo116",
+          "title": "Excretory Products and their Elimination",
+          "available": true
+        },
+        {
+          "file": "kebo117",
+          "title": "Locomotion and Movement",
+          "available": true
+        },
+        {
+          "file": "kebo118",
+          "title": "Neural Control and Coordination",
+          "available": true
+        },
+        {
+          "file": "kebo119",
+          "title": "Chemical Coordination and Integration",
+          "available": true
+        }
+      ],
+      "solver_topics": [
+        "five/six kingdom classification keys",
+        "plant/animal kingdom keys",
+        "cell biology (magnification, field of view, surface-area:volume ratio)",
+        "biomolecules (percent composition)",
+        "cell division (mitosis/meiosis chromosome counts 2n->n)",
+        "photosynthesis (light/dark reaction stoichiometry 6CO2+6H2O->C6H12O6+6O2)",
+        "respiration (RQ = CO2 evolved/O2 consumed; ATP counts 36-38)",
+        "plant growth (auxin concentration responses)",
+        "human physiology: breathing volumes (tidal volume arithmetic)",
+        "body fluids: blood counts, ABO/Rh blood group inheritance",
+        "excretion (GFR/urine arithmetic)",
+        "hormone levels"
+      ],
+      "corpus_chapters": [
+        {
+          "class": 11,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 1,
+          "nodes": 16,
+          "label_hint": "The living world is defined by a set of universal characteristics that collectively distinguish organisms from inanimate matter. These characteristics are: (1) **Cellular organization** – every living entity is composed"
+        },
+        {
+          "class": 11,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 2,
+          "nodes": 10,
+          "label_hint": "The root is the descending, usually non‑photosynthetic axis of a flowering plant that originates from the radicle of the embryo. It performs three primary functions: anchorage, absorption of water and dissolved minerals,"
+        },
+        {
+          "class": 11,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 3,
+          "nodes": 7,
+          "label_hint": "The chapter “Cell – the Unit of Life” establishes the cell as the fundamental structural and functional unit of all living organisms. It introduces the **cell theory** (all organisms are composed of cells, the cell is th"
+        },
+        {
+          "class": 11,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 4,
+          "nodes": 7,
+          "label_hint": "Carbohydrates are polyhydroxy aldehydes or ketones, or substances that yield such units on hydrolysis, with the general empirical formula Cₙ(H₂O)ₙ. They are classified by degree of polymerisation: monosaccharides (single"
+        },
+        {
+          "class": 11,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 5,
+          "nodes": 8,
+          "label_hint": "The cell cycle is an ordered series of events that a eukaryotic cell undergoes from its formation to its division into two daughter cells. It comprises interphase (G₁, S, G₂) where the cell grows, replicates its DNA, and"
+        },
+        {
+          "class": 11,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 6,
+          "nodes": 8,
+          "label_hint": "Plant Physiology (Chapter 06) integrates three core processes that sustain higher plants. **Photosynthesis in higher plants** converts carbon dioxide and water into glucose and oxygen using light energy captured by chlor"
+        },
+        {
+          "class": 11,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 7,
+          "nodes": 13,
+          "label_hint": "Blood is a specialized connective tissue classified as a body fluid, composed of plasma (≈55 % by volume) and formed elements (≈45 %). Plasma, a straw‑coloured aqueous solution, contains water (90 %), proteins (albumin,"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 1,
+          "nodes": 12,
+          "label_hint": "Biotechnology is the application of biological systems, living organisms, or derivatives thereof to make or modify products and processes for specific use. The OECD defines it as “the application of scientific and engine"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 2,
+          "nodes": 18,
+          "label_hint": "Agricultural biotechnology applies molecular biology, genetics, and cell-culture techniques to improve plants, livestock, and microorganisms used in farming. Core sub-concepts include: (1) **Genetic engineering** – inser"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 3,
+          "nodes": 8,
+          "label_hint": "Buffers are aqueous systems that resist changes in pH when small amounts of strong acid or base are added. They consist of a **weak acid–conjugate base pair** (HA/A⁻) or a **weak base–conjugate acid pair** (B/BH⁺). The *"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 4,
+          "nodes": 18,
+          "label_hint": "The cell is the fundamental structural and functional unit of all living organisms, as stated by the cell theory formulated by Schleiden, Schwann and Virchow. Every organism — whether a single‑celled bacterium or a multi"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 5,
+          "nodes": 6,
+          "label_hint": "Mitosis and meiosis are two fundamental modes of eukaryotic cell division. Mitosis is a single continuous process comprising prophase, metaphase, anaphase, and telophase, followed by cytokinesis, producing two geneticall"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 6,
+          "nodes": 18,
+          "label_hint": "Mutation is a permanent alteration in the nucleotide sequence of an organism’s genome. Causes of mutation are broadly classified into spontaneous and induced categories. Spontaneous mutations arise from intrinsic cellula"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 7,
+          "nodes": 18,
+          "label_hint": "Carbohydrates are polyhydroxy aldehydes or ketones, or substances that yield them on hydrolysis. They are classified by the number of monomeric units: monosaccharides (one unit), disaccharides (two units linked by a glyc"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 8,
+          "nodes": 8,
+          "label_hint": "Chapter 8, “Separation Techniques,” provides a panoramic view of the methods biotechnologists use to isolate, purify, and characterize biomolecules from complex mixtures. It establishes why separation is a prerequisite f"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 9,
+          "nodes": 13,
+          "label_hint": "Animal development from fertilisation to blastocyst is the sequential process beginning with the fusion of a haploid spermatozoon and a haploid oocyte to form a diploid zygote. The zygote undergoes a series of rapid, syn"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 10,
+          "nodes": 15,
+          "label_hint": "Mendel's experiments (1856‑1863) used the garden pea *Pisum sativum* because it has distinct, easily observable traits, self‑pollinates naturally, and produces many seeds. He selected seven pairs of contrasting character"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 11,
+          "nodes": 8,
+          "label_hint": "Linkage is the tendency of genes located on the same chromosome to be inherited together because they do not assort independently during meiosis. Genes that are close together form a **linkage group** and show a recombin"
+        },
+        {
+          "class": 11,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 12,
+          "nodes": 7,
+          "label_hint": "This chapter introduces the population‑level view of genetics. A **gene pool** is the total collection of all alleles of every gene in a population at a given time. **Allele frequency** quantifies the proportion of a spe"
+        }
+      ]
+    },
+    "12": {
+      "book_chapters": [
+        {
+          "file": "lebo101",
+          "title": "Sexual Reproduction in Flowering Plants / Reproduction in Organisms",
+          "available": true
+        },
+        {
+          "file": "lebo102",
+          "title": "Human Reproduction",
+          "available": true
+        },
+        {
+          "file": "lebo103",
+          "title": "Reproductive Health",
+          "available": true
+        },
+        {
+          "file": "lebo104",
+          "title": "Principles of Inheritance and Variation",
+          "available": true
+        },
+        {
+          "file": "lebo105",
+          "title": "Molecular Basis of Inheritance",
+          "available": true
+        },
+        {
+          "file": "lebo106",
+          "title": "Evolution",
+          "available": true
+        },
+        {
+          "file": "lebo107",
+          "title": "Human Health and Disease",
+          "available": true
+        },
+        {
+          "file": "lebo108",
+          "title": "Microbes in Human Welfare",
+          "available": true
+        },
+        {
+          "file": "lebo109",
+          "title": "Biotechnology: Principles and Processes",
+          "available": true
+        },
+        {
+          "file": "lebo110",
+          "title": "Biotechnology and its Applications",
+          "available": true
+        },
+        {
+          "file": "lebo111",
+          "title": "Organisms and Populations",
+          "available": true
+        },
+        {
+          "file": "lebo112",
+          "title": "Ecosystem",
+          "available": true
+        },
+        {
+          "file": "lebo113",
+          "title": "Biodiversity and Conservation",
+          "available": true
+        }
+      ],
+      "solver_topics": [
+        "sexual reproduction (embryo-sac 8 nuclei, 7 cells; double fertilization)",
+        "human reproduction (gametogenesis, menstrual cycle 28-day arithmetic)",
+        "Mendelian inheritance: Punnett squares, test cross, dihybrid, linkage",
+        "non-Mendelian: codominance ABO blood groups, incomplete dominance, multiple alleles",
+        "sex-linked inheritance: colour blindness, haemophilia (X-linked crosses)",
+        "pedigree analysis",
+        "genetic disorders (Down/Klinefelter/Turner chromosome counts)",
+        "molecular basis: DNA base-pairing/Chargaff rule (%A=%T), central dogma, genetic code",
+        "evolution: Hardy-Weinberg p^2+2pq+q^2=1, Darwinian fitness",
+        "human health: immunity counts, antibiotic action",
+        "microbes: biogas production, fermentation yields",
+        "biotech: restriction-site counting, PCR 2^n amplification, recombinant DNA mix arithmetic, bioreactor productivity",
+        "populations: exponential N=N0*e^(rt), logistic growth, r/K selection",
+        "ecosystem: 10% law trophic energy flow, pyramid of energy, GPP/NPP (=GPP-R)",
+        "biodiversity: species richness, Shannon index, species-area relation S=cA^z"
+      ],
+      "corpus_chapters": [
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 1,
+          "nodes": 8,
+          "label_hint": "Sexual reproduction in flowering plants (angiosperms) is a coordinated sequence that begins with the formation of a flower — the reproductive shoot bearing four whorls: calyx, corolla, androecium (stamens) and gynoecium"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 2,
+          "nodes": 6,
+          "label_hint": "The human reproductive system comprises two anatomically distinct but functionally interdependent organ systems. In males, the primary gonads are the paired testes located in the scrotum; each testis contains seminiferou"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 3,
+          "nodes": 6,
+          "label_hint": "Reproductive health, as defined by the World Health Organization, is a state of complete physical, mental and social well‑being in all matters relating to the reproductive system at all stages of life. In the ISC Class 1"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 4,
+          "nodes": 7,
+          "label_hint": "Principles of Inheritance and Variation is the study of how genetic information is transmitted from one generation to the next and how differences arise among individuals. The chapter integrates five core sub‑concepts: ("
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 5,
+          "nodes": 6,
+          "label_hint": "Deoxyribonucleic acid (DNA) is a polymeric macromolecule composed of repeating units called nucleotides. Each nucleotide consists of a deoxyribose sugar (C₅H₁₀O₄), a phosphate group (PO₄³⁻), and one of four nitrogenous b"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 6,
+          "nodes": 7,
+          "label_hint": "Evolution is the change in heritable characteristics of biological populations over successive generations. It operates through several interconnected mechanisms: **mutation** introduces new alleles; **gene flow** moves"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 7,
+          "nodes": 8,
+          "label_hint": "Chapter 7 “Human Health and Diseases” provides a panoramic view of the biological challenges that threaten human well‑being and the integrated defence mechanisms that counteract them. The chapter is organised around four"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 8,
+          "nodes": 5,
+          "label_hint": "Industrial beverage production relies on **alcoholic fermentation**, an anaerobic metabolic pathway where *Saccharomyces cerevisiae* (and occasionally *Zymomonas mobilis*) converts fermentable sugars — primarily glucose,"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 9,
+          "nodes": 7,
+          "label_hint": "Biotechnology – Principles and Processes introduces the molecular toolkit that enables recombinant DNA (rDNA) technology. The chapter first defines the **tools**: restriction endonucleases that cut DNA at specific palind"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 10,
+          "nodes": 7,
+          "label_hint": "Biotechnology and its Applications (ISC Class 12, Chapter 10) is the systematic study of how recombinant DNA technology, molecular diagnostics, and cellular engineering are harnessed to improve agriculture, medicine, and"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 11,
+          "nodes": 6,
+          "label_hint": "Organisms and Populations is the ecological framework that links individual adaptations to population‑level dynamics. **Adaptations** are heritable traits (morphological, physiological, behavioural) that increase an orga"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 12,
+          "nodes": 6,
+          "label_hint": "An ecosystem is a dynamic, self‑regulating community of living organisms (biotic components) interacting with their non‑living environment (abiotic components) within a defined spatial boundary. Energy enters the system"
+        },
+        {
+          "class": 12,
+          "subject": "bio",
+          "board": "isc",
+          "chapter": 13,
+          "nodes": 5,
+          "label_hint": "Biodiversity (biological diversity) is the variability among living organisms from all sources, including terrestrial, marine, and other aquatic ecosystems, and the ecological complexes of which they are part. It encompa"
+        },
+        {
+          "class": 12,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 1,
+          "nodes": 12,
+          "label_hint": "The Hershey‑Chase experiment (1952) demonstrated that deoxyribonucleic acid (DNA) is the hereditary material in bacteriophage T2 infecting *Escherichia coli*. Alfred Hershey and Martha Chase used two isotopic labels: ^32"
+        },
+        {
+          "class": 12,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 2,
+          "nodes": 13,
+          "label_hint": "The central dogma of molecular biology describes the unidirectional flow of genetic information in most organisms: DNA → RNA → protein. DNA stores hereditary information in its sequence of nucleotides. During transcripti"
+        },
+        {
+          "class": 12,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 3,
+          "nodes": 4,
+          "label_hint": "Attenuation and riboswitch regulation are two distinct RNA‑based mechanisms that control gene expression in prokaryotes after transcription has initiated. Attenuation relies on a short leader peptide encoded upstream of"
+        },
+        {
+          "class": 12,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 4,
+          "nodes": 15,
+          "label_hint": "Restriction endonucleases are enzymes that recognize specific palindromic DNA sequences (usually 4–8 base pairs) and cleave the phosphodiester backbone at or near these sites. They are classified into Types I, II, and II"
+        },
+        {
+          "class": 12,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 5,
+          "nodes": 11,
+          "label_hint": "Flavr Savr (Flavour Savour) is a transgenic tomato (Solanum lycopersicum) developed by Calgene in the early 1990s. The innovation targets the polygalacturonase (PG) gene, which encodes an enzyme that depolymerises pectin"
+        },
+        {
+          "class": 12,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 6,
+          "nodes": 9,
+          "label_hint": "A DNA probe is a short, single‑stranded nucleic acid fragment (usually 100–1000 bp) that is labelled with a radioactive isotope (^32P), a fluorophore (e.g., Cy3), or a hapten (digoxigenin) to enable detection. It is desi"
+        },
+        {
+          "class": 12,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 7,
+          "nodes": 17,
+          "label_hint": "A centrifuge is an instrument that uses centrifugal force — the apparent outward force experienced by a mass moving in a circular path — to separate particles suspended in a liquid according to their size, shape, density"
+        },
+        {
+          "class": 12,
+          "subject": "biotech",
+          "board": "isc",
+          "chapter": 8,
+          "nodes": 15,
+          "label_hint": "Bioinformatics is the interdisciplinary field that develops and applies computational methods to acquire, store, organise, analyse, and interpret biological data, especially nucleic‑acid and protein sequences. Its need a"
+        }
+      ]
+    }
+  },
+  "solver_classification": {
+    "generated": "2026-09-28",
+    "method": "every deterministic_solver_topic checked against the books (ncert_books/text_cache_new) and the CISCE corpus; topics are marked solver_able only where a closed-form, book-grounded computation exists. Book-absent candidates are honestly refused - no pseudo-solvers invented.",
+    "families_module": "deploy/backend/its/solver/biology_families.py (+ root mirror), 29 rows / 28 families after batch-17 extension",
+    "classes": {
+      "6": [
+        {"topic": "habitat and adaptation", "solver_able": false, "covered": false, "reason": "qualitative ecology; no deterministic computation in book or corpus"},
+        {"topic": "plant parts and functions", "solver_able": false, "covered": false, "reason": "structural/qualitative"},
+        {"topic": "classification of organisms (grouping keys)", "solver_able": false, "covered": false, "reason": "key-based sorting, not numeric"},
+        {"topic": "human body: organs", "solver_able": false, "covered": false, "reason": "structural"},
+        {"topic": "components of food / balanced diet arithmetic", "solver_able": false, "covered": false, "reason": "books present composition tables without solved computations; percentage arithmetic belongs to the maths engine, not a bio family"}
+      ],
+      "7": [
+        {"topic": "photosynthesis word equation", "solver_able": true, "covered": true, "family": "PHOTO_RESP_QUIZ"},
+        {"topic": "respiration word equation", "solver_able": true, "covered": true, "family": "PHOTO_RESP_QUIZ"},
+        {"topic": "transport in plants (transpiration)", "solver_able": true, "covered": true, "family": "TRANSPIRATION_RATE (new)", "grounding": "jesc105 Life Processes + corpus potometer nodes c10_bio_icse_02_004/005, c11_bio_isc_02_003; rate = water lost / time"},
+        {"topic": "excretion", "solver_able": false, "covered": false, "reason": "qualitative"},
+        {"topic": "reproduction in plants (pollination)", "solver_able": false, "covered": false, "reason": "qualitative"}
+      ],
+      "8": [
+        {"topic": "cell structure", "solver_able": true, "covered": true, "family": "CELL_MAGNIFICATION"},
+        {"topic": "reproduction (puberty, menstrual cycle arithmetic: 28-day cycle)", "solver_able": false, "covered": false, "reason": "cycle-day arithmetic is folk-averaged with no numeric table in any book; health-adjacent and not book-grounded - refused"},
+        {"topic": "crop production (irrigation percentages)", "solver_able": false, "covered": false, "reason": "generic percentage maths; no bio-specific deterministic family grounded in the book"},
+        {"topic": "microorganisms (friend and foe)", "solver_able": false, "covered": false, "reason": "qualitative"},
+        {"topic": "conservation (species counts)", "solver_able": true, "covered": true, "family": "SPECIES_RICHNESS"}
+      ],
+      "9": [
+        {"topic": "cell - fundamental unit (magnification = image/actual size)", "solver_able": true, "covered": true, "family": "CELL_MAGNIFICATION + FIELD_OF_VIEW"},
+        {"topic": "tissues", "solver_able": false, "covered": false, "reason": "structural"},
+        {"topic": "improvement in food resources (yields, percentages)", "solver_able": false, "covered": false, "reason": "generic percentage arithmetic; no grounded bio family"},
+        {"topic": "health and disease (immunity counts)", "solver_able": false, "covered": false, "reason": "no deterministic counts tabulated in the book"}
+      ],
+      "10": [
+        {"topic": "life processes: photosynthesis/respiration word equations", "solver_able": true, "covered": true, "family": "PHOTO_RESP_QUIZ + PHOTOSYNTH_BALANCE"},
+        {"topic": "control and coordination (hormones, reflex arc)", "solver_able": false, "covered": false, "reason": "qualitative"},
+        {"topic": "reproduction (flower/human), menstrual cycle day arithmetic", "solver_able": false, "covered": false, "reason": "cycle-day arithmetic not book-grounded; reproduction content qualitative"},
+        {"topic": "heredity: Mendel monohybrid 3:1, dihybrid 9:3:3:1 ratios (Punnett)", "solver_able": true, "covered": true, "family": "PUNNETT_CROSS + PUNNETT_SELF"},
+        {"topic": "sex determination XX/XY cross (50:50)", "solver_able": true, "covered": true, "family": "SEX_LINKED_CROSS"},
+        {"topic": "our environment: food chain, 10% law energy flow, ozone, waste", "solver_able": true, "covered": true, "family": "ENERGY_FLOW_10_PERCENT", "note": "ozone/waste remain content-side"}
+      ],
+      "11": [
+        {"topic": "five/six kingdom classification keys", "solver_able": false, "covered": false, "reason": "key-based sorting, not numeric"},
+        {"topic": "plant/animal kingdom keys", "solver_able": false, "covered": false, "reason": "key-based sorting, not numeric"},
+        {"topic": "cell biology (magnification, field of view, surface-area:volume ratio)", "solver_able": true, "covered": true, "family": "CELL_MAGNIFICATION + FIELD_OF_VIEW", "note": "SA:V ratio left uncovered - no worked book computation"},
+        {"topic": "biomolecules (percent composition)", "solver_able": false, "covered": false, "reason": "generic composition is chemistry territory; DNA base composition is covered separately by CHARGAFF_DNA (class 12)"},
+        {"topic": "cell division (mitosis/meiosis chromosome counts 2n->n)", "solver_able": true, "covered": true, "family": "CELL_DIVISION_COUNT"},
+        {"topic": "photosynthesis (light/dark reaction stoichiometry 6CO2+6H2O->C6H12O6+6O2)", "solver_able": true, "covered": true, "family": "PHOTOSYNTH_BALANCE"},
+        {"topic": "respiration (RQ = CO2 evolved/O2 consumed; ATP counts 36-38)", "solver_able": true, "covered": true, "family": "RQ_NUMERIC + RQ_SUBSTRATE", "note": "ATP 36-38 is a fixed fact (PHOTO_RESP_QUIZ), not computed"},
+        {"topic": "plant growth (auxin concentration responses)", "solver_able": false, "covered": false, "reason": "qualitative dose-response; no book formula"},
+        {"topic": "human physiology: breathing volumes (tidal volume arithmetic)", "solver_able": true, "covered": true, "family": "BREATHING_VOLUME (new)", "grounding": "kebo114 ch14 respiratory volumes table: IC=TV+IRV, EC=TV+ERV, FRC=ERV+RV, VC=TV+IRV+ERV, TLC=VC+RV; minute ventilation"},
+        {"topic": "body fluids: blood counts, ABO/Rh blood group inheritance", "solver_able": true, "covered": true, "family": "BLOOD_GROUP_CROSS + BLOOD_GROUP_RH"},
+        {"topic": "excretion (GFR/urine arithmetic)", "solver_able": false, "covered": false, "reason": "no numeric GFR table in the rationalized book"},
+        {"topic": "hormone levels", "solver_able": false, "covered": false, "reason": "qualitative ranges only"}
+      ],
+      "12": [
+        {"topic": "sexual reproduction (embryo-sac 8 nuclei, 7 cells; double fertilization)", "solver_able": false, "covered": false, "reason": "fixed structural facts, not computations"},
+        {"topic": "human reproduction (gametogenesis, menstrual cycle 28-day arithmetic)", "solver_able": false, "covered": false, "reason": "cycle-day arithmetic not book-grounded; refused"},
+        {"topic": "Mendelian inheritance: Punnett squares, test cross, dihybrid, linkage", "solver_able": true, "covered": true, "family": "PUNNETT_CROSS + PUNNETT_SELF"},
+        {"topic": "non-Mendelian: codominance ABO blood groups, incomplete dominance, multiple alleles", "solver_able": true, "covered": true, "family": "BLOOD_GROUP_CROSS", "note": "incomplete dominance covered by PUNNETT genotype/phenotype routing; multiple alleles via ABO"},
+        {"topic": "sex-linked inheritance: colour blindness, haemophilia (X-linked crosses)", "solver_able": true, "covered": true, "family": "SEX_LINKED_CROSS"},
+        {"topic": "pedigree analysis", "solver_able": true, "covered": true, "family": "PEDIGREE_PROBABILITY (new)", "grounding": "lebo104 4.8.1 Pedigree Analysis + Mendelian ratios"},
+        {"topic": "genetic disorders (Down/Klinefelter/Turner chromosome counts)", "solver_able": false, "covered": false, "reason": "definitional counts (2n+1/2n-1), diagnosis is qualitative - no deterministic solver territory"},
+        {"topic": "molecular basis: DNA base-pairing/Chargaff rule (%A=%T), central dogma, genetic code", "solver_able": true, "covered": true, "family": "CHARGAFF_DNA", "note": "central dogma/code remain content-side"},
+        {"topic": "evolution: Hardy-Weinberg p^2+2pq+q^2=1, Darwinian fitness", "solver_able": true, "covered": true, "family": "HARDY_WEINBERG"},
+        {"topic": "human health: immunity counts, antibiotic action", "solver_able": false, "covered": false, "reason": "qualitative"},
+        {"topic": "microbes: biogas production, fermentation yields", "solver_able": false, "covered": false, "reason": "no yield tables in the book to compute from"},
+        {"topic": "biotech: restriction-site counting, PCR 2^n amplification, recombinant DNA mix arithmetic, bioreactor productivity", "solver_able": true, "covered": true, "family": "RESTRICTION_SITE_COUNT + PCR_AMPLIFICATION", "note": "bioreactor productivity left uncovered - no book formula"},
+        {"topic": "populations: exponential N=N0*e^(rt), logistic growth, r/K selection", "solver_able": true, "covered": true, "family": "EXP_POP_GROWTH + POP_DOUBLING + LOGISTIC_GROWTH"},
+        {"topic": "ecosystem: 10% law trophic energy flow, pyramid of energy, GPP/NPP (=GPP-R)", "solver_able": true, "covered": true, "family": "ENERGY_FLOW_10_PERCENT + NPP_GPP"},
+        {"topic": "biodiversity: species richness, Shannon index, species-area relation S=cA^z", "solver_able": true, "covered": true, "family": "SHANNON_INDEX + SPECIES_RICHNESS + SPECIES_AREA", "note": "Simpson index not in the rationalized book - not invented (Shannon retained)"}
+      ]
+    },
+    "candidates_checked_against_books": {
+      "water potential Psi = Psis + Psip": {"solver_able": false, "implemented": false, "reason": "Transport in Plants dropped from the rationalized NCERT XI book set; 'water potential' appears only in geography books (kegy106, legy204) - not book-grounded for biology"},
+      "transpiration rate computations": {"solver_able": true, "implemented": true, "family": "TRANSPIRATION_RATE (new)", "evidence": "jesc105 transpiration section + corpus potometer nodes (c10_bio_icse_02_004, c10_bio_icse_02_005, c11_bio_isc_02_003, c7_bio_icse_05_006/007)"},
+      "cardiac output = stroke volume x heart rate": {"solver_able": true, "implemented": true, "family": "CARDIAC_OUTPUT (new)", "evidence": "kebo115 (9 mentions): 'The stroke volume multiplied by the heart rate (no. of beats per min.) gives the cardiac output ... averages 5000 mL or 5 litres'"},
+      "breathing rate / vital-capacity arithmetic": {"solver_able": true, "implemented": true, "family": "BREATHING_VOLUME (new)", "evidence": "kebo114 ch14 respiratory volumes and capacities table (TV ~500 mL, IRV 2500-3000, ERV 1000-1100, RV 1100-1200; IC, EC, FRC, VC, TLC sums; ~6000-8000 mL/min at 12-16 breaths)"},
+      "chi-square goodness-of-fit for genetics ratios": {"solver_able": false, "implemented": false, "reason": "'chi-square'/'chi square' absent from every biology book in text_cache_new (lebo104 has only chiasmata) - not book-grounded"},
+      "pedigree probability chains": {"solver_able": true, "implemented": true, "family": "PEDIGREE_PROBABILITY (new)", "evidence": "lebo104 4.8.1 Pedigree Analysis (14 mentions) + Mendelian monohybrid ratios in the same chapter"},
+      "biodiversity: Simpson index (Shannon exists)": {"solver_able": false, "implemented": false, "reason": "lebo113 (rationalized 26-27) carries no Simpson/Shannon index formulas at all (zero matches); Shannon survives as the legacy family - Simpson not invented"}
+    },
+    "coverage": {"covered": 26, "total": 52, "per_class": {"6": "0/5", "7": "3/5", "8": "2/5", "9": "1/4", "10": "4/6", "11": "6/12", "12": "10/15"}, "note": "biology's honest solver-able fraction is small by design - most of the subject is structural/qualitative and belongs to content + misconception panels, not deterministic solvers"}
+  },
+  "summary": {
+    "corpus_bio_nodes": 760,
+    "corpus_bio_chapters": 68,
+    "book_chapters_listed": 42,
+    "deterministic_solver_topics": {
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 4,
+      "10": 6,
+      "11": 12,
+      "12": 15
+    }
+  }
+}

@@ -1,0 +1,1751 @@
+{
+ "generated": "2026-09-27",
+ "source_books": {
+  "class_6": "Class 6 Ganita Prakash (new NCERT)",
+  "class_7": "Class 7 Ganita Prakash (new NCERT)",
+  "class_8": "Class 8 Ganita Prakash (new NCERT)",
+  "class_8_old": "Class 8 Mathematics (old NCERT)",
+  "class_9": "Class 9 Mathematics (Ganita Manjari)",
+  "class_10": "Class 10 Mathematics (NCERT)",
+  "class_11": "Class 11 Mathematics (NCERT)",
+  "class_12": "Class 12 Mathematics (NCERT, lemh1xx+lemh2xx)"
+ },
+ "books": [
+  {
+   "key": "class_6",
+   "label": "Class 6 Ganita Prakash (new NCERT)",
+   "chapters": [
+    {
+     "chapter": 101,
+     "file": "fegp101.txt",
+     "title": "Patterns In Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "pattern reasoning, not closed-form"
+    },
+    {
+     "chapter": 102,
+     "file": "fegp102.txt",
+     "title": "The Construction And Analysis Of Different Shapes.",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "shape construction/analysis workbench"
+    },
+    {
+     "chapter": 103,
+     "file": "fegp103.txt",
+     "title": "Number Play",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "number puzzles; primes/factors at ch105"
+    },
+    {
+     "chapter": 104,
+     "file": "fegp104.txt",
+     "title": "Inferences From Such Data!",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "data inference, no closed form"
+    },
+    {
+     "chapter": 105,
+     "file": "fegp105.txt",
+     "title": "Prime Time",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "HCF_TWO_NUMBERS",
+      "LCM_TWO_NUMBERS",
+      "ROOT_PERFECT"
+     ],
+     "coverage": "covered",
+     "note": "prime factorisation drills"
+    },
+    {
+     "chapter": 106,
+     "file": "fegp106.txt",
+     "title": "= Ab + Bc + Cd + Da",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "PERIMETER_RECTANGLE",
+      "PERIMETER_SQUARE",
+      "RECT_AREA",
+      "SQUARE_AREA"
+     ],
+     "coverage": "covered",
+     "note": "title garbled in cache; perimeter/area chapter"
+    },
+    {
+     "chapter": 107,
+     "file": "fegp107.txt",
+     "title": "?",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "FRACTION_ADD_SUB",
+      "FRACTION_MUL_DIV"
+     ],
+     "coverage": "covered",
+     "note": "title garbled in cache; fractions chapter"
+    },
+    {
+     "chapter": 108,
+     "file": "fegp108.txt",
+     "title": "?",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "title unresolved in cache"
+    },
+    {
+     "chapter": 109,
+     "file": "fegp109.txt",
+     "title": "Symmetry",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "symmetry, visual"
+    },
+    {
+     "chapter": 110,
+     "file": "fegp110.txt",
+     "title": "The Other Side Of Zero",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "integer operations, sub-atomic arithmetic"
+    }
+   ]
+  },
+  {
+   "key": "class_7",
+   "label": "Class 7 Ganita Prakash (new NCERT)",
+   "chapters": [
+    {
+     "chapter": 101,
+     "file": "gegp101.txt",
+     "title": "Large Numbers Around Us",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "estimation of large numbers"
+    },
+    {
+     "chapter": 102,
+     "file": "gegp102.txt",
+     "title": "Arithmetic Expressions",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "EXPONENT_EVAL"
+     ],
+     "coverage": "covered",
+     "note": "expression evaluation / order of operations"
+    },
+    {
+     "chapter": 103,
+     "file": "gegp103.txt",
+     "title": "A Peek Beyond The Point",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "FRACTION_ADD_SUB",
+      "FRACTION_MUL_DIV",
+      "PERCENT_OF"
+     ],
+     "coverage": "covered",
+     "note": "decimal-place value + ops"
+    },
+    {
+     "chapter": 104,
+     "file": "gegp104.txt",
+     "title": "?",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "title unresolved in cache"
+    },
+    {
+     "chapter": 105,
+     "file": "gegp105.txt",
+     "title": "Parallel And Intersecting",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "parallel/intersecting lines, construction"
+    },
+    {
+     "chapter": 106,
+     "file": "gegp106.txt",
+     "title": "Number Play",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "number patterns"
+    },
+    {
+     "chapter": 107,
+     "file": "gegp107.txt",
+     "title": "A Tale Of Three Intersecting",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "TRIANGLE_THIRD_ANGLE"
+     ],
+     "coverage": "covered",
+     "note": "angle-sum property of triangles"
+    },
+    {
+     "chapter": 108,
+     "file": "gegp108.txt",
+     "title": "Working With Fractions",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "FRACTION_ADD_SUB",
+      "FRACTION_MUL_DIV"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 201,
+     "file": "gegp201.txt",
+     "title": "Geometric Twins",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "congruence, proof-based"
+    },
+    {
+     "chapter": 202,
+     "file": "gegp202.txt",
+     "title": "Operations With Integers",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "integer operations, sub-atomic"
+    },
+    {
+     "chapter": 203,
+     "file": "gegp203.txt",
+     "title": "Finding Common Ground",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "HCF_TWO_NUMBERS",
+      "LCM_TWO_NUMBERS"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 204,
+     "file": "gegp204.txt",
+     "title": "Another Peek Beyond The Point",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "FRACTION_MUL_DIV",
+      "PERCENT_OF"
+     ],
+     "coverage": "covered",
+     "note": "decimal operations"
+    },
+    {
+     "chapter": 205,
+     "file": "gegp205.txt",
+     "title": "Connecting The Dots…",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "connecting the dots, visual"
+    },
+    {
+     "chapter": 206,
+     "file": "gegp206.txt",
+     "title": "Constructions And Tilings",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "constructions and tilings"
+    },
+    {
+     "chapter": 207,
+     "file": "gegp207.txt",
+     "title": "Finding The Unknown",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "LINEAR_SOLVE"
+     ],
+     "coverage": "covered",
+     "note": "simple equations"
+    }
+   ]
+  },
+  {
+   "key": "class_8",
+   "label": "Class 8 Ganita Prakash (new NCERT)",
+   "chapters": [
+    {
+     "chapter": 101,
+     "file": "hegp101.txt",
+     "title": "A Square And A Cube",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "SQUARE_AREA",
+      "VOLUME_CUBE",
+      "ROOT_PERFECT"
+     ],
+     "coverage": "covered",
+     "note": "squares and cubes"
+    },
+    {
+     "chapter": 102,
+     "file": "hegp102.txt",
+     "title": "Power Play",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "EXPONENT_EVAL",
+      "ROOT_PERFECT"
+     ],
+     "coverage": "covered",
+     "note": "exponents and powers"
+    },
+    {
+     "chapter": 103,
+     "file": "hegp103.txt",
+     "title": "A Story Of Numbers",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "history of number systems"
+    },
+    {
+     "chapter": 104,
+     "file": "hegp104.txt",
+     "title": "Quadrilaterals",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "quadrilateral angle-sum candidate (atomic drills)"
+    },
+    {
+     "chapter": 105,
+     "file": "hegp105.txt",
+     "title": "Number Play",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "number patterns"
+    },
+    {
+     "chapter": 106,
+     "file": "hegp106.txt",
+     "title": "We Distribute, Yet Things",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "identities are symbolic expansion"
+    },
+    {
+     "chapter": 107,
+     "file": "hegp107.txt",
+     "title": "Proportional Reasoning-1",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "DIRECT_PROPORTION",
+      "UNITARY",
+      "PERCENT_CHANGE",
+      "RATIO_SHARE"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 201,
+     "file": "hegp201.txt",
+     "title": "?",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "title unresolved in cache"
+    },
+    {
+     "chapter": 202,
+     "file": "hegp202.txt",
+     "title": "The Baudhāyana- Pythagoras Theorem",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "PYTHAGORAS",
+      "ROOT_PERFECT"
+     ],
+     "coverage": "covered",
+     "note": "Baudhayana-Pythagoras theorem"
+    },
+    {
+     "chapter": 203,
+     "file": "hegp203.txt",
+     "title": "Proportional Reasoning–2",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "INVERSE_PROPORTION",
+      "DIRECT_PROPORTION"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 204,
+     "file": "hegp204.txt",
+     "title": "Exploring Some Geometric Themes",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "geometric themes, proof-based"
+    },
+    {
+     "chapter": 205,
+     "file": "hegp205.txt",
+     "title": "Tales By Dots And Lines",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "graph reading, visual"
+    },
+    {
+     "chapter": 206,
+     "file": "hegp206.txt",
+     "title": "Algebra Play",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "LINEAR_SOLVE",
+      "FRACTION_ADD_SUB"
+     ],
+     "coverage": "covered",
+     "note": "algebra play"
+    },
+    {
+     "chapter": 207,
+     "file": "hegp207.txt",
+     "title": "Area",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "TRIANGLE_AREA_BH",
+      "RECT_AREA",
+      "SQUARE_AREA",
+      "CIRCLE_AREA",
+      "PERIMETER_RECTANGLE"
+     ],
+     "coverage": "covered"
+    }
+   ]
+  },
+  {
+   "key": "class_8_old",
+   "label": "Class 8 Mathematics (old NCERT)",
+   "chapters": [
+    {
+     "chapter": 101,
+     "file": "hemh101.txt",
+     "title": "Rational Numbers  1",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "FRACTION_ADD_SUB",
+      "FRACTION_MUL_DIV"
+     ],
+     "coverage": "covered",
+     "note": "rational numbers"
+    },
+    {
+     "chapter": 102,
+     "file": "hemh102.txt",
+     "title": "",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "LINEAR_SOLVE"
+     ],
+     "coverage": "covered",
+     "note": "linear equations in one variable"
+    },
+    {
+     "chapter": 103,
+     "file": "hemh103.txt",
+     "title": "Understanding Quadrilaterals  21",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "quadrilateral angle-sum candidate"
+    },
+    {
+     "chapter": 104,
+     "file": "hemh104.txt",
+     "title": "",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "MEAN_LIST",
+      "MEDIAN",
+      "MODE",
+      "PROBABILITY_BASIC"
+     ],
+     "coverage": "covered",
+     "note": "data handling"
+    },
+    {
+     "chapter": 105,
+     "file": "hemh105.txt",
+     "title": "",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "ROOT_PERFECT",
+      "EXPONENT_EVAL"
+     ],
+     "coverage": "covered",
+     "note": "squares and square roots"
+    },
+    {
+     "chapter": 106,
+     "file": "hemh106.txt",
+     "title": "",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "ROOT_PERFECT",
+      "EXPONENT_EVAL"
+     ],
+     "coverage": "covered",
+     "note": "cubes and cube roots"
+    },
+    {
+     "chapter": 107,
+     "file": "hemh107.txt",
+     "title": "",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "PERCENT_CHANGE",
+      "PROFIT_LOSS_PERCENT",
+      "SIMPLE_INTEREST",
+      "COMPOUND_INTEREST",
+      "DISCOUNT_SP",
+      "GST_AMOUNT"
+     ],
+     "coverage": "covered",
+     "note": "comparing quantities"
+    },
+    {
+     "chapter": 108,
+     "file": "hemh108.txt",
+     "title": "Algebraic Expressions And Identities  93",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "identities, symbolic expansion"
+    },
+    {
+     "chapter": 109,
+     "file": "hemh109.txt",
+     "title": "Mensuration  103",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "RECT_AREA",
+      "SQUARE_AREA",
+      "CIRCLE_AREA",
+      "CIRCLE_CIRCUMFERENCE",
+      "SA_CUBE",
+      "SA_CYLINDER",
+      "VOLUME_CUBE",
+      "VOLUME_CYLINDER"
+     ],
+     "coverage": "covered",
+     "note": "mensuration"
+    },
+    {
+     "chapter": 110,
+     "file": "hemh110.txt",
+     "title": "Let Us Now Find What Is 2– 2   Is Equal To?",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "DIRECT_PROPORTION",
+      "INVERSE_PROPORTION"
+     ],
+     "coverage": "covered",
+     "note": "title garbled in cache; proportion chapter"
+    },
+    {
+     "chapter": 111,
+     "file": "hemh111.txt",
+     "title": "?",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "title unresolved in cache"
+    },
+    {
+     "chapter": 112,
+     "file": "hemh112.txt",
+     "title": "Factorisation  145",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "factorisation, symbolic"
+    },
+    {
+     "chapter": 113,
+     "file": "hemh113.txt",
+     "title": "Introduction To Graphs  157",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "graph reading, visual"
+    }
+   ]
+  },
+  {
+   "key": "class_9",
+   "label": "Class 9 Mathematics (Ganita Manjari)",
+   "chapters": [
+    {
+     "chapter": 101,
+     "file": "iemh101.txt",
+     "title": "Orienting Yourself: The Use Of Coordinates",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "DISTANCE_TWO_POINTS",
+      "MIDPOINT_FORMULA"
+     ],
+     "coverage": "covered",
+     "note": "coordinates"
+    },
+    {
+     "chapter": 102,
+     "file": "iemh102.txt",
+     "title": "Introduction To Linear Polynomials",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "LINEAR_SOLVE"
+     ],
+     "coverage": "covered",
+     "note": "zero of a linear polynomial = solve ax+b=0"
+    },
+    {
+     "chapter": 103,
+     "file": "iemh103.txt",
+     "title": "?",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "title unresolved in cache"
+    },
+    {
+     "chapter": 104,
+     "file": "iemh104.txt",
+     "title": "Exploring Algebraic Identities",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "identities, symbolic expansion"
+    },
+    {
+     "chapter": 105,
+     "file": "iemh105.txt",
+     "title": "To Find That It Works. Can You Guess What Amina Told Her?",
+     "sections": [],
+     "topics": [],
+     "solver_able": false,
+     "families": [],
+     "coverage": "not-solver-able",
+     "note": "title unresolved in cache"
+    },
+    {
+     "chapter": 106,
+     "file": "iemh106.txt",
+     "title": "?",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "CIRCLE_AREA",
+      "CIRCLE_CIRCUMFERENCE",
+      "CIRCLE_SECTOR_AREA",
+      "ARC_LENGTH",
+      "HERONS_FORMULA"
+     ],
+     "coverage": "covered",
+     "note": "title unresolved; circles/areas chapter"
+    },
+    {
+     "chapter": 107,
+     "file": "iemh107.txt",
+     "title": "The Mathematics Of Maybe: Introduction To Probability",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "PROBABILITY_BASIC"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 108,
+     "file": "iemh108.txt",
+     "title": "Exploring Sequences And Progressions",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "AP_NTH",
+      "AP_SUM",
+      "GP_NTH"
+     ],
+     "coverage": "covered"
+    }
+   ]
+  },
+  {
+   "key": "class_10",
+   "label": "Class 10 Mathematics (NCERT)",
+   "chapters": [
+    {
+     "chapter": 101,
+     "file": "jemh101.txt",
+     "title": "Real Numbers",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "HCF_TWO_NUMBERS",
+      "ROOT_PERFECT"
+     ],
+     "coverage": "covered",
+     "note": "Euclid's algorithm, irrationality drills"
+    },
+    {
+     "chapter": 102,
+     "file": "jemh102.txt",
+     "title": "Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "POLY_ZEROES_QUAD"
+     ],
+     "coverage": "covered",
+     "note": "polynomials (sum/product of zeroes)"
+    },
+    {
+     "chapter": 103,
+     "file": "jemh103.txt",
+     "title": "Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "LINEAR_SYSTEM_2X2"
+     ],
+     "coverage": "covered",
+     "note": "pair of linear equations"
+    },
+    {
+     "chapter": 104,
+     "file": "jemh104.txt",
+     "title": "Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "QUADRATIC_ROOTS",
+      "DISCRIMINANT_NATURE"
+     ],
+     "coverage": "covered",
+     "note": "quadratic equations"
+    },
+    {
+     "chapter": 105,
+     "file": "jemh105.txt",
+     "title": "Arithmetic Progressions",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "AP_NTH",
+      "AP_SUM"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 106,
+     "file": "jemh106.txt",
+     "title": "Triangles",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "PYTHAGORAS"
+     ],
+     "coverage": "covered",
+     "note": "similarity itself is proof-based"
+    },
+    {
+     "chapter": 107,
+     "file": "jemh107.txt",
+     "title": "Coordinate Geometry",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "DISTANCE_TWO_POINTS",
+      "MIDPOINT_FORMULA",
+      "SECTION_FORMULA",
+      "AREA_TRIANGLE_COORDS",
+      "LINE_THROUGH_TWO_POINTS"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 108,
+     "file": "jemh108.txt",
+     "title": "Introduction To Trigonometry",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "TRIG_STD_EVAL",
+      "TRIG_IDENTITY_EVAL"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 109,
+     "file": "jemh109.txt",
+     "title": "Some Applications Of Trigonometry",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "HEIGHTS_DISTANCES"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 110,
+     "file": "jemh110.txt",
+     "title": "Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "CIRCLE_SECTOR_AREA",
+      "ARC_LENGTH"
+     ],
+     "coverage": "covered",
+     "note": "circles (tangent proofs are proof-based)"
+    },
+    {
+     "chapter": 111,
+     "file": "jemh111.txt",
+     "title": "Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "CIRCLE_SECTOR_AREA",
+      "ARC_LENGTH",
+      "CIRCLE_AREA"
+     ],
+     "coverage": "covered",
+     "note": "areas related to circles"
+    },
+    {
+     "chapter": 112,
+     "file": "jemh112.txt",
+     "title": "Surface Areas And Volumes",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "SA_CUBE",
+      "SA_CYLINDER",
+      "SA_SPHERE",
+      "VOLUME_CUBE",
+      "VOLUME_CYLINDER",
+      "VOLUME_SPHERE",
+      "VOLUME_CONE",
+      "VOLUME_HEMISPHERE"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 113,
+     "file": "jemh113.txt",
+     "title": "Statistics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "MEDIAN_GROUPED",
+      "MODE_GROUPED",
+      "MEAN_GROUPED",
+      "VARIANCE_STDDEV"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 114,
+     "file": "jemh114.txt",
+     "title": "Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "PROBABILITY_BASIC",
+      "PROBABILITY_DEPENDENT",
+      "PROBABILITY_CONDITIONAL"
+     ],
+     "coverage": "covered"
+    }
+   ]
+  },
+  {
+   "key": "class_11",
+   "label": "Class 11 Mathematics (NCERT)",
+   "chapters": [
+    {
+     "chapter": 101,
+     "file": "kemh101.txt",
+     "title": "Sets",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "SET_OPERATIONS",
+      "SET_CARD_INCLUSION_EXCLUSION"
+     ],
+     "coverage": "covered",
+     "note": "subset-count 2^n formula: candidate"
+    },
+    {
+     "chapter": 102,
+     "file": "kemh102.txt",
+     "title": "Relations And Functions",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "DOMAIN_RATIONAL",
+      "DOMAIN_SQRT"
+     ],
+     "coverage": "covered",
+     "note": "range of a listed relation = read-off, not closed form"
+    },
+    {
+     "chapter": 103,
+     "file": "kemh103.txt",
+     "title": "Trigonometric Functions",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "TRIG_STD_EVAL",
+      "DOUBLE_ANGLE",
+      "COMPOUND_ANGLES",
+      "TRIG_IDENTITY_EVAL"
+     ],
+     "coverage": "covered",
+     "note": "general solutions of trig equations: candidate"
+    },
+    {
+     "chapter": 104,
+     "file": "kemh104.txt",
+     "title": "76       Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "MODULUS_COMPLEX",
+      "DISCRIMINANT_NATURE"
+     ],
+     "coverage": "covered",
+     "note": "quadratic equations with complex roots"
+    },
+    {
+     "chapter": 105,
+     "file": "kemh105.txt",
+     "title": "Linear Inequalities",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "LINEAR_INEQUALITY"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 106,
+     "file": "kemh106.txt",
+     "title": "Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "NPR_NCR_EVAL",
+      "PERMUTATION_WAYS",
+      "COMBINATION_COMMITTEE"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 107,
+     "file": "kemh107.txt",
+     "title": "Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "BINOMIAL_COEFFICIENT"
+     ],
+     "coverage": "covered",
+     "note": "general term rides in applied BINOMIAL_TERM"
+    },
+    {
+     "chapter": 108,
+     "file": "kemh108.txt",
+     "title": "Sequences And Series",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "AP_NTH",
+      "AP_SUM",
+      "GP_NTH",
+      "GP_SUM",
+      "GP_SUM_INFINITE",
+      "AM_TWO",
+      "GM_TWO",
+      "SUM_SQUARES",
+      "SUM_CUBES",
+      "HARMONIC_MEAN"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 109,
+     "file": "kemh109.txt",
+     "title": "Straight Lines",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "SLOPE_TWO_POINTS",
+      "LINE_THROUGH_TWO_POINTS",
+      "LINE_POINT_SLOPE",
+      "LINE_INTERCEPT_FORM",
+      "LINE_EQ_SLOPE_INTERCEPT",
+      "ANGLE_BETWEEN_LINES",
+      "DISTANCE_POINT_LINE",
+      "SECTION_FORMULA"
+     ],
+     "coverage": "covered",
+     "note": "all forms of the line"
+    },
+    {
+     "chapter": 110,
+     "file": "kemh110.txt",
+     "title": "176    Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "ELLIPSE_PROPERTIES"
+     ],
+     "coverage": "covered",
+     "note": "parabola/hyperbola foci: candidate"
+    },
+    {
+     "chapter": 111,
+     "file": "kemh111.txt",
+     "title": "208  Mathematics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "DISTANCE_3D",
+      "MIDPOINT_3D",
+      "SECTION_FORMULA_3D"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 112,
+     "file": "kemh112.txt",
+     "title": "Limits And Derivatives",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "LIMIT_STANDARD",
+      "LIMIT_QUAD_FACTOR",
+      "LIMIT_POLY_DIRECT",
+      "DERIV_MONOMIAL_EVAL",
+      "DERIV_QUAD_EVAL"
+     ],
+     "coverage": "covered",
+     "note": "first-principle derivations are proof-based"
+    },
+    {
+     "chapter": 113,
+     "file": "kemh113.txt",
+     "title": "Statistics",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "MEAN_LIST",
+      "VARIANCE_STDDEV",
+      "MEDIAN",
+      "MODE"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 114,
+     "file": "kemh114.txt",
+     "title": "A = {Tt}",
+     "sections": [],
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "PROBABILITY_BASIC",
+      "PROBABILITY_DEPENDENT",
+      "PROBABILITY_CONDITIONAL"
+     ],
+     "coverage": "covered"
+    }
+   ]
+  },
+  {
+   "key": "class_12",
+   "label": "Class 12 Mathematics (NCERT)",
+   "chapters": [
+    {
+     "chapter": 101,
+     "file": "lemh101.txt",
+     "title": "Relations And Functions",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "DOMAIN_RATIONAL",
+      "DOMAIN_SQRT"
+     ],
+     "coverage": "covered",
+     "note": "one-one/onto classification is not closed-form"
+    },
+    {
+     "chapter": 102,
+     "file": "lemh102.txt",
+     "title": "Inverse Trigonometric Functions",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "INV_TRIG_STD"
+     ],
+     "coverage": "covered",
+     "note": "property proofs are proof-based"
+    },
+    {
+     "chapter": 103,
+     "file": "lemh103.txt",
+     "title": "Matrices",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "MATRIX_MULTIPLY_2X2",
+      "MATRIX_TRANSPOSE"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 104,
+     "file": "lemh104.txt",
+     "title": "Determinants",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "DETERMINANT_2X2"
+     ],
+     "coverage": "covered",
+     "note": "3x3 determinant expansion: candidate"
+    },
+    {
+     "chapter": 105,
+     "file": "lemh105.txt",
+     "title": "Continuity And Differentiability",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "DERIV_MONOMIAL_EVAL",
+      "DERIV_QUAD_EVAL",
+      "LIMIT_POLY_DIRECT"
+     ],
+     "coverage": "covered",
+     "note": "chain/quotient symbolic differentiation: candidate"
+    },
+    {
+     "chapter": 106,
+     "file": "lemh106.txt",
+     "title": "Application Of Derivatives",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "TANGENT_SLOPE",
+      "INCREASING_DECREASING",
+      "EXTREMA_QUAD",
+      "RATE_SPHERE_VOLUME",
+      "RATE_CIRCLE_AREA"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 201,
+     "file": "lemh201.txt",
+     "title": "Integrals",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "INTEGRAL_POWER"
+     ],
+     "coverage": "covered",
+     "note": "substitution/partial fractions: symbolic, candidate"
+    },
+    {
+     "chapter": 202,
+     "file": "lemh202.txt",
+     "title": "Application Of Integrals",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "AREA_UNDER_LINE"
+     ],
+     "coverage": "covered",
+     "note": "parabola/circle regions: candidate"
+    },
+    {
+     "chapter": 203,
+     "file": "lemh203.txt",
+     "title": "Differential Equations",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "DIFFEQ_POLY",
+      "DIFFEQ_EXP",
+      "DIFFEQ_ORDER_DEGREE"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 204,
+     "file": "lemh204.txt",
+     "title": "Vector Algebra",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "VECTOR_DOT",
+      "VECTOR_MAGNITUDE",
+      "VECTOR_CROSS_PRODUCT"
+     ],
+     "coverage": "covered"
+    },
+    {
+     "chapter": 205,
+     "file": "lemh205.txt",
+     "title": "Three Dimensional Geometry",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "VECTOR_DOT",
+      "VECTOR_MAGNITUDE"
+     ],
+     "coverage": "covered",
+     "note": "3-D line/plane equations: candidate"
+    },
+    {
+     "chapter": 206,
+     "file": "lemh206.txt",
+     "title": "Linear Programming",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "LPP_OPTIMAL"
+     ],
+     "coverage": "covered",
+     "note": "two-constraint corner-point optimisation"
+    },
+    {
+     "chapter": 207,
+     "file": "lemh207.txt",
+     "title": "Probability",
+     "topics": [],
+     "solver_able": true,
+     "families": [
+      "PROBABILITY_COND_EVENTS",
+      "PROBABILITY_DEPENDENT",
+      "PROBABILITY_CONDITIONAL"
+     ],
+     "coverage": "covered",
+     "note": "full Bayes with partitions: candidate"
+    }
+   ]
+  }
+ ],
+ "applied_maths": [
+  {
+   "file": "am11_000_prelims.txt",
+   "topic": "0 prelims",
+   "topics": []
+  },
+  {
+   "file": "am11_001_numbers_quantification.txt",
+   "topic": "1 numbers quantification",
+   "topics": [
+    {
+     "topic": "Percent/ratio/index",
+     "family": "PERCENT_OF/RATIO_SHARE etc.",
+     "status": "covered"
+    },
+    {
+     "topic": "Logarithms: evaluation, change of base, laws",
+     "family": "LOG_EVAL/LOG_CHANGE_BASE/LOG_PROPERTIES/LOG_SOLVE",
+     "status": "covered (BOOKS3)"
+    },
+    {
+     "topic": "Exponential equations solved with logarithms",
+     "family": "EXP_GROWTH_SOLVE",
+     "status": "covered (BOOKS3)"
+    },
+    {
+     "topic": "Depreciation",
+     "family": "DEPRECIATION",
+     "status": "covered"
+    }
+   ]
+  },
+  {
+   "file": "am11_002_numerical_application.txt",
+   "topic": "2 numerical application",
+   "topics": [
+    {
+     "topic": "Time-work, pipes",
+     "family": "TIME_WORK_TOGETHER/PIPES_CISTERN",
+     "status": "NEW+covered"
+    },
+    {
+     "topic": "Speed-distance",
+     "family": "SPEED_DIST_TIME",
+     "status": "covered"
+    },
+    {
+     "topic": "Unitary",
+     "family": "UNITARY",
+     "status": "covered"
+    }
+   ]
+  },
+  {
+   "file": "am11_003_sets.txt",
+   "topic": "3 sets",
+   "topics": []
+  },
+  {
+   "file": "am11_004_relations.txt",
+   "topic": "4 relations",
+   "topics": []
+  },
+  {
+   "file": "am11_005_sequences_series.txt",
+   "topic": "5 sequences series",
+   "topics": [
+    {
+     "topic": "AP/GP",
+     "family": "AP_*/GP_*",
+     "status": "covered"
+    },
+    {
+     "topic": "Growth/depreciation",
+     "family": "DEPRECIATION",
+     "status": "NEW (applied)"
+    }
+   ]
+  },
+  {
+   "file": "am11_006_permutations_combinations.txt",
+   "topic": "6 permutations combinations",
+   "topics": [
+    {
+     "topic": "nPr/nCr",
+     "family": "NPR_EVAL/NCR_EVAL",
+     "status": "NEW (maths2)"
+    },
+    {
+     "topic": "Binomial general term",
+     "family": "BINOMIAL_TERM",
+     "status": "covered (applied)"
+    }
+   ]
+  },
+  {
+   "file": "am11_007_math_logical_reasoning.txt",
+   "topic": "7 math logical reasoning",
+   "topics": []
+  },
+  {
+   "file": "am11_008_calculus.txt",
+   "topic": "8 calculus",
+   "topics": [
+    {
+     "topic": "Derivative/integral/limits",
+     "family": "applied module",
+     "status": "covered"
+    }
+   ]
+  },
+  {
+   "file": "am11_009_probability.txt",
+   "topic": "9 probability",
+   "topics": [
+    {
+     "topic": "Bayes/dependent",
+     "family": "PROBABILITY_*",
+     "status": "covered"
+    }
+   ]
+  },
+  {
+   "file": "am11_010_descriptive_statistics.txt",
+   "topic": "0 descriptive statistics",
+   "topics": [
+    {
+     "topic": "Mean/median/mode/dispersion",
+     "family": "MEAN_GROUPED/VARIANCE_STDDEV",
+     "status": "NEW+covered"
+    }
+   ]
+  },
+  {
+   "file": "am11_011_financial_mathematics.txt",
+   "topic": "1 financial mathematics",
+   "topics": [
+    {
+     "topic": "EMI/annuity/CAGR",
+     "family": "applied module",
+     "status": "covered"
+    },
+    {
+     "topic": "Depreciation",
+     "family": "DEPRECIATION",
+     "status": "NEW (applied)"
+    }
+   ]
+  },
+  {
+   "file": "am11_012_coordinate_geometry.txt",
+   "topic": "2 coordinate geometry",
+   "topics": [
+    {
+     "topic": "Distance/section/slope",
+     "family": "DISTANCE_TWO_POINTS/SECTION_FORMULA/SLOPE",
+     "status": "NEW+covered"
+    }
+   ]
+  },
+  {
+   "file": "am11_013_practical_project.txt",
+   "topic": "3 practical project",
+   "topics": []
+  },
+  {
+   "file": "am12_000_prelims.txt",
+   "topic": "0 prelims",
+   "topics": []
+  },
+  {
+   "file": "am12_001_numbers_quantification.txt",
+   "topic": "1 numbers quantification",
+   "topics": []
+  },
+  {
+   "file": "am12_002_algebra.txt",
+   "topic": "2 algebra",
+   "topics": [
+    {
+     "topic": "Matrices add/scalar/inverse",
+     "family": "MATRIX_ADD/MULTIPLY/INVERSE (applied)",
+     "status": "covered"
+    }
+   ]
+  },
+  {
+   "file": "am12_003a_differentiation_applications.txt",
+   "topic": "3a differentiation applications",
+   "topics": [
+    {
+     "topic": "Derivative eval, rate of change",
+     "family": "DERIVATIVE_EVAL/RATE_OF_CHANGE",
+     "status": "covered"
+    }
+   ]
+  },
+  {
+   "file": "am12_003b_integration_applications.txt",
+   "topic": "3b integration applications",
+   "topics": [
+    {
+     "topic": "Integral/area",
+     "family": "INTEGRAL_BASIC/AREA_UNDER_CURVE",
+     "status": "covered"
+    }
+   ]
+  },
+  {
+   "file": "am12_003c_differential_equations.txt",
+   "topic": "3c differential equations",
+   "topics": [
+    {
+     "topic": "Variable separable (concept)",
+     "family": "concept",
+     "status": "concept-only"
+    }
+   ]
+  },
+  {
+   "file": "am12_004_probability_distributions.txt",
+   "topic": "4 probability distributions",
+   "topics": [
+    {
+     "topic": "Binomial prob",
+     "family": "PROBABILITY_BINOMIAL",
+     "status": "covered"
+    },
+    {
+     "topic": "Binomial mean np / variance npq",
+     "family": "BINOMIAL_MEAN_VARIANCE",
+     "status": "NEW (applied)"
+    }
+   ]
+  },
+  {
+   "file": "am12_005_inferential_statistics.txt",
+   "topic": "5 inferential statistics",
+   "topics": [
+    {
+     "topic": "Hypothesis testing (concept)",
+     "family": "concept",
+     "status": "concept-only"
+    }
+   ]
+  },
+  {
+   "file": "am12_006_index_numbers_time_based.txt",
+   "topic": "6 index numbers time based",
+   "topics": [
+    {
+     "topic": "Index numbers/moving averages",
+     "family": "INDEX_NUMBER/TIME_SERIES_TREND",
+     "status": "covered"
+    }
+   ]
+  },
+  {
+   "file": "am12_007_financial_mathematics.txt",
+   "topic": "7 financial mathematics",
+   "topics": [
+    {
+     "topic": "EMI/annuity/CAGR/perpetuity",
+     "family": "EMI/ANNUITY/CAGR",
+     "status": "covered"
+    }
+   ]
+  },
+  {
+   "file": "am12_008_linear_programming.txt",
+   "topic": "8 linear programming",
+   "topics": [
+    {
+     "topic": "LPP graphical (concept)",
+     "family": "concept",
+     "status": "concept-only"
+    }
+   ]
+  },
+  {
+   "file": "am12_009_practical_project.txt",
+   "topic": "9 practical project",
+   "topics": []
+  }
+ ],
+ "missing_families": {
+  "maths2_BOOKS3_new": [
+   "SET_CARD_INCLUSION_EXCLUSION",
+   "SET_OPERATIONS",
+   "DOMAIN_RATIONAL",
+   "DOMAIN_SQRT",
+   "LINEAR_INEQUALITY",
+   "PERMUTATION_WAYS",
+   "COMBINATION_COMMITTEE",
+   "LINE_POINT_SLOPE",
+   "LINE_INTERCEPT_FORM",
+   "ANGLE_BETWEEN_LINES",
+   "ELLIPSE_PROPERTIES",
+   "DISTANCE_3D",
+   "MIDPOINT_3D",
+   "SECTION_FORMULA_3D",
+   "LIMIT_QUAD_FACTOR",
+   "LIMIT_POLY_DIRECT",
+   "DERIV_MONOMIAL_EVAL",
+   "DERIV_QUAD_EVAL",
+   "TANGENT_SLOPE",
+   "INCREASING_DECREASING",
+   "EXTREMA_QUAD",
+   "RATE_SPHERE_VOLUME",
+   "RATE_CIRCLE_AREA",
+   "INTEGRAL_POWER",
+   "AREA_UNDER_LINE",
+   "DIFFEQ_POLY",
+   "DIFFEQ_EXP",
+   "DIFFEQ_ORDER_DEGREE",
+   "LPP_OPTIMAL",
+   "INV_TRIG_STD",
+   "VECTOR_DOT",
+   "VECTOR_MAGNITUDE",
+   "DETERMINANT_2X2",
+   "PROBABILITY_COND_EVENTS"
+  ],
+  "applied_BOOKS3_new": [
+   "LOG_EVAL",
+   "LOG_CHANGE_BASE",
+   "EXP_GROWTH_SOLVE"
+  ],
+  "candidates_not_implemented": [
+   "trig general solutions (kemh103)",
+   "subset count 2^n (kemh101)",
+   "parabola/hyperbola foci (kemh110)",
+   "3x3 determinant (lemh104)",
+   "symbolic differentiation/integration rules (lemh105/201)",
+   "parabola/circle area regions (lemh202)",
+   "3-D line/plane equations (lemh205)",
+   "full Bayes with partitions (lemh207)",
+   "quadrilateral angle sum (class 8)"
+  ],
+  "rejected_not_in_books": [
+   "half-yearly CI (0 hits hemh107)",
+   "complementary/supplementary",
+   "RANGE stat",
+   "transformations",
+   "double/triple in 6-10",
+   "cone frustum (0 hits jemh112, rationalised out)",
+   "LPP corner eval (superseded: LPP_OPTIMAL implements it)",
+   "DETERMINANT_2X2 for applied (0 hits applied files; core lemh104 covered)"
+  ]
+ }
+}
