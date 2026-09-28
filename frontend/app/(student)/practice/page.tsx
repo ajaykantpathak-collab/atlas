@@ -23,6 +23,7 @@ import { create } from 'zustand';
 
 import offlineCache from '@/lib/offlineCache';
 import { api, getAuthToken, refreshOn401 } from "@/lib/api";
+import AuditTrail, { type AuditTrailData } from '@/components/audit/AuditTrail';
 import AskHelpPanel from "@/components/student/AskHelpPanel";
 import { useAuthStore } from '@/stores/authStore';
 import { friendlyNodeTitle, subjectName } from '@/lib/nodeTitle';
@@ -160,6 +161,8 @@ interface AnswerFeedback {
   studentAnswer?: string;
   modelAnswer?: string;
   markingFeedback?: MarkingFeedback | null;
+  // Audit trail — the honest "Why this verdict?" provenance from /submit.
+  trail?: AuditTrailData | null;
 }
 
 // ─── Offline cache adapters ───────────────────────────────────────────────────
@@ -487,6 +490,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     // question carries a marking scheme. Both come straight from /submit.
     let modelAnswer: string | undefined;
     let markingFeedback: MarkingFeedback | null | undefined;
+    let apiTrail: AuditTrailData | null = null;
     // Real per-node movement from the backend's BKT readout (mastery_change
     // is a 0-1 before/after pair for THIS node). feedback.mastery_after is a
     // raw node posterior — hard 0.0 on a first wrong answer — and splicing
@@ -518,6 +522,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
           remediation: data.feedback?.remediation || data.remediation || undefined,
           reviewTopics: data.feedback?.review_topics || data.review_topics || undefined,
         };
+        apiTrail = data.trail ?? null;
         if (textAnswer !== undefined) {
           const ma = prepareModelAnswer(data.correct_answer || data.feedback?.correct_answer || '');
           if (ma) modelAnswer = ma;
@@ -592,6 +597,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
       studentAnswer: textAnswer,
       modelAnswer,
       markingFeedback: markingFeedback ?? null,
+      trail: apiTrail,
     };
 
     const newAnswers = new Map(get().answers);
@@ -1983,6 +1989,10 @@ function FeedbackScreen({
       {!feedback.isCorrect && feedback.studentAnswer !== undefined && (feedback.modelAnswer || feedback.markingFeedback) && (
         <ModelAnswerBoard feedback={feedback} />
       )}
+
+      {/* Audit trail — collapsed provenance: mode, source, check rule,
+          coaching. Renders nothing when the server sent no trail. */}
+      <AuditTrail trail={feedback.trail} />
 
       {/* §5 self-explanation — the child names the trap, not just receives
           the correction. One tap, un-tap on re-tap, logged to the local

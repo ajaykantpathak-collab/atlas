@@ -935,6 +935,51 @@ except ImportError:  # pragma: no cover
     pass
 
 
+# batch-18: language & computing families (English grammar 6-12:
+# tenses/voice/narration/transformations/error-spotting/gap-fill;
+# Hindi vyaakaran: sandhi/samas/alaankaar/kaal/vaachya/muhaavare;
+# Computer Applications: number-system conversions, code-output
+# prediction, boolean/gates, storage units).  Deterministic,
+# corpus-grounded; the owning agents fill the tables — the stubs ship
+# empty so registration could land without a write race.
+try:
+    from backend.its.solver.english_families import model_english
+    if not any(getattr(fn, "__name__", "") == "model_english"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_english)
+except ImportError:  # pragma: no cover
+    pass
+
+try:
+    from backend.its.solver.hindi_families import model_hindi
+    if not any(getattr(fn, "__name__", "") == "model_hindi"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_hindi)
+except ImportError:  # pragma: no cover
+    pass
+
+try:
+    from backend.its.solver.compapp_families import model_compapp
+    if not any(getattr(fn, "__name__", "") == "model_compapp"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_compapp)
+except ImportError:  # pragma: no cover
+    pass
+
+# batch-19: social-science numeric core (geography time-zone/population
+# vital statistics/climate-graph/map-scale; civics FPTP seat-vs-vote and
+# coalition arithmetic; history chronology intervals).  Deterministic,
+# corpus-grounded; the owning agent fills the table — the stub ships
+# empty so registration could land without a write race.
+try:
+    from backend.its.solver.socsci_families import model_socsci
+    if not any(getattr(fn, "__name__", "") == "model_socsci"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_socsci)
+except ImportError:  # pragma: no cover
+    pass
+
+
 _MATRIX_BRACKETS = re.compile(r"\[[^\]]*\d[^\]]*\d[^\]]*\]")
 # pipe-notation determinants ("| 2 4 ; 5 1 | = | 2x 4 ; 6 x |") and the
 # determinant keyword: a registry family reading the entries as flat
@@ -1069,4 +1114,25 @@ def model_problem(text: str) -> ModelResult:
         # symbolic-ask sentences: an arithmetic family flattening
         # "derivative of 6x100" to "6*100" is a wrong answer in the
         # making -- refuse; the kernel's CAS owns these
-        if upper in _ARITHMETIC_FAMILIES and _SYMBOLIC_ASK_R
+        if upper in _ARITHMETIC_FAMILIES and _SYMBOLIC_ASK_RE.search(text):
+            return ModelResult(
+                structure="UNRECOGNIZED", matched=False, confidence=0.0,
+                quantities={}, governing_equation="",
+                note="symbolic ask: arithmetic family refused")
+        return best
+    reasons = "; ".join(f"{r.structure}: {r.note}" for r in
+                        (fn(text) for fn in _STRUCTURES))
+    return ModelResult(structure="UNRECOGNIZED", matched=False, confidence=0.0,
+                       quantities={}, governing_equation="",
+                       note=f"no canonical structure matched ({reasons})")
+
+# batch-13: competency engine -- cross-chapter concept router bridging the
+# NCERT catalogs to family bindings.  Fires only when nothing precise
+# matched (confidence 0.88 < family 0.95).
+try:
+    from backend.its.solver.competency_engine import model_competency
+    if not any(getattr(fn, "__name__", "") == "model_competency"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_competency)
+except ImportError:  # pragma: no cover
+    pass

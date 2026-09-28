@@ -581,6 +581,10 @@ then reveals `next_question` (or a 'session complete' card).
     review_topics: list[dict[str, str]] = Field(default_factory=list)
     # Marking-scheme coaching (board questions): per-step marks breakdown.
     marking_feedback: Optional[dict[str, Any]] = None
+    # Audit trail — honest provenance for this verdict (mode, source,
+    # checks, coaching). Rendered by the collapsed "Why this verdict?"
+    # panel; absent data hides rows instead of faking them.
+    trail: Optional[dict[str, Any]] = None
     # Web client compat: it reads data.feedback.{is_correct,explanation,...}
     feedback: dict[str, Any] | None = None
 
@@ -1220,6 +1224,23 @@ async def submit_answer(
             )
     except Exception as exc:
         logger.debug("Marking coach skipped: %s", exc)
+
+    # Audit trail — assembled from data this handler already holds.
+    try:
+        from backend.services.answer_trail import practice_trail
+
+        trail = practice_trail(
+            question,
+            is_correct=is_correct,
+            check="text-match",
+            selected_option=req.selected_option,
+            marking_feedback=marking_feedback,
+            misconception=misconception_text,
+        )
+    except Exception as exc:  # trail must never break answering
+        logger.debug("Trail build skipped: %s", exc)
+        trail = None
+
     return SubmitAnswerResponse(
         is_correct=is_correct,
         correct_answer=correct_display,
@@ -1234,6 +1255,7 @@ async def submit_answer(
         remediation=remediation_text,
         review_topics=review_topics,
         marking_feedback=marking_feedback,
+        trail=trail,
         feedback={
             "is_correct": is_correct,
             "explanation": explanation_text,
