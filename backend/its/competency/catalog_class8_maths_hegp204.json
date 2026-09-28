@@ -22,15 +22,33 @@
     "how are coastlines and clouds examples of fractals",
     "describe the self-similar pattern on a Fulani wedding blanket"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "identify the repeating unit",
-     "explain": "Find the copy of the whole shape that appears inside itself."},
-    {"step": 2, "action": "check the shrinking rule",
-     "explain": "Each new generation must reproduce the pattern at a smaller scale."},
-    {"step": 3, "action": "match with known examples",
-     "explain": "Ferns, trees, temple tiers and Escher prints follow exactly this repetition."}
-   ]
+    {
+     "step": 1,
+     "action": "identify the repeating unit",
+     "explain": "Find the copy of the whole shape that appears inside itself."
+    },
+    {
+     "step": 2,
+     "action": "check the shrinking rule",
+     "explain": "Each new generation must reproduce the pattern at a smaller scale."
+    },
+    {
+     "step": 3,
+     "action": "match with known examples",
+     "explain": "Ferns, trees, temple tiers and Escher prints follow exactly this repetition."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the pattern rule",
+     "explain": "apply the pattern rule: tri = 14 * (14 + 1) / 2 gives 105",
+     "compute": "tri = 14 * (14 + 1) / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.204.4.2",
@@ -50,12 +68,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "raise 8 to the step number",
+    {
+     "step": 1,
+     "action": "raise 8 to the step number",
      "explain": "Each step multiplies the surviving squares by 8.",
-     "compute": "remaining = 8 ** n"},
-    {"step": 2, "action": "grow the hole count",
+     "compute": "remaining = 8 ** n"
+    },
+    {
+     "step": 2,
+     "action": "grow the hole count",
      "explain": "Every survivor of the previous step leaves one new hole, so holes add the previous survivors.",
-     "compute": "holes_next = holes + remaining"}
+     "compute": "holes_next = holes + remaining"
+    }
    ]
   },
   {
@@ -76,12 +100,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "raise 3 to the step number",
+    {
+     "step": 1,
+     "action": "raise 3 to the step number",
      "explain": "Each surviving triangle produces 3 survivors.",
-     "compute": "remaining = 3 ** n"},
-    {"step": 2, "action": "add the new holes",
+     "compute": "remaining = 3 ** n"
+    },
+    {
+     "step": 2,
+     "action": "add the new holes",
      "explain": "Each previous survivor leaves one hole in the next step.",
-     "compute": "holes_next = holes + remaining"}
+     "compute": "holes_next = holes + remaining"
+    }
    ]
   },
   {
@@ -103,15 +133,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "count the sides",
+    {
+     "step": 1,
+     "action": "count the sides",
      "explain": "Each step replaces every side by 4 smaller sides.",
-     "compute": "side_count = 3 * 4 ** n"},
-    {"step": 2, "action": "find one segment length",
+     "compute": "side_count = 3 * 4 ** n"
+    },
+    {
+     "step": 2,
+     "action": "find one segment length",
      "explain": "Each side shrinks to a third of the previous, so the length is 1 over 3 to the n.",
-     "compute": "seg = 1 / 3 ** n"},
-    {"step": 3, "action": "multiply for the perimeter",
+     "compute": "seg = 1 / 3 ** n"
+    },
+    {
+     "step": 3,
+     "action": "multiply for the perimeter",
      "explain": "Total perimeter is the side count times one segment length.",
-     "compute": "perimeter = side_count * seg"}
+     "compute": "perimeter = side_count * seg"
+    }
    ]
   },
   {
@@ -130,15 +169,33 @@
     "why does the outline of a solid change with the viewpoint",
     "imagine cutting the corners of an equilateral triangle at third marks - what shape remains"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "fix the viewpoint",
-     "explain": "Decide whether the eye is above, in front or beside the solid."},
-    {"step": 2, "action": "project the outline",
-     "explain": "Trace the silhouette the solid casts from that direction."},
-    {"step": 3, "action": "match solid and profiles",
-     "explain": "Cylinders, cones and prisms each pair particular profiles with particular views."}
-   ]
+    {
+     "step": 1,
+     "action": "fix the viewpoint",
+     "explain": "Decide whether the eye is above, in front or beside the solid."
+    },
+    {
+     "step": 2,
+     "action": "project the outline",
+     "explain": "Trace the silhouette the solid casts from that direction."
+    },
+    {
+     "step": 3,
+     "action": "match solid and profiles",
+     "explain": "Cylinders, cones and prisms each pair particular profiles with particular views."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 8 gives 8",
+     "compute": "edges = 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.204.4.6",
@@ -156,15 +213,33 @@
     "why must a net include exactly the faces of the solid",
     "build a parallelopiped from its net - describe the folding"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "list the faces of the solid",
-     "explain": "Count and name each surface of the target solid."},
-    {"step": 2, "action": "arrange the faces flat",
-     "explain": "Lay the faces edge to edge so folds reconstruct the solid."},
-    {"step": 3, "action": "verify by folding",
-     "explain": "Every edge pairs with exactly one partner when the net is right."}
-   ]
+    {
+     "step": 1,
+     "action": "list the faces of the solid",
+     "explain": "Count and name each surface of the target solid."
+    },
+    {
+     "step": 2,
+     "action": "arrange the faces flat",
+     "explain": "Lay the faces edge to edge so folds reconstruct the solid."
+    },
+    {
+     "step": 3,
+     "action": "verify by folding",
+     "explain": "Every edge pairs with exactly one partner when the net is right."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 9 gives 9",
+     "compute": "edges = 9"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -178,9 +253,12 @@
     "n": "step number of the construction"
    },
    "solution_template": [
-    {"step": 1, "action": "raise 8 to the step number",
+    {
+     "step": 1,
+     "action": "raise 8 to the step number",
      "explain": "Each step multiplies survivors by 8.",
-     "compute": "remaining = 8 ** n"}
+     "compute": "remaining = 8 ** n"
+    }
    ]
   },
   {
@@ -195,12 +273,18 @@
     "remaining": "remaining squares at the previous step"
    },
    "solution_template": [
-    {"step": 1, "action": "raise 8 to the step number",
+    {
+     "step": 1,
+     "action": "raise 8 to the step number",
      "explain": "Survivors at the current step follow 8 to the n.",
-     "compute": "remaining = 8 ** n"},
-    {"step": 2, "action": "add the new holes",
+     "compute": "remaining = 8 ** n"
+    },
+    {
+     "step": 2,
+     "action": "add the new holes",
      "explain": "Each previous survivor leaves one hole.",
-     "compute": "holes_next = holes + remaining"}
+     "compute": "holes_next = holes + remaining"
+    }
    ]
   },
   {
@@ -213,9 +297,12 @@
     "n": "step number"
    },
    "solution_template": [
-    {"step": 1, "action": "raise 3 to the step number",
+    {
+     "step": 1,
+     "action": "raise 3 to the step number",
      "explain": "Every survivor leaves 3 survivors.",
-     "compute": "remaining = 3 ** n"}
+     "compute": "remaining = 3 ** n"
+    }
    ]
   },
   {
@@ -230,12 +317,18 @@
     "remaining": "surviving triangles at the previous step"
    },
    "solution_template": [
-    {"step": 1, "action": "count the survivors at the next step",
+    {
+     "step": 1,
+     "action": "count the survivors at the next step",
      "explain": "Survivors treble each step.",
-     "compute": "remaining = 3 ** n"},
-    {"step": 2, "action": "add new holes",
+     "compute": "remaining = 3 ** n"
+    },
+    {
+     "step": 2,
+     "action": "add new holes",
      "explain": "Each previous survivor leaves one hole.",
-     "compute": "holes_next = holes + remaining"}
+     "compute": "holes_next = holes + remaining"
+    }
    ]
   },
   {
@@ -248,9 +341,12 @@
     "n": "step number"
    },
    "solution_template": [
-    {"step": 1, "action": "quadruple per step from 3 sides",
+    {
+     "step": 1,
+     "action": "quadruple per step from 3 sides",
      "explain": "Every side becomes 4 sides each step.",
-     "compute": "side_count = 3 * 4 ** n"}
+     "compute": "side_count = 3 * 4 ** n"
+    }
    ]
   },
   {
@@ -263,15 +359,24 @@
     "n": "step number"
    },
    "solution_template": [
-    {"step": 1, "action": "count the sides",
+    {
+     "step": 1,
+     "action": "count the sides",
      "explain": "3 times 4 to the n sides exist at step n.",
-     "compute": "side_count = 3 * 4 ** n"},
-    {"step": 2, "action": "find one segment length",
+     "compute": "side_count = 3 * 4 ** n"
+    },
+    {
+     "step": 2,
+     "action": "find one segment length",
      "explain": "Each segment has length 1 over 3 to the n.",
-     "compute": "seg = 1 / 3 ** n"},
-    {"step": 3, "action": "multiply for the perimeter",
+     "compute": "seg = 1 / 3 ** n"
+    },
+    {
+     "step": 3,
+     "action": "multiply for the perimeter",
      "explain": "Sides times segment length is the perimeter.",
-     "compute": "perimeter = side_count * seg"}
+     "compute": "perimeter = side_count * seg"
+    }
    ]
   }
  ],

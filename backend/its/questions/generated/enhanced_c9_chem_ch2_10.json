@@ -34,6 +34,21 @@
      "q": "Design a simple thought experiment or diagram to demonstrate to a Class 8 student why the \"plum pudding\" model fails the gold foil test. Use the analogy of shooting bullets at a watermelon vs. a cherry suspended in jelly.",
      "a": "Good answer: Draw a watermelon (Thomson's diffuse positive charge) – bullets (alpha particles) pass through with minor deflections. Draw a cherry (tiny dense nucleus) in a large jelly (empty space) – most bullets miss the cherry and pass through, but a rare head-on hit bounces back. This shows the need for a concentrated positive charge. A poor answer draws both as uniform spheres, revealing the student hasn't grasped the massive difference in charge density/concentration between the models.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The limitations of atomic models refer to the specific experimental observations and theoretical ______ that each historical model (Thomson's plum pudding, Rutherford's nuclear, Bohr's quantized orbits) failed to explain, necessitating the development of subsequent models.",
+     "a": "inconsistencies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a neon sign glowing with distinct colors (red for neon, blue for argon) – this is a real-world ______ of line spectra that no early model could fully explain.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list at least two distinct limitations for each of the three models (Thomson, Rutherford, Bohr) and explain how each limitation led to the proposal of the next model, using correct terminology like \"alpha particle scattering\", \"stationary orbits\", and \"line spectra\".",
+     "self_check": true
     }
    ]
   }

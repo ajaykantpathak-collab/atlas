@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a metre scale, two spring balances, and a set of known weights to verify the principle of moments for a lever with non-perpendicular forces. Describe the setup, measurements, and how you would check if Στ = 0 holds.",
      "a": "Setup: Clamp a metre scale horizontally on a stand with a pivot at the 50 cm mark. Attach two spring balances to the scale at 20 cm and 80 cm marks, pulling at angles (e.g., 30° and 60° to horizontal) with known forces F1 and F2. Hang a known weight W at 40 cm mark vertically downward. Adjust F1, F2, and angles until the scale remains horizontal (equilibrium). Measure all forces and angles. Calculate torques about pivot: τ1 = F1 × (30 cm) × sin(30°), τ2 = F2 × (30 cm) × sin(60°), τ_W = W × (10 cm). Check if τ1 + τ2 = τ_W (with appropriate signs for direction). Repeat for different configurations.\nA poor answer would use only vertical forces or ignore the sin θ factor for angled forces, revealing the student doesn't understand that only the perpendicular component of force contributes to torque.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A rigid body is in mechanical equilibrium when both its linear momentum and angular momentum remain constant with time, which requires the vector sum of all external forces acting on it to be zero (______ equilibrium, ΣF = 0) and the vector sum of all external torques about any point to be zero (rotational equilibrium, Στ = 0).",
+     "a": "translational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a uniform metre scale balanced ______ on your finger at the 50 cm mark — it stays level because your finger provides an upward force equal to its weight at exactly its centre of gravity.",
+     "a": "horizontally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a uniform metre scale balanced horizontally on your finger at the ______ cm mark — it stays level because your finger provides an upward force equal to its weight at exactly its centre of gravity.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can analyze a rigid body system (e.g., a ladder against a wall, a beam on supports) by drawing a complete free-body diagram, resolving forces into components, choosing an optimal pivot point for torque calculations, and solving the resulting simultaneous equations to find unknown reaction forces or angles, while verifying.",
+     "self_check": true
     }
    ]
   }

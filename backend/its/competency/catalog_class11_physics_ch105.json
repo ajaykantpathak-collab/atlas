@@ -101,7 +101,16 @@
      "solution": "Step 1: calculate initial kinetic energy. Step 2: calculate final kinetic energy. Step 3: compute net work done. Working: 0.5 * mass * initial_speed ** 2, 0.5 * mass * final_speed ** 2, ke_f - ke_i.",
      "answer": "The method of work-energy theorem for constant force leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = ke_final - ke_initial",
+     "compute": "work = ke_final - ke_initial"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.5.3",
@@ -150,7 +159,16 @@
      "solution": "Step 1: identify the force magnitude, displacement magnitude, and angle between them. Step 2: resolve the force into components along and perpendicular to displacement. Step 3: compute work as the product of parallel force component and displacement. Working: force * displacement * cos_theta, force * cos_theta, force_parallel * displacement.",
      "answer": "The method of work done by a constant force leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = force * displacement * cos_theta",
+     "compute": "work = force * displacement * cos_theta"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.5.4",
@@ -199,14 +217,23 @@
      "solution": "Step 1: calculate kinetic energy from mass and speed. Step 2: determine the change in kinetic energy if speed changes. Step 3: relate the kinetic energy change to work done. Working: 0.5 * mass * speed ** 2, 0.5 * mass * final_speed ** 2 - 0.5 * mass * speed ** 2, delta_ke.",
      "answer": "The method of kinetic energy leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ke = (1/2) * mass * speed**2",
+     "compute": "ke = (1/2) * mass * speed**2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.5.5",
    "title": "Work Done by a Variable Force",
    "section": "5.5",
    "definition": "The total work performed by a position-varying force equals the area under the force-versus-position curve across the displacement interval.",
-   "formula": "work = constant_force * dist1 + (1/2) * (initial_force + final_force) * dist2",
+   "formula": "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2",
    "key_idea": "Variable work is calculated by summing linear or rectangular sub-areas under a force-position graph.",
    "textbook_ref": "keph105.txt lines 205-250",
    "question_patterns": [
@@ -248,7 +275,16 @@
      "solution": "Step 1: calculate work in constant force interval. Step 2: calculate work in linearly changing force interval. Step 3: sum work contributions. Working: force1 * dist1, 0.5 * (force1 + force2) * dist2, w1 + w2.",
      "answer": "The method of work done by a variable force leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2",
+     "compute": "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.5.6",
@@ -297,7 +333,16 @@
      "solution": "Step 1: calculate initial kinetic energy. Step 2: add integrated work done to initial kinetic energy. Step 3: calculate final speed from final kinetic energy. Working: 0.5 * mass * initial_speed ** 2, ke_i + work_integrated, sqrt(2 * ke_f / mass).",
      "answer": "The method of work-energy theorem for variable force leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ke_final = ke_initial + integral_force_dx",
+     "compute": "ke_final = ke_initial + integral_force_dx"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.5.7",
@@ -346,7 +391,16 @@
      "solution": "Step 1: compute potential energy from mass, acceleration of gravity, and height. Step 2: calculate the change in potential energy when height changes. Step 3: relate the potential energy change to work done against gravity. Working: mass * g * height, mass * g * (final_height - initial_height), -delta_pe.",
      "answer": "The method of gravitational potential energy leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pe = mass * g * height",
+     "compute": "pe = mass * g * height"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.5.8",
@@ -395,7 +449,16 @@
      "solution": "Step 1: determine initial total mechanical energy. Step 2: calculate final speed assuming total conversion to kinetic energy. Step 3: verify conservation by comparing total energy at two positions. Working: mass * g * height, sqrt(2 * total_energy / mass), 0.5 * mass * speed_at_h ** 2 + mass * g * height_h.",
      "answer": "The method of conservation of mechanical energy leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_energy = (1/2) * mass * speed**2 + mass * g * height",
+     "compute": "total_energy = (1/2) * mass * speed**2 + mass * g * height"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.5.9",
@@ -444,7 +507,16 @@
      "solution": "Step 1: compute initial kinetic energy of moving object. Step 2: solve for maximum spring compression assuming full energy conversion. Step 3: account for work done by friction if present. Working: 0.5 * mass * speed ** 2, sqrt(2 * ke / spring_k), sqrt(2 * (ke - friction_force * dist) / spring_k).",
      "answer": "The method of potential energy of a spring leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pe_spring = (1/2) * spring_k * displacement**2",
+     "compute": "pe_spring = (1/2) * spring_k * displacement**2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.5.10",
@@ -493,7 +565,16 @@
      "solution": "Step 1: calculate total opposing downward force. Step 2: compute power delivered in watts. Step 3: convert power to horsepower. Working: mass * g + friction_force, total_force * speed, power_watts / 746.",
      "answer": "The method of power leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = total_force * speed",
+     "compute": "power = total_force * speed"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.5.11.1",

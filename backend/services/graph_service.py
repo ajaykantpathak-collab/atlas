@@ -67,13 +67,10 @@ class GraphService:
             # Get nodes for this subject/class
             result = session.run(
                 """
-                MATCH (n:KnowledgeNode)
-                WHERE n.subject = $subject AND n.class_level = $class_level
-                RETURN n.node_id as node_id, n.topic as topic,
-                       n.chapter as chapter, n.difficulty as difficulty,
-                       n.estimated_time as estimated_time,
-                       n.is_root as is_root,
-                       n.prerequisite_node_ids as prereqs
+                MATCH (n:Node)
+                WHERE n.subject = $subject AND toInteger(n.class) = $class_level
+                RETURN n.node_id as node_id, n.node_id as topic,
+                       n.chapter as chapter, n.depth as depth
                 ORDER BY n.node_id
                 LIMIT 200
                 """,
@@ -88,20 +85,19 @@ class GraphService:
                     "node_type": "topic",
                     "subject": subject,
                     "class_level": str(class_level),
-                    "difficulty": record["difficulty"],
-                    "estimated_minutes": record["estimated_time"],
+                    "difficulty": None,
+                    "estimated_minutes": None,
                     "metadata": {
                         "chapter": record["chapter"],
-                        "is_root": record["is_root"],
-                        "prerequisites": record["prereqs"] or [],
+                        "depth": record["depth"],
                     },
                 })
 
-            # Get edges (REQUIRES relationships)
+            # Get edges (PREREQUISITE_OF relationships — corpus schema)
             result = session.run(
                 """
-                MATCH (a:KnowledgeNode)-[r:REQUIRES]->(b:KnowledgeNode)
-                WHERE a.subject = $subject AND a.class_level = $class_level
+                MATCH (a:Node)-[r:PREREQUISITE_OF]->(b:Node)
+                WHERE a.subject = $subject AND toInteger(a.class) = $class_level
                 RETURN a.node_id as from, b.node_id as to, type(r) as rel
                 LIMIT 500
                 """,
@@ -124,7 +120,7 @@ class GraphService:
             "edges": relationships,  # alias for compatibility
         }
 
-    async def get_node(self, node_id: str) -> dict[str, Any]:
+    async def _get_node_neo4j(self, node_id: str) -> dict[str, Any]:
         """Get a single node by its ID, including relationships."""
         if not HAS_NEO4J:
             raise RuntimeError("Neo4j driver not available")
@@ -134,7 +130,7 @@ class GraphService:
             )
         with self._driver.session() as session:
             result = session.run(
-                "MATCH (n:KnowledgeNode {node_id: $node_id}) RETURN n",
+                "MATCH (n:Node {node_id: $node_id}) RETURN n",
                 node_id=node_id,
             )
             record = result.single()
@@ -170,17 +166,18 @@ class GraphService:
                 # Format for the API response
                 formatted_node = {
                     "node_id": node.get("node_id", node_id),
-                    "name": node.get("topic", node_id),
+                    "name": node.get("topic") or node.get("node_id", node_id),
                     "node_type": "topic",
                     "subject": node.get("subject", ""),
-                    "class_level": str(node.get("class_level", "")),
+                    "class_level": str(node.get("class", "")),
                     "difficulty": node.get("difficulty"),
                     "estimated_minutes": node.get("estimated_time"),
                     "metadata": {
                         "chapter": node.get("chapter"),
-                        "is_root": node.get("is_root"),
-                        "prerequisites": node.get("prerequisite_node_ids", []),
-                        "content_snippet": node.get("content_snippet", ""),
+                        "board": node.get("board"),
+                        "depth": node.get("depth"),
+                        "diagnostics": node.get("diagnostics"),
+                        "content_snippet": node.get("definition_snippet", ""),
                         # ── Dead node fields now wired ──
                         "prerequisite_reasons": prerequisite_reasons,
                         "forward_reasons": forward_reasons,
@@ -194,7 +191,7 @@ class GraphService:
                 outgoing = []
                 rel_result = session.run(
                     """
-                    MATCH (a:KnowledgeNode)-[r:REQUIRES]->(n:KnowledgeNode {node_id: $node_id})
+                    MATCH (a:Node)-[r:PREREQUISITE_OF]->(n:Node {node_id: $node_id})
                     RETURN a.node_id as source_id, type(r) as rel_type
                     """,
                     node_id=node_id,
@@ -207,7 +204,7 @@ class GraphService:
                     })
                 rel_result = session.run(
                     """
-                    MATCH (n:KnowledgeNode {node_id: $node_id})-[r:REQUIRES]->(b:KnowledgeNode)
+                    MATCH (n:Node {node_id: $node_id})-[r:PREREQUISITE_OF]->(b:Node)
                     RETURN b.node_id as target_id, type(r) as rel_type
                     """,
                     node_id=node_id,
@@ -263,7 +260,7 @@ class GraphService:
         with self._driver.session() as session:
             result = session.run(
                 """
-                MATCH (n:KnowledgeNode {node_id: $node_id})
+                MATCH (n:Node {node_id: $node_id})
                 RETURN n.prerequisite_reasons as pr,
                        n.forward_reasons as fr,
                        n.scope_constraints as sc,
@@ -323,7 +320,7 @@ class GraphService:
         with self._driver.session() as session:
             result = session.run(
                 """
-                MATCH (n:KnowledgeNode {node_id: $node_id})
+                MATCH (n:Node {node_id: $node_id})
                 RETURN n.prerequisite_reasons as pr,
                        n.forward_reasons as fr,
                        n.scope_constraints as sc,
@@ -349,7 +346,7 @@ class GraphService:
             "cross_subject_reasons": {},
         }
 
-    async def get_stats(self) -> dict[str, Any]:
+    async def _get_stats_neo4j(self) -> dict[str, Any]:
         """Get graph statistics."""
         if not HAS_NEO4J:
             return {"error": "Neo4j not available"}
@@ -387,10 +384,10 @@ class GraphService:
         with self._driver.session() as session:
             result = session.run(
                 """
-                MATCH (n:KnowledgeNode)
-                WHERE n.is_root = true OR NOT ()-[:REQUIRES]->(n)
-                RETURN n.node_id as node_id, n.topic as topic, n.subject as subject,
-                       n.class_level as class_level
+                MATCH (n:Node)
+                WHERE NOT (n)-[:PREREQUISITE_OF]->()
+                RETURN n.node_id as node_id, n.node_id as topic, n.subject as subject,
+                       n.class as class_level
                 LIMIT 50
                 """
             )
@@ -415,7 +412,7 @@ class GraphService:
         with self._driver.session() as session:
             # Get the target node
             result = session.run(
-                "MATCH (n:KnowledgeNode {node_id: $node_id}) RETURN n",
+                "MATCH (n:Node {node_id: $node_id}) RETURN n",
                 node_id=node_id,
             )
             record = result.single()
@@ -424,23 +421,24 @@ class GraphService:
             node = dict(record["n"])
             target_node = {
                 "node_id": node.get("node_id", node_id),
-                "name": node.get("topic", node_id),
+                "name": node.get("topic") or node.get("node_id", node_id),
                 "node_type": "topic",
                 "subject": node.get("subject", ""),
-                "class_level": str(node.get("class_level", "")),
+                "class_level": str(node.get("class", "")),
                 "difficulty": node.get("difficulty"),
                 "estimated_minutes": node.get("estimated_time"),
-                "metadata": {},
+                "metadata": {"chapter": node.get("chapter"),
+                             "board": node.get("board")},
             }
-            # Get prerequisites via REQUIRES relationships (recursive)
+            # Get prerequisites via PREREQUISITE_OF (corpus edge: n requires prereq)
             # Neo4j doesn't support parameters in relationship length patterns,
             # so we use a fixed depth and limit results
             result = session.run(
                 """
-                MATCH (n:KnowledgeNode {node_id: $node_id})-[:REQUIRES*1..5]->(prereq:KnowledgeNode)
-                RETURN DISTINCT prereq.node_id as node_id, prereq.topic as topic,
-                       prereq.subject as subject, prereq.class_level as class_level,
-                       prereq.chapter as chapter, prereq.difficulty as difficulty
+                MATCH (n:Node {node_id: $node_id})-[:PREREQUISITE_OF*1..5]->(prereq:Node)
+                RETURN DISTINCT prereq.node_id as node_id, prereq.subject as subject,
+                       prereq.class as class_level, prereq.chapter as chapter,
+                       prereq.definition_snippet as snippet
                 LIMIT 50
                 """,
                 node_id=node_id,
@@ -449,11 +447,11 @@ class GraphService:
             for r in result:
                 prerequisites.append({
                     "node_id": r["node_id"],
-                    "name": r["topic"] or r["node_id"],
+                    "name": (r["snippet"] or r["node_id"])[:80],
                     "node_type": "topic",
                     "subject": r["subject"],
                     "class_level": str(r["class_level"]),
-                    "difficulty": r["difficulty"],
+                    "difficulty": None,
                     "estimated_minutes": None,
                     "metadata": {"chapter": r["chapter"]},
                 })
@@ -475,20 +473,20 @@ class GraphService:
             )
         with self._driver.session() as session:
             cypher = """
-                MATCH (n:KnowledgeNode)
-                WHERE n.topic CONTAINS $search_query OR n.content_snippet CONTAINS $search_query
+                MATCH (n:Node)
+                WHERE n.node_id CONTAINS $search_query OR n.definition_snippet CONTAINS $search_query
             """
             params = {"search_query": query, "result_limit": limit}
             if subject:
                 cypher += " AND n.subject = $subject"
                 params["subject"] = subject
             if class_level:
-                cypher += " AND n.class_level = $class_level"
-                params["class_level"] = int(class_level) if str(class_level).isdigit() else 0
+                cypher += " AND n.class = $class_level"
+                params["class_level"] = str(class_level)
             cypher += """
-                RETURN n.node_id as node_id, n.topic as topic, n.subject as subject,
-                       n.class_level as class_level, n.chapter as chapter,
-                       n.difficulty as difficulty
+                RETURN n.node_id as node_id, n.definition_snippet as topic,
+                       n.subject as subject, n.class as class_level,
+                       n.chapter as chapter
                 LIMIT $result_limit
             """
             result = session.run(cypher, **params)
@@ -500,7 +498,7 @@ class GraphService:
                     "node_type": "topic",
                     "subject": record["subject"],
                     "class_level": str(record["class_level"]),
-                    "difficulty": record["difficulty"],
+                    "difficulty": None,
                     "estimated_minutes": None,
                     "metadata": {
                         "chapter": record["chapter"],
@@ -519,9 +517,9 @@ class GraphService:
         with self._driver.session() as session:
             result = session.run(
                 """
-                MATCH path = shortestPath((a:KnowledgeNode {node_id: $from_id})-[:REQUIRES*]->(b:KnowledgeNode {node_id: $to_id}))
+                MATCH path = shortestPath((a:Node {node_id: $from_id})-[:PREREQUISITE_OF*]->(b:Node {node_id: $to_id}))
                 UNWIND nodes(path) as n
-                RETURN n.node_id as node_id, n.name as name, n.subject as subject
+                RETURN n.node_id as node_id, n.node_id as name, n.subject as subject
                 """,
                 from_id=from_node,
                 to_id=to_node,
@@ -562,7 +560,7 @@ class GraphService:
         svc = get_graph_service()
         try:
             if await svc.check_connection():
-                stats = await svc.get_stats()
+                stats = await svc._get_stats_neo4j()
                 stats.setdefault("status", "ok")
                 return stats
         except Exception as e:
@@ -577,7 +575,7 @@ class GraphService:
         svc = get_graph_service()
         try:
             if await svc.check_connection():
-                node = await svc.get_node(node_id)
+                node = await svc._get_node_neo4j(node_id)
                 if node is not None:
                     return node
         except Exception as e:
@@ -612,10 +610,10 @@ class GraphService:
     ) -> list[dict[str, Any]]:
         if subject:
             cypher = """
-                MATCH (n:KnowledgeNode)
-                WHERE n.subject = $subject AND n.class_level = $class_level
-                RETURN n.node_id as node_id, n.topic as name, n.chapter as chapter,
-                       n.difficulty as difficulty
+                MATCH (n:Node)
+                WHERE n.subject = $subject AND toInteger(n.class) = $class_level
+                RETURN n.node_id as node_id, n.node_id as name, n.chapter as chapter,
+                       n.depth as depth
                 ORDER BY n.node_id LIMIT 500
             """
             rows = await GraphService._run_cypher(
@@ -623,10 +621,10 @@ class GraphService:
             )
         else:
             cypher = """
-                MATCH (n:KnowledgeNode)
-                WHERE n.class_level = $class_level
-                RETURN n.node_id as node_id, n.topic as name, n.subject as subject,
-                       n.chapter as chapter, n.difficulty as difficulty
+                MATCH (n:Node)
+                WHERE toInteger(n.class) = $class_level
+                RETURN n.node_id as node_id, n.node_id as name, n.subject as subject,
+                       n.chapter as chapter, n.depth as depth
                 ORDER BY n.subject, n.node_id LIMIT 500
             """
             rows = await GraphService._run_cypher(cypher, class_level=int(class_level))
@@ -664,7 +662,7 @@ class GraphService:
                     return data["prerequisites"]
                 # Node may exist but have no prereqs in Neo4j; fall back to
                 # SQLite which may know the edge.
-                node = await svc.get_node(node_id)
+                node = await svc._get_node_neo4j(node_id)
                 if node is not None:
                     return []
         except Exception as e:
@@ -679,9 +677,9 @@ class GraphService:
     @staticmethod
     async def get_all_unlocks(node_id: str, max_depth: int = 10) -> list[dict[str, Any]]:
         cypher = """
-            MATCH (n:KnowledgeNode {node_id: $node_id})<-[:REQUIRES*1..%d]-(unlock:KnowledgeNode)
-            RETURN DISTINCT unlock.node_id as node_id, unlock.topic as name,
-                   unlock.subject as subject, unlock.difficulty as difficulty
+            MATCH (n:Node {node_id: $node_id})<-[:PREREQUISITE_OF*1..%d]-(unlock:Node)
+            RETURN DISTINCT unlock.node_id as node_id, unlock.node_id as name,
+                   unlock.subject as subject
             LIMIT 100
         """ % max(1, min(int(max_depth), 20))
         rows = await GraphService._run_cypher(cypher, node_id=node_id)
@@ -696,9 +694,9 @@ class GraphService:
     @staticmethod
     async def get_related_nodes(node_id: str) -> list[dict[str, Any]]:
         cypher = """
-            MATCH (n:KnowledgeNode {node_id: $node_id})-[:RELATED_TO]-(rel:KnowledgeNode)
-            RETURN DISTINCT rel.node_id as node_id, rel.topic as name,
-                   rel.subject as subject, rel.difficulty as difficulty
+            MATCH (n:Node {node_id: $node_id})-[r]-(rel:Node)
+            RETURN DISTINCT rel.node_id as node_id, rel.node_id as name,
+                   rel.subject as subject, type(r) as rel
             LIMIT 50
         """
         rows = await GraphService._run_cypher(cypher, node_id=node_id)

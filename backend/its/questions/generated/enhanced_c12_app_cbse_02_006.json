@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_02_006",
+   "title": "c12_app_cbse_02_006",
+   "questions": [
+    {
+     "q": "Identify the type and order of the matrix $A = \\begin{bmatrix} 5 & 0 & 0 \\\\ 0 & 5 & 0 \\\\ 0 & 0 & 5 \\end{bmatrix}$. Is it an identity matrix? Justify your answer.",
+     "a": "**Answer:** $A$ is a **scalar matrix** of order $3 \\times 3$. It is **not** an identity matrix because an identity matrix must have 1 on every diagonal entry, but here the diagonal entries are 5. A scalar matrix has equal diagonal entries (any non-zero scalar $k$), while an identity matrix is the special case $k=1$.  \n**Wrong answer reveals:** If a student says \"identity matrix\", they confuse the *structure* (diagonal non-zero, off-diagonal zero) with the *specific values* (must be 1). This is the #1 error in board exams — they see \"diagonal matrix with equal entries\" and auto-label it $I_3$.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The matrix $B = \\begin{bmatrix} 0 & 2 \\\\ -2 & 0 \\end{bmatrix}$ is skew-symmetric because its diagonal elements are zero.\" Is this reasoning correct? Explain why or why not.",
+     "a": "**Answer:** The conclusion is correct ($B$ is skew-symmetric), but the **reasoning is incomplete and potentially misleading**. A matrix is skew-symmetric **iff** $B' = -B$. For $B = \\begin{bmatrix} 0 & 2 \\\\ -2 & 0 \\end{bmatrix}$, $B' = \\begin{bmatrix} 0 & -2 \\\\ 2 & 0 \\end{bmatrix} = -B$, so it is skew-symmetric. While it's true that all diagonal elements of a skew-symmetric matrix **must** be zero (since $a_{ii} = -a_{ii} \\Rightarrow a_{ii}=0$), having zero diagonals is **necessary but not sufficient** — e.g., $\\begin{bmatrix} 0 & 1 \\\\ 1 & 0 \\end{bmatrix}$ has zero diagonals but is symmetric, not skew-symmetric.  \n**Wrong answer reveals:** If the student thinks \"zero diagonal ⇒ skew-symmetric\", they confuse a necessary condition with the definition. This leads to errors in verifying symmetry/skew-symmetry in multi-step problems.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a $2 \\times 2$ matrix $A = [a_{ij}]$ where $a_{ij} = \\frac{i - j}{i + j}$. Then determine whether $A$ is symmetric, skew-symmetric, or neither.",
+     "a": "**Steps:**  \n1. Compute elements:  \n   $a_{11} = \\frac{1-1}{1+1} = 0$  \n   $a_{12} = \\frac{1-2}{1+2} = -\\frac{1}{3}$  \n   $a_{21} = \\frac{2-1}{2+1} = \\frac{1}{3}$  \n   $a_{22} = \\frac{2-2}{2+2} = 0$  \n   So $A = \\begin{bmatrix} 0 & -\\frac{1}{3} \\\\ \\frac{1}{3} & 0 \\end{bmatrix}$.  \n2. Find transpose: $A' = \\begin{bmatrix} 0 & \\frac{1}{3} \\\\ -\\frac{1}{3} & 0 \\end{bmatrix}$.  \n3. Compare: $A' = -A$, so $A$ is **skew-symmetric**.  \n**Wrong answer reveals:** If a student claims $A$ is symmetric, they likely computed $a_{12}$ and $a_{21}$ but missed the sign difference. If they say \"neither\", they may have miscalculated $a_{ij}$ or forgotten to check $A' = \\pm A$. This tests both construction skill and symmetry verification.",
+     "self_check": true
+    },
+    {
+     "q": "Given $A = \\begin{bmatrix} 4 & 2 & -1 \\\\ 3 & 5 & 7 \\\\ 1 & -2 & 1 \\end{bmatrix}$, decompose $A$ into the sum of a symmetric matrix $P$ and a skew-symmetric matrix $Q$. Verify that $P$ is symmetric and $Q$ is skew-symmetric.",
+     "a": "**Steps:**  \n1. Compute $A' = \\begin{bmatrix} 4 & 3 & 1 \\\\ 2 & 5 & -2 \\\\ -1 & 7 & 1 \\end{bmatrix}$.  \n2. Symmetric part: $P = \\frac{1}{2}(A + A') = \\frac{1}{2} \\begin{bmatrix} 8 & 5 & 0 \\\\ 5 & 10 & 5 \\\\ 0 & 5 & 2 \\end{bmatrix} = \\begin{bmatrix} 4 & \\frac{5}{2} & 0 \\\\ \\frac{5}{2} & 5 & \\frac{5}{2} \\\\ 0 & \\frac{5}{2} & 1 \\end{bmatrix}$.  \n3. Skew-symmetric part: $Q = \\frac{1}{2}(A - A') = \\frac{1}{2} \\begin{bmatrix} 0 & -1 & -2 \\\\ 1 & 0 & 9 \\\\ 2 & -9 & 0 \\end{bmatrix} = \\begin{bmatrix} 0 & -\\frac{1}{2} & -1 \\\\ \\frac{1}{2} & 0 & \\frac{9}{2} \\\\ 1 & -\\frac{9}{2} & 0 \\end{bmatrix}$.  \n4. Verify: $P' = P$ (symmetric), $Q' = -Q$ (skew-symmetric), and $P+Q = A$.  \n**Wrong answer reveals:** If $P$ or $Q$ has non-zero diagonal entries in $Q$, or if $P+Q \\neq A$, the student likely made arithmetic errors in adding/subtracting matrices or forgot the $\\frac{1}{2}$ factor. This is a 4-6 mark board question — partial credit is lost for missing verification steps.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If $A$ and $B$ are symmetric matrices of the same order, then $AB$ is always symmetric.\" Is this true or false? If false, give a counterexample. If true, prove it.",
+     "a": "**Answer:** **False.** $AB$ is symmetric **iff** $AB = BA$ (i.e., $A$ and $B$ commute).  \n**Counterexample:** Let $A = \\begin{bmatrix} 1 & 2 \\\\ 2 & 3 \\end{bmatrix}$, $B = \\begin{bmatrix} 2 & 1 \\\\ 1 & 0 \\end{bmatrix}$. Both are symmetric.  \n$AB = \\begin{bmatrix} 4 & 1 \\\\ 7 & 2 \\end{bmatrix}$, but $(AB)' = \\begin{bmatrix} 4 & 7 \\\\ 1 & 2 \\end{bmatrix} \\neq AB$. So $AB$ is not symmetric.  \n**Why students get this wrong:** They know $(AB)' = B'A' = BA$ (since $A'=A, B'=B$), but they forget that $BA$ equals $AB$ only if $A$ and $B$ commute. This is a classic JEE/NEET trap — \"product of symmetric matrices is symmetric\" is a common false belief.",
+     "self_check": true
+    },
+    {
+     "q": "Create a $3 \\times 3$ matrix $M$ that is **neither symmetric nor skew-symmetric**, but such that $M + M'$ is a diagonal matrix and $M - M'$ has all diagonal entries zero. Explain how you constructed it.",
+     "a": "**Expected answer:** Any matrix where off-diagonal entries are not symmetric pairs. For example:  \n$M = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{bmatrix}$.  \nThen $M' = \\begin{bmatrix} 1 & 4 & 7 \\\\ 2 & 5 & 8 \\\\ 3 & 6 & 9 \\end{bmatrix}$.  \n$M + M' = \\begin{bmatrix} 2 & 6 & 10 \\\\ 6 & 10 & 14 \\\\ 10 & 14 & 18 \\end{bmatrix}$ — **not diagonal** (fails condition).  \nBetter construction: Choose $M$ such that $m_{ij} + m_{ji} = 0$ for $i \\neq j$ (so $M+M'$ is diagonal) but $m_{ij} \\neq m_{ji}$ (so not symmetric) and $m_{ij} \\neq -m_{ji}$ (so not skew-symmetric).  \nExample: $M = \\begin{bmatrix} 1 & 2 & 0 \\\\ 1 & 3 & 0 \\\\ 0 & 0 & 4 \\end{bmatrix}$.  \n$M' = \\begin{bmatrix} 1 & 1 & 0 \\\\ 2 & 3 & 0 \\\\ 0 & 0 & 4 \\end{bmatrix}$.  \n$M+M' = \\begin{bmatrix} 2 & 3 & 0 \\\\ 3 & 6 & 0 \\\\ 0 & 0 & 8 \\end{bmatrix}$ — not diagonal.  \n**Correct construction:** Let $M = \\begin{bmatrix} a & b & c \\\\ d & e & f \\\\ g & h & i \\end{bmatrix}$. For $M+M'$ diagonal: $b+d=0, c+g=0, f+h=0$. For not symmetric: $b \\neq d$ or $c \\neq g$ or $f \\neq h$. For not skew-symmetric: $b \\neq -d$ etc. But $b+d=0 \\Rightarrow d=-b$, so $M+M'$ diagonal forces $d=-b$, which means $M$ is skew-symmetric in off-diagonals! Contradiction?  \nWait: $M+M'$ diagonal $\\Rightarrow m_{ij} + m_{ji} = 0$ for $i \\neq j$ $\\Rightarrow m_{ji} = -m_{ij}$. This **is exactly** the off-diagonal condition for skew-symmetry. Combined with diagonal entries free, $M$ would be skew-symmetric **if** diagonals are zero. But if diagonals are non-zero, $M$ is **not** skew-symmetric (since skew-symmetric requires zero diagonals).  \nSo: $M = \\begin{bmatrix} 1 & 2 & 3 \\\\ -2 & 4 & 5 \\\\ -3 & -5 & 6 \\end{bmatrix}$.  \n$M' = \\begin{bmatrix} 1 & -2 & -3 \\\\ 2 & 4 & -5 \\\\ 3 & 5 & 6 \\end{bmatrix}$.  \n$M+M' = \\begin{bmatrix} 2 & 0 & 0 \\\\ 0 & 8 & 0 \\\\ 0 & 0 & 12 \\end{bmatrix}$ (diagonal).  \n$M-M' = \\begin{bmatrix} 0 & 4 & 6 \\\\ -4 & 0 & 10 \\\\ -6 & -10 & 0 \\end{bmatrix}$ (diagonals zero).  \n$M$ is not symmetric ($M \\neq M'$), not skew-symmetric (diagonals non-zero).  \n**Poor answer reveals:** If student cannot construct such a matrix, they don't grasp the decomposition $A = \\frac{A+A'}{2} + \\frac{A-A'}{2}$ — the symmetric part is $\\frac{A+A'}{2}$ (diagonal here), skew-symmetric part is $\\frac{A-A'}{2}$ (zero diagonals). This tests deep structural understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

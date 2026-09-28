@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a colorimeter to determine the half-life of the iodide-catalyzed decomposition of hydrogen peroxide (first-order). Outline the procedure and how you would calculate half-life from the data.",
      "a": "Procedure: Mix known concentrations of H₂O₂ and KI in a cuvette. Monitor absorbance at 230 nm (or use a suitable wavelength) vs time. Since absorbance ∝ [H₂O₂], plot ln(absorbance) vs time. Slope = -k. Calculate t₁/₂ = 0.693/k. Alternatively, directly note time when absorbance drops to half its initial value. A poor answer reveals inability to connect Beer-Lambert law (absorbance ∝ concentration) with integrated rate law.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Half-life of a ______ (t₁/₂) is the time required for the concentration of a reactant to decrease to exactly one-half of its initial concentration.",
+     "a": "reaction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a doctor prescribing an antibiotic with a half-life of 6 hours — this ______ after 6 hours, half the drug is eliminated from your blood.",
+     "a": "means",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive half-life expressions for zero and first order reactions from their integrated rate laws, calculate half-life from given rate constant or concentration-time data, and explain why first-order half-life is concentration-independent while zero-order half-life varies linearly with initial concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a doctor ______ an antibiotic with a half-life of 6 hours — this means after 6 hours, half the drug is eliminated from your blood.",
+     "a": "prescribing",
+     "self_check": true
     }
    ]
   }

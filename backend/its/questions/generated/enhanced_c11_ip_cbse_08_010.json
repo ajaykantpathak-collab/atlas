@@ -34,6 +34,36 @@
      "q": "Design a personal password policy for a Class 11 student that balances security and usability. Specify: (1) master password requirements for a password manager, (2) rules for generated passwords, (3) MFA usage, (4) recovery plan if the master password is forgotten. Justify each choice.",
      "a": "A strong answer includes: (1) Master passphrase: 5+ random words from a 7776-word Diceware list (~64 bits entropy), memorable but high entropy. (2) Generated passwords: 16+ characters, full ASCII set, unique per site. (3) MFA: TOTP app (not SMS) on all critical accounts (email, banking, social). (4) Recovery: printed recovery codes stored in a sealed envelope in a secure physical location; no digital backup. A poor answer uses weak master passwords, allows password reuse, relies on SMS 2FA, or has no recovery plan — revealing gaps in understanding defense-in-depth and usability trade-offs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Safe browsing practices are a set of proactive behaviors and technical ______ that protect users from web-based threats such as phishing, malware downloads, and unauthorized tracking, while strong password guidelines define the mathematical and procedural rules for creating authentication secrets that resist brute-force, dictionary, and credential-stuffing attacks.",
+     "a": "configurations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an email that looks like it's from your bank, asking you to \"verify your account\" by ______ a link.",
+     "a": "clicking",
+     "self_check": true
+    },
+    {
+     "q": "What is Safe browsing practices? State the definition given in this lesson.",
+     "a": "Safe browsing practices are a set of proactive behaviors and technical configurations that protect users from web-based threats such as phishing, malware downloads, and unauthorized tracking, while strong password guidelines define the mathematical and procedural rules for creating authentication secrets that resist brute-force.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, consider your password for that bank: if it's \"Password______\" or your birthdate, attackers can guess it in seconds.",
+     "a": "123",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Safe browsing practices?",
+     "a": "Students believe that adding a number and symbol to a dictionary word (e.g., \"Password@123\") makes a password strong because it satisfies typical website requirements.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to evaluate a given browsing scenario (e.g., a suspicious URL, a public Wi-Fi prompt, a password creation prompt) and decide the correct safe action, and must be able to construct a password that meets entropy requirements (minimum 12 characters, mixed character sets, no personal information) and explain why it.",
+     "self_check": true
     }
    ]
   }

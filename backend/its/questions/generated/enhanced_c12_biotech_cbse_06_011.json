@@ -34,6 +34,21 @@
      "q": "Design a 2×2 factorial experiment to test the interaction between **light quality (red vs. blue LED)** and **sucrose concentration (20 vs. 30 g/L)** on shoot proliferation rate (shoots/explant) in *Stevia rebaudiana* micropropagation. Specify: (a) hypothesis, (b) controlled variables (min 4), (c) response variable measurement protocol, (d) statistical analysis plan.",
      "a": "(a) Hypothesis: Blue light enhances shoot proliferation at 30 g/L sucrose by promoting photosynthesis and reducing hyperhydricity, while red light favors proliferation at 20 g/L by stimulating stem elongation. (b) Controlled variables: (1) Basal medium (MS + 0.5 mg/L BAP + 0.1 mg/L NAA), (2) pH 5.8, (3) Temperature 25±1°C, (4) Photoperiod 16h/8h, (5) Explant type (uniform nodal segments, 1 cm), (6) Vessel type (Magenta boxes), (7) Gelling agent (0.8% agar). (c) Response: After 4 weeks, count shoots ≥2 mm per explant (n=15 explants/treatment). (d) Analysis: Two-way ANOVA (light × sucrose) with Tukey's HSD post-hoc; check interaction term significance (p<0.05). A poor design omits replication, ignores hyperhydricity scoring as a covariate, or uses unequal sample sizes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Factors affecting in vitro culture responses refer to the specific genetic, ______, and environmental variables that determine the success or failure of plant tissue culture, including explant genotype, media composition (nutrients, PGRs, carbon source, pH), physical conditions (light, temperature, humidity), and aseptic status.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have set up a perfect MS medium with 2,4-D and kinetin for callus ______ from carrot root explants, but after four weeks you see only brown, dead tissue with no callus.",
+     "a": "induction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) categorize factors into genotypic, media-related, and physical/environmental groups with specific examples for each; (2) predict how altering a single factor (e.g., auxin:cytokinin ratio, explant age, light intensity) shifts the developmental pathway (callus vs. organogenesis vs. somatic embryogenesis).",
+     "self_check": true
     }
    ]
   }

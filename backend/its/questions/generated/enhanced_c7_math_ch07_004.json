@@ -34,6 +34,31 @@
      "q": "Create the side lengths for a scalene triangle whose perimeter is exactly $30\\text{ cm}$, such that all three side lengths are whole numbers and no side is greater than $14\\text{ cm}$. Show your verification.",
      "a": "One possible answer is side lengths $9\\text{ cm}$, $10\\text{ cm}$, and $11\\text{ cm}$. Verification: $9 + 10 + 11 = 30\\text{ cm}$ (Perimeter); all three lengths are different (scalene); no side exceeds $14\\text{ cm}$; and the sum of any two sides is greater than the third ($9+10=19 > 11$). A poor answer provides duplicate side lengths or violates the perimeter and inequality constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Triangles are classified based on the equality of their side lengths into three types: an ______ triangle (all three sides are equal), an isosceles triangle (exactly two sides are equal), and a scalene triangle (all three sides are of different lengths).",
+     "a": "equilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in your school's craft room helping to cut out ______ paper flags for sports day.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What is Triangles? State the definition given in this lesson.",
+     "a": "Triangles are classified based on the equality of their side lengths into three types: an equilateral triangle (all three sides are equal), an isosceles triangle (exactly two sides are equal), and a scalene triangle (all three sides are of different lengths).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Triangles?",
+     "a": "Students often confuse an isosceles triangle with a scalene triangle when the orientation of the triangle is tilted or rotated, failing to measure or check side length markings.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, classify, and draw triangles based on given side lengths or side relationships, and solve perimeter or side-length problems involving equilateral, isosceles, and scalene triangles.",
+     "self_check": true
     }
    ]
   }

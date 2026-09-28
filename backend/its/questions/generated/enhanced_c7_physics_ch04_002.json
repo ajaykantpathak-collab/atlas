@@ -34,6 +34,26 @@
      "q": "Design a quick classroom experiment using a ruler, a thread, a small stone, and your wristwatch to test if changing the weight of the bob affects its time period.",
      "a": "To test this, tie a small stone to a thread of fixed length (e.g., 30 cm) and measure the time for 20 oscillations. Then, replace the stone with a heavier object of the exact same size, keep the thread length identical at 30 cm, and again measure the time for 20 oscillations. Compare the two time periods to conclude that mass does not alter the time period. A poor answer would suggest changing both the length and the weight at the same time, which violates the rule of keeping variables constant.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A simple pendulum consists of a small metallic ball (called the bob) suspended from a rigid stand by a light, ______ thread.",
+     "a": "inextensible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you watch a traditional ______ wall clock swing back and forth in your living room, you are observing regular periodic motion.",
+     "a": "pendulum",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the start and end points of a complete oscillation, count oscillations accurately using a stopwatch, and calculate the time period of a simple pendulum given total time and number of oscillations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you watch a ______ pendulum wall clock swing back and forth in your living room, you are observing regular periodic motion.",
+     "a": "traditional",
+     "self_check": true
     }
    ]
   }

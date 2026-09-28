@@ -34,6 +34,26 @@
      "q": "Create a word (using English letters) of length 8 that has exactly 3 distinct letters, with one letter appearing 4 times, another appearing 3 times, and the third appearing once. Then write the expression for the number of its distinct permutations.",
      "a": "Example word: \"AAAABBBC\" (A=4, B=3, C=1). The expression is 8! / (4! × 3! × 1!). A poor answer might give a word that doesn't meet the frequency requirements or writes the expression incorrectly (e.g., 8! / (4+3+1)!). This reveals the student cannot translate a frequency description into a concrete example and formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The number of distinct ______ of n objects, where p₁ objects are identical of one kind, p₂ objects are identical of another kind, ..., pₖ objects are identical of the k-th kind (with p₁ + p₂ + ... + pₖ = n), is given by n! / (p₁! × p₂! × ... × pₖ!).",
+     "a": "permutations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the word \"BANANA\" and want to find how many different words (______) you can form using all its letters.",
+     "a": "arrangements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If all letters were distinct, the answer would be ______!.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute the number of distinct arrangements of a multiset of objects, explain why division by factorials of identical objects is necessary, and solve word problems involving repeated letters in words or identical items.",
+     "self_check": true
     }
    ]
   }

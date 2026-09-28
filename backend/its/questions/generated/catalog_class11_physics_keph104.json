@@ -1,0 +1,146 @@
+{
+ "catalog": "catalog_class11_physics_keph104.json",
+ "concepts": [
+  {
+   "id": "keph104.4.4.1",
+   "title": "Momentum and Newton's Second Law",
+   "converted_to_compute": true,
+   "formula": "force = mass * accel",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force = mass * accel",
+     "compute": "force = mass * accel"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Momentum and Newton's Second Law: given mass = 78, accel = 13.9, find force.",
+     "a": "1084.2",
+     "self_check": false
+    },
+    {
+     "q": "For Momentum and Newton's Second Law: given mass = 177, accel = 16.4, find force.",
+     "a": "2902.8",
+     "self_check": false
+    },
+    {
+     "q": "For Momentum and Newton's Second Law: given mass = 75, accel = 1.7, find force.",
+     "a": "127.5",
+     "self_check": false
+    },
+    {
+     "q": "For Momentum and Newton's Second Law: given mass = 142, accel = 12.8, find force.",
+     "a": "1817.6",
+     "self_check": false
+    },
+    {
+     "q": "For Momentum and Newton's Second Law: given mass = 176, accel = 19.1, find force.",
+     "a": "3361.6",
+     "self_check": false
+    },
+    {
+     "q": "For Momentum and Newton's Second Law: given mass = 59, accel = 18.1, find force.",
+     "a": "1067.9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph104.4.4.2",
+   "title": "Newton's Third Law and Conservation of Momentum",
+   "converted_to_compute": true,
+   "formula": "p_total = mass_1 * velocity_1 + mass_2 * velocity_2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "p_total = mass_1 * velocity_1 + mass_2 * velocity_2",
+     "compute": "p_total = mass_1 * velocity_1 + mass_2 * velocity_2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Newton's Third Law and Conservation of Momentum: given mass_1 = 177, velocity_1 = 72, mass_2 = 192, velocity_2 = 68, find p total.",
+     "a": "25800",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Third Law and Conservation of Momentum: given mass_1 = 10.1, velocity_1 = 90, mass_2 = 46, velocity_2 = 39, find p total.",
+     "a": "2703",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Third Law and Conservation of Momentum: given mass_1 = 82, velocity_1 = 1.2, mass_2 = 62, velocity_2 = 95, find p total.",
+     "a": "5988.4",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Third Law and Conservation of Momentum: given mass_1 = 107, velocity_1 = 74, mass_2 = 176, velocity_2 = 59, find p total.",
+     "a": "18302",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Third Law and Conservation of Momentum: given mass_1 = 118, velocity_1 = 100, mass_2 = 12, velocity_2 = 96, find p total.",
+     "a": "12952",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Third Law and Conservation of Momentum: given mass_1 = 178, velocity_1 = 85, mass_2 = 26, velocity_2 = 107, find p total.",
+     "a": "17912",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph104.4.8.1",
+   "title": "Friction: Static, Kinetic and Rolling",
+   "converted_to_compute": true,
+   "formula": "friction_max = mu_s * normal_force",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "friction_max = mu_s * normal_force",
+     "compute": "friction_max = mu_s * normal_force"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Friction: Static, Kinetic and Rolling: given mu_s = 88, normal_force = 626, find friction max.",
+     "a": "55088",
+     "self_check": false
+    },
+    {
+     "q": "For Friction: Static, Kinetic and Rolling: given mu_s = 88, normal_force = 823, find friction max.",
+     "a": "72424",
+     "self_check": false
+    },
+    {
+     "q": "For Friction: Static, Kinetic and Rolling: given mu_s = 38, normal_force = 886, find friction max.",
+     "a": "33668",
+     "self_check": false
+    },
+    {
+     "q": "For Friction: Static, Kinetic and Rolling: given mu_s = 49, normal_force = 120, find friction max.",
+     "a": "5880",
+     "self_check": false
+    },
+    {
+     "q": "For Friction: Static, Kinetic and Rolling: given mu_s = 54, normal_force = 749, find friction max.",
+     "a": "40446",
+     "self_check": false
+    },
+    {
+     "q": "For Friction: Static, Kinetic and Rolling: given mu_s = 75, normal_force = 870, find friction max.",
+     "a": "65250",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

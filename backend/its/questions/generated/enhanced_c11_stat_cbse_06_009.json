@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario (Indian context) where quartile deviation would be the most appropriate measure of dispersion, and explain why range, mean deviation, and standard deviation would be unsuitable.",
      "a": "Example: Analyzing income distribution in a village where the top 5% earners have extremely high incomes (open-ended upper class). Quartile deviation uses Q1 and Q3 which are well-defined even with open ends. Range is distorted by the open end; mean deviation and standard deviation require a mean which cannot be computed without assuming class limits. A poor answer gives a scenario without open ends or extreme skew, missing the specific condition that necessitates quartile deviation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comparison of different measures of dispersion involves evaluating the suitability, merits, and limitations of range, quartile deviation, mean deviation, standard deviation, and their relative ______ (coefficients) to select the most appropriate measure for a given data set and analytical purpose.",
+     "a": "counterparts",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer comparing the ______ of yield (in kg per acre) from two different wheat varieties over 10 years.",
+     "a": "consistency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer comparing the consistency of yield (in kg per acre) from two different wheat varieties over ______ years.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can justify the choice of a specific measure of dispersion for a given real-world data set (e.g., open-ended classes, presence of outliers, need for algebraic treatment) and explain why other measures are less appropriate.",
+     "self_check": true
     }
    ]
   }

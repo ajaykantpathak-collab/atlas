@@ -43,7 +43,16 @@
      "q": "Ethanol is blended into Indian petrol at up to what percent: ten or fifty?",
      "a": "ten"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "biofuel_volume = fuel_volume * blend_pct / 100",
+     "compute": "biofuel_volume = fuel_volume * blend_pct / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt112.2",
@@ -164,7 +173,16 @@
      "q": "Transgenic eucalyptus harvests in five and a half years instead of how many: seven or seventeen?",
      "a": "seven"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "years_saved = traditional_years - gm_years",
+     "compute": "years_saved = traditional_years - gm_years"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt112.5",
@@ -327,7 +345,16 @@
      "q": "Synthetic biology was announced at MIT in which year: 2004 or 1994?",
      "a": "2004"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "time_saved = old_time - new_time",
+     "compute": "time_saved = old_time - new_time"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

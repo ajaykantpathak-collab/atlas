@@ -1,3 +1,4 @@
+import os
 """
 Regenerate 4 problematic Elective English sub-node files with VERIFIED poem texts.
 All texts cross-verified from poets.org (Academy of American Poets), allpoetry.com,
@@ -10,7 +11,7 @@ worked_examples, question_bank, drill_banks) for these 4 poets.
 import json, sys, time, urllib.request, ssl, re, os
 from pathlib import Path
 
-API_KEY = 'sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK'
+API_KEY = os.environ.get('ANTHROPIC_API_KEY') or ''
 API_URL = 'https://api.claudeopus.pro/v1/messages'
 MODEL = 'claude-opus-5'
 MAX_TOKENS = 128000

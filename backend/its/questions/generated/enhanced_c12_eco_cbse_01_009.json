@@ -34,6 +34,21 @@
      "q": "Construct a circular flow diagram for a simple economy where households own all factors of production and firms produce only one good: wheat. Label all four factor payments and both real flows. Then explain what happens to the circular flow if households decide to save ₹10,000 of their income.",
      "a": "Expected diagram: Two circles labeled \"Households\" and \"Firms\". Arrows: Households → Firms labeled \"Factor services (land, labour, capital, entrepreneurship)\" [Real flow]; Firms → Households labeled \"Wheat (goods)\" [Real flow]; Firms → Households labeled \"Rent, Wages, Interest, Profit\" [Money flow]; Households → Firms labeled \"Consumption expenditure\" [Money flow]. Explanation: If households save ₹10,000, consumption expenditure falls by ₹10,000. Firms receive less revenue, so they cannot pay the full ₹10,000 in factor payments. Factor incomes fall, leading to further reduction in consumption — the circular flow shrinks. This leakage (saving) breaks the equality of real and money flows unless matched by an injection (investment). A poor answer draws the diagram incorrectly (wrong directions, missing factor payments) or says \"saving doesn't affect the circular flow\" — revealing the student doesn't yet grasp leakages/injections (covered in next node).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The circular flow of income ______ the continuous movement of goods, services, factor services, and money payments between households and firms in an economy.",
+     "a": "illustrates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a local dairy farm (firm) that ______ milk.",
+     "a": "produces",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) draw and label a two-sector circular flow diagram showing both real and money flows with correct directional arrows, (2) explain why real flow and money flow are equal in value but opposite in direction, and (3) identify the four factor payments and match each to its corresponding factor of production.",
+     "self_check": true
     }
    ]
   }

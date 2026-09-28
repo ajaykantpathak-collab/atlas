@@ -34,6 +34,26 @@
      "q": "Create a data set of 6 whole numbers between 0 and 20 whose dot plot has a mean of 12 but no dot at 12. Draw the dot plot and explain how you know the mean is 12 using the balancing idea.",
      "a": "Example: 8, 10, 11, 13, 14, 16. Sum = 72, mean = 12. Dot plot: dots at 8,10,11,13,14,16. Distances left: (12-8)=4, (12-10)=2, (12-11)=1 → total 7. Right: (13-12)=1, (14-12)=2, (16-12)=4 → total 7. Balanced. A poor answer that puts a dot at 12 or fails to balance distances shows the student thinks the mean must be a data point or cannot design a set satisfying the balance condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A dot plot displays each data value as a dot above a number line; the mean is the balance point where the sum of distances of dots to the left equals the sum of distances to the right, so the total signed ______ from the mean is zero.",
+     "a": "deviation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and four friends scored 12, 15, 14, 16, and 13 runs in a cricket ______.",
+     "a": "match",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a dot plot, the student can locate the mean by balancing deviations and can verify it by calculating the arithmetic average, explaining why the two methods give the same result.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you and four friends scored 12, 15, 14, 16, and 13 runs in a cricket match.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

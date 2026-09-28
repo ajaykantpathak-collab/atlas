@@ -34,6 +34,21 @@
      "q": "Design a simple hypothesis for an investigation using only household items (no lab equipment) that tests a physics concept from Class 6 or 7 (electricity, heat, light, motion). Write it in \"If... then... because...\" format with measurable variables and units.",
      "a": "Example: \"If I increase the number of cells in a series circuit (1, 2, 3 cells), then the brightness of an LED (measured by a homemade light sensor using an LDR and multimeter in kΩ) will increase because more cells provide higher voltage, pushing more current through the LED.\" Variables: independent = number of cells (count), dependent = LDR resistance (kΩ) as proxy for brightness, controlled = LED type, wire length, ambient light. A poor answer uses unmeasurable variables, lacks reasoning, or chooses a non-physics concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A hypothesis is a tentative, testable explanation or prediction that proposes a relationship between variables based on prior observations or scientific knowledge, which can be supported or refuted through controlled ______.",
+     "a": "experimentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ceiling fan: when you change the ______ knob from 1 to 5, the fan speeds up.",
+     "a": "regulator",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can formulate a testable hypothesis in \"If... then... because...\" format that identifies independent and dependent variables with measurable units, and explains the scientific reasoning linking them using concepts from prior physics topics.",
+     "self_check": true
     }
    ]
   }

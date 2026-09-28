@@ -17,7 +17,7 @@
     },
     {
      "q": "A pharmaceutical company isolates a compound from a rare Himalayan plant used by local healers for altitude sickness. They file a patent on the compound's use for treating hypoxia, citing their own lab tests as evidence of efficacy. The healers' knowledge is not documented in any digital database. Does this constitute biopiracy? Justify using the Nagoya Protocol's core principles.",
-     "a": "Yes, this is biopiracy. The Nagoya Protocol requires (1) prior informed consent (PIC) from the indigenous community, (2) mutually agreed terms (MAT) for benefit-sharing, and (3) compliance with domestic access legislation (India's Biological Diversity Act 2002). The company obtained none of these. The absence of digital documentation does not negate the community's rights; TKDL exists precisely to prevent such exploitation by making traditional knowledge searchable as prior art. A wrong answer claiming \"no biopiracy because the compound was isolated in the lab\" confuses *discovery* of a molecule with *invention* of its therapeutic use — the inventive step relied entirely on the healers' lead, which was appropriated without acknowledgement.",
+     "a": "Yes, this is biopiracy. The Nagoya Protocol requires (1) prior informed consent (PIC) from the indigenous community, (2) mutually agreed terms (MAT) for benefit-sharing, and (3) compliance with domestic access legislation (India's Biological Diversity Act 2002). The company obtained N/A of these. The absence of digital documentation does not negate the community's rights; TKDL exists precisely to prevent such exploitation by making traditional knowledge searchable as prior art. A wrong answer claiming \"no biopiracy because the compound was isolated in the lab\" confuses *discovery* of a molecule with *invention* of its therapeutic use — the inventive step relied entirely on the healers' lead, which was appropriated without acknowledgement.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a 3-step community-level protocol for a village in the Western Ghats to protect their traditional knowledge of a wild edible fruit with potential nutraceutical value, using only existing Indian legal frameworks (Biological Diversity Act, TKDL, GI Act). Explain how each step addresses a specific biopiracy vulnerability.",
      "a": "Step 1: **Document & Register with BMC** — The village Biodiversity Management Committee (BMC) prepares a People's Biodiversity Register (PBR) entry for the fruit, recording local names, uses, harvest practices, and cultural significance. *Addresses vulnerability*: Creates legal evidence of prior art and community ownership under the Biological Diversity Act 2002, enabling benefit-sharing claims if a company accesses the resource. Step 2: **Submit to TKDL for Inclusion** — The BMC works with the State Biodiversity Board to format the PBR data into TKDL-compatible structure (IPC codes, keywords) for upload. *Addresses vulnerability*: Makes the knowledge searchable by international patent examiners, blocking novelty-based patents on the fruit's traditional uses. Step 3: **Pursue Geographical Indication (GI) Tag** — If the fruit's quality/reputation is essentially attributable to the Western Ghats' geography and traditional processing, file a GI application under the Geographical Indications of Goods Act 1999. *Addresses vulnerability*: Prevents trademark-style misappropriation (like \"Basmati\") by legally linking the product name to its terroir and traditional method. A poor answer that suggests \"just patent it themselves\" shows misunderstanding: patents require novelty/inventive step — traditional knowledge *cannot* be patented by the community because it lacks novelty; the goal is *defensive* protection, not offensive patenting.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biopiracy is the ______ commercial exploitation of indigenous biochemical or genetic resources and associated traditional knowledge without fair compensation, prior informed consent, or benefit-sharing with the originating communities.",
+     "a": "unauthorized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer in Punjab who has cultivated Basmati rice for ______ using traditional seed selection methods.",
+     "a": "generations",
+     "self_check": true
+    },
+    {
+     "q": "What is Biopiracy? State the definition given in this lesson.",
+     "a": "Biopiracy is the unauthorized commercial exploitation of indigenous biochemical or genetic resources and associated traditional knowledge without fair compensation, prior informed consent, or benefit-sharing with the originating communities.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biopiracy?",
+     "a": "Students often think biopiracy only occurs when a *patent is granted* on a natural product.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish biopiracy from legitimate bioprospecting by identifying the absence of prior informed consent, mutually agreed terms, and benefit-sharing, and (2) evaluate a given case study to determine whether it constitutes biopiracy by applying the three criteria of novelty, non-obviousness, and utility in patent law.",
      "self_check": true
     }
    ]

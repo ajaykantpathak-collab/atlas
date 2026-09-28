@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using fast-growing plants (e.g., mustard) to demonstrate natural selection in a classroom over 3-4 generations. Specify the selective pressure, measurable trait, and expected outcome.",
      "a": "Selective pressure: Drought (water once a week vs daily). Measurable trait: Root length / days to wilting. Procedure: Grow 100 plants from mixed seeds (genetic variation). Apply drought. Collect seeds only from survivors (top 20% root length). Repeat for 3 generations. Expected: Average root length increases. A poor answer (e.g., \"measure height of all plants\") misses the core of selection — differential reproduction based on heritable variation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Darwin's theory of natural selection proposes that evolution occurs through the ______ survival and reproduction of individuals due to variations in heritable traits, where organisms with advantageous traits are more likely to survive, reproduce, and pass those traits to offspring, leading to gradual adaptation of populations to their environment over generations.",
+     "a": "differential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bacterial culture on an agar plate with an antibiotic gradient: most bacteria die near the antibiotic source, but a few colonies survive and ______.",
+     "a": "multiply",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state all four postulates of Darwin's natural selection in correct sequence, explain how each postulate logically connects to the next, and apply the framework to a novel biological scenario (e.g., antibiotic resistance, industrial melanism) to predict evolutionary outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ culture on an agar plate with an antibiotic gradient: most bacteria die near the antibiotic source, but a few colonies survive and multiply.",
+     "a": "bacterial",
+     "self_check": true
     }
    ]
   }

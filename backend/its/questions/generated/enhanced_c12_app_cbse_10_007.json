@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_10_007",
+   "title": "c12_app_cbse_10_007",
+   "questions": [
+    {
+     "q": "State the Fundamental Theorem of Linear Programming (Theorem 1) in your own words. What does it say about where the optimal value of Z = ax + by must occur?",
+     "a": "**Correct Answer:** The Fundamental Theorem of Linear Programming states that if a linear programming problem has an optimal value (maximum or minimum), it must occur at a corner point (vertex) of the feasible region. A corner point is the intersection of two boundary lines of the constraints.\n\n**What a wrong answer reveals:** If a student says \"anywhere in the feasible region\" or \"at the center,\" they confuse feasible solutions with optimal solutions. If they say \"only at the origin,\" they misunderstand non-negativity constraints. This misconception leads to checking random interior points instead of vertices, wasting time and missing the correct answer in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves an LPP and finds the feasible region is unbounded. They evaluate Z at all corner points and find a minimum value of 15 at point (2,3). They conclude \"Minimum Z = 15.\" Is this conclusion always correct? Explain why or why not using Theorem 2.",
+     "a": "**Correct Answer:** No, the conclusion is not always correct. Theorem 2 states: If the feasible region is unbounded, a minimum (or maximum) value **may not exist**. Even if a corner point gives Z = 15, we must verify by drawing the half-plane Z < 15 (for minimization) and checking if it has any point in common with the feasible region. If the open half-plane Z < 15 intersects the feasible region, then Z can go lower than 15, and no minimum exists.\n\n**What a wrong answer reveals:** If a student says \"Yes, it's always correct because Theorem 1 says optimum is at a corner,\" they confuse Theorem 1 (optimum *if it exists* is at a corner) with Theorem 2 (existence is not guaranteed for unbounded regions). This is a classic JEE/NEET trap — students forget the verification step for unbounded regions and lose marks.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the following LPP graphically using the Corner-Point Method:  \nMaximize Z = 4x + 3y  \nSubject to:  \nx + y ≤ 6  \n2x + y ≤ 8  \nx ≥ 0, y ≥ 0  \nShow all steps: plotting constraints, finding corner points, evaluating Z.",
+     "a": "**Correct Answer with Steps:**  \n1. **Plot constraints:**  \n   - x + y = 6 → intercepts (6,0), (0,6); region toward origin (0+0≤6 ✓)  \n   - 2x + y = 8 → intercepts (4,0), (0,8); region toward origin (0+0≤8 ✓)  \n   - x ≥ 0, y ≥ 0 → first quadrant  \n2. **Feasible region:** Bounded polygon OABCO with vertices O(0,0), A(4,0), B(2,4), C(0,6).  \n   - B is intersection of x+y=6 and 2x+y=8: subtract → x=2, then y=4.  \n3. **Evaluate Z = 4x + 3y at each corner:**  \n   - O(0,0): Z = 0  \n   - A(4,0): Z = 16  \n   - B(2,4): Z = 8 + 12 = **20 (Maximum)**  \n   - C(0,6): Z = 18  \n4. **Optimal solution:** x = 2, y = 4, Max Z = 20.\n\n**What a wrong answer reveals:** If a student gets corner point B wrong (e.g., solves equations incorrectly: x=3, y=3), they make an algebraic error. If they miss corner point O or C, they don't understand \"all corner points.\" If they pick Z=18 at C as max, they miscalculate 4(2)+3(4)=20. Board exams deduct marks for each missed step.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the LPP: Minimize Z = 3x + 5y subject to x + 3y ≥ 3, x + y ≥ 2, x,y ≥ 0.  \nThe feasible region is unbounded. Corner points are A(3,0), B(1.5,0.5), C(0,2). Z values: A=9, B=7, C=10.  \nA student says \"Minimum Z = 7 at B(1.5, 0.5).\" What **additional verification step** is required, and how is it performed? Show the check.",
+     "a": "**Correct Answer:** For unbounded feasible regions, we must verify that the minimum value actually exists.  \n**Verification step:** Draw the line 3x + 5y = 7 (the candidate minimum). Check the open half-plane 3x + 5y < 7. If this half-plane has **no point in common** with the feasible region, then 7 is the true minimum. If it has common points, Z can go lower → no minimum exists.  \n**Check:** The line 3x + 5y = 7 passes through B(1.5, 0.5). The half-plane 3x + 5y < 7 is the side toward the origin. Test origin (0,0): 0 < 7 → origin satisfies. But origin is NOT in the feasible region (fails x+3y≥3 and x+y≥2). The half-plane 3x+5y<7 does not intersect the feasible region (it lies \"below\" the feasible region). Hence, **minimum Z = 7 at B(1.5, 0.5) is valid.**\n\n**What a wrong answer reveals:** If a student skips this check, they assume existence — a fatal error in competitive exams. If they test the wrong half-plane (e.g., 3x+5y > 7), they confuse maximization/minimization direction. This exact verification appears in CBSE 2020, 2022 papers.",
+     "self_check": true
+    },
+    {
+     "q": "An LPP has constraints: x + y ≤ 5, x - y ≥ 3, x ≥ 0, y ≥ 0. The objective is Maximize Z = 2x + y.  \nA student plots the constraints and says \"Feasible region is empty — no solution.\" Another student says \"There is a feasible region, and Z is maximized at (4,1).\" Who is correct? Analyze the constraints to justify.",
+     "a": "**Correct Answer:** The **second student is correct**.  \n**Analysis:**  \n- x + y ≤ 5 → region below line through (5,0), (0,5)  \n- x - y ≥ 3 → x - y = 3 passes through (3,0), (0,-3); region above this line (test origin: 0≥3 ✗)  \n- x ≥ 0, y ≥ 0 → first quadrant  \nIntersection: x - y ≥ 3 ⇒ x ≥ y + 3. Combined with x + y ≤ 5 ⇒ (y+3) + y ≤ 5 ⇒ 2y ≤ 2 ⇒ y ≤ 1.  \nAlso y ≥ 0. So feasible region exists: e.g., (4,1) satisfies 4+1=5≤5, 4-1=3≥3. Corner points: (3,0), (4,1), (5,0).  \nZ at (3,0)=6, (4,1)=9, (5,0)=10 → Max Z = 10 at (5,0).  \n**First student's error:** They likely tested origin for x - y ≥ 3 (fails) and assumed the feasible region is away from origin, missing that the intersection of half-planes in Q1 is non-empty.\n\n**What a wrong answer reveals:** If a student says \"first student is correct,\" they don't know how to find intersection of half-planes when one doesn't contain the origin. This tests the ability to analyze constraint interactions — a key skill for \"infeasible region\" detection in board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-life LPP scenario (Indian context) with two decision variables, three non-trivial constraints, and a minimization objective. Formulate it mathematically, then describe how you would solve it using the Iso-Cost Method. Explain how you choose the initial iso-cost line value.",
+     "a": "**Expected Answer Criteria:**  \n- **Scenario:** E.g., \"A farmer mixes two fertilizers A (₹50/kg, 10% N, 5% P) and B (₹40/kg, 5% N, 10% P). Needs at least 100 kg N and 80 kg P. Minimize cost.\"  \n- **Formulation:** Minimize Z = 50x + 40y s.t. 0.1x + 0.05y ≥ 100, 0.05x + 0.1y ≥ 80, x,y ≥ 0.  \n- **Iso-Cost Method steps:** (1) Plot constraints, find feasible region (unbounded). (2) Choose initial Z value — **use LCM of coefficients (50,40) = 200, or a convenient multiple like 2000** to get integer intercepts: 50x+40y=2000 → (40,0), (0,50). (3) Draw line, move parallel toward origin (minimization). (4) Last point of contact with feasible region is optimal corner. (5) Find coordinates by solving binding constraints, compute Z.  \n- **Initial value choice:** LCM(a,b) or multiple thereof ensures easy plotting; any value works but LCM avoids fractions.\n\n**What a poor answer reveals:** If the student uses maximization instead of minimization, or chooses Z=100 (giving fractional intercepts like 50x+40y=100 → (2,0), (0,2.5)), they don't understand the practical plotting advantage of LCM. If they say \"move away from origin for minimization,\" they confuse the direction. This tests synthesis of formulation + method selection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

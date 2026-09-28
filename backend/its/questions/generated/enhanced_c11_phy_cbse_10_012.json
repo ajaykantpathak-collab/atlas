@@ -34,6 +34,31 @@
      "q": "Design a simple school-lab experiment to compare the thermal conductivities of aluminium, copper, and steel rods of identical dimensions using only hot water, thermometers, and a stopwatch. Describe the procedure, measurements, and how you would calculate K from the data.",
      "a": "Procedure: Use identical rods (same L, A) with one end in boiling water (100°C) and the other end in contact with a thermometer embedded in a small insulated water bath (known mass m, specific heat c). Measure temperature rise ΔT of the cold bath over time Δt. Heat current H = mcΔT/Δt. Then K = HL/(AΔT_rod) where ΔT_rod ≈ 100°C - T_cold_bath (assuming small ΔT). Repeat for each metal. Best answer includes: insulating the sides, using same Δt for comparison, accounting for heat losses. A poor answer ignores side losses or assumes the cold bath stays at constant temperature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Thermal ______ (K) is a material property that quantifies the ability of a substance to conduct heat, defined as the rate of heat flow per unit area per unit temperature gradient under steady-state conditions.",
+     "a": "conductivity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This everyday observation reveals that ______ differ in their ability to transfer heat.",
+     "a": "materials",
+     "self_check": true
+    },
+    {
+     "q": "What is Thermal conductivity (K)? State the definition given in this lesson.",
+     "a": "Thermal conductivity (K) is a material property that quantifies the ability of a substance to conduct heat, defined as the rate of heat flow per unit area per unit temperature gradient under steady-state conditions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Thermal conductivity (K)?",
+     "a": "Students treat thermal conductivity K as an intensive property that adds directly in series (like \"total K = K₁ + K₂\"), confusing it with electrical conductance.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the heat current through a composite rod in series, determine the temperature at the junction of two different materials, and compute the equivalent thermal conductivity of the combination, given individual conductivities, dimensions, and end temperatures.",
+     "self_check": true
     }
    ]
   }

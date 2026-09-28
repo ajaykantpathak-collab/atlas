@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_03_004",
+   "title": "c11_leg_cbse_03_004",
+   "questions": [
+    {
+     "q": "What is the constitutional time limit within which Parliament must approve an Ordinance promulgated by the President under Article 123, and what happens if it fails to do so?",
+     "a": "Parliament must approve the Ordinance within six weeks of its reassembly. If it fails to do so, the Ordinance lapses and ceases to operate. A wrong answer (e.g., \"3 months\" or \"it becomes an Act automatically\") reveals the student confuses Ordinance duration with session gaps or misses the *lapsing* mechanism — a critical procedural safeguard against executive overreach.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Money Bill *cannot* be introduced in the Rajya Sabha, and what happens if the Rajya Sabha disagrees with a Money Bill passed by the Lok Sabha.",
+     "a": "Article 109 mandates Money Bills originate only in Lok Sabha because it represents the people directly and controls the purse — a core legislative function. Rajya Sabha can only *recommend* amendments within 14 days; Lok Sabha may accept or reject them. If Rajya Sabha does not return it in 14 days, it is deemed passed. A wrong answer (e.g., \"Rajya Sabha can reject it\" or \"President decides\") shows the student misses the *asymmetric procedural design* that protects financial accountability to the directly elected House.",
+     "self_check": true
+    },
+    {
+     "q": "A Bill is passed by both Houses of Parliament and sent to the President. The President withholds assent and returns it with a message for reconsideration. Parliament passes it again, *without any changes*, and resends it. What is the President *constitutionally bound* to do under Article 111?",
+     "a": "The President *must* give assent. Article 111 provides a \"suspensive veto\" — the President can return a Bill *once* for reconsideration. If Parliament repasses it (with or without changes), assent is obligatory. A wrong answer (e.g., \"President can still refuse\" or \"pocket veto applies\") reveals confusion between India's *qualified veto* and the US *absolute/pocket veto* — a classic senior-secondary error in comparative procedure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the judicial review scope of the Supreme Court under Article 32 (Fundamental Rights) and Article 136 (Special Leave Petition). In what *procedural* way does Article 136 expand the Court's separation-of-powers role beyond Article 32?",
+     "a": "Article 32 is a *fundamental right* itself — the Court *cannot refuse* to hear a Fundamental Rights violation (mandatory jurisdiction). Article 136 is *discretionary* — the Court *may* grant special leave against *any* judgment/order from *any* court/tribunal, covering statutory, administrative, and constitutional matters. This discretion lets the Judiciary check Executive/Legislative excess *beyond* Fundamental Rights (e.g., statutory interpretation, tribunal errors), making it the primary tool for *systemic* judicial oversight. A wrong answer conflating the two (e.g., \"both are mandatory\") misses the *procedural gatekeeping* that defines judicial power in practice.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Delegated legislation violates separation of powers because the Executive makes laws, which is the Legislature's exclusive function.\" Use Article 123 and the concept of \"policy and principle\" to justify your answer.",
+     "a": "The statement is *partially correct but constitutionally inaccurate*. Delegated legislation is *expressly permitted* by the Constitution: Parliament lays down the *legislative policy and principle* (essential function), and delegates *detail-filling* (subsidiary function) to the Executive. Article 123 Ordinances are a *temporary, emergency* form of executive law-making, subject to Parliamentary approval within 6 weeks. The *check* is procedural: subordinate legislation must be laid before Parliament, which can modify/annul it. Thus, separation of powers is maintained through *procedural control*, not functional prohibition. A wrong answer calling it \"unconstitutional\" ignores the *textual sanction* and *pragmatic necessity* recognized by the Constituent Assembly.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart (describe in text) showing the *complete procedural path* of a Constitutional Amendment Bill under Article 368, including all inter-organ checks (Executive, Legislative, Judicial). Highlight where the Basic Structure doctrine (Kesavananda Bharati) acts as a *judicial check on the constituent power*.",
+     "a": "Flowchart: (1) Introduction in either House (Legislative initiation) → (2) Passed by *special majority* (2/3 present & voting + majority of total membership) in *each* House (Internal legislative check) → (3) If affecting federal provisions (Art. 368 proviso): Ratification by ≥1/2 State Legislatures (Federal check) → (4) Presented to President (Executive check: *must* assent, no veto power under Art. 368) → (5) Becomes Constitutional Amendment Act → (6) *Judicial Review*: Supreme Court can strike it down if it violates *Basic Structure* (Kesavananda Bharati) — this is the *ultimate check* on Parliament's constituent power. A poor answer omits State ratification, President's obligatory assent, or fails to place Basic Structure review as a *post-enactment judicial check* on the amendment *itself*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

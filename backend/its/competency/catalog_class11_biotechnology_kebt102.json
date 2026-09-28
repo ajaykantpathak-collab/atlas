@@ -123,7 +123,16 @@
      "q": "A membrane runs 52 percent protein and 40 percent lipid. What percent do other components hold?",
      "a": "8"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "other_share = 100 - protein_pct - lipid_pct",
+     "compute": "other_share = 100 - protein_pct - lipid_pct"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt102.4",
@@ -243,7 +252,16 @@
      "q": "The eukaryotic 80S ribosome splits into 60S and which subunit?",
      "a": "40S"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "small_subunit = total_s - large_s",
+     "compute": "small_subunit = total_s - large_s"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt102.7",
@@ -281,7 +299,16 @@
      "q": "How many peripheral doublets ring the cilium's axoneme?",
      "a": "9"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "microtubule_total = peripheral_doublets * 2 + central_single",
+     "compute": "microtubule_total = peripheral_doublets * 2 + central_single"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt102.8",
@@ -319,7 +346,16 @@
      "q": "How many pairs of chromosomes does a human body cell hold?",
      "a": "23"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gamete_count = somatic_total / 2",
+     "compute": "gamete_count = somatic_total / 2"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

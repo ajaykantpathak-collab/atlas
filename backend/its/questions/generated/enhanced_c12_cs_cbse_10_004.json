@@ -34,6 +34,21 @@
      "q": "Design a small Python function `save_records(filename, records, mode='w')` that accepts a filename, a list of strings `records`, and a mode (`'w'` or `'a'`), and writes each record as a new line in the file. The function should ensure newline termination for each record regardless of whether the input strings already end with `\\n`. Provide the complete function definition.",
      "a": "```python\ndef save_records(filename, records, mode='w'):\n    with open(filename, mode) as f:\n        for rec in records:\n            # Strip any existing trailing newline to avoid double newlines\n            line = rec.rstrip('\\n') + '\\n'\n            f.write(line)\n```\nAlternative using `writelines`:\n```python\ndef save_records(filename, records, mode='w'):\n    with open(filename, mode) as f:\n        f.writelines(rec.rstrip('\\n') + '\\n' for rec in records)\n```\nA poor answer might ignore the `rstrip` step, causing double newlines if input already has them, or forget to handle the `mode` parameter, showing incomplete understanding of file modes and newline normalization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The write() method writes a single string to an open file object, while the writelines() method writes an iterable of strings (e.g., a list) to the file; neither method ______ appends a newline character — the programmer must explicitly include \\n in the strings where line breaks are desired.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a simple expense tracker that saves each day's spending to a file so you can review it later.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write strings and lists of strings to a text file using write() and writelines(), manage newline insertion, choose the appropriate file mode ('w' or 'a'), and explain the difference in behavior between the two methods.",
+     "self_check": true
     }
    ]
   }

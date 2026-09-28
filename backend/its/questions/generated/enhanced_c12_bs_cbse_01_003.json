@@ -34,6 +34,31 @@
      "q": "Design a 3-level management structure for a new 200-bed multi-specialty hospital in a Tier-2 Indian city. Specify 2-3 designations at each level and one key function unique to that level in this context.",
      "a": "Top: Medical Director / CEO / Board of Trustees — Unique function: Define hospital's medical ethics charter, approve capital budget for MRI/CT equipment, tie up with insurance networks. Middle: Head of Surgery / Head of Nursing / Head of Administration / Head of Finance — Unique function: Create departmental SOPs (e.g., surgery scheduling protocol), manage nurse-patient ratios, negotiate vendor contracts for medicines. Lower: Ward Sister / OT Technician Supervisor / Billing Shift In-charge — Unique function: Ensure daily nurse roster coverage, verify surgical instrument sterilization logs, resolve patient billing disputes at counter. A strong answer shows contextual adaptation (e.g., \"Head of Nursing\" not \"HR Manager\" as middle level) and distinct functions per level. A weak answer copies generic factory designations without hospital-specific roles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Levels of Management refer to the hierarchical arrangement of managerial positions in an organisation, typically classified into three tiers — Top Management (strategic decision-makers like CEO, Board), Middle Management (departmental heads like Production Manager), and Lower/Operational Management (supervisors/foremen directly overseeing workforce) — each with distinct authority, ______, and time horizon for planning and execution.",
+     "a": "responsibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're appointed CEO of a mid-sized Indian textile company with 500 ______.",
+     "a": "employees",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On Day ______, you realise you cannot personally supervise every weaver, accountant, and salesperson — you need a structure.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly classify a given managerial role into top, middle, or lower level with justification based on authority, responsibility, and function, and (2) explain how the three levels interact through the scalar chain to achieve organisational objectives, using a real-world organisational example.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ CEO of a mid-sized Indian textile company with 500 employees.",
+     "a": "appointed",
+     "self_check": true
     }
    ]
   }

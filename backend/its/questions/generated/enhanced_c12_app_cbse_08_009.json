@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_08_009",
+   "title": "c12_app_cbse_08_009",
+   "questions": [
+    {
+     "q": "What is the relative price index number for a commodity in the base period itself, and why is it always that value regardless of the actual price?",
+     "a": "The relative price index for the base period is always **100**. This is because $I_0 = \\frac{p_0}{p_0} \\times 100 = 1 \\times 100 = 100$. A wrong answer (e.g., \"it depends on the price\" or \"it is the actual price\") reveals the student has not internalized that the index is a *ratio* normalized to 100, not the raw price itself. They are confusing the *value* with its *relative measure*.",
+     "self_check": true
+    },
+    {
+     "q": "In the crude oil example, the January 2010 index is 140. A student says: \"This means the price in January 2010 was 140% of the base price, so the increase is 140%.\" Is the student correct? Explain why or why not.",
+     "a": "The student is **incorrect**. The index 140 means the current price is 140% *of* the base price (i.e., 1.4 times the base price). The **percentage increase** is $140 - 100 = 40\\%$, not 140%. A wrong answer reveals the classic confusion between \"percentage *of*\" and \"percentage *increase over*\". The index value includes the base 100; the change is the deviation from 100.",
+     "self_check": true
+    },
+    {
+     "q": "The price of wheat was ₹1,200 per quintal in 2015 (base year) and ₹1,560 per quintal in 2023. Compute the relative price index for 2023 with 2015 as base. Then, if the 2024 price is ₹1,680, compute the 2024 index *using the same 2015 base*. What is the percentage increase from 2023 to 2024? (Hint: you cannot simply subtract the two indices.)",
+     "a": "**Step 1:** 2023 index = $\\frac{1560}{1200} \\times 100 = 130$. **Step 2:** 2024 index (base 2015) = $\\frac{1680}{1200} \\times 100 = 140$. **Step 3:** Percentage increase from 2023 to 2024 = $\\frac{1680 - 1560}{1560} \\times 100 = \\frac{120}{1560} \\times 100 \\approx 7.69\\%$. *Not* $140 - 130 = 10\\%$. A wrong answer (e.g., 10%) reveals the student thinks index differences directly give period-to-period percentage changes, which is false unless the base is the earlier period. Indices with a common fixed base are not chainable by subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "An index series for rice prices (base 2010 = 100) shows: 2012 = 115, 2014 = 125, 2016 = 110. A student claims: \"Prices fell between 2014 and 2016 because the index dropped from 125 to 110.\" Is this claim valid? Justify using the definition of a fixed-base index series.",
+     "a": "**Yes, the claim is valid.** In a fixed-base index series, every index is computed relative to the *same* base period (2010). Since $I_{2014} = 125$ means the 2014 price is 1.25 times the 2010 price, and $I_{2016} = 110$ means the 2016 price is 1.10 times the 2010 price, the 2016 price is lower than the 2014 price in absolute terms. The drop from 125 to 110 directly reflects a price decline. A wrong answer (e.g., \"we can't compare because base is 2010\") reveals the student misunderstands that a fixed-base series *enables* direct comparison of any two periods via their indices — the common denominator (base price) cancels out.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Relative index numbers are superior to simple aggregative index numbers because they are not affected by the units of measurement of commodities.\" Is this fully accurate? Explain with reference to the NCERT example of commodities A, B, C, D (Example 3 vs Example 4).",
+     "a": "The statement is **partially correct but incomplete**. Relative indices (price relatives) *are* unit-free because each commodity's index is a ratio of its own prices ($p_n/p_0$), so units cancel. However, the **simple average of relatives** (Example 4) gives equal weight to each commodity's relative, ignoring their economic importance (quantities/values). The NCERT shows commodity C (price ~₹148) dominates the simple aggregative index (Example 3), but in Example 4, C's relative (101) gets the same weight as A's (119) and D's (132), which may not reflect actual expenditure patterns. A \"superior\" index must also account for weights — which leads to weighted methods. A student missing this nuance thinks unit-invariance is the only criterion for a good index.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (Indian context) where a relative quantity index would be more informative than a relative price index. Specify the base period, current period, the variable measured, and explain what the index value would tell a policymaker.",
+     "a": "**Scenario:** The Ministry of Agriculture tracks **wheat procurement quantity** (in lakh metric tonnes) by FCI. Base period: 2018-19 (procurement = 341 LMT). Current period: 2023-24 (procurement = 262 LMT). Relative quantity index = $\\frac{262}{341} \\times 100 \\approx 76.8$. This tells the policymaker that procurement has **fallen 23.2% below the 2018-19 level**, signaling potential food stock concerns for PDS/buffer norms. A price index would not reveal this physical shortfall. A poor answer would use a price example or fail to explain why *quantity* (not price) is the relevant variable for stock adequacy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

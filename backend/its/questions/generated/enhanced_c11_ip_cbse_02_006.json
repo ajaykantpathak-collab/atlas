@@ -34,6 +34,26 @@
      "q": "Design a short Python snippet (3-4 lines) that demonstrates dynamic typing in a way that would be impossible in a statically typed language like C or Java. Explain why your snippet works in Python but not in those languages.",
      "a": "Example snippet:\n```python\ndata = 42\ndata = \"Answer\"\ndata = [1, 2, 3]\nprint(type(data))\n```\nIn Python, `data` is sequentially bound to an int, a str, and a list. In C/Java, a variable declared as `int` can only hold integers; assigning a string or array would be a compile-time error. A poor answer that only shows reassignment of same type (e.g., `x=5; x=10`) fails to demonstrate dynamic typing. A good answer must show binding to *different* types and explain that static typing fixes the variable's type at declaration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A variable in Python is a named reference to an object stored in memory; an ______ statement (using =) binds a variable name to an object, and dynamic typing means the variable's type is determined by the object it currently references and can change during execution.",
+     "a": "assignment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are labelling jars in a kitchen: you write \"sugar\" on a ______ note and stick it on a jar.",
+     "a": "sticky",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace a sequence of assignment statements, predict the type and value of each variable at every step, and explain how reassigning a variable to a different type demonstrates dynamic typing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ jars in a kitchen: you write \"sugar\" on a sticky note and stick it on a jar.",
+     "a": "labelling",
+     "self_check": true
     }
    ]
   }

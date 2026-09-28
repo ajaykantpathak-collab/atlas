@@ -1,0 +1,296 @@
+{
+ "catalog": "catalog_class12_accountancy_leca103.json",
+ "concepts": [
+  {
+   "id": "leca103.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "earned_basic = 59",
+      "allowance_pct = 13.8",
+      "allowance_amount = earned_basic * allowance_pct / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "earned_basic = 33",
+      "allowance_pct = 88",
+      "allowance_amount = earned_basic * allowance_pct / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "earned_basic = 18.1",
+      "allowance_pct = 2.7",
+      "allowance_amount = earned_basic * allowance_pct / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "earned_basic = 37",
+      "allowance_pct = 72",
+      "allowance_amount = earned_basic * allowance_pct / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "earned_basic = 83",
+      "allowance_pct = 25",
+      "allowance_amount = earned_basic * allowance_pct / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "earned_basic = 13",
+      "allowance_pct = 79",
+      "allowance_amount = earned_basic * allowance_pct / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "allowance_amount = earned_basic * allowance_pct / 100"
+   ]
+  },
+  {
+   "id": "leca103.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "earned_basic = 77",
+      "allowances_total = 99",
+      "transport_allowance = 82",
+      "gross_salary = earned_basic + allowances_total + transport_allowance"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "earned_basic = 33",
+      "allowances_total = 30",
+      "transport_allowance = 102",
+      "gross_salary = earned_basic + allowances_total + transport_allowance"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "earned_basic = 70",
+      "allowances_total = 111",
+      "transport_allowance = 46",
+      "gross_salary = earned_basic + allowances_total + transport_allowance"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "earned_basic = 98",
+      "allowances_total = 41",
+      "transport_allowance = 94",
+      "gross_salary = earned_basic + allowances_total + transport_allowance"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "earned_basic = 80",
+      "allowances_total = 20",
+      "transport_allowance = 100",
+      "gross_salary = earned_basic + allowances_total + transport_allowance"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "earned_basic = 37",
+      "allowances_total = 81",
+      "transport_allowance = 115",
+      "gross_salary = earned_basic + allowances_total + transport_allowance"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gross_salary = earned_basic + allowances_total + transport_allowance"
+   ]
+  },
+  {
+   "id": "leca103.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gross_salary = 29",
+      "total_deductions = 85",
+      "net_salary = gross_salary - total_deductions"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gross_salary = 46",
+      "total_deductions = 45",
+      "net_salary = gross_salary - total_deductions"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gross_salary = 19.9",
+      "total_deductions = 64",
+      "net_salary = gross_salary - total_deductions"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gross_salary = 30",
+      "total_deductions = 58",
+      "net_salary = gross_salary - total_deductions"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gross_salary = 0.9",
+      "total_deductions = 85",
+      "net_salary = gross_salary - total_deductions"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gross_salary = 9.2",
+      "total_deductions = 60",
+      "net_salary = gross_salary - total_deductions"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_salary = gross_salary - total_deductions"
+   ]
+  },
+  {
+   "id": "leca103.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "depreciable_amount = 56",
+      "life_years = 91",
+      "slm_amount = depreciable_amount / life_years"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "depreciable_amount = 83",
+      "life_years = 51",
+      "slm_amount = depreciable_amount / life_years"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "depreciable_amount = 98",
+      "life_years = 13.9",
+      "slm_amount = depreciable_amount / life_years"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "depreciable_amount = 83",
+      "life_years = 5.6",
+      "slm_amount = depreciable_amount / life_years"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "depreciable_amount = 54",
+      "life_years = 67",
+      "slm_amount = depreciable_amount / life_years"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "depreciable_amount = 79",
+      "life_years = 46",
+      "slm_amount = depreciable_amount / life_years"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "slm_amount = depreciable_amount / life_years"
+   ]
+  },
+  {
+   "id": "leca103.11",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "closing_gross = 49",
+      "closing_dep = 62",
+      "net_block = closing_gross - closing_dep"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "closing_gross = 38",
+      "closing_dep = 8.4",
+      "net_block = closing_gross - closing_dep"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "closing_gross = 42",
+      "closing_dep = 73",
+      "net_block = closing_gross - closing_dep"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "closing_gross = 24",
+      "closing_dep = 87",
+      "net_block = closing_gross - closing_dep"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "closing_gross = 19.6",
+      "closing_dep = 57",
+      "net_block = closing_gross - closing_dep"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "closing_gross = 5.5",
+      "closing_dep = 61",
+      "net_block = closing_gross - closing_dep"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_block = closing_gross - closing_dep"
+   ]
+  }
+ ]
+}

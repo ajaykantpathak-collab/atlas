@@ -34,6 +34,31 @@
      "q": "Design a Python function `find_all_orfs(dna_seq, min_length=30)` that takes a Biopython Seq object and returns a list of all ORFs (as Seq objects) longer than `min_length` amino acids in all six reading frames. Each ORF must start with 'M' and end with '*'. Include handling for the reverse complement strand.",
      "a": "```python\nfrom Bio.Seq import Seq\ndef find_all_orfs(dna_seq, min_length=30):\n    orfs = []\n    for strand, seq in [(1, dna_seq), (-1, dna_seq.reverse_complement())]:\n        for frame in range(3):\n            trans = seq[frame:].translate(table=1)\n            start = 0\n            while True:\n                start_idx = trans.find('M', start)\n                if start_idx == -1: break\n                stop_idx = trans.find('*', start_idx)\n                if stop_idx == -1: break\n                orf_protein = trans[start_idx:stop_idx+1]\n                if len(orf_protein) >= min_length:\n                    orfs.append(orf_protein)\n                start = start_idx + 1\n    return orfs\n```\nA poor answer that only checks three frames or doesn't use `reverse_complement()` reveals the student doesn't grasp that genes can be on either strand and that the reverse complement must be transcribed/translated separately.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sequence manipulation in biotechnology programming refers to the computational ______ of central dogma processes: transcription (converting a DNA coding strand sequence to mRNA by replacing thymine with uracil) and translation (converting mRNA codons to amino acid sequences using the standard genetic code), typically performed using Biopython's Seq object methods transcribe() and translate().",
+     "a": "implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have isolated a gene from a soil bacterium in your school lab and sequenced it — now you have a FASTA file with the DNA sequence \"______\".",
+     "a": "ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG",
+     "self_check": true
+    },
+    {
+     "q": "What is Sequence manipulation in biotechnology programming? State the definition given in this lesson.",
+     "a": "Sequence manipulation in biotechnology programming refers to the computational implementation of central dogma processes: transcription (converting a DNA coding strand sequence to mRNA by replacing thymine with uracil) and translation (converting mRNA codons to amino acid sequences using the standard genetic code), typically performed.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sequence manipulation in biotechnology programming?",
+     "a": "Students believe that Seq.translate() automatically finds the correct reading frame by scanning for the first ATG start codon.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code using Biopython to read a DNA sequence from a FASTA file, perform transcription to mRNA, translate to protein in all six reading frames, and identify the longest open reading frame (ORF) with correct start/stop codon handling.",
+     "self_check": true
     }
    ]
   }

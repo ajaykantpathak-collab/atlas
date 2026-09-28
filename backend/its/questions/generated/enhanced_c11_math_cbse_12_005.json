@@ -34,6 +34,21 @@
      "q": "Construct a real-world problem (using Indian context like distances between cities or coordinates of a building) where you need to find a point that divides a line segment externally in a given ratio. Provide the problem statement and solve it.",
      "a": "Example: \"Two mobile towers are located at coordinates (10, 20, 30) and (40, 50, 60) in a 3D grid (units in km). A relay station is to be placed on the line extending beyond the second tower such that its distance from the first tower is twice its distance from the second tower. Find its coordinates.\" Solution: Ratio 2:1 externally. Coordinates = \\(\\left( \\frac{2×40 - 1×10}{2-1}, \\frac{2×50 - 1×20}{2-1}, \\frac{2×60 - 1×30}{2-1} \\right)\\) = (70, 80, 90). A poor answer would use internal division or incorrectly assign the ratio, showing inability to translate the word problem into the correct mathematical ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The point R lies on the line PQ but outside the segment PQ, either beyond P or beyond Q ______ on whether m < n or m > n.",
+     "a": "depending",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a 3D model for a school project: two support pillars stand at ______ A(2, 3, 5) and B(8, 7, 11) in metres.",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the external division formula to find coordinates of a point dividing a line segment externally in a given ratio, distinguish between internal and external division based on the position of the point relative to the segment, and solve problems combining external division with distance formula or midpoint.",
+     "self_check": true
     }
    ]
   }

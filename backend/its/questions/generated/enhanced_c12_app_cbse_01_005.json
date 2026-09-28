@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_01_005",
+   "title": "c12_app_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the two equivalent conditions for $a \\equiv b \\pmod m$ to be true, where $a, b \\in \\mathbb{Z}$ and $m \\in \\mathbb{Z}^+$.",
+     "a": "**Correct answer:** (1) $a$ and $b$ leave the same remainder when divided by $m$ (i.e., $a \\bmod m = b \\bmod m$ with $0 \\le r < m$); (2) $m$ divides $a-b$ (i.e., $a-b = km$ for some integer $k$, written $m \\mid (a-b)$).\n**What a wrong answer reveals:** If a student only gives one condition, they haven't internalized the equivalence. If they say \"remainder is $a-b$\" or allow negative remainders (e.g., $-31 \\bmod 7 = -3$), they confuse the modulo *operator* (which always yields $0 \\le r < m$) with the remainder in a specific division algorithm step. This leads to errors in board exams (1-mark definition questions) and JEE (where negative mod handling is a frequent trap).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why $-68 \\bmod 12 = 4$ and not $-8$ or $8$. Use the definition $X = Y \\times Q + R$ with $0 \\le R < Y$.",
+     "a": "**Correct answer:** We need $Q, R \\in \\mathbb{Z}$ such that $-68 = 12 \\times Q + R$ and $0 \\le R < 12$. The multiple of 12 *just below* $-68$ is $-72 = 12 \\times (-6)$. Then $R = -68 - (-72) = 4$. So $Q = -6, R = 4$. $-8$ violates $R \\ge 0$; $8$ would require $-68 = 12 \\times Q + 8 \\implies 12Q = -76$, not an integer multiple.\n**What a wrong answer reveals:** Students often apply the \"positive remainder\" rule only for positive dividends. They compute $68 \\bmod 12 = 8$ and assume $-68 \\bmod 12 = -8$ or $8$. This is the **#1 error in modulo arithmetic** — forgetting that the modulo operator *always* returns a non-negative remainder in standard mathematical convention (and NCERT). In competitive exams, this sign error changes the final answer completely.",
+     "self_check": true
+    },
+    {
+     "q": "Find the remainder when $(127 \\times 137 \\times 23 \\times 50 \\times 235 \\times 15)$ is divided by $7$, using congruence properties. Show every step.",
+     "a": "**Correct answer with steps:**\n1. Reduce each factor modulo 7:\n   $127 \\div 7 = 18 \\times 7 + 1 \\Rightarrow 127 \\equiv 1 \\pmod 7$\n   $137 \\div 7 = 19 \\times 7 + 4 \\Rightarrow 137 \\equiv 4 \\pmod 7$\n   $23 \\div 7 = 3 \\times 7 + 2 \\Rightarrow 23 \\equiv 2 \\pmod 7$\n   $50 \\div 7 = 7 \\times 7 + 1 \\Rightarrow 50 \\equiv 1 \\pmod 7$\n   $235 \\div 7 = 33 \\times 7 + 4 \\Rightarrow 235 \\equiv 4 \\pmod 7$\n   $15 \\div 7 = 2 \\times 7 + 1 \\Rightarrow 15 \\equiv 1 \\pmod 7$\n2. Multiply the residues: $(1 \\times 4 \\times 2 \\times 1 \\times 4 \\times 1) \\bmod 7 = 32 \\bmod 7$.\n3. $32 = 4 \\times 7 + 4 \\Rightarrow 32 \\equiv 4 \\pmod 7$.\n**Final remainder: 4.**\n**What a wrong answer reveals:** If a student multiplies the original numbers first, they face overflow/calculation errors. If they incorrectly reduce (e.g., $137 \\bmod 7 = 3$), they miscompute the quotient. If they forget the final modulo reduction ($32$ instead of $4$), they confuse \"product of residues\" with \"final remainder\". This tests the multiplication property $(A \\times B) \\bmod C = ((A \\bmod C) \\times (B \\bmod C)) \\bmod C$ — a staple of board 3-mark questions and JEE Main.",
+     "self_check": true
+    },
+    {
+     "q": "Given $5 \\equiv 2 \\pmod 3$, use Property 5 ($a \\equiv b \\pmod m \\implies a^k \\equiv b^k \\pmod m$) to find $5^6 \\bmod 4$. Explain why we *cannot* directly apply Property 5 with modulus 3 to find the answer modulo 4.",
+     "a": "**Correct answer:**\nTo find $5^6 \\bmod 4$, first note $5 \\equiv 1 \\pmod 4$ (since $5 = 4 \\times 1 + 1$).\nBy Property 5: $5^6 \\equiv 1^6 \\equiv 1 \\pmod 4$. So $5^6 \\bmod 4 = 1$.\n**Why modulus 3 fails:** Property 5 preserves the *same* modulus: $a \\equiv b \\pmod m \\implies a^k \\equiv b^k \\pmod m$. Here $5 \\equiv 2 \\pmod 3$ gives info modulo 3, but we need modulo 4. Congruences modulo different moduli are independent; $5^6 \\equiv 2^6 \\equiv 64 \\equiv 1 \\pmod 3$ is true but irrelevant for $\\bmod 4$.\n**What a wrong answer reveals:** Students often think \"if $a \\equiv b \\pmod m$, then $a^k \\equiv b^k$ for *any* modulus\". They might compute $2^6 \\bmod 4 = 0$ and claim $5^6 \\bmod 4 = 0$. This confuses the modulus in the hypothesis with the target modulus. Board exams test this via \"Find $5^{100} \\bmod 6$\" where the trick is finding a base congruent to $\\pm 1$ modulo 6.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If $a \\equiv b \\pmod m$ and $c \\equiv d \\pmod m$, then $a^c \\equiv b^d \\pmod m$.\" Is this always true? If yes, prove it; if no, give a counterexample with $m=5$.",
+     "a": "**Correct answer:** **False.** Counterexample: $m=5$, $a=2, b=7$ (so $2 \\equiv 7 \\pmod 5$), $c=3, d=8$ (so $3 \\equiv 8 \\pmod 5$).\nThen $a^c = 2^3 = 8 \\equiv 3 \\pmod 5$, but $b^d = 7^8$. Now $7 \\equiv 2 \\pmod 5$, so $7^8 \\equiv 2^8 = 256 \\equiv 1 \\pmod 5$.\nSince $3 \\not\\equiv 1 \\pmod 5$, the claim fails.\n**Why it fails:** Property 5 only allows exponentiation by a *fixed integer* $k$ ($a^k \\equiv b^k$). It does **not** allow the exponent itself to vary within a congruence class. The exponent is not \"modulo $m$\" in the base; modular exponentiation follows Euler's theorem ($\\phi(m)$ cycle), not modulo $m$.\n**What a wrong answer reveals:** Students overgeneralize the property \"congruence can be multiplied\" to \"congruence can be exponentiated with congruent exponents\". This is a **JEE Advanced-level trap** — understanding that $a^b \\bmod m$ depends on $b \\bmod \\phi(m)$ (when $\\gcd(a,m)=1$), not $b \\bmod m$.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world scenario (Indian context) where congruence modulo $m$ naturally arises with $m \\notin \\{7, 12, 24, 60\\}$. Define the modulus, the congruence classes, and give a practical question solvable using congruence.",
+     "a": "**Expected answer (example):**\n**Scenario:** A metro train runs on a circular loop with **17 stations** numbered $0$ to $16$. The train moves forward one station every 3 minutes.\n**Modulus:** $m = 17$ (number of stations).\n**Congruence classes:** Station $k$ corresponds to class $[k]_{17} = \\{ \\dots, k-17, k, k+17, k+34, \\dots \\}$ — all times (in 3-min intervals) when the train is at station $k$.\n**Practical question:** \"If the train is at station 5 now (time $t=0$), at which station will it be after 1000 intervals (3000 minutes)?\"\n**Solution:** $5 + 1000 \\equiv 5 + 1000 \\bmod 17$. $1000 = 17 \\times 58 + 14 \\Rightarrow 1000 \\equiv 14 \\pmod{17}$. So station $= (5+14) \\bmod 17 = 19 \\bmod 17 = 2$.\n**What a poor answer reveals:** Using $m=7,12,24,60$ shows lack of transfer. Not defining classes as infinite sets shows incomplete understanding of equivalence classes. A question solvable without congruence (e.g., simple division) shows failure to create a *need* for the concept. This tests the competency \"model real-world periodic phenomena using modular arithmetic\" — a CBSE case-study pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

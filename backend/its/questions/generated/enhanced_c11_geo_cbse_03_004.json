@@ -34,6 +34,31 @@
      "q": "Design a simple schematic cross-section of Earth's interior showing the three major discontinuities. Annotate each boundary with: (i) its name, (ii) approximate depth, (iii) the seismic wave behavior that defines it (e.g., \"P-wave velocity jumps from 7 to 8 km/s\"), and (iv) one geodynamic process associated with it.",
      "a": "A good answer includes a neatly drawn concentric circle diagram with three labeled boundaries at roughly correct proportional depths (Moho very near surface, Gutenberg at ~2,900 km, Lehmann at ~5,150 km). Annotations: Moho – 5-70 km – P-wave velocity increase (crust to mantle) – isostatic adjustment/crustal differentiation; Gutenberg – 2,900 km – P-wave velocity drop, S-waves disappear (mantle to liquid outer core) – geodynamo/heat exchange; Lehmann – 5,150 km – P-wave velocity increase, S-waves reappear (liquid to solid inner core) – inner core growth/compositional convection. A poor answer (e.g., equal spacing, missing S-wave behavior, or wrong processes) reveals inability to visualize the scale of Earth's layers and link seismic observations to dynamic processes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Major ______ are sharp boundaries within Earth's interior where seismic wave velocities change abruptly due to sudden changes in density, composition, or physical state.",
+     "a": "discontinuities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you feel a slight tremor and later see a ______ on a news report showing jagged lines arriving at different times.",
+     "a": "seismogram",
+     "self_check": true
+    },
+    {
+     "q": "What is Major discontinuities? State the definition given in this lesson.",
+     "a": "Major discontinuities are sharp boundaries within Earth's interior where seismic wave velocities change abruptly due to sudden changes in density, composition, or physical state.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Major discontinuities?",
+     "a": "Students often think the Mohorovičić discontinuity is a single, fixed depth globally (e.g., \"30 km\") and confuse it with the crust-mantle boundary defined by composition alone.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) identify each discontinuity on a cross-sectional diagram of Earth's interior and state its approximate depth range; (2) explain how seismic wave behavior (refraction, reflection, conversion) at each boundary reveals the physical nature of the layers; (3) differentiate between the Moho's variable depth under continents.",
+     "self_check": true
     }
    ]
   }

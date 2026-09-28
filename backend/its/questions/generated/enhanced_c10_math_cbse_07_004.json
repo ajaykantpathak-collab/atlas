@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (using Indian context: rupees, metres, etc.) that requires the internal section formula to solve. The problem must involve finding either the dividing point or the ratio.",
      "a": "Example problem: \"Two water tanks A and B are located at coordinates (100 m, 200 m) and (400 m, 500 m) on a farm map. A pipe junction P is to be placed on the straight line connecting them such that the distance from A to P is 1/4 of the total distance from A to B. Find the coordinates of P.\" \nSolution: AP:PB = 1:3, so m=1, n=3. P = ((1·400+3·100)/4, (1·500+3·200)/4) = (700/4, 1100/4) = (175 m, 275 m). \nA poor answer would be a problem that doesn't specify internal division clearly, or uses external division, or doesn't require the formula (e.g., just midpoint). This tests if the student can distinguish internal division scenarios.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The section formula for internal division states that if a point P(x, y) divides the line segment joining two points A(x₁, y₁) and B(x₂, y₂) internally in the ratio m:n (where m, n > 0), then the ______ of P are given by x = (mx₂ + nx₁)/(m + n) and y = (my₂ + ny₁)/(m + n).",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A bus stop P is to be ______ such that the distance from A to P is twice the distance from P to B.",
+     "a": "built",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The section formula for internal division states that if a point P(x, y) divides the line segment joining two points A(x₁, y₁) and B(x₂, y₂) internally in the ratio m:n (where m, n > ______), then the coordinates of P are given by x = (mx₂ + nx₁)/(m + n) and y = (my₂ + ny₁)/(m + n).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the internal section formula to find coordinates of a point dividing a segment in a given ratio, find the ratio when coordinates are given, and solve multi-step problems combining distance formula and section formula.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create your own real-life word problem (Indian context) that requires distinguishing between direct and inverse proportion. Write the problem, state the two quantities involved, classify the proportion type, and solve it.",
      "a": "Example: *\"A school bus uses 15 litres of diesel to travel 180 km. (a) How much diesel for 300 km at the same speed? (b) If the bus travels 180 km at 60 km/h, it takes 3 hours. How long at 45 km/h?\"*\n(a) Diesel & distance: Direct (more distance → more diesel). \\(15/180 = x/300 \\Rightarrow x = 25\\) litres.\n(b) Speed & time: Inverse (fixed distance). \\(60 \\times 3 = 45 \\times t \\Rightarrow t = 4\\) hours.\nA poor answer gives two problems of the same type or misclassifies, showing inability to generate contrasting scenarios.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ between them requires analyzing whether the relationship between the quantities is \"more-more/less-less\" (direct) or \"more-less/less-more\" (inverse).",
+     "a": "Distinguishing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to buy samosas: if more students come, you need more samosas (direct ______).",
+     "a": "proportion",
+     "self_check": true
+    },
+    {
+     "q": "What is Two quantities? State the definition given in this lesson.",
+     "a": "Distinguishing between them requires analyzing whether the relationship between the quantities is \"more-more/less-less\" (direct) or \"more-less/less-more\" (inverse).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Two quantities?",
+     "a": "They see two numbers and a missing value and default to \"cross-multiply.\" The specific wrong step: writing a fraction equality without verifying if the quantities change in the same direction.",
+     "self_check": true
     }
    ]
   }

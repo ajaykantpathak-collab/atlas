@@ -34,6 +34,31 @@
      "q": "Create a pair of numbers whose HCF is 5. Explain how you found them.",
      "a": "Examples include 10 and 15, or 5 and 20. A good answer identifies that both numbers must have 5 as a prime factor. A poor answer (like 5 and 6) shows a guess-and-check approach without understanding the prime factor requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Prime ______ is the process of breaking down a composite number into a product of its prime number building blocks.",
+     "a": "factorisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two ribbons, one 12 cm long and the other 18 cm long, and you want to cut them into ______, equal-sized pieces without any waste.",
+     "a": "smaller",
+     "self_check": true
+    },
+    {
+     "q": "What is Prime factorisation? State the definition given in this lesson.",
+     "a": "Prime factorisation is the process of breaking down a composite number into a product of its prime number building blocks.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Prime factorisation?",
+     "a": "Students often stop factorising too early, such as writing 12 = 3 × 4 and claiming they are done.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to decompose any number up to 100 into its prime factors and identify the HCF of two numbers by comparing their prime factors.",
+     "self_check": true
     }
    ]
   }

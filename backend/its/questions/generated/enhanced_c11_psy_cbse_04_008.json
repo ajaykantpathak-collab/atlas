@@ -34,6 +34,31 @@
      "q": "Design a novel 2×2 stimulus array (describe it verbally) that would allow a researcher to test whether **Symmetry** or **Surroundedness** is the stronger grouping principle. Specify the predicted outcome if Symmetry dominates and if Surroundedness dominates.",
      "a": "Array: Four quadrants. Top-left: a symmetrical black diamond centred in a white square. Top-right: an asymmetrical black blob centred in a white square. Bottom-left: a white diamond centred in a black square (surrounded). Bottom-right: a white blob centred in a black square (surrounded).  \nIf **Symmetry dominates**: Top-left and bottom-left (both symmetrical) group together despite opposite polarity.  \nIf **Surroundedness dominates**: Top-left and top-right (both figure-on-ground) group together, and bottom-left and bottom-right (both ground-with-hole) group together.  \nA poor answer that merely lists principles without a concrete conflicting display shows inability to operationalise theoretical constructs for empirical test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Perceptual organisation refers to the innate tendency of the human perceptual system to structure discrete sensory elements (points, lines, colours) into coherent, meaningful wholes (forms, objects, patterns) governed by principles such as figure-ground segregation, proximity, similarity, continuity, closure, smallness, symmetry, and ______, where the perceived whole carries properties (e.g., configuration, meaning) not present in the sum of its isolated parts.",
+     "a": "surroundedness",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are scrolling through Instagram and see a post with a pattern of tiny dots ______ in rows and columns.",
+     "a": "arranged",
+     "self_check": true
+    },
+    {
+     "q": "What is Perceptual organisation? State the definition given in this lesson.",
+     "a": "Perceptual organisation refers to the innate tendency of the human perceptual system to structure discrete sensory elements (points, lines, colours) into coherent, meaningful wholes (forms, objects, patterns) governed by principles such as figure-ground segregation, proximity, similarity, continuity, closure, smallness, symmetry, and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Perceptual organisation?",
+     "a": "Students often believe that each Gestalt principle operates in isolation and that a single principle \"explains\" a given percept.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly label and define all eight Gestalt principles from novel visual displays, (2) explain why a given ambiguous figure (e.g., Rubin's vase) reverses between figure and ground using the principle of figure-ground segregation, and (3) predict how altering spacing, orientation, or enclosure in a stimulus array will.",
+     "self_check": true
     }
    ]
   }

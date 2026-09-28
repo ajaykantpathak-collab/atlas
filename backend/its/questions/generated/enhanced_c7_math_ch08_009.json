@@ -34,6 +34,21 @@
      "q": "Create a word problem involving lengths of cloth (in metres) where the solution requires setting up a division equation and then proving the answer is correct using a multiplication equation.",
      "a": "Expected response: \"A tailor has $5\\frac{1}{4}$ metres of ribbon and cuts it into pieces of $\\frac{3}{4}$ metre each. How many pieces are made? Division: $5\\frac{1}{4} \\div \\frac{3}{4} = \\frac{21}{4} \\times \\frac{4}{3} = 7$ pieces. Check: 7 pieces $\\times \\frac{3}{4}$ metre/piece = $\\frac{21}{4} = 5\\frac{1}{4}$ metres.\" A poor answer lacks a clear connection between the division setup and the multiplication verification step.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This inverse relationship allows us to convert any fraction division problem into an equivalent ______ problem.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: But how can you check if your answer is correct using what you already know about ______?",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can convert any fraction division expression into its corresponding multiplication form using reciprocals, verify division answers using multiplication, and solve multi-step problems that alternate between fraction multiplication and division.",
+     "self_check": true
     }
    ]
   }

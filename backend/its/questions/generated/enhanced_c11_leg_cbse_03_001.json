@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_03_001",
+   "title": "c11_leg_cbse_03_001",
+   "questions": [
+    {
+     "q": "What are the three dangerous combinations of powers that Montesquieu identified, and what specific tyranny does each combination enable?",
+     "a": "The three combinations are: (1) Legislative + Executive → same body makes tyrannical laws and executes them tyrannically; (2) Legislative + Judicial → judge becomes legislator, exposing life/liberty to arbitrary control; (3) Executive + Judicial → prosecutor and judge become same person, leading to violent/oppressive judging. A wrong answer (e.g., \"all combinations lead to corruption\") reveals the student memorized \"separation is good\" but doesn't grasp Montesquieu's specific *mechanism* of tyranny for each fusion — the core of his theory.",
+     "self_check": true
+    },
+    {
+     "q": "In the UK, the Prime Minister and Cabinet are members of Parliament. Does this violate separation of powers? Explain using Wade and Phillips' three meanings.",
+     "a": "No, it violates only the *first* meaning (same persons in multiple organs) but not the second (control/interference) or third (exercising another's function). The UK follows \"fusion of powers\" with checks: Parliament controls Executive via no-confidence, but judiciary is independent post-2005 Constitutional Reform Act. A wrong answer (\"yes, UK violates it\") reveals the student equates separation with *strict* US-style separation, missing that separation is a spectrum — the doctrine requires *functional* independence, not personal disjointedness.",
+     "self_check": true
+    },
+    {
+     "q": "The Indian President promulgates an Ordinance under Article 123 when Parliament is in recess. Identify which organ is exercising whose function, and explain why this is NOT a violation of separation of powers in India.",
+     "a": "The Executive (President on Cabinet's advice) exercises *legislative* function (law-making). This is permitted because: (a) Constitution explicitly authorizes it (Article 123); (b) Ordinance lapses unless approved by Parliament within 6 weeks; (c) India follows \"checks and balances\" not strict separation — the Executive's legislative power is *delegated*, *temporary*, and *legislature-controlled*. A wrong answer (\"violation because Executive makes laws\") shows the student applies US-style rigid separation to India's parliamentary system where controlled overlap is constitutional design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"checks and balances\" mechanism in the USA and India. Which system gives the Judiciary stronger *institutional* checks on the other two organs? Justify with two specific powers.",
+     "a": "USA gives stronger judicial checks: (1) US Supreme Court can strike down *any* Congressional law or Presidential action via judicial review (Marbury v. Madison); (2) US judges have life tenure, making them immune to political pressure. In India, judicial review exists but Parliament can amend Constitution (subject to basic structure), and judges retire at 65 with post-retirement appointments possible. A wrong answer (\"India has stronger checks because of basic structure doctrine\") confuses *substantive* limits (basic structure) with *institutional* independence — the US judiciary's structural insulation is stronger.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Strict separation of powers is impossible in a modern welfare state.\" Use the growth of delegated legislation and executive adjudication in India as evidence.",
+     "a": "The statement is *correct*. Modern welfare states require Executive to: (a) make detailed rules (delegated legislation) — e.g., GST rules, pollution norms; (b) adjudicate via tribunals (NCLT, CAT, NGT); (c) issue ordinances. India's Executive *performs* legislative and judicial functions *constitutionally*. Strict separation would paralyze governance — e.g., Parliament cannot debate every traffic rule. The defect isn't the overlap but *absence of safeguards*. A wrong answer (\"India violates separation of powers\") reveals the student treats the doctrine as a rigid rule rather than a *principle of controlled diffusion* — the textbook explicitly calls absolute separation \"hazardous.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Separation of Powers Health Check\" for a new democracy drafting its constitution. List 5 measurable indicators (not principles) to test if their system actually prevents tyranny.",
+     "a": "Good indicators: (1) % of laws struck down by judiciary in last 10 years (shows judicial review works); (2) Average tenure of judges vs. election cycles (shows independence); (3) Number of successful no-confidence motions vs. executive decrees (shows legislative control); (4) Existence of independent appointment commission for judges (not executive-controlled); (5) Ratio of delegated legislation subject to legislative veto vs. auto-enacted. A poor answer lists principles (\"independent judiciary\") not *measurable indicators* — revealing inability to operationalize theory for real-world constitutional design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

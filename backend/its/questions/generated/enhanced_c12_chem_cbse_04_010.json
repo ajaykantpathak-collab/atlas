@@ -34,6 +34,31 @@
      "q": "Design a comparison table with four rows that contrasts actinoids and lanthanoids on: (a) orbital involved, (b) shielding effectiveness, (c) oxidation state range, (d) magnetic moment complexity. Fill it with specific values or descriptors.",
      "a": "| Property | Lanthanoids | Actinoids |\n|---|---|---|\n| Orbital involved | 4f (buried) | 5f (less buried, more radial extension) |\n| Shielding effectiveness | 4f shields 4f moderately | 5f shields 5f poorly → greater contraction |\n| Oxidation state range | Mainly +3; few +2, +4 | +3 to +7; early members show high states |\n| Magnetic moment complexity | Spin-only formula works well (orbital contribution quenched) | Spin-only fails; orbital contribution significant → complex magnetic behaviour |\nA poor answer with vague entries (\"both have f orbitals\", \"both show contraction\") reveals the student cannot extract quantitative/qualitative distinctions from the text and treats the two series as chemically identical.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Actinoids are the 14 inner transition elements from Thorium (Z=90) to Lawrencium (Z=103) in which the 5f orbitals are progressively filled, along with Actinium (Z=89) which is ______ included; they are characterised by variable oxidation states (arising from comparable energies of 5f, 6d, and 7s orbitals), radioactivity, and significant participation of 5f electrons in chemical bonding unlike the more deeply buried 4f electrons of lanthanoids.",
+     "a": "conventionally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a smoke detector in an Indian home contains Americium-241 (an ______) that emits alpha particles to ionise air — when smoke enters, the current drops and the alarm sounds.",
+     "a": "actinoid",
+     "self_check": true
+    },
+    {
+     "q": "What is Actinoids? State the definition given in this lesson.",
+     "a": "Actinoids are the 14 inner transition elements from Thorium (Z=90) to Lawrencium (Z=103) in which the 5f orbitals are progressively filled, along with Actinium (Z=89) which is conventionally included; they are characterised by variable oxidation states (arising from comparable energies of 5f, 6d, and 7s orbitals), radioactivity, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: End by having them predict the most stable oxidation state for Uranium (+______ in UO₂²⁺) and explain why Th(IV) is stable but not Th(III).",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the general characteristics of actinoids including: (a) electronic configuration trends with irregularities at f⁰, f⁷, f¹⁴, (b) actinoid contraction and its cause (poor 5f shielding), (c) wider range of oxidation states compared to lanthanoids with early members showing higher states, (d) radioactivity trends.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple, quick classroom test to prove that green pigment is necessary for starch production in a variegated croton leaf.",
      "a": "A good answer proposes taking a destarched variegated leaf, exposing it to sunlight for a few hours, decolorizing it in boiling alcohol, washing it, and adding iodine solution. The expected observation is that only the areas that were originally green turn blue-black, while the white margins remain yellowish-brown. A poor answer fails to include the decolorization step with alcohol or lacks a control comparison between green and non-green patches.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Chlorophyll is a green pigment located inside the chloroplasts of plant cells that absorbs light energy (mostly blue and red wavelengths) and converts it into chemical energy to drive the process of ______.",
+     "a": "photosynthesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at a potted money plant on a sunny balcony in your home, you notice its bright green leaves soaking up ______.",
+     "a": "sunlight",
+     "self_check": true
+    },
+    {
+     "q": "What is Chlorophyll? State the definition given in this lesson.",
+     "a": "Chlorophyll is a green pigment located inside the chloroplasts of plant cells that absorbs light energy (mostly blue and red wavelengths) and converts it into chemical energy to drive the process of photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Chlorophyll?",
+     "a": "Students often think that chlorophyll itself is the food that plants manufacture, or they believe that chlorophyll absorbs green light because leaves are green, completely inverting the relationship between pigment color and light absorption.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can explain how chlorophyll captures light energy, identify why leaves appear green due to this pigment, and trace how this captured energy transforms into chemical energy during photosynthesis.",
+     "self_check": true
     }
    ]
   }

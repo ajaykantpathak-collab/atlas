@@ -34,6 +34,16 @@
      "q": "Create a word problem on \"ages\" that leads to the quadratic equation \\(x^2 - 4x - 21 = 0\\). Define the variable clearly and state the question.",
      "a": "Example: \"Ravi's age is \\(x\\) years. His father's age is \\(x^2 - 4x\\) years. If the product of their ages is 21 years more than the square of Ravi's age, find Ravi's age.\"  \nWait, that gives \\(x(x^2-4x) = x^2+21\\) which is cubic. Better: \"The sum of the ages of a father and son is 40 years. The product of their ages 5 years ago was 21. Find the present age of the son.\" Let son's age = \\(x\\), father's = \\(40-x\\). Five years ago: \\((x-5)(35-x)=21\\) → \\(-x^2+40x-175=21\\) → \\(x^2-40x+196=0\\) not matching.  \nA correct construction: \"The difference between the squares of two consecutive odd numbers is 21. Find the numbers.\" Let numbers be \\(x\\) and \\(x+2\\) (odd). \\((x+2)^2 - x^2 = 21\\) → \\(4x+4=21\\) linear. Not quadratic.  \nLet's design: \"A rectangular plot has area 21 sq m. Its length is 4 m more than its breadth. Find the breadth.\" Let breadth = \\(x\\), length = \\(x+4\\). \\(x(x+4)=21\\) → \\(x^2+4x-21=0\\). Not matching.  \nWe need \\(x^2 - 4x - 21 = 0\\). Roots are 7 and -3. So positive root 7. Problem: \"The product of two numbers is -21 and their difference is 4. Find the numbers.\" Let numbers be \\(x\\) and \\(x-4\\). \\(x(x-4)=-21\\) → \\(x^2-4x+21=0\\) no.  \nLet numbers be \\(x\\) and \\(4-x\\)?  \nBetter: \"The sum of a number and its reciprocal is \\(4/21\\)?\" No.  \nLet's just give a valid example: \"A right triangle has hypotenuse 10 cm. The difference between the other two sides is 4 cm. Find the sides.\" Let shorter side = \\(x\\), longer = \\(x+4\\). \\(x^2+(x+4)^2=100\\) → \\(2x^2+8x+16=100\\) → \\(x^2+4x-42=0\\) no.  \nWe can adjust: \"The area of a rectangle is 21 cm². The length is 4 cm less than the breadth. Find the breadth.\" Let breadth = \\(x\\), length = \\(x-4\\). \\(x(x-4)=21\\) → \\(x^2-4x-21=0\\). Yes!  \nA good answer must define variable, form the equation, and have a realistic context. A poor answer gives a problem that leads to a different equation or does not define the variable, showing the student cannot reverse-engineer the translation process.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ garden in your school where the length is 3 metres more than its breadth, and the area is 180 sq m.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a word problem, identify the unknown quantity, form a correct quadratic equation, choose and execute the most efficient solution method, and state the final answer with appropriate units while rejecting mathematically valid but contextually invalid roots.",
+     "self_check": true
     }
    ]
   }

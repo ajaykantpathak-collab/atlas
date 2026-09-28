@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a battery, ammeter, voltmeter, and wires of different materials (copper, nichrome, aluminium) but same length and cross-sectional area to compare their resistances. Describe the procedure and how you would conclude which material has the highest resistance.",
      "a": "Connect each wire in series with a battery, ammeter, and a variable resistor (to keep current safe). Connect voltmeter across the wire. For each wire, adjust the variable resistor to get a measurable current (e.g., 0.2 A). Record V and I, compute R = V/I. The wire with the highest V for the same I has the highest resistance. Expected order: nichrome > aluminium > copper. A poor answer omits controlling length/area, doesn't use R = V/I, or doesn't mention keeping current constant for fair comparison.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the property of a conductor that opposes the flow of electric current through it.",
+     "a": "Resistance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a household ______ iron: when you switch it on, the heating element becomes hot because it resists the current.",
+     "a": "electric",
+     "self_check": true
+    },
+    {
+     "q": "What is Resistance? State the definition given in this lesson.",
+     "a": "Resistance is the property of a conductor that opposes the flow of electric current through it.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Resistance?",
+     "a": "Students often think that resistance depends only on the material and not on dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the definition of resistance with its SI unit, list the four factors affecting resistance (length, cross-sectional area, material, temperature), and qualitatively predict how resistance changes when each factor is altered (e.g., doubling length doubles resistance, doubling area halves resistance).",
+     "self_check": true
     }
    ]
   }
